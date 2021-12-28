@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="generator" content="Hugo 0.79.1" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ryan Safner">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Overview  Readings  Slides  Practice  Assignments Problem Set 3 Due Mon Oct 18  Appendix  A Change in Relative Factor Prices Improvements in Technology     Wednesday, October 6, 2021    Problem Set 3 is due by Monday October 18.    Overview Today we put our tools together (production functions/isoquants and isocost lines) to solve the firm’s cost minimization problem.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://microS22.classes.ryansafner.com/content/2.3-content/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#5E81AC">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,400i,700,700i|Fira+Mono:400,700)&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academia.min.da6c59609998aa6cd920b39d161212f7.css">
+
+  
+
+  
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://microS22.classes.ryansafner.com/content/2.3-content/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="ECON 306 — Microeconomic Analysis">
+  <meta property="og:url" content="https://microS22.classes.ryansafner.com/content/2.3-content/">
+  <meta property="og:title" content="2.3 — Cost Minimization — Class Content | ECON 306 — Microeconomic Analysis">
+  <meta property="og:description" content="Overview  Readings  Slides  Practice  Assignments Problem Set 3 Due Mon Oct 18  Appendix  A Change in Relative Factor Prices Improvements in Technology     Wednesday, October 6, 2021    Problem Set 3 is due by Monday October 18.    Overview Today we put our tools together (production functions/isoquants and isocost lines) to solve the firm’s cost minimization problem."><meta property="og:image" content="https://microS22.classes.ryansafner.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://microS22.classes.ryansafner.com/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-06-08T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-06-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>2.3 — Cost Minimization — Class Content | ECON 306 — Microeconomic Analysis</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">ECON 306 — Microeconomic Analysis</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/syllabus/"><span>Syllabus</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/schedule/"><span>Schedule</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/content/"><span>Content</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/assignments/"><span>Assignments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/resources/"><span>Resources</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://hoodcollegeeconomics.slack.com" target="_blank" rel="noopener"><span><i class="fab fa-slack"></i></span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/content/">Course content</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/content/">Overview</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.1-content/">1.1 — The Tools of Microeconomics</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.2-content/">1.2 — Budget Constraint</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.3-content/">1.3 — Preferences</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.4-content/">1.4 — Utility Maximization</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.5-content/">1.5 — Demand</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.6-content/">1.6 — Income &amp; Substitution Effects</a>
+      </li>
+      
+      <li >
+        <a href="/content/1.7-content/">1.7 — Price Elasticity of Demand</a>
+      </li>
+      
+      <li >
+        <a href="/content/2.1-content/">2.1 — Production, Specialization, &amp; Firms</a>
+      </li>
+      
+      <li >
+        <a href="/content/2.2-content/">2.2 — Production in the Short Run &amp; Long Run</a>
+      </li>
+      
+      <li class="active">
+        <a href="/content/2.3-content/">2.3 — Cost Minimization</a>
+      </li>
+      
+      <li >
+        <a href="/content/2.4-content/">2.4 — Costs of Production</a>
+      </li>
+      
+      <li >
+        <a href="/content/2.5-content/">2.5 — Short Run Profit Maximization</a>
+      </li>
+      
+      <li >
+        <a href="/content/2.6-content/">2.6 — Long Run Industry Equilibrium</a>
+      </li>
+      
+      <li >
+        <a href="/content/3.1-content/">3.1 — Supply and Demand</a>
+      </li>
+      
+      <li >
+        <a href="/content/3.2-content/">3.2 — Market Competition and Surpluses</a>
+      </li>
+      
+      <li >
+        <a href="/content/3.3-content/">3.3 — Welfare Economics</a>
+      </li>
+      
+      <li >
+        <a href="/content/3.4-content/">3.4 — Entrepreneurship, Profits, &amp; Prices</a>
+      </li>
+      
+      <li >
+        <a href="/content/3.5-content/">3.5 — Introduction to Political Economy</a>
+      </li>
+      
+      <li >
+        <a href="/content/4.1-content/">4.1 — Modeling Firms with Market Power</a>
+      </li>
+      
+      <li >
+        <a href="/content/4.2-content/">4.2 — Causes &amp; Consequences of Market Power</a>
+      </li>
+      
+      <li >
+        <a href="/content/4.3-content/">4.3 — Pricing Strategies</a>
+      </li>
+      
+      <li >
+        <a href="/content/4.4-content/">4.4 — Monopolistic Competition and Oligopoly</a>
+      </li>
+      
+      <li >
+        <a href="/content/4.5-content/">4.5 — Game Theory, Contestable Markets &amp; Wrap Up</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article" itemscope itemtype="http://schema.org/Article">
+
+        <div class="docs-article-container">
+          <h1 itemprop="name">2.3 — Cost Minimization — Class Content</h1>
+
+          <div class="article-style" itemprop="articleBody">
+            
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#overview"><i class="fas fa-info-circle fa-lg"></i> Overview</a></li>
+<li><a href="#readings"><i class="fas fa-book-reader fa-lg"></i> Readings</a></li>
+<li><a href="#slides"><i class="fas fa-chalkboard-teacher"></i> Slides</a></li>
+<li><a href="#practice"><i class="fas fa-dumbbell"></i> Practice</a></li>
+<li><a href="#assignments"><i class="fas fa-laptop-code"></i> Assignments</a></li>
+<li><a href="#problem-set-3-due-mon-oct-18">Problem Set 3 Due Mon Oct 18</a></li>
+<li><a href="#appendix"><i class="fas fa-sigma"></i> Appendix</a>
+<ul>
+<li><a href="#a-change-in-relative-factor-prices">A Change in Relative Factor Prices</a></li>
+<li><a href="#improvements-in-technology">Improvements in Technology</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p><div class="alert alert-note">
+  <div>
+    <em>Wednesday, October 6, 2021</em>
+  </div>
+</div>
+</p>
+<p><div class="alert alert-warning">
+  <div>
+    <a href="/assignments/03-problem-set">Problem Set 3</a> is due by Monday October 18.
+  </div>
+</div>
+</p>
+<div id="overview" class="section level2">
+<h2><i class="fas fa-info-circle fa-lg"></i> Overview</h2>
+<p>Today we put our tools together (production functions/isoquants and isocost lines) to solve the firm’s cost minimization problem. Again, we do not solve this constrained optimization problem with calculus, but by looking graphically, and using an algebraic rule that should make intuitive sense.</p>
+<p>Again, these tools and rules are almost <em>identical</em> to how we solved the consumer’s problem. Compare <span class="math inline">\(\frac{MP_l}{MP_k}=\frac{w}{r}\)</span> to <span class="math inline">\(\frac{MU_x}{MU_y}=\frac{p_x}{p_y}\)</span> or <span class="math inline">\(\frac{MP_l}{w}=\frac{MP_k}{r}\)</span> to <span class="math inline">\(\frac{MU_x}{p_x} = \frac{MU_y}{p_y}\)</span>!, with a major exception:</p>
+<p>Consumers:</p>
+<ul>
+<li>choose goods to maximize utility subject to their budget constraint</li>
+<li>budget constraint (line) is what is fixed</li>
+<li>get on highest indifference curve tangent to budget constraint</li>
+</ul>
+<p>Producers (Firms):</p>
+<ul>
+<li>choose inputs to minimize cost subject to producing the optimal amount (their constraint)</li>
+<li>isoquant curve is what is fixed (want to produce a specific amount!)</li>
+<li>get on <em>lowest</em> isocost line tangent to isoquant curve</li>
+</ul>
+<p>We finally wrap up with a discussion of <em>returns to scale</em>.</p>
+</div>
+<div id="readings" class="section level2">
+<h2><i class="fas fa-book-reader fa-lg"></i> Readings</h2>
+<ul>
+<li><i class="fas fa-book"></i> Ch. 6.4-6.7 in Goolsbee, Levitt, and Syverson, 2019</li>
+</ul>
+</div>
+<div id="slides" class="section level2">
+<h2><i class="fas fa-chalkboard-teacher"></i> Slides</h2>
+<p>Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.</p>
+<p>The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (<em>not everything</em> is in the slides)!</p>
+<p>
+<p style="text-align:center;"><a target="_blank" href="/slides/2.3-slides.html"><img src ="/slides/2.3-slides.png" alt = "2.3-slides"></a></p>
+<p style="text-align:center;"><a class="btn btn-primary btn-lg" target="_blank" href="/slides/2.3-slides.pdf"><i class="fas fa-file-pdf"></i> Download as PDF</a></p>
+</p>
+</div>
+<div id="practice" class="section level2">
+<h2><i class="fas fa-dumbbell"></i> Practice</h2>
+<p>Today we will be working on <a href="/practice/2.3-practice">practice problems</a>. Answers will be posted later on that page.</p>
+</div>
+<div id="assignments" class="section level2">
+<h2><i class="fas fa-laptop-code"></i> Assignments</h2>
+</div>
+<div id="problem-set-3-due-mon-oct-18" class="section level2">
+<h2>Problem Set 3 Due Mon Oct 18</h2>
+<p><a href="/assignments/03-problem-set">Problem set 3</a> (on classes 2.1-2.3) is due by the end of the day Monday, October 18 by upload to Blackboard Assignments.</p>
+</div>
+<div id="appendix" class="section level2">
+<h2><i class="fas fa-sigma"></i> Appendix</h2>
+<div id="a-change-in-relative-factor-prices" class="section level3">
+<h3>A Change in Relative Factor Prices</h3>
+<p>If an input (labor or capital) changes in price, we saw that it rotated the isocost line by changing the slope, and the intercept for that input. How does it affect the cost-minimizing (optimal) combination of inputs?</p>
+<p>It turns out, a change in one input’s price relative to the other is likely to change the ratio of inputs, as well as the total cost of production due to the mathematics and geometry of cost minimization. Recall the cost-minimizing combination of inputs occurs where the slope of the isoquant is equal to the slope of the lowest isocost line tangent to the isoquant. In the graph below, this occurs at point <span class="math inline">\(A\)</span>.</p>
+<p>Then, suppose the price of labor <span class="math inline">\(w\)</span> increases from $2 to $4. This causes a move along the isoquant from <span class="math inline">\(A\)</span> to <span class="math inline">\(B\)</span>, the firm substitutes more capital for labor, and this costs more!</p>
+<p><img src="/content/2.3-content_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>Why does the optimal isocost line rotate along <em>both</em> axes (i.e. <em>both</em> axis-endpoints change)? With the budget constraint, we saw a change in one price caused the budget constraint to rotate and change an endpoint only along the axis with the good that changed in price.</p>
+<p>Here, recall that the isoquant is unmovable - this is the set optimal quantity we want to produce. If an input were to change in price, that would rotate the isocost line and change only the intercept of that input that changed in price, as with a budget constraint. However, that new line (dashed darker red line) would <em>not</em> be tangent to our original budget constraint anymore - that is, we could not produce the output we want at the <em>same</em> total cost as before. Thus, it must be on a <em>new</em> isocost line (indicating a <em>different</em> total cost), just with the same slope as the new isocost line after the price change.</p>
+<p>Note you could also go in the other direction. Begin at point <span class="math inline">\(B\)</span> and suppose the price of labor <em>decreases</em> (or perhaps the price of capital <em>increases</em>). Then, the firm will substitute more labor for capital, and this will cost less!</p>
+</div>
+<div id="improvements-in-technology" class="section level3">
+<h3>Improvements in Technology</h3>
+<p>We defined our original production function as including an “input” called “<a href="https://en.wikipedia.org/wiki/Total_factor_productivity">total factor productivity</a>.” In our Cobb-Douglas case, we included it in our function as <span class="math inline">\(A\)</span>, as in:
+<span class="math display">\[q=Ak^\alpha l^\beta\]</span></p>
+<p>Now let’s see how this affects production. Suppose the firm wants to produce 100 units of output at a particular set of input prices, with the following technology (represented by the production function):
+<span class="math display">\[q=k^{0.5}l^{0.5}\]</span>
+<img src="/content/2.3-content_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>Then the firm’s “technology” improves, such that its new production function is</p>
+<p><span class="math display">\[q=2k^{0.5}l^{0.5}\]</span></p>
+<p>Notice total factor productivity <span class="math inline">\((A)\)</span> has doubled, such that, for the same amount of inputs <span class="math inline">\(l\)</span> and <span class="math inline">\(k\)</span>, the firm can now produce <em>twice</em> as much output <span class="math inline">\((2q)\)</span>. So suppose again the firm still wishes to produce <span class="math inline">\(q^*=100\)</span>, the same as before. Under the new technology, the firm can <strong>produce the same output with fewer inputs</strong>. This is the definition of productivity increases or, for an entire economy, economic growth.</p>
+<p><img src="/content/2.3-content_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/content/2.2-content/" rel="next">2.2 — Production in the Short Run &amp; Long Run — Class Content</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/content/2.4-content/" rel="prev">2.4 — Costs of Production — Class Content</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          Last updated on Jun 8, 2020
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        
+        <p>
+          Content <i class="fab fa-creative-commons"></i> 2022 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></a> <a href="https://ryansafner.com">Ryan Safner</a> &middot; <a href="Credits">Credits</a> &middot; Powered by <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right">
+          
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academia.min.7276a6a3624de715a5c7f54c7c07696d.js"></script>
+
+    
+
+<script src="/js/math-code.js"></script>
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

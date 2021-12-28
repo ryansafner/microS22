@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECON 306 — Microeconomic Analysis</title>
+    <link>https://microS22.classes.ryansafner.com/</link>
+    <description>Recent content on ECON 306 — Microeconomic Analysis</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) {year} by Ryan Safner</copyright>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://microS22.classes.ryansafner.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assignment Details</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;On this page, you can find more information about each individual assignment, as well as the assignments themselves.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ryansafner.shinyapps.io/306_grade_calculator/&#34;&gt;&lt;i class=&#34;fas fa-calculator&#34;&gt;&lt;/i&gt; &lt;code&gt;Grade Calculator&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use this tool to help calculate your overall course grade using existing assignment grades, as well as forecast “what if” scenarios.&lt;/p&gt;
+&lt;p&gt;Please refer to the &lt;a href=&#34;https://microS22.classes.ryansafner.com/syllabus&#34;&gt;syllabus&lt;/a&gt; for more information about grades.&lt;/p&gt;
+&lt;div id=&#34;homeworks&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Homeworks&lt;/h2&gt;
+&lt;p&gt;There will be several problem sets (one at the end of each lesson). Problem sets will be a combination of math/statistical theory &amp;amp; application problems and problems that require use of R with real data. You may collaborate with other students to work on problem sets, but each person must turn in an individual problem set. Problem sets are due one week from the class period where we finish a lesson, and must emailed to me by the start of class (so please type or, if you must, hand write and scan them).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exams&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exams&lt;/h2&gt;
+&lt;p&gt;This class will have two (2) exams.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;midterm-exam&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Midterm Exam&lt;/h2&gt;
+&lt;p&gt;After we have finished linear regression, there will be a midterm constituting a combination of multiple choice, problem, and short answer questions. This will cover the content we discuss in class, my lectures, and the readings. The midterm provides feedback both to you and to me that ensures everyone is progressing on schedule and comprehending the material. This is critical, as the rest of the course will build off of this foundation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;final-exam&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Final Exam&lt;/h2&gt;
+&lt;p&gt;On the college-determined date, we will have a comprehensive, closed-book, in-class final exam.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://microS22.classes.ryansafner.com/content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/content/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;These content pages provide the readings, lecture slide (in html and printable PDF), appendices, and other useful materials for each class. Each lesson covers approximately one class meeting.&lt;/p&gt;
+&lt;p&gt;Please note that the lesson numbers, topics, and titles (e.g. 1.1) are &lt;em&gt;my&lt;/em&gt; design, and do not match up with the textbook!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>https://microS22.classes.ryansafner.com/practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/</guid>
+      <description>&lt;p&gt;Here are all practice problems we do in class. Answers are posted after class on the original page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://microS22.classes.ryansafner.com/resources/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/resources/</guid>
+      <description>&lt;p&gt;Look here over the course of the semester for resources, links, and tips on how to succeed in the course, how to write well, and other things of interest related to (micro)economics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>https://microS22.classes.ryansafner.com/credits/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/credits/</guid>
+      <description>&lt;p&gt;Nobody produces something like this without a lot of inspiration and guidance from those who have already done this before. Here, I try to give credit where it is due, and slowly begin to document how I made everything, for those who eventually want to do what I did.&lt;/p&gt;
+&lt;p&gt;This website is written in &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;R Markdown&lt;/a&gt;, built with &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, pushed to &lt;a href=&#34;https://github.com/ryansafner/lawS21&#34;&gt;Github&lt;/a&gt;, and hosted by &lt;a href=&#34;https://netlify.com&#34;&gt;Netlify&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The theme is based on &lt;a href=&#34;https://github.com/themefisher/academia-hugo&#34;&gt;Academia-hugo&lt;/a&gt;, which I modified.&lt;/p&gt;
+&lt;p&gt;The inspiration for making individual course websites, along with the basic structure, comes from the incomparable &lt;a href=&#34;https://andrewheiss.com&#34;&gt;Andrew Heiss&lt;/a&gt;. See his website for examples, as well as a number of helpful tutorials. Sadly, I had to figure out how these websites work on my own, and attempted to document my process in the README of &lt;a href=&#34;https://github.com/ryansafner/classwebtest&#34;&gt;this repository&lt;/a&gt; for those interested. One day I may make a guide.&lt;/p&gt;
+&lt;p&gt;The course hex sticker I made via &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34;&gt;hexSticker&lt;/a&gt;, and keep all of my course hex stickers in &lt;a href=&#34;https://github.com/ryansafner/hexstickers&#34;&gt;this repository&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://microS22.classes.ryansafner.com/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/schedule/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/schedule/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This page contains all of the following resources for each class meeting:&lt;/p&gt;
+&lt;ul class=&#34;icon-list&#34;&gt;
+&lt;li&gt;
+&lt;i class=&#34;fas fa-info-circle&#34;&gt;&lt;/i&gt; &lt;strong&gt;Content&lt;/strong&gt; materials contains suggested readings, more details about assignments, math appendices, and other helpful resources. I suggest you view these &lt;strong&gt;before&lt;/strong&gt; each class.
+&lt;li&gt;
+&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; &lt;strong&gt;Slides&lt;/strong&gt; are “&lt;a href=&#34;https://github.com/yihui/xaringan&#34;&gt;Xaringan&lt;/a&gt;” presentations in html that can be opened in any browser (You can find a downloadable PDF in each respective &lt;strong&gt;content&lt;/strong&gt; page)
+&lt;li&gt;
+&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; &lt;strong&gt;Practice&lt;/strong&gt; problems we work on together in class to prepare for homeworks and exams
+&lt;li&gt;
+&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Assignments&lt;/strong&gt; are listed with due dates
+&lt;/ul&gt;
+&lt;p&gt;Please note that the lesson numbers, topics, and titles (e.g. 1.1) are &lt;em&gt;my&lt;/em&gt; design, and do not match up with the textbook!&lt;/p&gt;
+&lt;p&gt;Relevant materials, if applicable will be posted before class meets and become colored links.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;table class=&#34;table schedule&#34; style=&#34;max-width:90%; margin-left: auto; margin-right: auto&#34;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;I. Rational Choice Theory: Consumers&lt;/span&gt;&lt;/td&gt;
+
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Slides&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Practice&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Preliminary Survey&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/00-preliminary-survey/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.1 — The Tools of Microeconomics&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.1-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.1-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.2 — Budget Constraint&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.2-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.2-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/1.2-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.3 — Preferences&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.3-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.3-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.4 — Utility Maximization&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.4-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.4-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/1.4-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 1&lt;/strong&gt; due Mon Sep 13&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/01-problem-set/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.5 — Demand&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.5-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.5-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/1.5-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.6 — Income and Substitution Effects&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.6-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.6-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.7 — Price Elasticity of Demand&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.7-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/1.7-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/1.7-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 2&lt;/strong&gt; due Mon Sep 20&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/02-problem-set/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Exam 1&lt;/strong&gt; Mon Sep 27&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/01-exam/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;II. Rational Choice Theory: Producers&lt;/span&gt;&lt;/td&gt;
+
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Slides&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Practice&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.1 — Production, Specialization, and Firms&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.1-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/2.1-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.2 — Production in the Short Run &amp;amp; Long Run&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.2-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/2.2-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.3 — Cost Minimization&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.3-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/2.3-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/2.3-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 3&lt;/strong&gt; due Mon Oct 18&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/03-problem-set/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.4 — Costs of Production&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.4-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/2.4-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.5 — Short Run Profit Maximization&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.5-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/2.5-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/2.5-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.6 — Long Run Industry Equilibrium&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.6-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/2.6-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 4&lt;/strong&gt; due Mon Oct 25&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/04-problem-set/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Exam 2&lt;/strong&gt; Wed Oct 27&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/02-exam/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;III. Market Equilibrium&lt;/span&gt;&lt;/td&gt;
+
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Slides&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Practice&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.1 — The Supply and Demand Model&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/3.1-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/3.1-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.2 — Market Competition and Surpluses&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/3.2-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/3.2-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/3.2-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.3 — The &lt;em&gt;Static&lt;/em&gt; Benefits of Markets: Welfare Economics &amp;amp; Market Failure&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/3.3-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/3.3-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.4 — The &lt;em&gt;Dynamic&lt;/em&gt; Benefits of Markets: Entrepreneurship, Profits, &amp;amp; Prices&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/3.4-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/3.4-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.5 — Introduction to Political Economy&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/3.5-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/3.5-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 5&lt;/strong&gt; due Mon Nov 22&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/05-problem-set/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;IV. Imperfect Competition&lt;/span&gt;&lt;/td&gt;
+
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Slides&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Practice&lt;/td&gt;
+            &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.1 — Modeling Firms with Market Power&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/4.1-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/4.1-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/4.1-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.2 — Consequences and Sources of Market Power&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/4.2-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/4.2-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.3 — Pricing Strategies&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/4.3-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/4.3-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/practice/4.3-practice/&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.4 — Monopolistic Competition and Oligopoly&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/4.4-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/4.4-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.5 — Contestable Markets and Wrap Up&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/4.5-content/&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/4.5-slides/&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 6&lt;/strong&gt; (Ungraded, Practice Only)&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/06-problem-set/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Op-Ed&lt;/strong&gt; due Mon Dec 6&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/op-ed/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Final Exam&lt;/strong&gt; Mon Dec 13&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
+                &lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
+            &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/03-exam/&#34;&gt;
+                &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+
+    &lt;/tbody&gt;
+
+&lt;/table&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://microS22.classes.ryansafner.com/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/syllabus/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/syllabus/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/syllabus/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://microS22.classes.ryansafner.com/syllabus/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#course-format-and-covid&#34;&gt;Course Format (and Covid)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#learning-during-a-global-pandemic&#34;&gt;Learning During a Global Pandemic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#course-objectives&#34;&gt;Course objectives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#required-course-materials&#34;&gt;Required Course materials&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#books&#34;&gt;Books&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments-and-grades&#34;&gt;Assignments and Grades&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#policies-and-expectations&#34;&gt;Policies and Expectations&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#attendence&#34;&gt;Attendence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#late-assignments&#34;&gt;Late Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#grading&#34;&gt;Grading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#communication-email-slack-and-virtual-office-hours&#34;&gt;Communication: Email, Slack, and Virtual Office Hours&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#netiquette&#34;&gt;Netiquette&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#privacy&#34;&gt;Privacy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#enrollment&#34;&gt;Enrollment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#honor-code&#34;&gt;Honor Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility-equity-and-accommodations&#34;&gt;Accessibility, Equity, and Accommodations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acbsp-information&#34;&gt;ACBSP Information&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#tentative-schedule&#34;&gt;Tentative Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col-md-4&#34;&gt;
+        &lt;h3&gt;Instructor&lt;/h3&gt;
+        &lt;ul class=&#34;icon-list&#34;&gt;
+            &lt;li&gt;&lt;i class=&#34;fas fa-user&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://www.ryansafner.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Dr. Ryan Safner&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;fas fa-university&#34;&gt;&lt;/i&gt; Office: Rosenstock 110&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;fas fa-users&#34;&gt;&lt;/i&gt; Office Hours: TBD &amp;amp; by appt&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;fas fa-envelope&#34;&gt;&lt;/i&gt; &lt;a href=&#34;mailto:safner@hood.edu&#34;&gt; safner@hood.edu&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;fab fa-twitter&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://twitter.com/ryansafner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; @ryansafner&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;col-md-4&#34;&gt;
+        &lt;h3&gt;Course details&lt;/h3&gt;
+        &lt;ul class=&#34;icon-list&#34;&gt;
+            
+            &lt;li&gt;&lt;i class=&#34;far fa-clock&#34;&gt;&lt;/i&gt; TuTh 11:25 AM—12:55 PM&lt;/li&gt;
+            
+            &lt;li&gt;&lt;i class=&#34;fas fa-university&#34;&gt;&lt;/i&gt; Rosenstock 30&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;far fa-calendar-alt&#34;&gt;&lt;/i&gt; Jan 25—May 9, 2022&lt;/li&gt;
+            &lt;li&gt;&lt;i class=&#34;fab fa-slack&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://hoodcollegeeconomics.slack.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slack&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/syllabus/syllabus-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;&lt;/br&gt;&lt;strong&gt;Last Updated&lt;/strong&gt;: August 20, 2021
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.” &lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— F.A. Hayek (1974 Economics Nobel Laureate)&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;newthought&#34;&gt;Microeconomic Analysis&lt;/span&gt; is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring &lt;em&gt;all&lt;/em&gt; fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the &lt;strong&gt;required prerequisite courses&lt;/strong&gt; by taking principles of microeconomics (&lt;strong&gt;ECON 206&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;I reserve the right to change any part of this syllabus and course, at my discretion, with proper advance warning.&lt;/p&gt;
+&lt;div id=&#34;course-format-and-covid&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Course Format (and Covid)&lt;/h1&gt;
+&lt;p&gt;As of Fall 2021, all students are expected to be on campus except those with special approved exemptions. As such, this course will be taught &lt;strong&gt;in-person&lt;/strong&gt; and &lt;strong&gt;synchronously&lt;/strong&gt; until or unless otherwise announced.&lt;/p&gt;
+&lt;p&gt;You are expected to come to class except due to medical reasons or other legitimate conflicts. Watching videos are not a substitute for attending class.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Please see the &lt;a href=&#34;#attendance&#34;&gt;attendance policy&lt;/a&gt; for more.&lt;/p&gt;
+&lt;p&gt;In any event that we are unable to meet in person, I will hold class meetings at the same day/time live on Zoom, and post all recorded lectures via Panopto on Blackboard, and all assignments will be submitted online (often via Blackboard).&lt;/p&gt;
+&lt;div id=&#34;learning-during-a-global-pandemic&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Learning During a Global Pandemic&lt;/h2&gt;
+&lt;p&gt;While we have made some progress in returning to normal, this remains a unique semester and a lot of things are still awful right now. None of us signed up for this. None of us are really okay, we’re all just pretending for everyone else.&lt;/p&gt;
+&lt;p&gt;Many of you may be dealing with hardships at home and at work, and are generally juggling many more problems than usual. Everyone’s future plans have been completely put on hold or cancelled to a large degree.&lt;/p&gt;
+&lt;p&gt;I am prioritizing us supporting each other as human beings during this crazy era, and will try to use simple, accessible solutions that make sense for the most people, and above all, to be flexible.&lt;/p&gt;
+&lt;p&gt;If you tell me you’re having trouble, I will do whatever I can to help, and not judge you or think less of you. I hope you will extend me the same courtesy.&lt;/p&gt;
+&lt;p&gt;You never &lt;em&gt;owe&lt;/em&gt; me personal information about your health (mental or physical). You are however always welcome to talk to me about things that you’re going through. If I can’t help you, I usually know somebody who can.&lt;/p&gt;
+&lt;p&gt;I want you to learn a lot from this course, but it is more important for you to remain healthy, balanced, and grounded during this crisis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I reserve the right to change any part of this syllabus and course, at my discretion, with proper advance warning.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;course-objectives&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Course objectives&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;newthought&#34;&gt;By the end of this course,&lt;/span&gt; you will:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;apply the models of microeconomics (constrained optimization and equilibrium) towards explaining real world behavior of individuals, firms, and governments&lt;/li&gt;
+&lt;li&gt;explore the effects of economic and political processes on market performance (competition, market prices, profits and losses, property rights, entrepreneurship, market power, market failures, public policy, government failures)&lt;/li&gt;
+&lt;li&gt;apply the economic way of thinking to real world issues in writing&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Given these objectives, this course fulfills all three of the learning outcomes for &lt;a href=&#34;https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes&#34;&gt;the George B. Delaplaine, Jr. School of Business&lt;/a&gt; Economics B.A. program:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use quantitative tools and techniques in the preparation, interpretation, analysis and presentation of data and information for problem solving and decision making […]&lt;/li&gt;
+&lt;li&gt;Apply economic reasoning and models to understand and analyze problems of public policy […]&lt;/li&gt;
+&lt;li&gt;Demonstrate effective oral and written communications skills for personal and professional success[…]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;newthought&#34;&gt;Fair warning:&lt;/span&gt; &lt;strong&gt;Economics is hard.&lt;/strong&gt; &lt;em&gt;This, in particular, may be of the hardest courses that you will take, primarily due to the mathematical content.&lt;/em&gt; Using the economic way of thinking is a skill, it is literally retraining your brain to interpret and analyze the world in a novel way, and is not something that can be memorized. I will do my best to make this class intuitive and helpful, if not interesting. If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in &lt;em&gt;higher&lt;/em&gt; regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the &lt;a href=&#34;http://www.hood.edu/campus-services/academic-services/index.html&#34;&gt;Center for Academic Achievement and Retention (CAAR)&lt;/a&gt; and the &lt;a href=&#34;http://www.hood.edu/library/&#34;&gt;Beneficial-Hodson Library&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See my &lt;a href=&#34;https://microS22.classes.ryansafner.com/resources&#34;&gt;tips for success in this course&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;required-course-materials&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Required Course materials&lt;/h1&gt;
+&lt;p&gt;You can find all course materials at my &lt;strong&gt;dedicated website&lt;/strong&gt; for this course: &lt;a href=&#34;https://microF21.classes.ryansafner.com&#34;&gt;microF21.classes.ryansafner.com&lt;/a&gt;. Links to the website are posted on our Blackboard course page. Please familiarize yourself with the website, see that it contains this &lt;a href=&#34;syllabus/&#34;&gt;syllabus&lt;/a&gt;, &lt;a href=&#34;resources/&#34;&gt;resources&lt;/a&gt; to help you, and our &lt;a href=&#34;schedule/&#34;&gt;schedule&lt;/a&gt;. On the schedule page, you can find each module with its own class page (&lt;strong&gt;start there!&lt;/strong&gt;) along with all related readings, lecture slides, practice problems, and assignments.&lt;/p&gt;
+&lt;p&gt;My lecture slides will be shared with you, and serve as your primary resource, but our main “textbook” below is &lt;strong&gt;recommended&lt;/strong&gt; as the next best resource and will be available from the campus bookstore. I will discuss more about textbooks and materials in the first module.&lt;/p&gt;
+&lt;div id=&#34;books&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Books&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Goolsbee, Austan, Steven Levitt, and Chad Syverson, 2012, &lt;em&gt;Microeconomics&lt;/em&gt; 2nd ed, USA: Worth Publishers, ISBN: 978-1464187025&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You are welcome to purchase the book by other means (e.g. Amazon, half.com, etc). I have no financial stake in requiring you to purchase this book. You are welcome to use previous version of the book, but carefully verify the reading assignments, as the material may be different across versions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments-and-grades&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Assignments and Grades&lt;/h1&gt;
+&lt;p&gt;Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the &lt;a href=&#34;assignments/&#34;&gt;assignments page&lt;/a&gt; and more specific information and examples on each assignment’s page on the &lt;a href=&#34;schedule/&#34;&gt;schedule page&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Frequency
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Assignment
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Weight
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Opinion-Editorial
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Homeworks
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20% (using average HW grade)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Exams
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+20% (each)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Each assignment is graded on a 100 point scale. Letter-grade equivalents are based on the following scale:&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Grade
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Range
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Grade
+&lt;/th&gt;
+&lt;th style=&#34;text-align:center;&#34;&gt;
+Range
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+A
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+93–100%
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+C
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+73–76%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+A−
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+90–92%
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+C−
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+70–72%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+B+
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+87–89%
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+D+
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+67–69%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+B
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+83–86%
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+D
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+63–66%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+B−
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+80–82%
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+D−
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+60–62%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+C+
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+77–79%
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+F
+&lt;/td&gt;
+&lt;td style=&#34;text-align:center;&#34;&gt;
+&amp;lt; 60%
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;See also my &lt;a href=&#34;https://ryansafner.shinyapps.io/306_grade_calculator/&#34;&gt;&lt;i class=&#34;fas fa-calculator&#34;&gt;&lt;/i&gt; &lt;code&gt;Grade Calculator&lt;/code&gt;&lt;/a&gt; app where you can calculate your overall grade using existing assignment grades and forecast “what if” scenarios.&lt;/p&gt;
+&lt;p&gt;These grades are firm cutoffs, but I do of course round upwards &lt;span class=&#34;math inline&#34;&gt;\((\geq\)&lt;/span&gt; 0.5) for final grades. A necessary reminder, as an academic, I am not in the business of &lt;em&gt;giving&lt;/em&gt; out grades, I merely report the grade that you &lt;em&gt;earn&lt;/em&gt;. I will not alter your grade unless you provide a reasonable argument that I am in error (which does happen from time to time).&lt;/p&gt;
+&lt;!--## Homeworks
+
+There will be roughly a homework assignment every few lessons. These questions will help check your understanding and mastery of the material, and will be a combination of quantitative, graph, and short answer questions of examples. These will also be good indicators of what to expect on the exams. You may collaborate with other students to work on homeworks (and I encourage that!), but each person must turn in an individual assignment.
+
+Homeworks are generally due by 11:59 PM EST Sunday by submission to Blackboard Assignments.
+
+Please **type** your answers to the following questions in a document and **save as a PDF**^[In MS Word, or Pages, or most word processing software, File -&gt; Save As -&gt; PDF, or File -&gt; Export -&gt; PDF.] to **upload on Blackboard** under Assignments. You may handwrite answers if you will be able to scan/photograph &amp; convert them **to a single PDF**, if they are easily readable, but this is *not preferred*. See my [guide to making a PDF](https://gameF21.classes.ryansafner.com/resources/#how-to-make-a-pdf-for-submitting-assignments) - an essential skill in the modern world. If you are handwriting answers, you may print the `pdf` above and write on it, or just write on a piece of paper (we only need your answers).
+
+For the few questions that ask you to draw a **graph**, *try* to do so *on your computer* (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph. 
+
+Your TA, under my supervision, will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.
+
+## Exams 
+
+There will be three exams (one at the end of each unit) including the final exam. Each exam only covers the material in its associated unit (i.e. no exam is cumulative). These exams provide feedback both to you and to me that ensures everyone is progressing on schedule and apprehending the material. This is critical, as the rest of the course, and indeed, any future economics course you take, will build off of this foundation.
+
+Exams will be released **on Blackboard** as a timed assignment. You will have 2 hours once you open the exam on Blackboard. You will not need the whole time, I have given you some extra to accommodate the difficulties of taking an exam at home. Please pick a time to take it where you know you will have 2 hours. You may close the exam page and come back to it, but the timer will continue to run once the exam is first opened.
+
+## Opinion-Editorial 
+
+Economic fallacies have always been popular, and journalists, politicians, and talking heads consistently engage in faulty economic reasoning in print and on television. Your task, as a student of economics, is to find some issue discussed in the past year, and write a critique of media discussion of that issue. Alternatively, instead of critiquing the reasoning or statements of others, you may write an advocacy piece, where you propose some economic policy and argue to persuade readers to endorse it. You will be graded both on the soundness of your economic reasoning and the quality of your writing. I would be happy to co-author an Op-Ed with anyone who writes an exemplary Op-Ed. Students who successfully publish their work in a media outlet will earn *extra credit* on their Op-Ed grade. I will provide ample resources and examples to help you accomplish this, you can find more on the associated [assignment page](assignment/op-ed).--&gt;
+&lt;p&gt;&lt;strong&gt;No extra credit is available&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;policies-and-expectations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Policies and Expectations&lt;/h1&gt;
+&lt;p&gt;This syllabus is a contract between you, the student, and me, your instructor. It has been carefully and deliberately thought out. (A syllabus can and will be used as a legal document for disputes tried at a court of law. Ask me how I know.), and I will uphold my end of the agreement and expect you to uphold yours.&lt;/p&gt;
+&lt;p&gt;In the language of game theory, this syllabus is my commitment device. I am a very understanding person, and I know that exceptions to rules often need to be made for students. However, to be &lt;em&gt;fair&lt;/em&gt; to &lt;em&gt;all&lt;/em&gt; students the syllabus artificially constrains my ability to make exceptions at a whim for anyone. This prevents clever students from exploiting my congenial personality at everyone else’s expense. Please read and familiarize yourself with the course policies and expectations of you. Chances are, if you have a question, it is answered herein.&lt;/p&gt;
+&lt;!--This is a hybrid course with synchronous (live) and asynchronous (on your own time) parts. 
+
+You are generally expected to join (online via Zoom) our **synchronous** class sessions unless circumstances prevent you from doing so. Day-to-day attendance is not graded per se, but I strongly recommend you join in all live sessions in which you are able, since we all can provide live feedback and I can answer questions and address concerns as soon as they come up. You will also benefit from a rigid schedule and shared community. 
+
+If you are unable to make a particular class, you generally do not need to let me know. **The videos from all class sessions are posted on Blackboard** so please review videos of classes you were unable to attend live. 
+
+All assignmnents are able to be completed **asynchronously** during the week, and are **generally due by 11:59PM Sunday each week** to allow you flexibility in your hectic schedules.--&gt;
+&lt;div id=&#34;attendence&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Attendence&lt;/h2&gt;
+&lt;p&gt;Your day-to-day classroom attendance is not graded. My philosophy is that you are all adults and must take ownership of your own learning or else you will not succeed. Some assignments may require in-class participation for credit, and an (unexcused) absence may be detrimental to your grade. Attending class is one of the strongest predictors of success.&lt;/p&gt;
+&lt;p&gt;However, as required under Hood College’s “Promise of Fall Plan,” (Ch. 2-C) &lt;strong&gt;your classroom attendance will be recorded at every class meeting.&lt;/strong&gt; This is primarily to facilitate contact tracing.&lt;/p&gt;
+&lt;p&gt;If you know you will be absent, you are not &lt;em&gt;required&lt;/em&gt; to let me know, but it is polite to give notice (Note if I do not reply to an email of yours letting me know, I am probably busy but will still see it and appreciate your email). Your absence will be noted and recorded for the purposes stated above. If, however, we have an assignment due in class, you &lt;em&gt;must&lt;/em&gt; notify me ahead of time in order to make alternate arrangements to still receive credit. Hasty ex-post attempts to notify me will generate little sympathy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;late-assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Late Assignments&lt;/h2&gt;
+&lt;p&gt;I will accept late assignments, but will subtract a specified amount of points as a penalty. Even if it is the last week of the semester, I encourage you to turn in late work: some points are better than no points!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Homeworks&lt;/strong&gt;: If you turn in a homework after it is due but before it is graded or the answer key posted, I generally will not take off any points. However, &lt;strong&gt;if you turn in a homework &lt;em&gt;after&lt;/em&gt; the answer key is posted, I will automatically deduct 20 points (so the maximum grade you can earn on it is an 80).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exams&lt;/strong&gt;: If you know that you will be unable to complete an &lt;em&gt;in-class exam&lt;/em&gt; as scheduled for a legitimate reason, please notify me at least &lt;em&gt;one week&lt;/em&gt; in advance, and we will schedule a make-up exam date. Failure to do so, including desperate attempts to make arrangements only &lt;em&gt;after&lt;/em&gt; the exam will result in a grade of 0 and little sympathy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Op-eds&lt;/strong&gt;: Starting at the deadline, I will take off 1 point for every hour that your Op-ed is late.&lt;/p&gt;
+&lt;p&gt;I reserve the right to re-weight assignments for students whom I believe are legitimately unable to complete a particular assignment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;grading&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Grading&lt;/h2&gt;
+&lt;p&gt;I will try my best to post grades on Blackboard’s Grading Center and return graded assignments to you within about one week of you turning them in. There will be exceptions. Where applicable, I will post answer keys once I know most homeworks are turned in (see Late Assignments above for penalties). Blackboard’s Grading Center is the place to look for your most up-to-date grades. See also my &lt;a href=&#34;https://ryansafner.shinyapps.io/306_grade_calculator/&#34;&gt;&lt;i class=&#34;fas fa-calculator&#34;&gt;&lt;/i&gt; &lt;code&gt;Grade Calculator&lt;/code&gt;&lt;/a&gt; app where you can calculate your overall grade using existing assignment grades and forecast “what if” scenarios.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;communication-email-slack-and-virtual-office-hours&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Communication: Email, Slack, and Virtual Office Hours&lt;/h2&gt;
+&lt;p&gt;Students must regularly monitor their &lt;strong&gt;Hood email accounts&lt;/strong&gt; to receive important college information, including messages related to this class. Email through the Blackboard system is my main method of communicating announcements and deadlines regarding your assignments. &lt;strong&gt;Please do not reply to any automated Blackboard emails - I may not recieve it!&lt;/strong&gt;. My Hood email (&lt;code&gt;safner@hood.edu&lt;/code&gt;) is the best means of contacting me. I will do my best to respond within 24 hours. If I do not reply within 48 hours, do not take it personally, and &lt;em&gt;feel free to send a follow up email&lt;/em&gt; in the very likely event that I genuinely did not see your original message.&lt;/p&gt;
+&lt;p&gt;Our &lt;a href=&#34;https://hoodcollegeeconomics.slack.com&#34;&gt;slack channel&lt;/a&gt; is available to all students and faculty in Economics and Business. I have invited all of my classes and advisees. It will not be extended to non-Business/Economics students or faculty. All users must use their &lt;strong&gt;hood emails&lt;/strong&gt; and &lt;strong&gt;true first and last names&lt;/strong&gt;. Each course has its own channel, exclusive for verified students in the course, and myself, by my invite only. As a third party platform, you agree to its Terms of Service. I have created this space as a way to stay connected, to help one another, and to foster community. Behaviors such as posting inappropriate content, harassing others, or engaging in academic dishonesty, to be determined solely at my discretion, will result in one warning, the content will be deleted, and subsequent behavior will result in a ban.&lt;/p&gt;
+&lt;p&gt;In addition to in-person office hours, you can also make an appointment for &lt;strong&gt;“office hours”&lt;/strong&gt; on Zoom. You can join in with video, audio, and/or chat, whichever you feel comfortable with. Of course, if you are not available during those times, we can schedule our own time if you prefer this method over email or Slack. If you want to go over material from class, please have &lt;em&gt;specific&lt;/em&gt; questions you want help with. I am not in the business of giving private lectures (particularly if you missed class without a valid excuse).&lt;/p&gt;
+&lt;p&gt;Watch this excellent and accurate video explaining office hours:&lt;/p&gt;
+&lt;iframe src=&#34;https://player.vimeo.com/video/270014784&#34; width=&#34;640&#34; height=&#34;360&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;netiquette&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Netiquette&lt;/h2&gt;
+&lt;p&gt;When using Zoom and Slack, please follow appropriate internet etiquette (“Netiquette”). Written communications, like blog posts or use of the Zoom chat, lacks important nonverbal cues (such as body language, tone of voice, sarcasm, etc).&lt;/p&gt;
+&lt;p&gt;Above all else, please respect one another and think/reread carefully about how others may see your post before you submit a comment. You are expected to disagree and have different opinions, this is inherently valuable in a discussion. Please be civil and constructive in responding to others’ comments: writing &lt;em&gt;“have you considered ‘X?’”&lt;/em&gt; is a lot more helpful to all involved than just writing &lt;em&gt;“well you’re just wrong.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Posting content that is wilfully incindiary, illegal, or that constitutes academic dishonesty (such as plagarism) will automatically earn a grade of 0 and may be elevated to other authorities on campus.&lt;/p&gt;
+&lt;p&gt;When using the chat function on Zoom or public Slack channels, please treat it as official course communications, even though I may not be grading it. It may be a quick and informal tool - don’t feel you need to worry about spelling or perfect grammar - but please try to avoid &lt;em&gt;too&lt;/em&gt; informal “text-speak” (i.e. say “That’s good for you” instead of “thas good 4 u”).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;privacy&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.execvision.io/blog/maryland-call-recording-laws/&#34;&gt;Maryland law&lt;/a&gt; &lt;a href=&#34;https://law.justia.com/codes/maryland/2005/gcj/10-402.html&#34;&gt;requires&lt;/a&gt; all parties consent for a conversation or meeting to be recorded. If you join in, and certainly if you participate, &lt;strong&gt;you are consenting to be recorded.&lt;/strong&gt; However, as described below, videos are &lt;em&gt;not accessible&lt;/em&gt; beyond our class.&lt;/p&gt;
+&lt;p&gt;Live lectures are recorded on Zoom and posted to Blackboard via Panopto, a secure course management system for video. Among other nice features (such as multiple video screens, close captioning, and time-stamped search functions!), Panopto is authenticated via your Blackboard credentials, ensuring that &lt;em&gt;our course videos are not accessible to the open internet.&lt;/em&gt;&lt;/p&gt;
+&lt;!--Scheduled discussions, in which there is no lecture by me, will *never* be recorded or posted online.--&gt;
+&lt;p&gt;For the privacy of your peers, and to foster an environment of trust and academic freedom to explore ideas, &lt;strong&gt;do not record our course lectures or discussions.&lt;/strong&gt; You are already getting my official copies.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html&#34;&gt;Family Educational Rights and Privacy Act&lt;/a&gt; prevents me from disclosing or discussing any student information, including grades and records about student performance. If the student is at least 18 years of age, &lt;em&gt;parents (or spouses) do not have a right to obtain this information&lt;/em&gt;, except with consent by the student.&lt;/p&gt;
+&lt;p&gt;Many of you may be tuning in remotely, living with parents, and may have occasional interruptions due to sharing a space. This is normal and fine, but know that I will protect your privacy and not discuss your performance when parents (or anyone other than you, for that matter) are present, without your explicit consent.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;enrollment&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Enrollment&lt;/h2&gt;
+&lt;p&gt;Students are responsible for verifying their enrollment in this class. The last day to add or drop this class with no penalty is &lt;strong&gt;Wednesday, September 1&lt;/strong&gt;. Be aware of &lt;a href=&#34;https://www.hood.edu/offices-services/registrars-office/academic-calendar&#34;&gt;important dates&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;honor-code&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Honor Code&lt;/h2&gt;
+&lt;p&gt;Hood College has an Academic Honor Code which requires all members of this community to maintain the highest standards of academic honesty and integrity. Cheating, plagiarism, lying, and stealing are all prohibited. All violations of the Honor Code are taken seriously, will be reported to appropriate authority, and may result in severe penalties, including expulsion from the college. See &lt;a href=&#34;http://hood.smartcatalogiq.com/en/2016-2017/Catalog/The-Spirit-of-Hood/The-Academic-Honor-Code-and-Code-of-Conduct&#34;&gt;here&lt;/a&gt; for more detailed information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;van-halen-and-mms&#34; class=&#34;section level2 unlisted&#34;&gt;
+&lt;h2&gt;Van Halen and M&amp;amp;Ms&lt;/h2&gt;
+&lt;p&gt;When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&amp;amp;Ms. If you do this &lt;em&gt;before&lt;/em&gt; the date of the first exam, you will get bonus points on the exam. If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points. Yes, you read this correctly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;accessibility-equity-and-accommodations&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Accessibility, Equity, and Accommodations&lt;/h2&gt;
+&lt;p&gt;College courses can, and should, be challenging and bring you out of your comfort zone in a safe and equitable environment. If, however, you feel at any point in the semester that certain assignments or aspects of the course will be disproportionately uncomfortable or burdensome for you due to any factor beyond your control, please come see me or email me. I am a very understanding person and am happy to work out a solution together. I reserve the right to modify and reweight assignments at my sole discretion for students that I belive would legitimately be at a disadvantage, through no fault of their own, to complete them as described.&lt;/p&gt;
+&lt;p&gt;If you are unable to afford required textbooks or other resources for any reason, come see me and we can find a solution that works for you.&lt;/p&gt;
+&lt;p&gt;This course is intended to be accessible for all students, including those with mental, physical, or cognitive disabilities, illness, injuries, impairments, or any other condition that tends to negatively affect one’s equal access to education. If at any point in the term, you find yourself not able to fully access the space, content, and experience of this course, you are welcome to contact me to discuss your specific needs. I also encourage you to contact the &lt;a href=&#34;https://www.hood.edu/academics/josephine-steiner-center-academic-achievement-retention/accessibility-services&#34;&gt;Office of Accessibility Services&lt;/a&gt; (301-696-3421). If you have a diagnosis or history of accommodations in high school or previous postsecondary institutions, Accessibility Services can help you document your needs and create an accommodation plan. By making a plan through Accessibility Services, you can ensure appropriate accommodations without disclosing your condition or diagnosis to course instructors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acbsp-information&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;ACBSP Information&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://microF21.classes.ryansafner.com/images/acbsp.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Hood College is an accredited member of the Accreditation Council for Business Schools and Programs (ACBSP), an organization devoted to enhancing business education. In receiving and maintaining this accreditation, the faculty has made a commitment to the continuous improvement, innovation, and scholarship of the Department of Economics and Management. For you, this means that your educational experience undergoes ongoing validation to ensure it meets the most rigorous international standards of business education. Only a select group of institutions have received this status and it is an attribute of Hood for which you should take great pride.&lt;/p&gt;
+&lt;p&gt;Pragmatically, our accreditation means that we will engage in the ongoing use of measures, both quantitative and qualitative in nature, to assess the performance of our students and the program. We ask that you take very seriously the surveys and other measurement devices we will use – your best work and honest response will help us best assess and improve our program.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tentative-schedule&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tentative Schedule&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;You can find a full schedule&lt;/strong&gt; with much more details, including the readings, appendices, and other further resources for each class meeting on the &lt;a href=&#34;https://microf21.classes.ryansafner.com/schedule/&#34;&gt;schedule page&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;On average, even for students who complete all assignments, those that do not regularly attend class suffer by a full letter grade, (&lt;a href=&#34;https://www.aeaweb.org/articles?id=10.1257/jep.7.3.167&#34;&gt;Levitt 1993&lt;/a&gt;).&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

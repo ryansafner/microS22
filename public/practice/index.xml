@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on ECON 306 — Microeconomic Analysis</title>
+    <link>https://microS22.classes.ryansafner.com/practice/</link>
+    <description>Recent content in Overview on ECON 306 — Microeconomic Analysis</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) {year} by Ryan Safner</copyright>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://microS22.classes.ryansafner.com/practice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.2 — Budget Constraint — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/1.2-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/1.2-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.2-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.2-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;You can get music via downloads (&lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt;) or concert tickets (&lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt;). You have &lt;span&gt;$&lt;/span&gt;60 to spend each week, and the price of a download is &lt;span&gt;$&lt;/span&gt;3 and the price of a concert ticket is &lt;span&gt;$&lt;/span&gt;10. Put &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt; on the horizontal axis and &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Write the equation for your budget constraint.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Solve this equation for &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt;, to express the equation of the line.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;If you spent all of your money on only Downloads, how many could you buy? If you spent all of your money only on Tickets, how many could you buy? What is the slope of your budget constraint? Graph your budget constraint.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Now suppose your income temporarily decreases to &lt;span&gt;$&lt;/span&gt;30. Find the new equation of the budget constraint and graph it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Now return to your original income (&lt;span&gt;$&lt;/span&gt;60) but suppose the price of downloads increases to &lt;span&gt;$&lt;/span&gt;6. Find the new equation of the budget constraint and graph it.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.4 — Utility Maximization — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/1.4-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/1.4-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.4-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.4-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;You can get music via downloads (&lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt;) or concert tickets (&lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt;). You have &lt;span&gt;$&lt;/span&gt;60 to spend each week, and the price of a download is &lt;span&gt;$&lt;/span&gt;3 and the price of a concert ticket is &lt;span&gt;$&lt;/span&gt;10. Put &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt; on the horizontal axis and &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 1&lt;/h1&gt;
+&lt;p&gt;Suppose you can watch movies in the theater (&lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt;) and streaming at home (&lt;span class=&#34;math inline&#34;&gt;\(s\)&lt;/span&gt;), and earn utility according to the utility function:
+&lt;span class=&#34;math display&#34;&gt;\[u(t,s)=4ts\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Where your marginal utilities are:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_t&amp;amp;=4s\\
+MU_s&amp;amp;=4t\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part A&lt;/h2&gt;
+&lt;p&gt;Put &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; on the horizontal axis and &lt;span class=&#34;math inline&#34;&gt;\(s\)&lt;/span&gt; on the vertical axis. Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{t,s}\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part B&lt;/h2&gt;
+&lt;p&gt;Would bundles of &lt;span class=&#34;math inline&#34;&gt;\((2,2)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\((1,4)\)&lt;/span&gt; be on the same indifference curve?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part C&lt;/h2&gt;
+&lt;p&gt;Sketch this indifference curve.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;You can get utility from consuming Soda &lt;span class=&#34;math inline&#34;&gt;\((s)\)&lt;/span&gt; and Hot dogs &lt;span class=&#34;math inline&#34;&gt;\((h)\)&lt;/span&gt;, according to the utility function:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(s,h)=\sqrt{sh}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The marginal utilities are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_s&amp;amp;=0.5s^{-0.5}h^{0.5}    \\
+MU_h&amp;amp;=0.5s^{0.5}h^{-0.5} \\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You have an income of $12, the price of Soda is $2, and the price of a Hot dog is $3. Put Soda on the horizontal axis and Hot dogs on the vertical axis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part A&lt;/h2&gt;
+&lt;p&gt;What is your utility-maximizing bundle of Soda and Hot dogs?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part B&lt;/h2&gt;
+&lt;p&gt;How much utility does this provide?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.5 — Demand — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/1.5-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/1.5-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.5-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.5-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;You can spend your income on apples and oranges. Apples currently cost &lt;span&gt;$&lt;/span&gt;0.25 and oranges cost &lt;span&gt;$&lt;/span&gt;0.50. When your income is &lt;span&gt;$&lt;/span&gt;40, you buy 10 apples and 8 oranges. When your income increases to &lt;span&gt;$&lt;/span&gt;80, you buy 12 apples and 6 oranges&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;What type of good are apples (inferior, necessity, luxury)? Calculate the income elasticity of demand.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;What type of good are oranges (inferior, necessity, or luxury)? Calculate the income elasticity of demand.&lt;/p&gt;
+&lt;p&gt;You can can have cereal and milk for breakfast. When milk is &lt;span&gt;$&lt;/span&gt;2/gallon, you consume 5 bowls of cereal per week. When milk increases to &lt;span&gt;$&lt;/span&gt;4/gallon, you consume 4 bowls of cereal per week.&lt;/p&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Question 3&lt;/h4&gt;
+&lt;p&gt;What is the relationship between these two goods?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Question 4&lt;/h4&gt;
+&lt;p&gt;Calculate the cross-price elasticity of demand.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.7 — Price Elasticity of Demand — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/1.7-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/1.7-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.7-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/1.7-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;The demand for monthly cell phone plans is given by:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q_D =  50-0.5p\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Write the &lt;em&gt;inverse&lt;/em&gt; demand function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Calculate the price elasticity of demand when the price is &lt;span&gt;$&lt;/span&gt;10. Is this relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Calculate the price elasticity of demand when the price is &lt;span&gt;$&lt;/span&gt;70. Is this relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;At what price is demand unit elastic &lt;span class=&#34;math inline&#34;&gt;\((\epsilon=-1)\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Calculate the total revenue at &lt;span&gt;$&lt;/span&gt;10.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Calculate the total revenue at &lt;span&gt;$&lt;/span&gt;70.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Calculate the total revenue at the price you found for question 4.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.3 — Cost Minimization — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/2.3-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/2.3-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/2.3-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/2.3-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;Your firm can use labor &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and capital &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; to produce output according to the production function:
+&lt;span class=&#34;math display&#34;&gt;\[q=4lk\]&lt;/span&gt;
+The marginal products are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MP_l &amp;amp;=4k \\
+MP_k &amp;amp;=4l \\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Suppose you need to produce 144 units, the price of labor is &lt;span&gt;$&lt;/span&gt;10, and the price of capital is &lt;span&gt;$&lt;/span&gt;40.&lt;/p&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.&lt;/h2&gt;
+&lt;p&gt;What is the least-cost combination of labor and capital that produces 144 units of output?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.&lt;/h2&gt;
+&lt;p&gt;How much does this combination cost?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.&lt;/h2&gt;
+&lt;p&gt;Does this technology experience constant returns, increasing returns, or decreasing returns to scale?&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.5 — Short Run Profit Maximization — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/2.5-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/2.5-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/2.5-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/2.5-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;A firm has short-run costs given by:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(q)&amp;amp;=q^2+1\\
+MC(q)&amp;amp;=2q\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.&lt;/h2&gt;
+&lt;p&gt;Write an equation for fixed costs, &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.&lt;/h2&gt;
+&lt;p&gt;Write an equation for variable costs, &lt;span class=&#34;math inline&#34;&gt;\(VC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.&lt;/h2&gt;
+&lt;p&gt;Write an equation for average fixed costs, &lt;span class=&#34;math inline&#34;&gt;\(AFC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;4.&lt;/h2&gt;
+&lt;p&gt;Write an equation for average variable costs, &lt;span class=&#34;math inline&#34;&gt;\(AVC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;5.&lt;/h2&gt;
+&lt;p&gt;Write an equation for average (total) costs, &lt;span class=&#34;math inline&#34;&gt;\(AC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;6.&lt;/h2&gt;
+&lt;p&gt;Suppose the firm is in a competitive market, and the current market price is $4, how many units of output maximize profits?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;7.&lt;/h2&gt;
+&lt;p&gt;How much profit will this firm earn?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;8.&lt;/h2&gt;
+&lt;p&gt;At what market price would the firm break even &lt;span class=&#34;math inline&#34;&gt;\((\pi=0)\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;9.&lt;/h2&gt;
+&lt;p&gt;Below what market price would the firm shut down in the short run if it were earning losses?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;10.&lt;/h2&gt;
+&lt;p&gt;Write out the firm’s short run supply function.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.2 — Market Competition and Surpluses — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/3.2-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/3.2-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/3.2-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/3.2-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;The supply and demand in the market for tomatoes are estimated to be:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+q_D&amp;amp;=1000-200p\\
+q_S&amp;amp;=200p-200\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.&lt;/h2&gt;
+&lt;p&gt;Calculate the market-clearing price and quantity exchanged.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.&lt;/h2&gt;
+&lt;p&gt;Find the inverse demand function and inverse supply function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.&lt;/h2&gt;
+&lt;p&gt;Sketch a graph of this market, labelling key points.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;4.&lt;/h2&gt;
+&lt;p&gt;Calculate the price elasticty of demand and price elasticity of supply (in equilibrium).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;5.&lt;/h2&gt;
+&lt;p&gt;Calculate the consumer surplus and producer surplus, and shade each on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;6.&lt;/h2&gt;
+&lt;p&gt;Who gets greater surplus, consumers or producers, and why?&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.1 — Modeling Firms With Market Power — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/4.1-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/4.1-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/4.1-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/4.1-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;Bob’s Bats produces baseball bats, and has the following costs:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(q)&amp;amp;=5q^2+720\\
+MC(q)&amp;amp;=10q\\    
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;and faces a market demand for bats:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q = 120-0.4p\]&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;where quantity is measured in thousands of bats&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.&lt;/h2&gt;
+&lt;p&gt;Write Bob’s Marginal Revenue function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.&lt;/h2&gt;
+&lt;p&gt;Find the profit-maximizing quantity and price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.&lt;/h2&gt;
+&lt;p&gt;How much total profit does Bob’s Bats earn? Should Bob stay or exit this industry in the long run?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;4.&lt;/h2&gt;
+&lt;p&gt;At what price would Bob’s Bats break even?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;5.&lt;/h2&gt;
+&lt;p&gt;How much of Bob’s price is markup (over marginal cost)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;6.&lt;/h2&gt;
+&lt;p&gt;Calculate the price elasticity of demand at Bob’s profit-maximizing price.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.3 — Pricing Strategies — Practice</title>
+      <link>https://microS22.classes.ryansafner.com/practice/4.3-practice/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/practice/4.3-practice/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/4.3-practice-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/practice/4.3-practice-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;Promoters of a major college basketball tournament estimate that the demand for tickets for &lt;em&gt;adults&lt;/em&gt; and by &lt;em&gt;students&lt;/em&gt; are given by:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{aligned}
+q_a&amp;amp;=5,000-10p_a\\
+q_s&amp;amp;=10,000-100p_s\\
+\end{aligned}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; represents adults and &lt;span class=&#34;math inline&#34;&gt;\(s\)&lt;/span&gt; represents students. They estimate that the marginal and average total cost of seating an additional spectator is constant at $10.&lt;/p&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1.&lt;/h2&gt;
+&lt;p&gt;The promoters wish to segment the market and charge adults and students different prices.&lt;/p&gt;
+&lt;div id=&#34;a.&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;a.&lt;/h3&gt;
+&lt;p&gt;For each segment of the market, find the inverse demand function and marginal revenue function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;b.&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;b.&lt;/h3&gt;
+&lt;p&gt;Find the profit-maximizing quantity and price for each segment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;c.&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;c.&lt;/h3&gt;
+&lt;p&gt;How much total profit would the tournament earn if they could price discriminate?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2.&lt;/h2&gt;
+&lt;p&gt;Now suppose they could not price discriminate, and were forced to charge the same price for all attendees.&lt;/p&gt;
+&lt;div id=&#34;a.-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;a.&lt;/h3&gt;
+&lt;p&gt;Find the total market demand function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;b.-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;b.&lt;/h3&gt;
+&lt;p&gt;Find the inverse demand function for the total market, and then the marginal revenue function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;c.-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;c.&lt;/h3&gt;
+&lt;p&gt;Find the profit-maximizing quantity and price for the whole market.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;d.&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;d.&lt;/h3&gt;
+&lt;p&gt;How much total profit would the tournament earn if they could not price discriminate?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

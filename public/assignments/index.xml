@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignment Details on ECON 306 — Microeconomic Analysis</title>
+    <link>https://microS22.classes.ryansafner.com/assignments/</link>
+    <description>Recent content in Assignment Details on ECON 306 — Microeconomic Analysis</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) {year} by Ryan Safner</copyright>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://microS22.classes.ryansafner.com/assignments/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exam 1</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/01-exam/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/01-exam/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Monday, September 27 (2:40PM—4:05PM) on Blackboard Assignments
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;exam-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Information&lt;/h1&gt;
+&lt;p&gt;Exam 1 will be held &lt;strong&gt;on Blackboard assignments&lt;/strong&gt; from &lt;strong&gt;2:40PM—4:05PM&lt;/strong&gt; on &lt;strong&gt;Monday September 27&lt;/strong&gt; (our class time).&lt;/p&gt;
+&lt;p&gt;The exam will be a &lt;strong&gt;timed assignment&lt;/strong&gt;. You will &lt;em&gt;not&lt;/em&gt; need the whole time, I have designed the test to give you some extra time to accommodate the technical difficulties of taking an exam at home. You may close the exam page and come back to it, but &lt;em&gt;the timer will continue to run&lt;/em&gt; once the exam is first opened.&lt;/p&gt;
+&lt;p&gt;If you have any approved testing accommodations, or know in advance you must be absent, please confirm with me ASAP and we will make arrangements&lt;/p&gt;
+&lt;p&gt;While the exam is out, neither the TA nor I will answer any questions. The one exception is, &lt;strong&gt;email/message me ASAP if you encounter technical problems&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exam-instructions-important-please-read&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Instructions (&lt;i class=&#34;fas fa-exclamation-circle&#34;&gt;&lt;/i&gt; Important, Please read)&lt;/h1&gt;
+&lt;p&gt;This exam will be &lt;strong&gt;open-book/website, open-notes&lt;/strong&gt;, but &lt;strong&gt;do not use the internet, or contact others&lt;/strong&gt;. [I have designed the exam so that Google won’t help you. Everything you need should be in your notes, homeworks, or slides anyway.] I will automatically interpret substantially-similar answers, obviously-googled answers, and contact between students as cheating or plagiarism, respectively. Either will earn you a 0, and be reported. Answers should be &lt;em&gt;in your own words&lt;/em&gt;, I will also deduct points for blatant copy-pastes off my slides (those are &lt;em&gt;my&lt;/em&gt; words, not yours!).&lt;/p&gt;
+&lt;p&gt;You must show all of your work (for calculation problems), either by typing your steps into the answer form, or you may upload handwritten steps to the exam, solving your problems. Only as a &lt;em&gt;last&lt;/em&gt; resort (please!), you may email me your work before your time runs out.&lt;/p&gt;
+&lt;p&gt;It is more important to me that you spend your time working and writing the answers, and less about all the technology working flawlessly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-study-guide&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts Study Guide&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/exam_1_study_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that we skipped some excess content about preferences this semester, so some things on the study guide (like assumptions about preferences, assumptions about indifference curves, indifference curves for non-goods – the graph on page 5, steepness –graph on page 7–but know complements &amp;amp; substitutes!), you can safely ignore.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice-exam&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;“Practice” Exam&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/Exam1.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download Old Exam 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/Exam1_Answer_Key.pdf&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above, you have a previous semester’s actual exam. Use it to get a sense of what questions are asked, the format, and how many.&lt;/p&gt;
+&lt;p&gt;Please note that this semester we skipped some things about preferences, so you would not be responsible for questions asking about them. In this old exam, that means questions 5 and 9. Though you should still be able to deduce the answers!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be aware: this is pre-Covid when exams were taken in person on paper. The online nature of this semester will significantly affect the questions asked!&lt;/strong&gt; Questions draw from topics in Unit 1, and note that &lt;strong&gt;just because topics or questions were not in the practice exam does NOT mean they may not show up on your exam.&lt;/strong&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Aside from minor extensions, no mathematical problem on any exam should be something you have not seen in some form before.&lt;/p&gt;
+&lt;p&gt;Look at the practice exam &lt;em&gt;before&lt;/em&gt; our Review day. I will post the answer key during the weekend. I am happy to discuss other individual answers and strategies during Office Hours.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;my-advice&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;My Advice&lt;/h1&gt;
+&lt;p&gt;Make sure you do all of the homework problems and learn from the answer keys to the homeworks, as well as the in-class practice problems. All of the math problems are largely in the style of the homework questions. While some of the questions should be novel applications, conceptual questions on homeworks will get you in the right headspace to think about answering a question on an exam.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I hope that this is obvious. I write this to ensure there is no misunderstanding.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The point of exams is to &lt;em&gt;apply&lt;/em&gt; what you’ve learned, not to literally regurgitate it! Or, at least, it should be.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exam 2</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/02-exam/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/02-exam/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Wednesday, October 27 (2:40PM—4:05PM) on Blackboard Assignments
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;exam-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Information&lt;/h1&gt;
+&lt;p&gt;Exam 2 will be held &lt;strong&gt;on Blackboard assignments&lt;/strong&gt; from &lt;strong&gt;2:40PM—4:05PM&lt;/strong&gt; on &lt;strong&gt;Wednesday October 27&lt;/strong&gt; (our class time).&lt;/p&gt;
+&lt;p&gt;The exam will be a &lt;strong&gt;timed assignment&lt;/strong&gt;. You will &lt;em&gt;not&lt;/em&gt; need the whole time, I have designed the test to give you some extra time to accommodate the technical difficulties of taking an exam at home. You may close the exam page and come back to it, but &lt;em&gt;the timer will continue to run&lt;/em&gt; once the exam is first opened.&lt;/p&gt;
+&lt;p&gt;If you have any approved testing accommodations, or know in advance you must be absent, please confirm with me ASAP and we will make arrangements&lt;/p&gt;
+&lt;p&gt;While the exam is out, neither the TA nor I will answer any questions. The one exception is, &lt;strong&gt;email/message me ASAP if you encounter technical problems&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exam-instructions-important-please-read&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Instructions (&lt;i class=&#34;fas fa-exclamation-circle&#34;&gt;&lt;/i&gt; Important, Please read)&lt;/h1&gt;
+&lt;p&gt;This exam will be &lt;strong&gt;open-book/website, open-notes&lt;/strong&gt;, but &lt;strong&gt;do not use the internet, or contact others&lt;/strong&gt;. [I have designed the exam so that Google won’t help you. Everything you need should be in your notes, homeworks, or slides anyway.] I will automatically interpret substantially-similar answers, obviously-googled answers, and contact between students as cheating or plagiarism, respectively. Either will earn you a 0, and be reported. Answers should be &lt;em&gt;in your own words&lt;/em&gt;, I will also deduct points for blatant copy-pastes off my slides (those are &lt;em&gt;my&lt;/em&gt; words, not yours!).&lt;/p&gt;
+&lt;p&gt;You must show all of your work (for calculation problems), either by typing your steps into the answer form, or you may upload handwritten steps to the exam, solving your problems. Only as a &lt;em&gt;last&lt;/em&gt; resort (please!), you may email me your work before your time runs out.&lt;/p&gt;
+&lt;p&gt;It is more important to me that you spend your time working and writing the answers, and less about all the technology working flawlessly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-study-guide&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts Study Guide&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/exam_2_study_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice-exam&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;“Practice” Exam&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/Exam2.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download Old Exam 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/Exam2_Answer_Key.pdf&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above, you have a previous semester’s actual exam. Use it to get a sense of what questions are asked, the format, and how many. Note we skipped content that the first question covers (constant cost industries).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be aware: this is pre-Covid when exams were taken in person on paper. The online nature of this semester will significantly affect the questions asked!&lt;/strong&gt; Questions draw from topics in Unit 1, and note that &lt;strong&gt;just because topics or questions were not in the practice exam does NOT mean they may not show up on your exam.&lt;/strong&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Aside from minor extensions, no mathematical problem on any exam should be something you have not seen in some form before.&lt;/p&gt;
+&lt;p&gt;Look at the practice exam &lt;em&gt;before&lt;/em&gt; our Review day. I will post the answer key during the weekend. I am happy to discuss other individual answers and strategies during Office Hours.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;my-advice&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;My Advice&lt;/h1&gt;
+&lt;p&gt;Make sure you do all of the homework problems and learn from the answer keys to the homeworks, as well as the in-class practice problems. All of the math problems are largely in the style of the homework questions. While some of the questions should be novel applications, conceptual questions on homeworks will get you in the right headspace to think about answering a question on an exam.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I hope that this is obvious. I write this to ensure there is no misunderstanding.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The point of exams is to &lt;em&gt;apply&lt;/em&gt; what you’ve learned, not to literally regurgitate it! Or, at least, it should be.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Final Exam</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/03-exam/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/03-exam/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Monday, December 13 (11:30 AM — 2:00 PM) on Blackboard Assignments, &lt;a href=&#34;https://www.hood.edu/offices-services/registrars-office/academic-calendar/final-exam-schedule&#34;&gt;as per the Registrar&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;exam-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Information&lt;/h1&gt;
+&lt;p&gt;The Final Exam will be held &lt;strong&gt;on Blackboard assignments&lt;/strong&gt; from &lt;strong&gt;11:30AM—2:00PM&lt;/strong&gt; on &lt;strong&gt;Monday December 13&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The exam will be a &lt;strong&gt;timed assignment&lt;/strong&gt;. You will &lt;em&gt;not&lt;/em&gt; need the whole time, I have designed the test to give you some extra time to accommodate the technical difficulties of taking an exam at home. You may close the exam page and come back to it, but &lt;em&gt;the timer will continue to run&lt;/em&gt; once the exam is first opened.&lt;/p&gt;
+&lt;p&gt;If you have any approved testing accommodations, or know in advance you must be absent, please confirm with me ASAP and we will make arrangements&lt;/p&gt;
+&lt;p&gt;While the exam is out, neither the TA nor I will answer any questions. The one exception is, &lt;strong&gt;email/message me ASAP if you encounter technical problems&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exam-instructions-important-please-read&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Instructions (&lt;i class=&#34;fas fa-exclamation-circle&#34;&gt;&lt;/i&gt; Important, Please read)&lt;/h1&gt;
+&lt;p&gt;This exam will be &lt;strong&gt;open-book/website, open-notes&lt;/strong&gt;, but &lt;strong&gt;do not use the internet, or contact others&lt;/strong&gt;. [I have designed the exam so that Google won’t help you. Everything you need should be in your notes, homeworks, or slides anyway.] I will automatically interpret substantially-similar answers, obviously-googled answers, and contact between students as cheating or plagiarism, respectively. Either will earn you a 0, and be reported. Answers should be &lt;em&gt;in your own words&lt;/em&gt;, I will also deduct points for blatant copy-pastes off my slides (those are &lt;em&gt;my&lt;/em&gt; words, not yours!).&lt;/p&gt;
+&lt;p&gt;You must show all of your work (for calculation problems), either by typing your steps into the answer form, or you may upload handwritten steps to the exam, solving your problems. Only as a &lt;em&gt;last&lt;/em&gt; resort (please!), you may email me your work before your time runs out.&lt;/p&gt;
+&lt;p&gt;It is more important to me that you spend your time working and writing the answers, and less about all the technology working flawlessly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-study-guide&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts Study Guide&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/exam_3_study_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice-exam&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;“Practice” Exam&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/Exam3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download Old Exam 2&lt;/a&gt;
+&lt;!-- [&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key](/examprep/Exam2_Answer_Key.pdf)--&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above, you have a previous semester’s actual exam. Use it to get a sense of what questions are asked, the format, and how many. Note we skipped content that the first question covers (constant cost industries).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be aware: this is pre-Covid when exams were taken in person on paper. The online nature of this semester will significantly affect the questions asked!&lt;/strong&gt; Questions draw from topics in Unit 1, and note that &lt;strong&gt;just because topics or questions were not in the practice exam does NOT mean they may not show up on your exam.&lt;/strong&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Aside from minor extensions, no mathematical problem on any exam should be something you have not seen in some form before.&lt;/p&gt;
+&lt;p&gt;Look at the practice exam &lt;em&gt;before&lt;/em&gt; our Review day. I will post the answer key during the weekend. I am happy to discuss other individual answers and strategies during Office Hours.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;my-advice&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;My Advice&lt;/h1&gt;
+&lt;p&gt;Make sure you do all of the homework problems and learn from the answer keys to the homeworks, as well as the in-class practice problems. All of the math problems are largely in the style of the homework questions. While some of the questions should be novel applications, conceptual questions on homeworks will get you in the right headspace to think about answering a question on an exam.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I hope that this is obvious. I write this to ensure there is no misunderstanding.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The point of exams is to &lt;em&gt;apply&lt;/em&gt; what you’ve learned, not to literally regurgitate it! Or, at least, it should be.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Opinion-Editorial Assignment</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/op-ed/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/op-ed/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#description-of-assignment&#34;&gt;Description of Assignment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-to-write-a-good-paper&#34;&gt;How to Write a Good Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#length-references-mechanics&#34;&gt;Length, References, &amp;amp; Mechanics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#suggested-topics&#34;&gt;Suggested Topics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#sources-for-inspiration&#34;&gt;Sources for Inspiration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#grading-rubric-and-deadlines&#34;&gt;Grading Rubric and Deadlines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Due by the end of the day Monday December 6 by CHALK-AND-WIRE UPLOAD (include a word count)
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“How can I know what I think until I see what I say?” &lt;span style=&#34;float:right&#34;&gt;— E. M. Forster&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;description-of-assignment&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Description of Assignment&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Y-cjGQ73EmE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;p&gt;The above video can also be found on Blackboard under Class Recordings (Panopto).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;how-to-write-a-good-paper&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;How to Write a Good Paper&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-e_FjEAUhIE&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/paper-slides.html&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; How to Write a Good Paper (Slides)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;See examples of good Op-eds from previous students on Blackboard (Under Course Documents)&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Your task is to write an Opinion-Editorial (Op-ed) piece that applies the economic way of thinking to some public policy-relevant issue. An op-ed is a newspaper article that expresses the opinions of a writer who is unaffiliated with the newspaper or its editorial board. Often, the writer of an op-ed has no journalism experience, or (as you will soon discover), little understanding of economics. Thus, you are at no disadvantage as a student just beginning your experience with economics and writing! To get an idea, look at any newspaper’s “Opinion” section on their website or in print.&lt;/p&gt;
+&lt;p&gt;The purpose of this assignment is fourfold: (1) to demonstrate to you that economics is a wonderful way of thinking about any social issue, (2) for you to demonstrate to me that you have mastered the material of this course, (3) to develop your writing and argumentative skills, and (4) to help you develop, change, and/or strengthen your own views by grappling with them in writing.&lt;/p&gt;
+&lt;p&gt;In general, am looking for a short paper that puts forth an argument and defends it. You should be able to summarize your position in one sentence – the thesis of your paper that you will argue for. It should be a reasonably original argument (it is difficult with limited knowledge to offer something truly original), and it should be your own take on the topic. It should use some principle(s) or insight(s) from (micro) economics to bolster your conclusions.&lt;/p&gt;
+&lt;p&gt;Please note that, while you are not required to, I highly recommend discussing your ideas with me over email or in person. I will also read any drafts you would like to submit to me early, and provide you with helpful comments, subject to my own availability. Both to disincentivize procrastination, and because I have no time to read 100 papers right before the end of class, &lt;strong&gt;I will stop reading and commenting on drafts after November 31&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you publish your op-ed in any media outlet (newspapers, news websites, major blogs) by the end of the semester, you will earn extra credit according to the following scale:&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Publication&lt;/th&gt;
+&lt;th&gt;Examples&lt;/th&gt;
+&lt;th&gt;Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Hood-affiliated outlet&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;The Blue and Grey&lt;/em&gt;, Professors’ blogs&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Local/regional Newspaper&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Frederick News-Post&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;National Newspaper/blog&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;NY Times, WaPo, WSJ, USA Today, HuffPo&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Meeting the market test is what matters most!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Your Op-Ed, with a word count, is due by 11:59 PM Monday December 6, via Chalk-and-Wire upload, and constitutes 20% of your final course grade.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;length-references-mechanics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Length, References, &amp;amp; Mechanics&lt;/h2&gt;
+&lt;p&gt;The goal of any op-ed is to convince reasonably-educated readers of some particular conclusion (also known as a &lt;em&gt;thesis&lt;/em&gt;). This conclusion is of course, the opinion of the author, but this opinion must be backed by theory and evidence that leads reasonable people to agree with that conclusion. The claim you make as your conclusion should be relevant, debatable, testable, and provide new insight on a topic. Telling the reader &lt;em&gt;“people who do not recycle are selfish”&lt;/em&gt; is neither informative nor persuasive, but telling the reader &lt;em&gt;“recycling reduces the amount of trash going into local landfills by X tons a year”&lt;/em&gt; is at least informative, if not also persuasive. &lt;strong&gt;You are free to take any position on any issue that you choose, so long as it is backed by evidence and sound use of the economic way of thinking.&lt;/strong&gt; For more details, see my presentation slides linked above.&lt;/p&gt;
+&lt;p&gt;I always hesitate to give formal length requirements, because most students will write the bare minimum, and also because different papers have different optimal lengths. What truly matters is that your paper is long enough to say what you need to say, to say it well, and to say it briefly. Ceterus paribus, if papers A and B say the same thing, but paper B says it in half the length (without sacrificing key arguments), paper B is a better paper. In any event, this assignment will largely follow the style of most major newspapers. &lt;strong&gt;Your op-ed must be between 500 and 1000 words. You must include a word count with your final copy.&lt;/strong&gt; There are no other formal requirements but, I recommend formatting it in 12 point Times New Roman or Arial font, double spaced, just to make it easier for me to read (and nearly every other paper you write will ask for this).&lt;/p&gt;
+&lt;p&gt;While this is not a research paper, I do want you to include some scholarly sources – for example, if you cite the work of an economist on the issue, or if you use statistics, data, or facts (which you should!). While newspapers do not publish a bibliography for each op-ed, they will scrutinize every empirical claim and ask the author for sources to back it up. &lt;strong&gt;Thus, I would like a list of sources you used for your article, and expect you to have at least 1-3, depending on your topic and argument.&lt;/strong&gt; I am not particularly picky about exactly how you format this list, just please be consistent. Look at my slides or my handouts for a suggested style.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;suggested-topics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Suggested Topics&lt;/h2&gt;
+&lt;p&gt;Remember that economics is a way of analyzing the world, rather than a narrow domain of topics for studying. Thus, while you may certainly write about the typical “mundane” topics of economics we often think about (money, monopoly, inflation, etc), I strongly encourage you to apply economics to something you find much more interesting about the world - from corruption in FIFA, to the constitutional political economy of pirates, to bitcoin displacing currencies, to the illegal downloading of Game of Thrones, to the cultural institutions of the Jersey Shore, to the monopoly power of the WWE in wrestling, to the relationship of Uber &amp;amp; Airbnb to taxis and hotels, to the privatization of asteroids, to the economics of crowdfunding, to drugs, sex, and rock n roll. In fact, it is often those topics that are most eccentric and “out in left field” that make the best op-eds!&lt;/p&gt;
+&lt;p&gt;There are plenty of issues around us, both immediate and visible (racism and policing, college costs, ISIS, planned parenthood, gun control, etc) and latent long term issues (monetary policy and interest rates, the drug war, government spending and debt, science funding, etc).&lt;/p&gt;
+&lt;p&gt;The scope of topics allowed for your paper is anything that uses the economic way of thinking to make some sort of conclusion. This is an extremely wide scope, but here are a few main types of op-eds that will tend to result from this, along with some great examples of op-eds that use economics to reach an interesting or provocative conclusion.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Taking a stand on a position, either actively being discussed in the news, or a long-standing underlying issue&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.theatlantic.com/business/archive/2015/10/get-rid-borders-completely/409501/&#34;&gt;The Case for Getting Rid of Borders - Completely (&lt;em&gt;The Atlantic&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/the-racial-reality-of-policing-144139098&#34;&gt;The Racial Reality of Policing (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.washingtonpost.com/news/volokh-conspiracy/wp/2015/07/26/zoning-out-the-poor/&#34;&gt;Zoning Out the Poor (&lt;em&gt;Washington Post&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/this-child-doesnt-need-a-solar-panel-1445466967&#34;&gt;This Child Doesn’t Need a Solar Panel (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/news/articles/SB10001424052702303848104579308612337146296&#34;&gt;How to Save Detroit (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/06/28/upshot/in-an-uber-world-fortune-favors-the-freelancer.html&#34;&gt;In an Uber World, Fortune Favors the Freelancer (&lt;em&gt;New York Times&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/08/13/opinion/what-the-west-gets-wrong-about-russia.html&#34;&gt;What the West Gets Wrong About Russia (&lt;em&gt;New York Times&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Criticizing recent statements, current popular fallacies, or policy proposals of others in the news&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.washingtonpost.com/news/wonkblog/wp/2013/07/23/shut-up-royal-baby-haters-monarchy-is-awesome/&#34;&gt;Shut Up Royal Baby Haters, Monarchy is Awesome (&lt;em&gt;Washington Post&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.huffingtonpost.com/tom-mullen/trumps-protectionist-fall_b_8056400.html&#34;&gt;Trump’s Protectionist Fallacies Have Been Refuted By Free Market Economists for Hundreds of Years (&lt;em&gt;Huffington Post&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.usatoday.com/story/opinion/2015/10/04/trump-polls-immigration-taxes-column/72755896/&#34;&gt;Trump’s Exploits Rational Ignorance (&lt;em&gt;USA Today&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.newsweek.com/bernie-sanders-immigrants-silly-tribal-and-economically-illiterate-358369&#34;&gt;Bernie Sanders on Immigrants: Silly, Tribal and Economically Illiterate (&lt;em&gt;Newsweek&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/news/articles/SB10001424127887323468604578249723138161566&#34;&gt;The Myth of a Stagnant Middle Class (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/news/articles/SB10001424052702303532704579483752909957472&#34;&gt;The ‘77 cents on the Dollar’ Myth About Women’s Pay (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/how-everyone-gets-the-sharing-economy-wrong-1432495921&#34;&gt;How Everyone Gets the Sharing Economy Wrong (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/news/articles/SB120235183917849631&#34;&gt;Why Bill Gates Hates my Book (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/08/05/opinion/in-zimbabwe-we-dont-cry-for-lions.html&#34;&gt;In Zimbabwe, We Don’t Cry for Lions (&lt;em&gt;New York Times&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Providing new insight into a social phenomenon that is interesting or novel, designed to get people talking&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.slate.com/articles/news_and_politics/foreigners/2015/09/why_drivers_in_china_intentionally_kill_the_pedestrians_they_hit_china_s.html&#34;&gt;Driven to Kill: Why Drivers in China Intentionally Kill the Pedestrians they Hit (&lt;em&gt;Slate&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/SB10001424052702303919504577522641691745740&#34;&gt;The Case for the City-State (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2015/05/10/magazine/what-hollywood-can-teach-us-about-the-future-of-work.html&#34;&gt;What Hollywood Can Teach Us About the Future of Work (&lt;em&gt;New York Times&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.nytimes.com/2013/09/25/opinion/losing-is-good-for-you.html&#34;&gt;Losing is Good for You (&lt;em&gt;New York Times&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/craig-richardson-the-250-econ-101-textbook-1421192341&#34;&gt;The $250 Econ 101 Textbook (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/news/articles/SB10001424052702304149404579322560004817176&#34;&gt;Cash for Kidneys: The Case for a Market for Organs (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/08/bitcoin-schism-shows-genius-open-source/&#34;&gt;The Bitcoin Schism Shows the Genius of Open Source (&lt;em&gt;Wired&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wsj.com/articles/SB10001424127887323528404578454432476458370&#34;&gt;Should Physician Pay Be Tied to Performance? (&lt;em&gt;Wall Street Journal&lt;/em&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sources-for-inspiration&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Sources for Inspiration&lt;/h2&gt;
+&lt;p&gt;Here is a list of a few places you might consider to dig up some information on your topic, or to help you find a topic. Just be sure to read and cite the actual sources that these secondary sources cite.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Major news outlets (e.g. CNN, Wall Street Journal, New York Times, USA Today, Huffington Post, the Guardian) and wherever you may find your news (e.g. reddit, Buzzfeed, etc) both for current events, and also their Opinion/Commentary sections for other op-eds to learn from and/or critique&lt;/li&gt;
+&lt;li&gt;Wikipedia – no seriously, it is the first place I go to learn about a new topic. Just be sure to actually investigate the underlying research and use that for your references!&lt;/li&gt;
+&lt;li&gt;Economics Podcasts
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://econtalk.org&#34;&gt;Econtalk&lt;/a&gt; – a fantastic podcast series by Russ Roberts that interviews famous economists, philosophers, businesspeople, and other figures who have an impact on the world of ideas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://freakonomics.com/&#34;&gt;Freakonomics (Radio)&lt;/a&gt; – another great podcast by one of the authors of the famed &lt;em&gt;Freakonomics&lt;/em&gt; books about intermediate-level economic topics, often an in-depth series of interviews on a major issue&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://npr.org/sections/money&#34;&gt;NPR Planet Money&lt;/a&gt; – another good podcast series on economics topics and current events, much shorter and more 10,000-foot level approach than Econtalk or Freakonomics&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Popular Economists’ Blogs/Blogs on Economics:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://marginalrevolution.com&#34;&gt;Marginal Revolution&lt;/a&gt; – Tyler Cowen &amp;amp; Alex Tabarrok (head and shoulders above the rest!)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cafehayek.org&#34;&gt;Cafe Hayek&lt;/a&gt; – Don Boudreaux (libertarian-leaning, mostly just Don on trade and micro-policy)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://econlog.org&#34;&gt;EconLog&lt;/a&gt; – Bryan Caplan, David Henderson (libertarian-leaning, good analysis)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://krugman.blogs.nytimes.com/&#34;&gt;The Conscience of a Liberal&lt;/a&gt; – Paul Krugman at New York Times (strong left-wing politics)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://johnhcochrane.blogspot.com/&#34;&gt;The Grumpy Economist&lt;/a&gt; – John Cochrane (Chicago School approach)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gregmankiw.blogspot.com&#34;&gt;Greg Mankiw’s Blog&lt;/a&gt; – Greg Mankiw (moderate conservative, New Keynesian approach)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://timharford.com/articles/undercovereconomist/&#34;&gt;Undercover Economist&lt;/a&gt; – Tim Harford (British, non-political, very easy to understand)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://chrisblattman.com/&#34;&gt;Chris Blattman&lt;/a&gt; – Chris Blattman (great on economic development, poverty, and conflict in poor countries)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://slatestarcodex.com&#34;&gt;Slate Star Codex&lt;/a&gt; – “Scott Alexander” (a pseudonym, apparently a Medical Student, but one of the most lucid social science blogs ever written)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://fivethirtyeight.com/&#34;&gt;Fivethirtyeight&lt;/a&gt; – Nate Silver &amp;amp; co. (a journalist, but a &lt;em&gt;leader&lt;/em&gt; on using data and statistics in social science and journalism)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://andrewgelman.com&#34;&gt;Andrew Gelman&lt;/a&gt; – Andrew Gelman (a statistician, but another &lt;em&gt;leader&lt;/em&gt; on using data and statistics for social science)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;grading-rubric-and-deadlines&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Grading Rubric and Deadlines&lt;/h2&gt;
+&lt;p&gt;Here is the rubric that I will use to grade your paper:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Points&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Persuasiveness&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Soundness&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;Clarity&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Organization&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;References&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Style&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;TOTAL&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;100&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Persuasiveness&lt;/strong&gt;: How persuasive is your argument? Would a reasonably educated college-level reader who is familiar with economics and statistics but not necessarily this course find themselves understanding your argument and agreeing with you? [Write for an audience wider than just members of this class. Therefore, don’t use terms, sources, or “inside jokes” that only other students in this class (and no one else) would understand.] Remember, your goal is not to convince &lt;em&gt;me&lt;/em&gt; (though you may), your goal is to convince &lt;em&gt;any educated reader&lt;/em&gt;, and I grade you the probability that this is likely. You are the lawyer, I am the judge, and your audience is the jury.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Soundness&lt;/strong&gt;: Are your theories consistent and logical, and did you apply them correctly? Did you choose relevant (and non-cherry picked) evidence to back it up? Are your facts, data, or case studies accurate?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clarity&lt;/strong&gt; How clear is your paper? Is it clear what your research question is, how you answer it, and what your results are? Can you summarize these in a sentence or two? Are there confusing passages, excessive jargon or passive voice, or irrelevant arguments and examples?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organization:&lt;/strong&gt; Is your paper organized? Have you presented your separate arguments/examples in a logical order? Is it clear when you are moving on from one section to another? Is it clear when and where you are summarizing and concluding?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;References:&lt;/strong&gt; Does your paper use multiple reputable references? Does it properly cite them in the text for main ideas borrowed and for direct quotations? Are they consistently listed at the end in a references section?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Style:&lt;/strong&gt; Is your paper interesting and easy to read? Does it engage the reader? Is it written in active voice? This is somewhat subjective, and hence, the smallest portion of your grade.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Note: &lt;em&gt;Websites like reddit, Buzzfeed, or personal blogs that do not require professional editorial approval do &lt;strong&gt;not&lt;/strong&gt; count!&lt;/em&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Preliminary Survey on Math Background</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/00-preliminary-survey/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/00-preliminary-survey/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit by 11:59 PM Sunday August 29, 2021
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;This is an &lt;em&gt;ungraded&lt;/em&gt; and &lt;em&gt;anonymous&lt;/em&gt; survey for me to evaluate the distribution of your math and statistics backgrounds. Please complete all problems to the best of your ability. Your responses will help me craft the course to see which material we need to focus on at greater length, especially review material.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Please submit your answers in &lt;a href=&#34;https://forms.gle/yKVogojLYo2izddR8&#34;&gt;this Google Form&lt;/a&gt;&lt;/strong&gt;. Feel free to download the PDF and work out the problems on paper first.&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/00-preliminary-survey-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/00-preliminary-survey-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;!--- [&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key](/assignment/preliminary-survey-answers.html)--&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 1&lt;/h1&gt;
+&lt;p&gt;Draw a graph of the following linear equation, &lt;span class=&#34;math inline&#34;&gt;\(R=4-\frac{1}{2}W\)&lt;/span&gt;. Plot &lt;span class=&#34;math inline&#34;&gt;\(W\)&lt;/span&gt; on the vertical axis and &lt;span class=&#34;math inline&#34;&gt;\(R\)&lt;/span&gt; on the horizontal axis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 2&lt;/h1&gt;
+&lt;p&gt;Draw a continuous function which begins at the origin, increases at a &lt;em&gt;decreasing&lt;/em&gt; rate, reaches an inflection point, and then increases at an &lt;em&gt;increasing&lt;/em&gt; rate. Show where each part of the function is concave or convex.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 3&lt;/h1&gt;
+&lt;p&gt;Solve the system of equations for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+2x+y&amp;amp;=20\\
+4x-3y&amp;amp;=10\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 4&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Simplify&lt;/em&gt; the following equation:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Z=\frac{0.5X^{-0.5} Y^{0.5}}{0.5X^{0.5}Y^{-0.5}}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 5&lt;/h1&gt;
+&lt;p&gt;For the function &lt;span class=&#34;math inline&#34;&gt;\(f(x) = 3x^2+2x-7\)&lt;/span&gt;:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;Take the derivative of &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt;, i.e. &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x)\)&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;In English, describe what the derivative of &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt; means.&lt;/li&gt;
+&lt;li&gt;Evaluate &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(4)\)&lt;/span&gt;. In English, describe what this means.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 6&lt;/h1&gt;
+&lt;p&gt;Find the maximum value of the function:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[f(x)=-2x^2+16x\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 7&lt;/h1&gt;
+&lt;p&gt;Explain what a tangency on a curve means. What is true about the tangent line?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 8&lt;/h1&gt;
+&lt;p&gt;On a scale of 1 (worst) to 10 (best), rate your algebra skills (i.e. solving equations, graphing lines, working with fractions, etc.).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 9&lt;/h1&gt;
+&lt;p&gt;Have you had any experience with calculus?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-10&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Question 10&lt;/h1&gt;
+&lt;p&gt;On a scale of 1 (least) to 10 (most), how anxious are you about this class? Feel free to elaborate any specific anxieties – it will make it more likely that I can specifically address them!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 1</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/01-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/01-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by class on Monday September 13.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/01-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/01-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/01-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;How can we use utility functions, which have actual numbers that can be measured and compared, to model preferences and still say with a straight face that preferences are subjective? Hint: what does it mean for a utility function to be &lt;em&gt;ordinal&lt;/em&gt; or &lt;em&gt;cardinal&lt;/em&gt;? Why can multiple utility functions describe the same preferences?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what the &lt;em&gt;marginal rate of substitution&lt;/em&gt; between two goods means. How is it different from the slope of the budget constraint?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what happens at the optimum consumption point. Why is it the optimum? What does the equality of the slope of the indifference curve and the slope of the budget constraint &lt;em&gt;mean&lt;/em&gt;, in English?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Juan enjoys both music and fireworks. His income is &lt;span&gt;$&lt;/span&gt;240 per month. Music streaming costs &lt;span&gt;$&lt;/span&gt;12 per month, and fireworks cost &lt;span&gt;$&lt;/span&gt;8 per bag.&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Graph the budget constraint Juan faces, with music on the vertical axis and fireworks on the horizontal axis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;If Juan spends all his income on music, how much music can he afford? Plot a point that illustrates this scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;If Juan spends all his income on fireworks, how many bags of reworks can he afford? Plot a point that illustrates this scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;If Juan spends half his income on fireworks and half his income on music, how much of each can he afford? Plot a point that illustrates this scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Connect the dots to create Juan’s budget constraint. What is the slope of the budget constraint?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Suppose that a holiday bonus raises Juan’s income temporarily to $360. Draw Juan’s new budget constraint.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Now suppose that during the holiday, with his holiday bonus, the price of fireworks increases to $12 and the price of music increases to 18. If he spends all of his income on fireworks, how many can Juan buy? How about music? What happens to his budget constraint, and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Ashkar has the following utility function for consuming peanut butter &lt;span class=&#34;math inline&#34;&gt;\((p)\)&lt;/span&gt; and jelly &lt;span class=&#34;math inline&#34;&gt;\((j)\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[u(p,j) = 3pj\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;His marginal utilities are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_p &amp;amp;= 3j\\
+MU_j &amp;amp;= 3p\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Put &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; on the horizontal axis and &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt; on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{p,j}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose he is currently consuming bundle&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; &lt;span class=&#34;math inline&#34;&gt;\(a = (4,1)\)&lt;/span&gt;. How much utility is he getting?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;From his current consumption, how much &lt;em&gt;more&lt;/em&gt; utility would he get by consuming 1 more &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;? What about 1 more &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;From his current consumption, how many units of &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt; is he willing to give up to get 1 more unit of &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; and remain indifferent? How many units of &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is he willing to give up to get 1 more &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt; and remain indifferent?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Suppose he can choose between bundles &lt;span class=&#34;math inline&#34;&gt;\(a = (4,1)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(b=(2,2)\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(c=(1,4)\)&lt;/span&gt;. What are his preferences between them?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Would he prefer bundle &lt;span class=&#34;math inline&#34;&gt;\(d = (2,1)\)&lt;/span&gt; over a bundle from part E? Why or why not?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Sketch a graph, plotting bundles &lt;span class=&#34;math inline&#34;&gt;\(a, b, c\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt;. Indicate any indifference curve(s) they are on, and how much utility each provides.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Kelly’s utility function for drinking Coke (&lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt;) and Pepsi (&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;) is given by:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    u(c,p) &amp;amp;= 5c + 2p\\
+    MU_c &amp;amp;= 5\\
+    MU_p &amp;amp;= 2\\
+\end{align*}\]&lt;/span&gt;
+Put Coke on the horizontal axis and Pepsi on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Can Kelly get utility by consuming &lt;em&gt;only&lt;/em&gt; Coke or &lt;em&gt;only&lt;/em&gt; Pepsi?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{c,p}\)&lt;/span&gt;.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Are the bundles &lt;span class=&#34;math inline&#34;&gt;\((c=2, p=5)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\((c=4,p=0)\)&lt;/span&gt; on the same indifference curve?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;What is &lt;span class=&#34;math inline&#34;&gt;\(MRS_{c,p}\)&lt;/span&gt; when &lt;span class=&#34;math inline&#34;&gt;\(c=1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p=5\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Given your answers, what is the relationship between Coke and Pepsi for Kelly?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Sketch a few indifference curves.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;A consumer has the following utility function:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(x,y)=\sqrt{xy}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Fill in the following table by calculating the utility for each bundle of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;. Round to two decimal places.&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;empty-cells: hide;border-bottom:hidden;&#34; colspan=&#34;2&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; &#34; colspan=&#34;3&#34;&gt;
+&lt;div style=&#34;border-bottom: 1px solid #ddd; padding-bottom: 5px; &#34;&gt;
+y
+&lt;/div&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+0
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+1
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+2
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+3
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+0
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Graph three indifference curves on the same graph below: the first showing the bundle(s) that yield a utility level of 1; the second showing the bundle(s) that yield a utility level of 2; the third showing the bundle(s) that yield a utility level of 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/assignments/01-problem-set_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;The marginal utilities are given by:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_x&amp;amp;=0.5x^{-0.5}y^{0.5}\\
+MU_y&amp;amp;=0.5x^{0.5}y^{-0.5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{x,y}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Suppose this consumer has an income of $10, the price of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; is $2.50, and the price of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is also $2.50. Write an equation for the budget constraint (in graphable form, in terms of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;), and put it on the same graph above.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Find the optimal combination of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; where the consumer maximizes utility subject to income. Label this point &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part F&lt;/h2&gt;
+&lt;p&gt;How much utility does the consumer earn at the optimum?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Sandwich, I suppose!&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Hint: think about the relationship between these goods. It may not be a “typical” equation.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 2</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/02-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/02-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by class on Monday September 20.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/02-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/02-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/02-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, the (i) price effect, (ii) real income effect, and (iii) substitution effect from a price change.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Under what conditions can the law of demand be violated (however theoretical)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;For each of the following pairs, which of the two goods is more likely to have a &lt;em&gt;low&lt;/em&gt; price elasticity of demand (less elastic) and why?&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Demand for tangerines vs. demand for fruit&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Demand for beef next month vs. demand for beef over the next decade&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Demand for Exxon gasoline at the corner of 7th and Grand vs. demand for gasoline in the entire city&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Demand for insulin vs. demand for vitamins&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Suppose that, holding prices constant, Alice has preferences over the number of books she purchases, illustrated in the table below.&lt;/p&gt;
+&lt;table class=&#34;table table-striped table-hover&#34; style=&#34;width: auto !important; margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Income
+&lt;/th&gt;
+&lt;th style=&#34;text-align:right;&#34;&gt;
+Books
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$5
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+5
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$10
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$15
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+20
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$20
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+25
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$25
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+26
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$30
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+10
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$35
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+9
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$40
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+8
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$45
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+7
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+$50
+&lt;/td&gt;
+&lt;td style=&#34;text-align:right;&#34;&gt;
+6
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Draw a smooth approximation of Alice’s Engel curve for books, and indicate the range(s) of income over which books are &lt;em&gt;normal&lt;/em&gt; and/or &lt;em&gt;inferior&lt;/em&gt; goods.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;quantitative-applications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Quantitative Applications&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Steve spends his disposable income on meals at restaurants &lt;span class=&#34;math inline&#34;&gt;\((r)\)&lt;/span&gt; and paperback novels &lt;span class=&#34;math inline&#34;&gt;\((n)\)&lt;/span&gt;. His usual restaurant meal costs &lt;span&gt;$&lt;/span&gt;25, and paperback books cost &lt;span&gt;$&lt;/span&gt;8. When Steve’s monthly income is &lt;span&gt;$&lt;/span&gt;240, he goes out to eat 8 times and purchases 5 books. When his income rises to &lt;span&gt;$&lt;/span&gt;282, he goes out to eat 10 times and purchases 4 books.&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Calculate the income elasticity for meals at restaurants &lt;span class=&#34;math inline&#34;&gt;\((r)\)&lt;/span&gt;. Is this an inferior, necessity, or luxury good?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the income elasticity for paperback novels &lt;span class=&#34;math inline&#34;&gt;\((n)\)&lt;/span&gt;. Is this an inferior, necessity, or luxury good?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Kendra buys eggs &lt;span class=&#34;math inline&#34;&gt;\((e)\)&lt;/span&gt;, bagels &lt;span class=&#34;math inline&#34;&gt;\((b)\)&lt;/span&gt;, and coffee &lt;span class=&#34;math inline&#34;&gt;\((c)\)&lt;/span&gt; for breakfast for the week.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;When eggs are &lt;span&gt;$&lt;/span&gt;2/carton, she buys 5 bagels. When the price of eggs falls to &lt;span&gt;$&lt;/span&gt;1/carton, she buys 4 bagels. Calculate the cross-price elasticity between eggs and bagels. Are they complements or substitutes for Kendra?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;When eggs are &lt;span&gt;$&lt;/span&gt;2/carton, she buys 3 cups of coffee. When the price of eggs falls to &lt;span&gt;$&lt;/span&gt;1/carton, she buys 6 cups of coffee. Calculate the cross-price elasticity between eggs and coffee. Are they complements or substitutes for Kendra?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Sketch a graph showing a &lt;em&gt;decrease&lt;/em&gt; in the price of a good (on the horizontal axis, e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; if you want). Indicate the (real) income effect, substitution effect, and price effect on the graph. Labeling points and describing each effect as a movement between specific points is sufficient.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;The demand for gym memberships is given by
+&lt;span class=&#34;math display&#34;&gt;\[q_D=500-5p\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write the inverse demand function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of demand at a price of &lt;span&gt;$&lt;/span&gt;80. Is this relatively elastic or relatively inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;What is the total revenue at a price of &lt;span&gt;$&lt;/span&gt;80?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of demand at a price of &lt;span&gt;$&lt;/span&gt;10. Is this relatively elastic or relatively inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;What is the total revenue at &lt;span&gt;$&lt;/span&gt;10?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;At what price is demand unit elastic, i.e. &lt;span class=&#34;math inline&#34;&gt;\(\epsilon_D=-1\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;What is the total revenue at the price you find in part (f)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 3</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/03-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/03-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by the end of the day Monday October 18.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/03-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/03-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/03-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what the marginal rate of technical substitution means. How is it different from the slope of the isocost line?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what is true at the least-cost input combination (the optimum) for a firm. Why is it the optimum? What does the equality of the slope of the isoquant curve and the slope of the isocost line &lt;em&gt;mean&lt;/em&gt;, in English?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Explain the difference between the short run and the long run in production.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what the law of diminishing marginal returns means. How can firms continue to increase output?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Suppose a firm can hire labor at &lt;span&gt;$&lt;/span&gt;5/hour and rent capital for &lt;span&gt;$&lt;/span&gt;20 per hour.&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for the total cost of the firm.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose the firm wants to spend exactly &lt;span&gt;$&lt;/span&gt;100. With labor on the horizontal axis and capital on the vertical axis, find the equation of the isocost line (in a graphable form), and graph it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;If the firm is completely automated (i.e. it uses &lt;em&gt;only&lt;/em&gt; capital), how many units of capital can they employ for $100?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;If the firm uses only labor, how many units of labor can they employ for&lt;span&gt;$&lt;/span&gt;100?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;What is the slope of the isocost line? What does it represent?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Suppose a tax on capital makes renting capital raises the price of capital to $25 per hour. What is the new (graphable) equation of the $100 isocost line? Graph the new isocost line on the same graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;For each of the following production functions, identify whether the production process exhibits constant returns to scale, increasing returns to scale, or decreasing returns to scale. Be sure to show your work!&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2L+4K\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=6L^{0.25}K^{0.75}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2L^{0.8}K^{0.4}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2L^{0.25}K^{0.25}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Jerry’s Berries is a small farm that has the following production function for strawberries using combinations of labor &lt;span class=&#34;math inline&#34;&gt;\((l)\)&lt;/span&gt; and land &lt;span class=&#34;math inline&#34;&gt;\((t)\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[q = 2 \, lt\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The marginal products (of labor, &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt;; and land, &lt;span class=&#34;math inline&#34;&gt;\(t)\)&lt;/span&gt; are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MP_l &amp;amp;= 2t\\
+MP_t &amp;amp;= 2l\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Put labor, &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; on the horizontal axis and land, &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRTS_{l,t}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose the farm is currently using 4 units of labor and 1 unit of land. How much output (tons of strawberries) is the farm producing?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;From its current production, how much &lt;em&gt;more&lt;/em&gt; output would the farm get by utilizing 1 more unit of labor? What about 1 more unit of land (instead of labor)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;From its current production, how many units of land would the farm be willing to forgo in order to use one more unit of labor and still produce the same output as before? How many units of labor would the farm be willing to forgo in order to use one more unit of land and still produce the same output as before?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Suppose the farm can choose between input combinations of &lt;span class=&#34;math inline&#34;&gt;\(a = (4,1)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(b=(2,2)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(c=(2,1)\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(d=d(3,2)\)&lt;/span&gt;. What outputs does each combination yield?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Sketch a graph, plotting bundles &lt;span class=&#34;math inline&#34;&gt;\(a, b, c\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt;. Indicate any isoquant curve(s) they are on, and how much output each provides.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;Mad Max’s Road Warriors fix potholes in interstate highways. Max’s road crews fill potholes using workers and shovels, always in 1 to 1 combinations. Using 1 worker with 1 shovel can fill 10 potholes in a day. A worker with 2 shovels can still only fill 10 potholes, as can 2 workers with 1 shovel.&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;What is the relationship between workers and shovels as inputs?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Draw three production isoquants: one corresponding to filling 10 potholes, one for 20 potholes, and one for 30 potholes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Mad Max receives a state contract to fill in 30 potholes. If the price of shovels is $10, and wages are $5, what is the lowest cost Mad Max can fulfill the contract at? Plot this isocost line on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Add two more isocost lines to the graph, one for a total cost of $15 and one for $30. Hint: you’ll need to find the equations, and nicely, the slope doesn’t change.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;If the cost of buying a shovel rises from $10 to $20, what will happen to the rate at which Max Max combines workers and shovels to fill the potholes? Why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 9&lt;/h2&gt;
+&lt;p&gt;Your firm builds aircraft engines using both labor (L) and power tools (K). The production function for aircraft engines is &lt;span class=&#34;math inline&#34;&gt;\(q=10 L^{0.5}K^{0.5}\)&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Can you completely mechanize the production of aircraft engines (i.e. produce using all capital, no labor)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose you currently have 100 power tools. In the short run, you cannot buy or sell power tools. Derive your short run production function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Find the (i) total product of labor, (ii) average product of labor, and (iii) marginal product of labor for using 0, 1, 2, 3, 4, and 5 workers.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Round to the nearest engine. Does labor experience diminishing returns?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Using your answer from Part C, sketch two graphs (roughly), one of total product, and one of marginal and average product, each with labor on the horizontal axis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;In the long run, does the production function exhibit constant returns to scale, increasing returns to scale, or decreasing returns to scale?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-10&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 10&lt;/h2&gt;
+&lt;p&gt;Dunder Mifflin paper company produces reams of paper each week according to the production function:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}q &amp;amp;=10 l^{0.5} k^{0.5}\\
+MP_l&amp;amp; = 5l^{-0.5}k^{0.5}\\
+MP_k&amp;amp; = 5l^{0.5}k^{-0.5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;They have determined that they need to ship 1,000 reams of paper this week to Scranton, PA. Using capital costs $20, whereas labor costs $10.&lt;/p&gt;
+&lt;div id=&#34;part-a-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;What is the cost-minimizing combination of labor and capital that will yield 1,000 reams of paper? Round each to the nearest whole number.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;What is the total cost of using this combination of inputs?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Now suppose that they need to double their output this week, and need to produce 2,000 reams of paper. How does their optimal combination of inputs change?&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-5&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;What is the total cost of this new level of output?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Suppose management at Dunder Mifflin develops a new program that magically makes everyone at the firm more productive, such that the firm’s new production function becomes:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}q &amp;amp;=20 l^{0.5} k^{0.5}\\
+MP_l&amp;amp; = 10l^{-0.5}k^{0.5}\\
+MP_k&amp;amp; = 10l^{0.5}k^{-0.5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Still needing to supply 2,000 reams of paper this week at the same input prices, what is their new optimal combination of labor and capital?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;How much does this combination cost? What does this show you about technological improvement (or “total factor productivity”)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Hint: make a table!&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Hint: neither the equation for MRTS nor any prices are changing!&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 4</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/04-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/04-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by the end of the day Monday October 25.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/04-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/04-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/04-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;What is the difference between accounting profit and economic profit? Is it possible for a firm to be profitable in an accounting sense but not an economic sense? Is it possible for a firm to be profitable in an economic sense but not an accounting sense?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;In a competitive industry, with &lt;em&gt;identical&lt;/em&gt; firms (e.g. all firms have the same costs, there are no economic rents), why are profits normal (zero) in the long run?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;In a competitive industry, even among firms with &lt;em&gt;significant cost differences&lt;/em&gt; (e.g. there are economic rents), why do profits tend to return to normal (0) in the long run?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Frame de Art is an art framing shop in a small town. Frame de Art has one storefront (with a rent of &lt;span&gt;$&lt;/span&gt;500/week), and can hire workers for &lt;span&gt;$&lt;/span&gt;300/week per worker. The table below shows how output of framed art (in 100s/week) varies with the number of workers.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;right&#34;&gt;Output (hundreds)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Labor&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(0\)&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(0\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(1\)&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(1\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(2\)&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(3\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(3\)&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(6\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(4\)&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(11\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(5\)&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(20\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Assuming labor is the only variable cost, make a table to calculate the &lt;em&gt;average cost&lt;/em&gt; and &lt;em&gt;marginal cost&lt;/em&gt; of 0, 1, 2, 3, 4, and 5 (hundred) framing jobs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Mike’s Bikes produces racing bicycles. Consider the following graph, which illustrates the short run average total cost curves corresponding to three possible plant sizes Mike could produce with: a small plant, a medium plant, and a large plant.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/assignments/04-problem-set_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;If Mike wanted to produce 125 bikes, what size plant should be used, and why? What about 150 bikes?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;If Mike wanted to produce 250 bikes, what size plant should be used, and why? What about 275 bikes?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Draw the &lt;em&gt;long run average cost curve&lt;/em&gt; on the graph provided (or sketch one yourself).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Suppose Mike’s long run total cost function can be roughly expressed as:&lt;br /&gt;
+&lt;span class=&#34;math display&#34;&gt;\[LRC(q)=\frac{1}{64}q^3-6.25q^2+725q\]&lt;/span&gt;
+with a long run marginal cost function of&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[LRMC(q)=\frac{3}{64}q^2-12.5q+725\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Find the quantity of bikes where long run average cost is minimized. Plot this point on your graph. At what range of production does Mike experience economies of scale? At what range of production does Mike experience diseconomies of scale?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Daniel’s Midland Archers has the following cost structure for producing archery bows:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(q)&amp;amp;=2q^2+3q+50 \\ 
+MC(q)&amp;amp;=4q+3\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for fixed costs, &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Write an equation for variable costs, &lt;span class=&#34;math inline&#34;&gt;\(VC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Write an equation for average fixed costs, &lt;span class=&#34;math inline&#34;&gt;\(AFC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Write an equation for average variable costs, &lt;span class=&#34;math inline&#34;&gt;\(AVC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Write an equation for average (total) costs, &lt;span class=&#34;math inline&#34;&gt;\(AC(q)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;At what price does Daniel’s Midland Archers break even?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Below what price would Daniel’s Midland Archers shut down in the short-run?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-h&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part H&lt;/h3&gt;
+&lt;p&gt;Write an equation for the firm’s short-run inverse supply curve, and sketch a rough graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-i&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part I&lt;/h3&gt;
+&lt;p&gt;What differences would there be between how Daniel’s Midland Archers decides to produce in the short run versus the long run?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-j&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part J&lt;/h3&gt;
+&lt;p&gt;In the long run, with many identical sellers of archery bows, what would be the equilibrium price?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Assume that consumers view tax preparation services as undifferentiated among producers, and that there are hundreds of companies offering tax preparation in a given market. The current market equilibrium price is $120. Joe Audit’s Tax Service has a daily short-run cost structure given by&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(q)&amp;amp;=100+4q^2 \\
+MC(q)&amp;amp;=8q\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;How many tax returns should Joe prepare each day if his goal is to maximize profits?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;How much profit will he earn each day?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;At what market price would Joe break even?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Below what hypothetical price would Joe shut down in the short run?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 5</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/05-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/05-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by the end of the day Monday November 22.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/05-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/05-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/05-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;In your own words, what do (1) allocative efficiency, (2) productive efficiency, and (3) Pareto efficiency mean? Under what three conditions are markets efficient?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;In your own words, what are the functions of market prices in society?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;In your own words, what are transaction costs, and how do they affect exchange?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;In your own words, explain the law of one price. &lt;em&gt;Why&lt;/em&gt; would we expect it to be true (i.e. what market processes push us towards the predicted outcome)? What might &lt;em&gt;prevent&lt;/em&gt; the same goods from being exchanged at the same price? [Hint: Think about your answer to the previous question!]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what entrepreneurship is, and how it affects market prices.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what consumer surplus and producer surplus mean. If Ann is willing to pay up to &lt;span&gt;$&lt;/span&gt;6,000 for a used car, but buys it at a market price of &lt;span&gt;$&lt;/span&gt;2,000, what is her consumer surplus? What is the producer’s surplus for Bob, who sells Ann the car for &lt;span&gt;$&lt;/span&gt;2,000, but would be willing to go as low as &lt;span&gt;$&lt;/span&gt;1,000?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;In your own words, explain why consumers who have &lt;em&gt;less&lt;/em&gt; elastic demand earn &lt;em&gt;greater&lt;/em&gt; consumer surplus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what an externality is. Give an example, and draw a graph — either for a negative externality or a positive externality. Explain some possible ways that the problem can be solved.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 9&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what a public good is, and give an example. Explain why markets face problems providing public goods.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-10&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 10&lt;/h2&gt;
+&lt;p&gt;In your own words, explain the “nirvana fallacy” and provide an example.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-11&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 11&lt;/h2&gt;
+&lt;p&gt;The Ministry of Tourism in the Republic of Palau estimates that the monthly supply and demand for its scuba diving tours are:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    q_S&amp;amp;=30p-2000\\
+    q_D&amp;amp;=6000-20p\\ 
+    \end{align*}\]&lt;/span&gt;
+&amp;gt; where quantity represents the number of individual dives each month and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the price of a two-tank dive.&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Calculate the equilibrium quantity and price (&lt;span class=&#34;math inline&#34;&gt;\(q^*,p^*)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the consumer surplus received by divers visiting Palau, and the producer surplus received by the dive ships.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of demand at equilibrium. Is it relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of supply at equilibrium. Is it relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Who earns more surplus, consumers or producers, and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Suppose that the demand for scuba diving services increases, and that the new demand curve is given by &lt;span class=&#34;math inline&#34;&gt;\(q_D&amp;#39;=7,000-20P\)&lt;/span&gt;. Calculate the impact of this change in demand on the consumer surplus and producer surplus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Draw a well-labelled graph of all that you found in this question (label prices, quantities, surpluses, curves, etc).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-12&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 12&lt;/h2&gt;
+&lt;p&gt;The market for hotel rooms in a small town is characterized by the following equations:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+q_D&amp;amp;=200-0.4p\\
+q_S&amp;amp;=0.8p-40\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Calculate the equilibrium price and quantity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of demand and price elasticity of supply in equilibrium. Is each relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Calculate the consumer and producer surplus in equilibrium. Who gets more surplus, and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Suppose the local government sets a price ceiling on the price of hotel rooms - saying they can charge no more than $150/night. At $150, how many hotel rooms do consumers want to rent, and how many rooms do the hotels want to rent out? What is this situation?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Explain what would happen as a result of part D if the price were allowed to change.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;The price cannot change because of the price control. Hotels will only rent out the quantity you found in part D. Calculate consumer surplus and producer surplus at this price and quantity. Compare it to your answer in part C, what has changed?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Due to the situation created, how do you think those hotel rooms will be allocated and why? [Hint: Think about the example we did with COVID.]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 6</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/06-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/06-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    UNGRADED: For final exam practice only!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/06-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/06-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/06-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Compare and contrast the features of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;perfect competition&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;monopoly&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;oligopoly&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;4&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;monopolistic competition&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rank each of the above 4 market structures (from smallest/lowest to largest/highest) in terms of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;the number of firms&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;long-run market price&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;equilibrium industry output&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;4&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;consumer surplus&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;22&#34; style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;long-run economic profits&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;6&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;deadweight loss&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Indicate based on the given information whether an industry is likely &lt;strong&gt;perfectly competitive&lt;/strong&gt;, &lt;strong&gt;monopolistically competitive&lt;/strong&gt;, an &lt;strong&gt;oligopoly&lt;/strong&gt;, or a &lt;strong&gt;monopoly&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fairfax, Virginia has three movie theaters&lt;/li&gt;
+&lt;li&gt;Restaurants in the greater Piedmont area, with many different cuisines to choose from&lt;/li&gt;
+&lt;li&gt;All of Connecticut gets its electricity from Connecticut Light &amp;amp; Power company&lt;/li&gt;
+&lt;li&gt;Laptops, where you can choose from many different brands (Acer, Asus, Gateway, Toshiba, Sony, HP, Dell, IBM, Lenovo, etc) and each is slightly different&lt;/li&gt;
+&lt;li&gt;Wheat in the U.S., provided by many small farmers, with each farmer’s wheat being identical to every other farmer’s wheat&lt;/li&gt;
+&lt;li&gt;The music industry, where Universal, Sony, EMI, and Warner account for 87% of the market&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Indicate which good is more likely to have a &lt;strong&gt;higher markup&lt;/strong&gt; for firms with market power in these industries, and why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alcohol or jewelry&lt;/li&gt;
+&lt;li&gt;Prescription drugs or televisions&lt;/li&gt;
+&lt;li&gt;Gym memberships or school supplies&lt;/li&gt;
+&lt;li&gt;Doughnuts or bread&lt;/li&gt;
+&lt;li&gt;Popcorn in a movie theater or popcorn from a street vendor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Describe the conditions required to make a market &lt;em&gt;contestable.&lt;/em&gt; Describe and compare the Nash equilibrium of a contestable market with a pure monopoly, and with perfect competition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Explain what a cartel is, and comment on their stability.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Consider the following &lt;em&gt;Entry game&lt;/em&gt; in normal form. Suppose there are two firms, each of whom can choose to Enter a market, or Stay Out. If both firms enter, they split the market, each earning $50. If both stay out, each firm earns $0. If one enters and the other stays out, the entrant can act as a monopolist and earns $100, with the other firm earning $0.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/images/entrygame1.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;What is the Nash Equilibrium of this game?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Suppose you are a restaurant in a &lt;strong&gt;monopolistically competitive&lt;/strong&gt; industry. Your firm has a constant marginal and average cost at $4 per unit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/assignments/06-problem-set_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;If this were a perfectly competitive market, what would be the market price and equilibrium quantity?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the (i) consumer surplus, (ii) profit, and (iii) deadweight loss at this price and quantity. Show these on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Now suppose this firm has market power from a barrier to entry, and can operate like a monopolist. What price and quantity does it set?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Calculate the (i) consumer surplus, (ii) profit, and (iii) deadweight loss at this price and quantity. Show these on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Now suppose that the firm had earned this market power via rent-seeking. From its lobbying efforts, it had convinced the local government to require all new restaurants to get a special license, making it harder for new entrants to compete in the market. What was the most that this firm was willing to spend on lobbying in order to get the license requirement?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;If there are 10 identical (in terms of costs and size, if not food or brand) restaurants in the industry, and all engage in maximal rent-seeking to obtain the license, what is the true total cost of market power in this market to society?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;You are a producer of smartphones and have some market power. You have a cost structure:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(q)&amp;amp;=10q^2+200q+1000\\
+MC(q)&amp;amp;=20q+200\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You estimate the demand for your smartphones to be:
+&lt;span class=&#34;math display&#34;&gt;\[q=100-0.2p\]&lt;/span&gt;
+where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; is millions of smartphones.&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Find the function for your marginal revenues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;How many smartphones should you produce, and at what price, to maximize your profit?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;What is the cost per smartphone at the quantity you are producing?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;What is your total profit?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;What would be the lowest possible price you would need to charge to break even?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;How much of your price is markup over marginal cost?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Calculate the elasticity of demand at your profit-maximizing price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 9&lt;/h2&gt;
+&lt;p&gt;Suppose that the market demand for bentonite is given by
+&lt;span class=&#34;math display&#34;&gt;\[q = 40 - 0.5p\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; tons of bentonite per day and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the price per ton. Bentonite is produced by a monopolist at a constant marginal and average total cost of $10 per ton.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Find the marginal revenue curve for the monopolist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Find the profit-maximizing level of output and price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;How much profit does the monopolist earn?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;How much of the price is markup over marginal cost?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Calculate the elasticity of demand at the profit-maximizing price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-10&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 10&lt;/h2&gt;
+&lt;p&gt;Consider a boat rental firm on a popular beach that has a constant average and marginal cost of $30 per boat hire. It has estimated that demand from Locals &lt;span class=&#34;math inline&#34;&gt;\((L)\)&lt;/span&gt; and demand from Tourists &lt;span class=&#34;math inline&#34;&gt;\((T)\)&lt;/span&gt; are:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+q_L&amp;amp;=40-0.4p\\
+q_T&amp;amp;=25-0.1p\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;div id=&#34;suppose-it-must-charge-a-single-price-to-all-customers.-find-the-profit-maximizing-quantity-price-and-the-total-profits.&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Suppose it must charge a single price to all customers. Find the profit-maximizing quantity, price, and the total profits.&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;How much of the price is markup?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;What is the price elasticity of demand at this price?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Now suppose the firm is able to segment the market and charge different prices to Tourists and Locals. Find the profit-maximizing quantity, price, and the total profits.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;For each segment of the market: how much of the price is markup, and what is the price elasticity of demand at the optimal price? How did the price for each segment change from the single price (Part A), and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Instructions</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/problem-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/problem-sets/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;There will be several problem sets (typically 5-6) spaced throughout the semester. Typically, after we cover a major concept or set of tools, I will assign a problem set to practice this material.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;logistics-submitting-on-blackboard&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Logistics: Submitting on Blackboard&lt;/h2&gt;
+&lt;p&gt;Please &lt;strong&gt;type&lt;/strong&gt; your answers to the following questions in a document and &lt;strong&gt;save as a PDF&lt;/strong&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; to &lt;strong&gt;upload on Blackboard&lt;/strong&gt; under Assignments. You may handwrite answers if you will be able to scan/photograph &amp;amp; convert them &lt;strong&gt;to a single PDF&lt;/strong&gt;, if they are easily readable, but this is &lt;em&gt;not preferred&lt;/em&gt;. See my &lt;a href=&#34;https://microS22.classes.ryansafner.com/resources/pdfs&#34;&gt;guide to making a PDF&lt;/a&gt; - an essential skill in the modern world. If you are handwriting answers, you may print the &lt;code&gt;pdf&lt;/code&gt; above and write on it, or just write on a piece of paper (we only need your answers, not the questions).&lt;/p&gt;
+&lt;p&gt;For the few questions that ask you to draw a &lt;strong&gt;graph&lt;/strong&gt;, &lt;em&gt;try&lt;/em&gt; to do so &lt;em&gt;on your computer&lt;/em&gt; (use MS Paint, the drawing tools in MS Word or MS Powerpoint, plot points in MS Excel, drawing/notetaking apps, etc.), and save it as an image to include on your homework document. Again, they need not be perfect or to scale, just show that you understand the broad idea. Being able to understand and sketch the graphs is still a very important and useful skill! If all else fails, I will be lenient in grading graph questions if you are unable to technologically include a graph.&lt;/p&gt;
+&lt;p&gt;You may work together (and I highly encourage that) but you must turn in your own answers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;grading&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Grading&lt;/h2&gt;
+&lt;p&gt;Your TA, under my supervision, will grade homeworks 70% for completion, and for the remaining 30%, and one question will be graded for accuracy - so it is best that you try every problem, even if you are unsure how to complete it accurately.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feel free to ask both me and your TA, or come to office hours, if you have any questions or need any help.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;In MS Word, or Pages, or most word processing software, File -&amp;gt; Save As -&amp;gt; PDF, or File -&amp;gt; Export -&amp;gt; PDF.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
