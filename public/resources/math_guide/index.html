@@ -30,7 +30,8 @@
     
   
   <meta name="description" content="Below, find the link to the Math Review guide in PDF format.
- Download PDF If time permits, I will make these into individual pages here on the Resources section.">
+ Download PDF If time permits, I will make these into individual pages here on the Resources section.
+Functions and Inverse Functions  A function is simply a rule that assigns a unique value of a dependent variable (e.g. \(f(x)\)) to each value of an independent variable (e.g. \(x\)): \(x \rightarrow f(x)\)  Something is not a function if it assigns multiple values of \(y\) for the same value of \(x\) (e.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://microS22.classes.ryansafner.com/resources/math_guide/">
@@ -116,7 +117,8 @@
   <meta property="og:url" content="https://microS22.classes.ryansafner.com/resources/math_guide/">
   <meta property="og:title" content="Math Review | ECON 306 — Microeconomic Analysis">
   <meta property="og:description" content="Below, find the link to the Math Review guide in PDF format.
- Download PDF If time permits, I will make these into individual pages here on the Resources section."><meta property="og:image" content="https://microS22.classes.ryansafner.com/img/icon-192.png">
+ Download PDF If time permits, I will make these into individual pages here on the Resources section.
+Functions and Inverse Functions  A function is simply a rule that assigns a unique value of a dependent variable (e.g. \(f(x)\)) to each value of an independent variable (e.g. \(x\)): \(x \rightarrow f(x)\)  Something is not a function if it assigns multiple values of \(y\) for the same value of \(x\) (e."><meta property="og:image" content="https://microS22.classes.ryansafner.com/img/icon-192.png">
   <meta property="twitter:image" content="https://microS22.classes.ryansafner.com/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
@@ -444,6 +446,119 @@
 <a target="_blank" href="/files/math_review_guide.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span>
 </p>
 <p>If time permits, I will make these into individual pages here on the Resources section.</p>
+<div id="functions-and-inverse-functions" class="section level1">
+<h1>Functions and Inverse Functions</h1>
+<ul>
+<li>A <em>function</em> is simply a rule that assigns a unique value of a dependent variable (e.g. <span class="math inline">\(f(x)\)</span>) to each value of an independent variable (e.g. <span class="math inline">\(x\)</span>): <span class="math inline">\(x \rightarrow f(x)\)</span>
+<ul>
+<li>Something is <em>not</em> a function if it assigns <em>multiple</em> values of <span class="math inline">\(y\)</span> for the same value of <span class="math inline">\(x\)</span> (e.g. on a graph, a vertical line)</li>
+<li>We can relate any <em>independent</em> variable (e.g. <span class="math inline">\(x\)</span>) to any <em>dependent</em> variable (e.g. <span class="math inline">\(y\)</span>) <strong>so get comfortable using variables other than <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>!</strong></li>
+</ul></li>
+<li>In its general form a function can be written as:</li>
+</ul>
+<p><span class="math display">\[q = q(p)\]</span></p>
+<ul>
+<li><p>“Quantity (<span class="math inline">\(q\)</span>) is a function of price (<span class="math inline">\(p\)</span>)”</p></li>
+<li><p>This expresses that there is a relationship between <span class="math inline">\(q\)</span> and <span class="math inline">\(p\)</span>, it doesn’t tell us the <em>specific</em> form of that relationship</p></li>
+<li><p><span class="math inline">\(q\)</span> is the dependent or “endogenous” variable, its value is determined by <span class="math inline">\(p\)</span></p></li>
+<li><p><span class="math inline">\(p\)</span> is the independent or “exogenous” variable, its value is given and not dependent on other variables</p></li>
+<li><p>The specific form of this function might be:</p></li>
+</ul>
+<p><span class="math display">\[q = 100-6p\]</span></p>
+<ul>
+<li>The numbers 100 and 6 are known as <strong>parameters</strong>, they are parts of the quantitative relationship between quantity and price (the variables) that do not change</li>
+<li>If we have values of <span class="math inline">\(p\)</span>, we can find the value of <span class="math inline">\(q(p)\)</span>:
+<ul>
+<li>When <span class="math inline">\(p=10\)</span>
+<span class="math display">\[
+\begin{align*}
+q(p)&amp;=100-6p\\
+q(10)&amp;=100-6(10)\\
+q(10)&amp;=100-60\\
+q(10)&amp;=40\\ 
+\end{align*}
+\]</span></li>
+<li>When <span class="math inline">\(p=5\)</span>:
+<span class="math display">\[
+\begin{align*}
+q(p)&amp;=100-6p\\
+q(5)&amp;=100-6(5)\\
+q(5)&amp;=100-30\\
+q(5)&amp;=70\\  
+\end{align*}
+\]</span></li>
+</ul></li>
+<li><strong>Multivariate</strong> functions have multiple independent variables, such as:</li>
+</ul>
+<p><span class="math display">\[q=f(k,l)\]</span></p>
+<ul>
+<li><p>“Output (<span class="math inline">\(q\)</span>) is a function of both capital (<span class="math inline">\(k\)</span>) and labor (<span class="math inline">\(l\)</span>)”</p></li>
+<li><p>In economics, we often restrict the <em>domain</em> and <em>range</em> of functions to positive real numbers, <span class="math inline">\(\mathbb{R}_+\)</span>, since prices and quantities are never negative in the real world</p>
+<ul>
+<li><em>Domain</em>: the set of <span class="math inline">\(x\)</span>-values</li>
+<li><em>Range</em>: the set of <span class="math inline">\(y\)</span>-values determined by the function</li>
+</ul></li>
+</ul>
+<div id="inverse-functions" class="section level2">
+<h2>Inverse Functions</h2>
+<ul>
+<li>Many functions have a useful <em>inverse</em>, where we switch the independent variable and dependent variable
+<ul>
+<li>For example, if we have the demand function:
+<span class="math display">\[q=100-6p\]</span>
+we may want find the <strong>inverse demand function</strong>, an equation where <span class="math inline">\(p\)</span> is the dependent variable, rather than <span class="math inline">\(q\)</span> (this is how we normally graph Supply and Demand functions!)</li>
+<li>To do this, we need to solve the above equation for <span class="math inline">\(p\)</span>:
+<span class="math display">\[
+\begin{align*}
+        q&amp;=100-6p &amp;&amp;\text{The original equation}\\
+        q+6p&amp;=100 &amp;&amp; \text{Add } 6p \text{ to both sides}\\
+        6p&amp;=100-q &amp;&amp; \text{Subtract } q \text{ from both sides}\\
+        p&amp;=\frac{100}{6}-\frac{1}{6}q &amp;&amp; \text{Divide both sides by 6}\\
+\end{align*}
+\]</span></li>
+</ul></li>
+</ul>
+</div>
+<div id="functions-with-fractions" class="section level2">
+<h2>Functions with Fractions</h2>
+<ul>
+<li>Many people are rusty on a few useful algebra rules we will need, one being how to deal with fractions in equations</li>
+<li>To get rid of a fraction, multiply both sides of the equation by the fraction’s <em>reciprocal</em> (swap the numerator and denominator), which will yield just 1
+<span class="math display">\[
+\begin{align*}
+      100&amp;=\frac{1}{4}x &amp; &amp; \text{The equation to be solved for} x\\
+      \frac{4}{1} \big(\frac{100}{1}\big) &amp;=\frac{4}{1}\bigg(\frac{1}{4}x\bigg) &amp;&amp; \text{Multiplying by the reciprocal of } \frac{1}{4} \text{, which is } \frac{4}{1} \\
+      \frac{400}{1}&amp;=\frac{4}{4}x &amp; &amp; \text{Cross multiplying fractions}\\
+      400 &amp; = x &amp; &amp; \text{Simplifying}\\  
+      \end{align*}
+\]</span></li>
+<li>Alternatively (if possible), re-imagining the fraction as a decimal may help:
+<span class="math display">\[
+\begin{align*}
+      100&amp;=\frac{1}{4}x &amp;&amp; \text{The original equation}\\
+      100&amp;=0.25x &amp;&amp; \text{Converting to a decimal}\\
+      400 &amp; = x &amp;&amp; \text{Dividing both sides by }0.25\\   
+      \end{align*}
+\]</span></li>
+<li><em>Add</em> fractions by finding a common denominator:
+<span class="math display">\[
+\begin{align*}
+  \frac{4}{3} &amp;+ \frac{2}{5}\\
+  \bigg(\frac{4 \times 5}{3 \times 5}\bigg) &amp;+ \bigg(\frac{2 \times 3}{5 \times 3}\bigg)\\
+   \frac{20}{15}&amp;+\frac{6}{15}\\
+  &amp;= \frac{26}{15}\\
+  \end{align*}
+\]</span></li>
+<li><em>Multiply</em> fractions straight across the numerator and denominator
+<span class="math display">\[
+\frac{4}{3} \times \frac{2}{5}=\frac{4 \times 2}{3 \times 5}=\frac{8}{15}
+\]</span></li>
+</ul>
+</div>
+</div>
+<div id="graphing-linear-functions" class="section level1">
+<h1>Graphing Linear Functions</h1>
+</div>
 
           </div>
 

@@ -188,6 +188,119 @@
 &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;If time permits, I will make these into individual pages here on the Resources section.&lt;/p&gt;
+&lt;div id=&#34;functions-and-inverse-functions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Functions and Inverse Functions&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;em&gt;function&lt;/em&gt; is simply a rule that assigns a unique value of a dependent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt;) to each value of an independent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;): &lt;span class=&#34;math inline&#34;&gt;\(x \rightarrow f(x)\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;Something is &lt;em&gt;not&lt;/em&gt; a function if it assigns &lt;em&gt;multiple&lt;/em&gt; values of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; for the same value of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; (e.g. on a graph, a vertical line)&lt;/li&gt;
+&lt;li&gt;We can relate any &lt;em&gt;independent&lt;/em&gt; variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;) to any &lt;em&gt;dependent&lt;/em&gt; variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;) &lt;strong&gt;so get comfortable using variables other than &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;In its general form a function can be written as:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q = q(p)\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;“Quantity (&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;) is a function of price (&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;)”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This expresses that there is a relationship between &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, it doesn’t tell us the &lt;em&gt;specific&lt;/em&gt; form of that relationship&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; is the dependent or “endogenous” variable, its value is determined by &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the independent or “exogenous” variable, its value is given and not dependent on other variables&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The specific form of this function might be:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q = 100-6p\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The numbers 100 and 6 are known as &lt;strong&gt;parameters&lt;/strong&gt;, they are parts of the quantitative relationship between quantity and price (the variables) that do not change&lt;/li&gt;
+&lt;li&gt;If we have values of &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, we can find the value of &lt;span class=&#34;math inline&#34;&gt;\(q(p)\)&lt;/span&gt;:
+&lt;ul&gt;
+&lt;li&gt;When &lt;span class=&#34;math inline&#34;&gt;\(p=10\)&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+q(p)&amp;amp;=100-6p\\
+q(10)&amp;amp;=100-6(10)\\
+q(10)&amp;amp;=100-60\\
+q(10)&amp;amp;=40\\ 
+\end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;When &lt;span class=&#34;math inline&#34;&gt;\(p=5\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+q(p)&amp;amp;=100-6p\\
+q(5)&amp;amp;=100-6(5)\\
+q(5)&amp;amp;=100-30\\
+q(5)&amp;amp;=70\\  
+\end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multivariate&lt;/strong&gt; functions have multiple independent variables, such as:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=f(k,l)\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;“Output (&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;) is a function of both capital (&lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;) and labor (&lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt;)”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In economics, we often restrict the &lt;em&gt;domain&lt;/em&gt; and &lt;em&gt;range&lt;/em&gt; of functions to positive real numbers, &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}_+\)&lt;/span&gt;, since prices and quantities are never negative in the real world&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Domain&lt;/em&gt;: the set of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;-values&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Range&lt;/em&gt;: the set of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;-values determined by the function&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;inverse-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Inverse Functions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Many functions have a useful &lt;em&gt;inverse&lt;/em&gt;, where we switch the independent variable and dependent variable
+&lt;ul&gt;
+&lt;li&gt;For example, if we have the demand function:
+&lt;span class=&#34;math display&#34;&gt;\[q=100-6p\]&lt;/span&gt;
+we may want find the &lt;strong&gt;inverse demand function&lt;/strong&gt;, an equation where &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the dependent variable, rather than &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; (this is how we normally graph Supply and Demand functions!)&lt;/li&gt;
+&lt;li&gt;To do this, we need to solve the above equation for &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+        q&amp;amp;=100-6p &amp;amp;&amp;amp;\text{The original equation}\\
+        q+6p&amp;amp;=100 &amp;amp;&amp;amp; \text{Add } 6p \text{ to both sides}\\
+        6p&amp;amp;=100-q &amp;amp;&amp;amp; \text{Subtract } q \text{ from both sides}\\
+        p&amp;amp;=\frac{100}{6}-\frac{1}{6}q &amp;amp;&amp;amp; \text{Divide both sides by 6}\\
+\end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;functions-with-fractions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Functions with Fractions&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Many people are rusty on a few useful algebra rules we will need, one being how to deal with fractions in equations&lt;/li&gt;
+&lt;li&gt;To get rid of a fraction, multiply both sides of the equation by the fraction’s &lt;em&gt;reciprocal&lt;/em&gt; (swap the numerator and denominator), which will yield just 1
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+      100&amp;amp;=\frac{1}{4}x &amp;amp; &amp;amp; \text{The equation to be solved for} x\\
+      \frac{4}{1} \big(\frac{100}{1}\big) &amp;amp;=\frac{4}{1}\bigg(\frac{1}{4}x\bigg) &amp;amp;&amp;amp; \text{Multiplying by the reciprocal of } \frac{1}{4} \text{, which is } \frac{4}{1} \\
+      \frac{400}{1}&amp;amp;=\frac{4}{4}x &amp;amp; &amp;amp; \text{Cross multiplying fractions}\\
+      400 &amp;amp; = x &amp;amp; &amp;amp; \text{Simplifying}\\  
+      \end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Alternatively (if possible), re-imagining the fraction as a decimal may help:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+      100&amp;amp;=\frac{1}{4}x &amp;amp;&amp;amp; \text{The original equation}\\
+      100&amp;amp;=0.25x &amp;amp;&amp;amp; \text{Converting to a decimal}\\
+      400 &amp;amp; = x &amp;amp;&amp;amp; \text{Dividing both sides by }0.25\\   
+      \end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Add&lt;/em&gt; fractions by finding a common denominator:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+  \frac{4}{3} &amp;amp;+ \frac{2}{5}\\
+  \bigg(\frac{4 \times 5}{3 \times 5}\bigg) &amp;amp;+ \bigg(\frac{2 \times 3}{5 \times 3}\bigg)\\
+   \frac{20}{15}&amp;amp;+\frac{6}{15}\\
+  &amp;amp;= \frac{26}{15}\\
+  \end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Multiply&lt;/em&gt; fractions straight across the numerator and denominator
+&lt;span class=&#34;math display&#34;&gt;\[
+\frac{4}{3} \times \frac{2}{5}=\frac{4 \times 2}{3 \times 5}=\frac{8}{15}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graphing-linear-functions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Graphing Linear Functions&lt;/h1&gt;
+&lt;/div&gt;
 </description>
     </item>
     
