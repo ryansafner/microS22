@@ -188,23 +188,23 @@
 &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;If time permits, I will make these into individual pages here on the Resources section.&lt;/p&gt;
-&lt;div id=&#34;functions-and-inverse-functions&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Functions and Inverse Functions&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;A &lt;em&gt;function&lt;/em&gt; is simply a rule that assigns a unique value of a dependent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt;) to each value of an independent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;): &lt;span class=&#34;math inline&#34;&gt;\(x \rightarrow f(x)\)&lt;/span&gt;
+&lt;div id=&#34;functions-and-inverse-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Functions and Inverse Functions&lt;/h2&gt;
+&lt;p&gt;A &lt;em&gt;function&lt;/em&gt; is simply a rule that assigns a unique value of a dependent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt;) to each value of an independent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;): &lt;span class=&#34;math inline&#34;&gt;\(x \rightarrow f(x)\)&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Something is &lt;em&gt;not&lt;/em&gt; a function if it assigns &lt;em&gt;multiple&lt;/em&gt; values of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; for the same value of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; (e.g. on a graph, a vertical line)&lt;/li&gt;
 &lt;li&gt;We can relate any &lt;em&gt;independent&lt;/em&gt; variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;) to any &lt;em&gt;dependent&lt;/em&gt; variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;) &lt;strong&gt;so get comfortable using variables other than &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;!&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;In its general form a function can be written as:&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;In its general form a function can be written as:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q = q(p)\]&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;“Quantity (&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;) is a function of price (&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;)”&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;This expresses that there is a relationship between &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, it doesn’t tell us the &lt;em&gt;specific&lt;/em&gt; form of that relationship&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; is the dependent or “endogenous” variable, its value is determined by &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the independent or “exogenous” variable, its value is given and not dependent on other variables&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The specific form of this function might be:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;“Quantity (&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;) is a function of price (&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;)”&lt;/li&gt;
+&lt;li&gt;This expresses that there is a relationship between &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, it doesn’t tell us the &lt;em&gt;specific&lt;/em&gt; form of that relationship
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; is the dependent or “endogenous” variable, its value is determined by &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the independent or “exogenous” variable, its value is given and not dependent on other variables&lt;/li&gt;
+&lt;li&gt;The specific form of this function might be:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q = 100-6p\]&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -214,24 +214,24 @@
 &lt;li&gt;When &lt;span class=&#34;math inline&#34;&gt;\(p=10\)&lt;/span&gt;
 &lt;span class=&#34;math display&#34;&gt;\[
 \begin{align*}
-q(p)&amp;amp;=100-6p\\
-q(10)&amp;amp;=100-6(10)\\
-q(10)&amp;amp;=100-60\\
-q(10)&amp;amp;=40\\ 
+  q(p)&amp;amp;=100-6p\\
+  q(10)&amp;amp;=100-6(10)\\
+  q(10)&amp;amp;=100-60\\
+  q(10)&amp;amp;=40\\ 
 \end{align*}
 \]&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;When &lt;span class=&#34;math inline&#34;&gt;\(p=5\)&lt;/span&gt;:
 &lt;span class=&#34;math display&#34;&gt;\[
 \begin{align*}
-q(p)&amp;amp;=100-6p\\
-q(5)&amp;amp;=100-6(5)\\
-q(5)&amp;amp;=100-30\\
-q(5)&amp;amp;=70\\  
+  q(p)&amp;amp;=100-6p\\
+  q(5)&amp;amp;=100-6(5)\\
+  q(5)&amp;amp;=100-30\\
+  q(5)&amp;amp;=70\\  
 \end{align*}
 \]&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multivariate&lt;/strong&gt; functions have multiple independent variables, such as:&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Multivariate&lt;/strong&gt; functions have multiple independent variables, such as:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=f(k,l)\]&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;“Output (&lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;) is a function of both capital (&lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;) and labor (&lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt;)”&lt;/p&gt;&lt;/li&gt;
@@ -241,8 +241,8 @@ q(5)&amp;amp;=70\\
 &lt;li&gt;&lt;em&gt;Range&lt;/em&gt;: the set of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;-values determined by the function&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div id=&#34;inverse-functions&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Inverse Functions&lt;/h2&gt;
+&lt;div id=&#34;inverse-functions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Inverse Functions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Many functions have a useful &lt;em&gt;inverse&lt;/em&gt;, where we switch the independent variable and dependent variable
 &lt;ul&gt;
@@ -261,8 +261,8 @@ we may want find the &lt;strong&gt;inverse demand function&lt;/strong&gt;, an eq
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;functions-with-fractions&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Functions with Fractions&lt;/h2&gt;
+&lt;div id=&#34;functions-with-fractions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Functions with Fractions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Many people are rusty on a few useful algebra rules we will need, one being how to deal with fractions in equations&lt;/li&gt;
 &lt;li&gt;To get rid of a fraction, multiply both sides of the equation by the fraction’s &lt;em&gt;reciprocal&lt;/em&gt; (swap the numerator and denominator), which will yield just 1
@@ -298,8 +298,412 @@ we may want find the &lt;strong&gt;inverse demand function&lt;/strong&gt;, an eq
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;graphing-linear-functions&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Graphing Linear Functions&lt;/h1&gt;
+&lt;div id=&#34;graphing-linear-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Graphing Linear Functions&lt;/h2&gt;
+&lt;div id=&#34;slope-intercept-form&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Slope-Intercept Form&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A linear function of two variables can be written in &lt;em&gt;slope-intercept form&lt;/em&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[y=ax+b\]&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is the &lt;strong&gt;dependent variable&lt;/strong&gt; (on the vertical axis)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; is the &lt;strong&gt;independent variable&lt;/strong&gt; (on the horizontal axis)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; is the &lt;strong&gt;slope&lt;/strong&gt; of the line
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a = \frac{\text{rise}}{\text{run}} = \frac{\text{change in }y}{\text{change in }x} = \frac{\Delta x}{\Delta y}\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;you may have been taught the slope as “&lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt;”, this is just personal taste, but again, get used to using different letters!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is the &lt;strong&gt;vertical-intercept&lt;/strong&gt;, a constant number where the line crosses the vertical axis
+&lt;ul&gt;
+&lt;li&gt;if &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is the dependent variable, this is the “&lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;-intercept”, &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; where &lt;span class=&#34;math inline&#34;&gt;\(x=0\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Any point on the line has an &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;-coordinate and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;-coordinate &lt;span class=&#34;math inline&#34;&gt;\((x_i,y_i)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-forms&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Other Forms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A linear function can equivalently be expressed in the following form:
+&lt;span class=&#34;math display&#34;&gt;\[a_1x_1+a_2x_2=c\]&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x_2\)&lt;/span&gt; is the &lt;strong&gt;dependent variable&lt;/strong&gt; (on the vertical axis)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; is the &lt;strong&gt;independent variable&lt;/strong&gt; (on the horizontal axis)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt; is a constant&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;This is a valid equation, but is difficult to visualize in the traditional graph as above. Simply solve for the dependent variable on the vertical axis &lt;span class=&#34;math inline&#34;&gt;\((x_2\)&lt;/span&gt; as if you were solving for &lt;span class=&#34;math inline&#34;&gt;\(y)\)&lt;/span&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+a_1x_1+a_2x_2=c &amp;amp;&amp;amp; \text{Original}\\
+a_2x_2=c-a_1x_1  &amp;amp;&amp;amp; \text{Subtracting }x_1 \text{ term}\\
+x_2 = \frac{c}{a_2}-\frac{a_1}{a_2}x_1 &amp;amp;&amp;amp; \text{Dividing by }a_2 \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The vertical intercept is &lt;span class=&#34;math inline&#34;&gt;\(\frac{c}{a_2}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The horizontal intercept is &lt;span class=&#34;math inline&#34;&gt;\(\frac{c}{a_1}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The slope is &lt;span class=&#34;math inline&#34;&gt;\(-\frac{a_1}{a_2}\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This is extremely useful for dealing with constraints in constrained optimization problems: &lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.2-content&#34;&gt;&lt;strong&gt;budget constraints&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.2-content&#34;&gt;&lt;strong&gt;isocost lines&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;drawing-a-graph-from-an-equation&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Drawing a Graph From an Equation&lt;/h3&gt;
+&lt;p&gt;If we already have a linear equation that we would like to graph, we can follow these steps:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Take the equation and plug in two values, e.g. if we have:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[p = \frac{1}{2}q + 4\]&lt;/span&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;We can find two points on the graph. The easiest one to find is the vertical-intercept, where the line crosses the vertical axis, where &lt;span class=&#34;math inline&#34;&gt;\(q=0\)&lt;/span&gt;, so plug in &lt;span class=&#34;math inline&#34;&gt;\(q=0\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+p &amp;amp;= \frac{1}{2}(0)+4\\
+p &amp;amp;= 4 \\ \end{align*}
+\]&lt;/span&gt;
+Thus, one point is &lt;span class=&#34;math inline&#34;&gt;\((0,4)\)&lt;/span&gt;. Note that the constant in the function itself is the &lt;span class=&#34;math inline&#34;&gt;\(p-intercept\)&lt;/span&gt;! So one valid point will always be &lt;span class=&#34;math inline&#34;&gt;\((0,b)\)&lt;/span&gt;!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For our second point, let’s plug in &lt;span class=&#34;math inline&#34;&gt;\(q=2\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+p &amp;amp;= \frac{1}{2}(2)+4\\
+p &amp;amp;= 5 \\ \end{align*}
+\]&lt;/span&gt;
+Thus, another point is &lt;span class=&#34;math inline&#34;&gt;\((2,5)\)&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now, plot the two points on the graph, and connect them with a line&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: A quick shortcut to plot a line is to find the vertical intercept and plot that, and then find the next point using the slope. Here, start our line at 4 on the vertical axis, and then, as the slope is &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{2}\)&lt;/span&gt;, for every one unit increase in &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; increases by &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{2}\)&lt;/span&gt;. Our second point, (2,5), is a 2 unit increase in &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; resulting in a &lt;span class=&#34;math inline&#34;&gt;\(1\)&lt;/span&gt; unit increase in &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;finding-an-equation-from-a-graph&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Finding an Equation from a Graph&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+In order to find the equation of an existing line, we follow these steps:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;First, take two points on the line and find the slope, &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;, between them. Let’s pick &lt;span class=&#34;math inline&#34;&gt;\((1,6)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\((3,2)\)&lt;/span&gt;.
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+\text{Slope} &amp;amp;= \frac{rise}{run} \\
+&amp;amp;= \frac{(p_2-p_1)}{(q_2-q_1)}\\
+&amp;amp;= \frac{(2-6)}{(3-1)}\\
+&amp;amp;= \frac{-4}{2}\\
+&amp;amp;= -2\\ \end{align*}
+\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There is a shortcut that we can use to find the slope faster by eye-balling the graph: When &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; changes by 1, how many units does &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; change? If we move from (1,6) to (2,5), &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; increases by 1, but &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; falls by 2. So the slope is &lt;span class=&#34;math inline&#34;&gt;\(-2\)&lt;/span&gt;. For every one unit increase in &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; changes by -2.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Now with the slope, we need to find the vertical intercept, or &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt;, we solve this by plugging in the slope and any point on the graph, we will use (1,6):
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+     p &amp;amp;= aq+b\\
+     (6) &amp;amp;= -2(1)+b\\
+     6 &amp;amp;= -2+b\\
+     8 &amp;amp;= b\\
+ \end{align*}
+\]&lt;/span&gt;
+Note, there is another easy way to eye-ball what this value is. It is simply that &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; value where &lt;span class=&#34;math inline&#34;&gt;\(q=0\)&lt;/span&gt;, or at what &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; value the graph crosses the vertical axis. We can see it is at 8.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thus, we have the slope and the intercept, so our equation is:
+&lt;span class=&#34;math display&#34;&gt;\[
+p = -2q+8   
+\]&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;rates-of-change&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Rates of Change&lt;/h2&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; changes from &lt;span class=&#34;math inline&#34;&gt;\(y_1 \rightarrow y_2\)&lt;/span&gt;, the &lt;strong&gt;difference&lt;/strong&gt;, &lt;span class=&#34;math inline&#34;&gt;\(\Delta y = y_2-y_1\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\Delta y\)&lt;/span&gt; is shorthand that means “change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;”, NOT &lt;span class=&#34;math inline&#34;&gt;\(\Delta * y\)&lt;/span&gt; (it’s not an entity itself)&lt;/li&gt;
+&lt;li&gt;In calculus, the change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is often written formally as &lt;span class=&#34;math inline&#34;&gt;\(dy\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can express the &lt;strong&gt;relative difference&lt;/strong&gt;, comparing the difference with the original value of &lt;span class=&#34;math inline&#34;&gt;\(y_1\)&lt;/span&gt; as:
+&lt;span class=&#34;math display&#34;&gt;\[\text{relative change in y}=\frac{y_2-y_1}{y_1}=\frac{\Delta y}{y_1}  \]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. if &lt;span class=&#34;math inline&#34;&gt;\(y_1=3\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y_2=3.02\)&lt;/span&gt;, then the relative change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is:
+&lt;span class=&#34;math display&#34;&gt;\[\frac{y_2-y_1}{y_1}=\frac{3.02-3}{3}=0.0067\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It’s most common to talk about the &lt;strong&gt;percentage change&lt;/strong&gt; in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(\% \Delta y\)&lt;/span&gt;), also called the &lt;strong&gt;growth rate&lt;/strong&gt; of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, which is 100 times the relative change:
+&lt;span class=&#34;math display&#34;&gt;\[\text{percentage change in y}=\% \Delta y = \frac{y_2-y_1}{y_1}=\frac{\Delta y}{y_1}*100\%\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. if &lt;span class=&#34;math inline&#34;&gt;\(y_1=3\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y_2=3.02\)&lt;/span&gt;, then the percentage change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is:
+&lt;span class=&#34;math display&#34;&gt;\[\frac{y_2-y_1}{y_1}*100=\frac{3.02-3}{3}*100=0.67\%\]&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;Just move the decimal point over two digits to the right to get a percentage&lt;/li&gt;
+&lt;li&gt;This is most common when we measure inflation, GDP growth rates, etc.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;#Exponents-and-Logarithms&#34;&gt;Natural logarithms&lt;/a&gt; &lt;span class=&#34;math inline&#34;&gt;\((\ln)\)&lt;/span&gt; are very helpful in approximating percentage changes from &lt;span class=&#34;math inline&#34;&gt;\(y_1\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(y_2\)&lt;/span&gt; because:
+&lt;span class=&#34;math display&#34;&gt;\[100*(\ln(y_2)-\ln(y_1))=\% \Delta y = \text{percentage change in y}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;elasticity&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Elasticity&lt;/h3&gt;
+&lt;p&gt;Using logs and percentage changes helps us talk about &lt;strong&gt;elasticity&lt;/strong&gt;, an extremely useful concept with vast applications all over economics. Elasticity measures the percentage change in one variable (&lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;) as a response to a 1% change in another (&lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;) at a particular value of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;.
+&lt;span class=&#34;math display&#34;&gt;\[\epsilon_{yx} = \frac{\% \Delta y}{\% \Delta x}=\cfrac{(\frac{\Delta y}{y})}{(\frac{\Delta x}{x})}    =\frac{\Delta y}{\Delta x}*\frac{x}{y}\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interpretation: A 1% change in &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; will lead to a &lt;span class=&#34;math inline&#34;&gt;\(\epsilon_{yx}\)&lt;/span&gt;% change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, the &lt;strong&gt;price elasticity of demand&lt;/strong&gt; measures the percentage change in quantity demanded to a 1% change in price (at a particular price point), note here: &lt;span class=&#34;math inline&#34;&gt;\(x=P\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y=q\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[\epsilon_D = \frac{\%\Delta q}{\%\Delta p} =  \cfrac{\frac{\Delta q}{q}}{\frac{\Delta p}{p}} =\frac{\Delta q}{\Delta p}*\frac{p}{q}\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Note that &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta q}{\Delta p}\)&lt;/span&gt; is &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{slope}\)&lt;/span&gt; of the demand curve (which is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta p}{\Delta q}\)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;Note though we would technically multiply by &lt;span class=&#34;math inline&#34;&gt;\(\frac{100}{100}\)&lt;/span&gt; to get percentage change, this term obviously is just 1. Elasticity is unitless.&lt;/li&gt;
+&lt;li&gt;Note also that on a graph we usually express &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; as our independent variable and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; as our dependent variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;derivatives-calculus&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Derivatives (Calculus)&lt;/h3&gt;
+&lt;p&gt;Often, &lt;span class=&#34;math inline&#34;&gt;\(\Delta y\)&lt;/span&gt; refers to a &lt;em&gt;very small&lt;/em&gt; change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, a &lt;strong&gt;marginal change&lt;/strong&gt; in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;. A &lt;strong&gt;rate of change&lt;/strong&gt; is the ratio of two changes, such as the change between &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y=f(x)\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[\frac{\Delta f(x)}{\Delta x} = \frac{f(x + \Delta x)-f(x)}{\Delta x}\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This measures how &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt; changes as &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; changes&lt;/li&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(\Delta\)&lt;/span&gt; is &lt;em&gt;infinitesimally small&lt;/em&gt;, then we have expressed the &lt;strong&gt;(first) derivative of &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt; with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;&lt;/strong&gt;, written variously as &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x)\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(\frac{df(x)}{dx}\)&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\frac{d f(x)}{d x} = \lim_ {\Delta x \to 0} \frac{f(x + \Delta x)-f(x)}{\Delta x}\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The derivative of a linear function &lt;span class=&#34;math inline&#34;&gt;\((y=ax+b)\)&lt;/span&gt; is a constant (i.e. the slope), &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\frac{d f(x)}{d x} = a\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The derivative of the first derivative is the &lt;strong&gt;second derivative&lt;/strong&gt; of a function &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt; with respect to &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;, denoted &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;&amp;#39;(x)\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(\frac{d^2f(x)}{dx^2}\)&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The second derivative measures the &lt;em&gt;curvature&lt;/em&gt; of a function&lt;/li&gt;
+&lt;li&gt;It used for proving when a function has reached a maximum or minimum, or is concave or convex (often used in &lt;a href=&#34;optimization&#34;&gt;#Nonlinear-Functions-&amp;amp;-Optimization&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;nonlinear-functions-optimization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Nonlinear Functions &amp;amp; Optimization&lt;/h2&gt;
+&lt;p&gt;A function is non-linear if it is curved, i.e. not a straight line. Nonlinear functions’ slopes may be different for different values of the independent variable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+The slope at any particular point of the function is is its first derivative, the rate of instantaneous change.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Equivalently in practice, the value of &lt;span class=&#34;math inline&#34;&gt;\(f&amp;#39;(x)\)&lt;/span&gt; is the slope of a line tangent to the function at point &lt;span class=&#34;math inline&#34;&gt;\((x_i, f(x_i))\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Most applications in economics pertain to &lt;strong&gt;marginal&lt;/strong&gt; magnitudes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slopes mean change, and the margin implies a small change
+&lt;ul&gt;
+&lt;li&gt;Often describe the &lt;strong&gt;rate of substitution&lt;/strong&gt; between two goods (how much &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; must you give up to get one more unit of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;At the limit, marginal magnitudes are derivatives of a total magnitude
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;strong&gt;Marginal cost (or revenue)&lt;/strong&gt; is the derivative of &lt;em&gt;Total Cost (or revenue)&lt;/em&gt; (and its slope at each value)&lt;/li&gt;
+&lt;li&gt;e.g. &lt;strong&gt;Marginal product&lt;/strong&gt; is the derivative of &lt;em&gt;Total Product&lt;/em&gt; (and its slope at each value)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can describe a curved function as being either &lt;strong&gt;convex&lt;/strong&gt; or &lt;strong&gt;concave&lt;/strong&gt; with respect to the origin (0,0)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In simplest terms, a function is &lt;span style=&#34;color:red;&#34;&gt;concave&lt;/span&gt; between two points &lt;span class=&#34;math inline&#34;&gt;\(a, b\)&lt;/span&gt; if a straight line connecting &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; lies &lt;em&gt;beneath&lt;/em&gt; the function itself
+&lt;span class=&#34;math display&#34;&gt;\[\color{red}{f[(t a)+(1-t)b]} &amp;gt; t f(a) + (1-t) f(b)\text{ for }0 &amp;lt; t &amp;lt; 1\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The above formula is a weighted average (for any set of weights &lt;span class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(1-w\)&lt;/span&gt;), implying that the weighted average of &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; (dotted line in graph) is below the function&lt;/li&gt;
+&lt;li&gt;The weighted average (dotted line) of &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is below the function&lt;/li&gt;
+&lt;li&gt;A function is also concave at a point if its second derivative at that point is negative
+&lt;span class=&#34;math display&#34;&gt;\[\color{blue}{f[(w a)+(1-w)b]} &amp;lt; w f(a) + (1-w) f(b) \quad\text{ for }0 &amp;lt; w &amp;lt; 1\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In simplest terms, a function is &lt;span style=&#34;color:blue;&#34;&gt;convex&lt;/span&gt; between two points &lt;span class=&#34;math inline&#34;&gt;\(a, b\)&lt;/span&gt; if a straight line connecting &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; lies &lt;em&gt;above&lt;/em&gt; the function itself
+&lt;span class=&#34;math display&#34;&gt;\[\color{blue}{f[(w a)+(1-w)b]} &amp;lt; w f(a) + (1-w) f(b) \quad \text{ for }0 &amp;lt; w &amp;lt; 1\]&lt;/span&gt;
+- The weighted average (dotted line) of &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is above the function
+- A function is also convex at a point if its second derivative is positive&lt;/p&gt;
+&lt;p&gt;A function switches between convex and concave at an &lt;strong&gt;inflection point&lt;/strong&gt; (point C in the example above)
+- Here, the second derivative (in addition to the first) is equal to 0&lt;/p&gt;
+&lt;div id=&#34;optimization&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Optimization&lt;/h3&gt;
+&lt;p&gt;For most curves, we often want to find the value where the function reaches its &lt;strong&gt;maximum&lt;/strong&gt; or &lt;strong&gt;minimum&lt;/strong&gt; (in general, these are types of “extrema”) along some interval&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Formally, a function reaches a &lt;strong&gt;maximum&lt;/strong&gt; at &lt;span class=&#34;math inline&#34;&gt;\(x^*\)&lt;/span&gt; if &lt;span class=&#34;math inline&#34;&gt;\(f(x^*) \geq f(x)\)&lt;/span&gt; for all &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;; or a &lt;strong&gt;minimum&lt;/strong&gt; at &lt;span class=&#34;math inline&#34;&gt;\(x^*\)&lt;/span&gt; if &lt;span class=&#34;math inline&#34;&gt;\(f(x^*) \leq f(x)\)&lt;/span&gt; for all &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;
+- In the graph above, the function reaches a maximum at &lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; and a minimum at &lt;span class=&#34;math inline&#34;&gt;\(x_2\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The maximum or minimum of a function occurs where the slope (first derivative) is zero, known in calculus as the &lt;strong&gt;“first-order condition”&lt;/strong&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\frac{df(x^*)}{dx} = 0\]&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To distinguish between maxima and minima, we have the &lt;strong&gt;“second-order condition”&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;em&gt;minimum&lt;/em&gt; occurs when the &lt;em&gt;second&lt;/em&gt; derivative of the function is positive, and the curve is &lt;em&gt;convex&lt;/em&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\frac{d^2f(x^*)}{dx^2} &amp;gt; 0\]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;em&gt;maximum&lt;/em&gt; occurs when the &lt;em&gt;second&lt;/em&gt; derivative of the function is negative, and the curve is &lt;em&gt;concave&lt;/em&gt;
+&lt;span class=&#34;math display&#34;&gt;\[\frac{d^2f(x^*)}{dx^2} &amp;lt; 0\]&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;An &lt;em&gt;inflection point&lt;/em&gt; occurs where the second derivative of the function is zero&lt;/li&gt;
+&lt;li&gt;All three are known as “critical points”&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is often useful for &lt;strong&gt;unconstrained optimization&lt;/strong&gt;, e.g. finding the quantity of output that maximizes profits&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;, if we have a &lt;em&gt;multivariate&lt;/em&gt; function &lt;span class=&#34;math inline&#34;&gt;\(y=f(x_1, x_2)\)&lt;/span&gt; and want to find the maximum or minimum (&lt;span class=&#34;math inline&#34;&gt;\(x_1^\star, x_2^\star\)&lt;/span&gt;), the &lt;strong&gt;first order conditions&lt;/strong&gt; (FOC, plural) are where all the &lt;strong&gt;partial derivatives&lt;/strong&gt; (derivative with respect to &lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; and derivative with respect to &lt;span class=&#34;math inline&#34;&gt;\(x_2\)&lt;/span&gt;) are zero
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\frac{\partial f(x_1^*, x_2^*)}{\partial x_1} &amp;amp;= 0 \\ 
+\frac{\partial f(x_1^*, x_2^*)}{\partial x_2} &amp;amp;= 0 \\ 
+\end{align*}\]&lt;/span&gt;
+There are second order conditions as well, to demonstrate whether an extremum is a maximum or minimum, but they are too complex to discuss here.&lt;/p&gt;
+&lt;p&gt;Often we want to find the maximum or minimum of a function over some restricted values of &lt;span class=&#34;math inline&#34;&gt;\((x_1, x_2)\)&lt;/span&gt;, known as &lt;strong&gt;constrained optimization&lt;/strong&gt;. This is one of the most important modeling tools in microeconomics, and will show up in &lt;em&gt;many&lt;/em&gt; contexts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We want to find the maximum of some function:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+\max_{x_1, x_2} f(x_1, x_2)\\
+\text{subject to } g(x_1, x_2)=c \\
+\end{align*}
+\]&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(f(x_1, x_2)\)&lt;/span&gt; is the &lt;em&gt;“objective function”&lt;/em&gt; we wish to maximize (or minimize)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(g(x_1, x_2)=c\)&lt;/span&gt; is the &lt;em&gt;“constraint”&lt;/em&gt; that limits us within some specified set of &lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(x_2\)&lt;/span&gt; values&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Much of microeconomic modeling is about figuring out what an agent’s objective is (e.g. maximize profits, maximize utility, minimize costs) and what their constraints are (e.g. budget, time, output).&lt;/p&gt;
+&lt;p&gt;There are several ways to solve a constrained optimization problem (see Appendix to Ch. 5 in textbook), the most frequent (but requiring calculus) is Lagrangian multiplier method.&lt;/p&gt;
+&lt;p&gt;Graphically, the solution to a constrained optimization problem is the point where a curve (objective function) and a line (constraint) are &lt;strong&gt;tangent&lt;/strong&gt; to one another: they just touch, but do not intersect (e.g. at point A below).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;At the point of tangency (A), &lt;strong&gt;the slope of the curve (objective function) is &lt;em&gt;equal&lt;/em&gt; to the slope of the line (constraint)&lt;/strong&gt;
+- This is extremely useful and is always the solution to simple &lt;strong&gt;constrained optimization&lt;/strong&gt; problems, e.g.
+- e.g. maximizing utility subject to income
+- e.g. minimizing cost subject to a certain level of output
+- We can find the equation of the tangent line using point slope form&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[y-y_1=m(x-x_1)\]&lt;/span&gt;
+- We need to know the slope &lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt;, which we would know from the slope of the function at that point
+- We know &lt;span class=&#34;math inline&#34;&gt;\((x_1, y_1\)&lt;/span&gt;) is the point of tangency&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;solving-systems-of-equations&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Solving Systems of Equations&lt;/h2&gt;
+&lt;p&gt;To solve a system of simultaneous linear equations, there must be as many equations as there are variables:
+&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+12x+4y&amp;amp;=36 \\
+6x-3y&amp;amp;=3 \\
+\end{align*}
+\]&lt;/span&gt;
+There are two methods we can use to solve this system:&lt;/p&gt;
+&lt;div id=&#34;substitution&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;1. Substitution&lt;/h3&gt;
+&lt;p&gt;First, we take one equation and solve for one of the variables. Here, we take the first, and solve for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        12x+4y&amp;amp;=36\\
+        12x&amp;amp;=36-4y\\
+        x&amp;amp;=3-\frac{1}{3}y\\
+        \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now we take this value and plug it into the other equation:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        6x-3y&amp;amp;=3\\
+        6(3-\frac{1}{3}y)-3y&amp;amp;=3\\
+            18-2y-3y&amp;amp;=3\\
+            18-5y&amp;amp;=3\\
+            -5y&amp;amp;=-15\\
+            y&amp;amp;=3\\
+        \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now that we know the value of one variable, plug it into either of the original equations to solve for the value of the other variable:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}
+        12x+4y&amp;amp;=36\\
+        12x+4(3)&amp;amp;=36\\
+        12x+12&amp;amp;=36\\
+        12x&amp;amp;=24\\
+        x&amp;amp;=2\\
+        \end{align*}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We should verify that our variables are correct, so plug &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; into each equation and make sure it is true. Let’s start with the first equation:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        12x+4y&amp;amp;=36\\
+        12(2)+4(3)&amp;amp;=36\\
+        24+12&amp;amp;=36 \checkmark \\
+        \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We can do the same with the other equation:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        6x-3y&amp;amp;=3\\
+        6(2)-3(3)&amp;amp;=3\\
+        12-9&amp;amp;=3 \checkmark \\
+        \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;elimination&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;2. Elimination&lt;/h3&gt;
+&lt;p&gt;We will multiply the equations by constants to make the coefficients of one variable equal. Here, let us try to make the coefficients in front of each equation’s &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; equal.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        [12x+4y&amp;amp;=36]*6\\
+        [6x-3y&amp;amp;=3]*12\\
+    \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To do so, we will multiply the first equation by 6, and the second equation by 12. (We multiply each equation by the coefficient in front of the other equation’s &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; variable):&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        72x+24y&amp;amp;=216\\
+        72x-36y&amp;amp;=36
+    \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now we subtract the second equation from the first, which should get rid of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        72x+24y&amp;amp;=216\\
+        -[72x-36y&amp;amp;=36]\\    
+    \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Be careful to distribute the minus sign carefully:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        [72x-72x]+[24y-(-36y)]&amp;amp;=[216-36]\\
+        60y&amp;amp;=180\\
+        y&amp;amp;=3\\
+    \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now that we have the value of one variable, plug it in to either equation.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        12x+4y&amp;amp;=36\\
+        12x+4(3)&amp;amp;=36\\
+        12x+12&amp;amp;=36\\
+        12x&amp;amp;=24\\
+        x&amp;amp;=2\\
+        \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now that we have both variables, we can plug them in to each equation to double check them, same as before.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exponents-and-logarithms&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exponents and Logarithms&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Exponents&lt;/strong&gt; are defined as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(b^n=\underbrace{b \times b \times ... \times b}_{n}\)&lt;/span&gt;, where base &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is multiplied by itself &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; times&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(b^0=1\)&lt;/span&gt; (for &lt;span class=&#34;math inline&#34;&gt;\(b \neq 0\)&lt;/span&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are some common rules for exponents, assuming &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; are real numbers, &lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; are integers, and &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; are rational:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x^{-n}=\frac{1}{x^n}\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(x^{-3} = \frac{1}{x^3}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x^{\frac{1}{n}}=\sqrt[n]{x}\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(x^{\frac{1}{2}} = \sqrt{x}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x^{(\frac{m}{n})}=(x^{\frac{1}{n}})^m\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(8^{\frac{4}{3}} = (8^\frac{1}{3})^4=2^4=16\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(x^{a}x^b=x^{a+b}\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(x^2x^3=x^5\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\frac{x^a}{x^b}=x^{a-b}\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(\frac{x^2}{x^3}=x^{-1}=\frac{1}{x}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\((\frac{x}{y})^a=\frac{x^a}{y^a}\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\((\frac{x}{y})^2=\frac{x^2}{y^2}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\((xy)^a=x^ay^a\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\((xy)^2=x^2y^2\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Logarithms&lt;/strong&gt; are the exponents in the expressions above, the inverse of exponentiation&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(b^y=x\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(log_b(x)= y\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is the number you must raise &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; to in order to get &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(2^6=64 = \underbrace{(2*2*2*2*2*2)}_{\text{6 times}}\)&lt;/span&gt; so &lt;span class=&#34;math inline&#34;&gt;\(log_2(64)=6\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We often use the &lt;strong&gt;natural logarithm (ln)&lt;/strong&gt; with base &lt;span class=&#34;math inline&#34;&gt;\(e=2.718...\)&lt;/span&gt; in many math, statistics, and economic applications&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(e^y=x\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(\ln(x) = y\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are a number of highly useful rules for natural logs:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\ln(xy)=\ln(x)+\ln(y)\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(\ln(2*3)=\ln(2)+\ln(3)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\ln(\frac{x}{y})=\ln(x)-\ln(y)\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(\ln(\frac{2}{3})=\ln(2)-\ln(3)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\ln(x^a)=a*\ln(x)\)&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;span class=&#34;math inline&#34;&gt;\(\ln(x^2)=2\ln(x)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
 </description>
     </item>
