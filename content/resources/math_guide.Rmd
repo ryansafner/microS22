@@ -6,8 +6,10 @@ menu:
   resources:
     parent: Resources
 title: Math Review
-toc: true
 type: docs
+output:
+  blogdown::html_page:
+    toc: true
 weight: 2
 ---
 
