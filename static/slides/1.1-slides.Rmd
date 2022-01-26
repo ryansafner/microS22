@@ -134,7 +134,7 @@ My face (without a mask), 2021
 # The Reason I am Busy AF Behind the Scenes
 
 .center[
-![:scale 100%](../images/milescollage.png)
+![:scale 100%](../images/miles_collage_s2022.png)
 ]
 
 And why I wear a mask.
@@ -862,7 +862,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-- Complete the .hi-purple[preliminary math survey]
+- Complete the [.hi-purple[preliminary math survey]](https://microS22.classes.ryansafner.com/assignments/00-preliminary-survey)
 
 - Help me help you with the math!
 
@@ -901,8 +901,6 @@ class: inverse, center, middle
     - No social experiments
     - Purposive, strategic human beings 
     - Introspective understanding
-
-> “All models lie. The art is telling useful lies.” - George Box
 
 ]
 
@@ -951,18 +949,34 @@ class: inverse, center, middle
 
 ---
 
+# A Hint That Will *Almost* Never Fail You
+
+.pull-left[
+
+- **The answer to 95% of questions in this course:** .hi[where marginal benefit equals marginal cost]
+  - What’s the benefit? What’s the cost?
+  - Interpretation from math $\rightarrow$ English
+
+- In practice: .hi-purple[where slopes (rates of change) of two things are equal]
+]
+
+.pull-right[
+.center[
+![](../images/economics1.jpg)
+]
+]
+
+---
+
 # Remember: All Models are Wrong!
 
 .pull-left[
 .bg-washed-red.b--dark-red.ba.bw2.br3.shadow-5.ph4.mt5[
 .red[**Caution**:] Don't conflate models with reality!
 ]
-- Models help us *understand* reality.
+- Models **are not** reality. They help us **understand** reality.
 
-- A good economist is always aware of:
-    - “*ceterus paribus*”
-    - “...and then what?”
-    - “...compared to what?”
+> “All models lie. The art is telling useful lies.” - George Box
 
 ]
 
@@ -1001,25 +1015,6 @@ scale_linetype_manual(values = venn_lines) +
   geom_text(aes(x = xl, y = yl, label = l), size = 8, family = "Fira Sans Condensed") +
 coord_equal()
 ```
-
----
-
-# Again, Beware Mt. Stupid
-
-.pull-left[
-.bg-washed-red.b--dark-red.ba.bw2.br3.shadow-5.ph4.mt5[
-.red[**Caution**:] Two types of (advanced) mistakes:
-]
-1. Believing the model accurately describes reality (100%)
-
-2. Believing reality needs to be *corrected* because it doesn't match the model
-]
-
-.pull-right[
-.center[
-![](../images/citymodel.jpg)
-]
-]
 
 ---
 
@@ -1066,7 +1061,7 @@ knitr::kable(assignments, "html")
 # Course Website
 
 .center[
-![:scale 65%](../images/micro_website_f21.png)
+![:scale 65%](../images/micro_website_s22.png)
 
 [microF21.classes.ryansafner.com](https://microF21.classes.ryansafner.com)
 ]
@@ -1078,19 +1073,19 @@ knitr::kable(assignments, "html")
 .pull-left[
 .smallest[
 
-- Office hours: M/W 10:00-11:00 AM & by appt
+- Office hours: TBD & by appt
   - Office: 110 Rosenstock
 
-- `r fa("slack", fill ="#5E81AC")` Slack channel `#c-306-micro`
+- `r fa("slack", fill ="#5E81AC")` Slack channel `#c-econ-306-micro`
 
-- Recorded videos in Blackboard Panopto
+- Covid/Zoom policy, attendance
 
-- Attendance
+- .hi[Possible Room Change]
 
 - Teaching Assistant(s): TBD
   - grade HWs & hold office hours
 
-- See the [resources page](http://gameF21.classes.ryansafner.com/resources) for tips for success and more helpful resources
+- See the [resources page](http://microS22.classes.ryansafner.com/resources) for tips for success and more helpful resources
 ]
 ]
 
@@ -1105,6 +1100,8 @@ knitr::kable(assignments, "html")
 class: inverse, center, middle
 
 # You Can Do This
+
+# And I Am Here To Help You
 
 ---
 
