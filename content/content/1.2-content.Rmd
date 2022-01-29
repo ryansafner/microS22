@@ -15,11 +15,11 @@ slides: "1.2-slides"
 ---
 
 {{% alert note %}}
-*Wednesday, August 25, 2021*
+*Monday, January 31, 2022*
 {{% /alert %}}
 
 {{% alert warning %}}
-Please complete the [preliminary survey](/assignment/00-preliminary-survey) by Sunday August 29.
+Please complete the [preliminary survey](/assignment/00-preliminary-survey)!
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview

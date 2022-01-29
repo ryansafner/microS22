@@ -27,7 +27,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 ```
 
 {{% alert note %}}
-*Monday, August 29, 2021*
+*Wednesday, February 2, 2022*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
