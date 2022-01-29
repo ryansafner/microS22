@@ -2,7 +2,7 @@
 title: "1.1 — The Tools of Microeconomics — Class Content"
 draft: false
 linktitle: "1.1 — The Tools of Microeconomics"
-date: "2020-06-08"
+date: "2022-01-26"
 menu:
   content:
     parent: Course content

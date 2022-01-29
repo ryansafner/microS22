@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) {year} by Ryan Safner</copyright>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://microS22.classes.ryansafner.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -123,6 +123,7 @@
 &lt;p&gt;&lt;table class=&#34;table schedule&#34; style=&#34;max-width:90%; margin-left: auto; margin-right: auto&#34;&gt;
     &lt;tbody&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;I. Rational Choice Theory: Consumers&lt;/span&gt;&lt;/td&gt;
 
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
@@ -131,6 +132,7 @@
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;Preliminary Survey due Sun Jan 30&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -142,6 +144,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;January 26&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.1 — The Tools of Microeconomics&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.1-content/&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
@@ -153,6 +156,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.2 — Budget Constraint&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.2-content/&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
@@ -164,6 +168,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.3 — Preferences&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.3-content/&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
@@ -175,6 +180,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.4 — Utility Maximization&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -186,6 +192,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 1&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -197,6 +204,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.5 — Demand&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -208,6 +216,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.6 — Income and Substitution Effects&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -219,6 +228,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;1.7 — Price Elasticity of Demand&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -230,6 +240,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 2&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -241,6 +252,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Exam 1&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -252,6 +264,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;II. Rational Choice Theory: Producers&lt;/span&gt;&lt;/td&gt;
 
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
@@ -260,6 +273,7 @@
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.1 — Production, Specialization, and Firms&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -271,6 +285,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.2 — Production in the Short Run &amp;amp; Long Run&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -282,6 +297,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.3 — Cost Minimization&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -293,6 +309,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 3&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -304,6 +321,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.4 — Costs of Production&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -315,6 +333,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.5 — Short Run Profit Maximization&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -326,6 +345,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;2.6 — Long Run Industry Equilibrium&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -337,6 +357,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 4&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -348,6 +369,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Exam 2&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -359,6 +381,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;III. Market Equilibrium&lt;/span&gt;&lt;/td&gt;
 
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
@@ -367,6 +390,7 @@
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.1 — The Supply and Demand Model&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -378,6 +402,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.2 — Market Competition and Surpluses&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -389,6 +414,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.3 — The &lt;em&gt;Static&lt;/em&gt; Benefits of Markets: Welfare Economics &amp;amp; Market Failure&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -400,6 +426,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.4 — The &lt;em&gt;Dynamic&lt;/em&gt; Benefits of Markets: Entrepreneurship, Profits, &amp;amp; Prices&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -411,6 +438,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;3.5 — Introduction to Political Economy&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -422,6 +450,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 5&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -433,6 +462,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;span class=&#34;fake-header-table&#34;&gt;IV. Imperfect Competition&lt;/span&gt;&lt;/td&gt;
 
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Content&lt;/td&gt;
@@ -441,6 +471,7 @@
             &lt;td style=&#34;width:10%;text-align:center&#34; class=&#34;mid-table-header&#34;&gt;Assignment&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.1 — Modeling Firms with Market Power&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -452,6 +483,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.2 — Consequences and Sources of Market Power&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -463,6 +495,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.3 — Pricing Strategies&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -474,6 +507,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.4 — Factor Markets&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -485,6 +519,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.5 — Monopolistic Competition and Oligopoly&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -496,6 +531,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;4.6 — Contestable Markets and Wrap Up&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -507,6 +543,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Problem Set 6&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -518,6 +555,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; &lt;strong&gt;Op-Ed&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
@@ -529,6 +567,7 @@
                 &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+            &lt;td align=&#34;right&#34; style=&#34;width:20%;text-align:right&#34;&gt;&lt;/td&gt;
             &lt;td style=&#34;width:50%;text-align:left&#34;&gt;&lt;i class=&#34;fas fa-star&#34;&gt;&lt;/i&gt; &lt;strong&gt;Final Exam&lt;/strong&gt;&lt;/td&gt;
             &lt;td align=&#34;center&#34; style=&#34;width:10%;text-align:center&#34;&gt;&lt;font color=&#34;f1f1f1&#34;&gt;
                 &lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt;&lt;/font&gt;&lt;/td&gt;
