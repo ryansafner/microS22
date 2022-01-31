@@ -2,7 +2,7 @@
 title: "1.2 — Budget Constraint — Class Content"
 draft: false
 linktitle: "1.2 — Budget Constraint"
-date: "2020-06-08"
+date: "2022-01-31"
 menu:
   content:
     parent: Course content
@@ -34,6 +34,7 @@ As it is still only the first week of class: if you have not done so, please wat
 
 - <i class="fas fa-book"></i> Ch. 4.3 in Goolsbee, Levitt, and Syverson, 2019
 - <i class="fas fa-external-link-square-alt"></i> Bastiat, 1848 [“What is Seen and Not Seen”](https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=4#book-reader), (Section 1)
+- <i class="fas fa-external-link-square-alt"></i> [Math Review Guide](/resources/math_guide)
 
 Now that we are picking up the intensity and working with some models (many will be new to you at first), I recommend looking at the textbook readings *before* each class.
 

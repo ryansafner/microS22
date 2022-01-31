@@ -47,6 +47,12 @@ Today we focus on the essential tools for fitting preferences into our optimizat
 - <i class="fas fa-book"></i> Ch. 4.1-4.2 in Goolsbee, Levitt, and Syverson, 2019
 - [<i class="fas fa-file-pdf"></i> Math Review Guide](/files/math_review_guide.pdf) 
 
+### 
+
+- [Munger, “What Preferences Do You Want?”](https://www.aier.org/article/what-preferences-do-you-want/)
+- [Econtalk Podcast: Michael Munger on Desires, Morality, and Self-Interest](https://www.econtalk.org/michael-munger-on-desires-morality-and-self-interest/)
+- [SMBC — Economist 2](https://www.smbc-comics.com/comic/economist-2)
+
 ## <i class="fas fa-dumbbell"></i> Practice
 
 Answers from last class' [practice problems](/practice/1.2-practice) are posted on that page.
