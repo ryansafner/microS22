@@ -3,7 +3,7 @@
   <head>
     <title>1.2 — Budget Constraint</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microF21   microF21.classes.ryansafner.com " />
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microS22   microSs22.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -21,8 +21,8 @@
 class: center, middle, inverse, title-slide
 
 # 1.2 — Budget Constraint
-## ECON 306 • Microeconomic Analysis • Fall 2021
-### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>
+## ECON 306 • Microeconomic Analysis • Spring 2022
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microSs22.classes.ryansafner.com</a><br>
 
 ---
 
@@ -40,7 +40,7 @@ class: inverse
 
 ---
 
-# The Two Major Models of Economics as a "Science"
+# The Two Major Models of Economics as a “Science”
 
 .pull-left[
 
@@ -85,15 +85,21 @@ class: inverse, center, middle
 .pull-left[
 - Each of us acts .hi-purple[purposefully]
 
-- We have .hi[ends], goals, desires, objectives, etc
+- We have .hi[ends], goals, desires, objectives
+  - *Anything* you value!
 
-- We use .hi[means] in the world that we believe will achieve our ends
+- We use .hi[means] in the world that we *believe* will achieve our ends
+  - .hi-purple[“utility”] when we .hi[consume] services, or
+  - if scarce physical object: .hi[“economic good”] or .hi[resource]
 
 ]
 
 .pull-right[
 
 ![](../images/goal.png)
+
+![](../images/happiness.png)
+
 ]
 
 ---
@@ -104,9 +110,8 @@ class: inverse, center, middle
 
 - Acting with .hi-purple[purpose] distinguishes humans from everything else in the universe
 
-- Artificial intelligence researchers face .hi-turquoise["the frame problem"]
-    - We thought: computation is hard, perception is easy
-    - We've found: computation is easy, perception is hard!
+- Artificial intelligence researchers face .hi-turquoise[“the frame problem”]
+  - Perception requires motivational goals to determine how to filter reality
 
 ]
 
@@ -122,9 +127,10 @@ class: inverse, center, middle
 # Causal Inference I
 
 .pull-left[
-- Machine learning and artificial intelligence are "dumb"
+- Machine learning and artificial intelligence are “dumb”
+  - Data can never “speak for itself!”
 
-- With the right models and research designs, we *can* say "X causes Y" and quantify it!
+- With the right models and research designs, we *can* say “X causes Y” and quantify it!
 
 - Economists are in a unique position to make *causal* claims that mere statistics cannot
 ]
@@ -147,62 +153,7 @@ class: inverse, center, middle
 .pull-right[
 
 .smallest[
-"First, the field of economics has spent decades developing a toolkit aimed at investigating empirical relationships, focusing on techniques to help understand which correlations speak to a causal relationship and which do not. This comes up all the time — does Uber Express Pool grow the full Uber user base, or simply draw in users from other Uber products? Should eBay advertise on Google, or does this simply syphon off people who would have come through organic search anyway? Are African-American Airbnb users rejected on the basis of their race? These are just a few of the countless questions that tech companies are grappling with, investing heavily in understanding the extent of a causal relationship."
-]
-]
-
----
-
-# Goods and Services
-
-.pull-left[
-
-- Actions that satisfy human desires provide a .hi[service]
-
-- An object that can provide services is called an .hi[economic good] or a .hi[resource]
-
-]
-
-.pull-right[
-.center[
-![:scale 50%](../images/veggies.png)
-
-![](../images/service.png)
-]
-
-]
-
----
-
-# Consumption
-
-.pull-left[
-
-- Goods and services provide ".hi[utility]" (satisfaction of a desire) when we .hi[consume] them 
-
-]
-
-.pull-right[
-.center[
-![](../images/happiness.png)
-]
-]
-
----
-
-# Bads
-
-.pull-left[
-
-- An .hi[economic bad] is something that hinders our ability to satisfy our desires
-
-]
-
-.pull-right[
-.center[
-
-![](../images/pollution.png)
-
+“First, the field of economics has spent decades developing a toolkit aimed at investigating empirical relationships, focusing on techniques to help understand which correlations speak to a causal relationship and which do not. This comes up all the time — does Uber Express Pool grow the full Uber user base, or simply draw in users from other Uber products? Should eBay advertise on Google, or does this simply syphon off people who would have come through organic search anyway? Are African-American Airbnb users rejected on the basis of their race? These are just a few of the countless questions that tech companies are grappling with, investing heavily in understanding the extent of a causal relationship.”
 ]
 ]
 
@@ -277,7 +228,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-- Imagine a (very strange) supermarket sells xylophones `\((x)\)` and yams `\((y)\)`
+- Imagine a (very strange) supermarket sells `\(x\)` and `\(y\)`
 
 - Your choices: amounts of `\(\{x, y\}\)` to consume as a .hi-purple[bundle]
 
@@ -297,7 +248,7 @@ class: inverse, center, middle
 
 - We can represent bundles graphically
 
-- We'll stick with 2 goods `\((x, y)\)` in 2-dimensions&lt;sup&gt;.magenta[†]&lt;/sup&gt;
+- We’ll stick with 2 goods `\((x, y)\)` in 2-dimensions&lt;sup&gt;.magenta[†]&lt;/sup&gt;
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 .hi-green[Example]:
@@ -335,7 +286,7 @@ class: inverse, center, middle
 
 .pull-right[
 .center[
-![:scale 100%](https://www.dropbox.com/s/dv8ce57s6azr8e8/groceryaisle.jpg?raw=1)
+![:scale 100%](../images/groceryaisle.jpg)
 ]
 ]
 
@@ -606,11 +557,11 @@ class: inverse, center, middle
 .pull-left[
 
 - **Slope**: .hi-purple[tradeoff] between `\(x\)` and `\(y\)` at market prices
-  - Market .hi-purple[“exchange rate”] between `\(x\)` and `\(y\)`
+  - Market .hi-purple[“exchange rate”] between `\(x\)` and `\(y\)`: `\(\frac{p_x}{p_y}y:1x\)`
 
 - .hi-purple[*Relative* price] of `\(x\)`, or the .hi-purple[opportunity cost] of `\(x\)`:
 
-&gt; Consuming 1 more unit of `\(x\)` requires giving up `\(\left(\frac{p_x}{p_y}\right)\)` units of `\(y\)`
+&gt; Consuming 1 more unit of `\(x\)` requires giving up `\(\frac{p_x}{p_y}\)` units of `\(y\)`
 
 ]
 
@@ -626,8 +577,7 @@ class: inverse, center, middle
 
 - .hi[Opportunity cost]: value of next best foregone opportunity
 
-- Even though we have prices denoted in dollars, when you consume x, you're really giving up .hi-turquoise[the opportunity to consume y]!
-  - (in fact, we can do this without money, and it would be the same)
+- Even though we use money for prices, when you consume x, you’re really giving up .hi-turquoise[the opportunity to consume y]!
 
 ]
 
@@ -673,7 +623,7 @@ Frederic Bastiat
 
 - *That Which is Seen and That Which is Not Seen*
 
-- "That which is seen"
+- “That which is seen”
     - The broken window
     - Resources diverted into glassmaking
 ]
@@ -696,11 +646,11 @@ Frederic Bastiat
 
 - *That Which is Seen and That Which is Not Seen*
 
-- "That which is seen"
+- “That which is seen”
     - The broken window
     - Resources diverted into glassmaking
 
-- "That which is not seen"
+- “That which is not seen”
     - Opportunity cost of fixing the window
     - Resources diverted *away* from other opportunities
 ]
@@ -711,7 +661,7 @@ Frederic Bastiat
 
 .pull-left[
 
-- What does it mean to say that **"spending money 'stimulates' the economy"?**
+- What does it mean to say that **“spending money 'stimulates' the economy”?**
 
 ]
 
@@ -728,7 +678,7 @@ Frederic Bastiat
 
 .pull-left[
 
-- What does it mean to say that **"spending money 'stimulates' the economy"?** 
+- What does it mean to say that **“spending money 'stimulates' the economy”?**
 
 - Scarce resources used in one industry can **not** be used in other industries
 

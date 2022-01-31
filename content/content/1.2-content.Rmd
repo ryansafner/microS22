@@ -62,9 +62,9 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-### Preliminary Math Survey Due Sunday August 29
+### Preliminary Math Survey Due Sunday January 30
 
-Please take the [preliminary math survey](/assignments/00-preliminary-survey) on your math background by 11:59 PM Sunday August 29. This will help us all have a productive course together.
+Please take the [preliminary math survey](/assignments/00-preliminary-survey) on your math background by Sunday January 30. This will help us all have a productive course together.
 
 ## <i class="fas fa-sigma"></i> Math Appendix
 
