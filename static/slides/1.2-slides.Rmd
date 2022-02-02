@@ -965,18 +965,19 @@ y &= \frac{\color{#e64173}{m}}{\color{#e64173}{p_y}}-\frac{\color{#e64173}{p_x}}
 
 .pull-left[
 
-- Changes in .hi-purple[income] $\implies$ a *parallel* shift
+- Changes in .hi-purple[income] .ul[shift] the budget constraint
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.hi-green[**Example**]: Income increases $m_1 \rightarrow m_2$
+.hi-green[**Example**]: 
 
-- Slope unchanged (no change in prices!)
-
-- .hi-green[Gain of affordable bundles]
+- Income .hi-green[increases] $m_1 \rightarrow m_2$
+- Income .hi-red[decreases] $m_1 \rightarrow m_3$
 
 ]
 
-- Exact opposite shift for a .hi-red[decrease in income]
+- Slope unchanged (no change in prices!)
+
+- .hi-green[Gain]/.hi-red[loss] **of affordable bundles**
 
 ]
 
@@ -998,19 +999,44 @@ ends_betw1<-tribble(
 
 BC2=function(x){(m2/py)-(px/py)*x}
 #line_colors <- c("BC" = "blue")
+
+m3 <- 10
+ends3<-tribble(
+  ~x, ~y,
+  0, (m3/py),
+  (m3/px), 0
+)
+ends_betw2<-tribble(
+  ~x, ~y,
+  0, (m/py),
+  0, (m3/py),
+  (m3/px), 0,
+  (m/px), 0
+)
+
+BC3=function(x){(m3/py)-(px/py)*x}
 ```
 
 ```{r BC-m-change-plot, fig.retina=3, fig.align="center", fig.width=6}
 ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
-  stat_function(fun=BC, geom="line", size=2, aes(color="BC"))+
-  stat_function(fun=BC2, geom="line", linetype="dashed", size=2, aes(color="BC"))+
   geom_polygon(data=ends_betw1, aes(x=x, y=y),fill="green", alpha=0.4)+
-  scale_x_continuous(breaks = c(0,(m/px), (m2/px)),
-                     labels = c(0,expression(m[1]/p[x]),expression(m[2]/p[x])),
+  geom_polygon(data=ends_betw2, aes(x=x, y=y),fill="red", alpha=0.4)+
+  stat_function(fun=BC, geom="line", size=2, aes(color="BC"))+
+  stat_function(fun=BC2, geom="line", linetype="dashed", size=2, color = "blue")+
+  stat_function(fun=BC3, geom="line", linetype="dashed", size=2, color = "blue")+
+  
+  #annotate("segment", x = 5, xend = 8, y = 2.5, yend = 5, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  
+  #annotate("segment", x = 5, xend = 0, y = 2.5, yend = 1.25, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+
+  annotate(geom = "text", x = 6, y = 4, color = "white", label = expression("" %up% m), size = 7)+
+  annotate(geom = "text", x = 3, y = 1.5, color = "white", label = expression("" %down% m), size = 7)+
+  scale_x_continuous(breaks = c(0,(m3/px), (m/px), (m2/px)),
+                     labels = c(0,expression(m[3]/p[x]),expression(m[1]/p[x]), expression(m[2]/p[x])),
                      limits = c(0, (m2/px)),
                      expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks = c(0,(m/py), (m2/py)),
-                     labels = c(0,expression(m[1]/p[y]),expression(m[2]/p[y])),
+  scale_y_continuous(breaks = c(0,(m3/py), (m/py), (m2/py)),
+                     labels = c(0,expression(m[3]/p[y]),expression(m[1]/p[y]), expression(m[2]/p[y])),
                      limits = c(0, (m2/py)),
                      expand=expand_scale(mult=c(0,0.1)))+
   scale_colour_manual("Curves", values = line_colors, guide=F)+
@@ -1018,6 +1044,7 @@ ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
        y = "y")+
   theme_classic(base_family = "Fira Sans Condensed", base_size=20)
 ```
+
 ]
 
 ---
@@ -1038,20 +1065,25 @@ ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
 
 .pull-left[
 
-- Change in .hi-purple[relative prices]: *rotate* the budget constraint
+- Change in .hi-purple[*relative* prices] .ul[rotate] the budget constraint
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.hi-green[**Example**]: An **increase** in the price of $x$
+.hi-green[**Example**]:
 
-- Slope steepens: $-\frac{p_x'}{p_y}$
+- Price of $x$ .hi-green[increases] $p_x \rightarrow p_x'$
+- Price of $x$ .hi-red[decreases] $p_x \rightarrow p_x''$
 
-- .hi-red[Loss of affordable bundles]
 ]
+
+- Change in slope: `\\(-\frac{p_x'}{p_y}\\)`, `\\(-\frac{p_x''}{p_y}\\)`
+
+- .hi-green[Gain]/.hi-red[loss] **of affordable bundles**
 ]
 
 .pull-right[
 ```{r x-change-setup}
 px2 <- 5
+px3 <- 1.25
 ends_betw2<-tribble(
   ~x, ~y,
   0, (m/py),
@@ -1059,17 +1091,31 @@ ends_betw2<-tribble(
   (m/px2), 0
 )
 
-BC3=function(x){(m/py)-(px2/py)*x}
+ends_betw3<-tribble(
+  ~x, ~y,
+  0, (m/py),
+  (m/px), 0,
+  (m/px3), 0
+)
+
+BC4=function(x){(m/py)-(px2/py)*x}
+BC5=function(x){(m/py)-(px3/py)*x}
 #line_colors <- c("BC" = "blue")
 ```
 
 ```{r BC-x-change-plot, fig.retina=3, fig.align="center", fig.width=6}
 ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
-  stat_function(fun=BC, geom="line", size=2, aes(color="BC"))+
-  stat_function(fun=BC3, geom="line", linetype="dashed", size=2, aes(color="BC"))+
   geom_polygon(data=ends_betw2, aes(x=x, y=y),fill="red", alpha=0.4)+
-  scale_x_continuous(breaks = c(0,(m/px2), (m/px)),
-                     labels = c(0,expression(m/p[x]*minute),expression(m/p[x])),
+  geom_polygon(data=ends_betw3, aes(x=x, y=y),fill="green", alpha=0.4)+
+  stat_function(fun=BC, geom="line", size=2, aes(color="BC"))+
+  stat_function(fun=BC4, geom="line", linetype="dashed", size=2, aes(color="BC"))+
+  stat_function(fun=BC5, geom="line", linetype="dashed", size=2, aes(color="BC"))+
+  
+  annotate(geom = "text", x = 7, y = 1.5, color = "white", label = expression("" %down% p[x]), size = 7)+
+  annotate(geom = "text", x = 3.75, y = 1.5, color = "white", label = expression("" %up% p[x]), size = 7)+
+
+  scale_x_continuous(breaks = c(0,(m/px2), (m/px), (m/px3)),
+                     labels = c(0,expression(m/p[x]*minute),expression(m/p[x]), expression(m/p[x]*minute*minute)),
                      limits = c(0, (m2/px)),
                      expand=expand_scale(mult=c(0,0.1)))+
   scale_y_continuous(breaks = c(0,(m/py)),
@@ -1089,42 +1135,61 @@ ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
 
 .pull-left[
 
-- Changes in .hi-purple[relative prices]: *rotate* the budget constraint
+- Change in .hi-purple[*relative* prices] .ul[rotate] the budget constraint
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.hi-green[**Example**]: A decrease in the price of $y$
+.hi-green[**Example**]:
 
-- Slope steepens: $-\frac{p_x}{p_y'}$
+- Price of $y$ .hi-green[increases] $p_y \rightarrow p_y'$
+- Price of $y$ .hi-red[decreases] $p_y \rightarrow p_y''$
 
-- .hi-green[Gain of affordable bundles]
 ]
+
+- Change in slope: `\\(-\frac{p_x}{p_y'}\\)`, `\\(-\frac{p_x}{p_y''}\\)`
+
+- .hi-green[Gain]/.hi-red[loss] **of affordable bundles**
 ]
 
 .pull-right[
 ```{r y-change-setup}
 py2 <- 2.5
-ends_betw3<-tribble(
+ends_betw4<-tribble(
   ~x, ~y,
   0, (m/py),
   0, (m/py2),
   (m/px), 0
 )
+py3 <- 10
 
-BC4=function(x){(m/py2)-(px/py2)*x}
+ends_betw5<-tribble(
+  ~x, ~y,
+  0, (m/py),
+  0, (m/py3),
+  (m/px), 0
+)
+
+BC6=function(x){(m/py2)-(px/py2)*x}
+BC7=function(x){(m/py3)-(px/py3)*x}
+
 #line_colors <- c("BC" = "blue")
 ```
 
 ```{r BC-y-change-plot, fig.retina=3, fig.align="center", fig.width=6}
 ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
+  geom_polygon(data=ends_betw4, aes(x=x, y=y),fill="green", alpha=0.4)+
+  geom_polygon(data=ends_betw5, aes(x=x, y=y),fill="red", alpha=0.4)+
   stat_function(fun=BC, geom="line", size=2, aes(color="BC"))+
-  stat_function(fun=BC4, geom="line", linetype="dashed", size=2, aes(color="BC"))+
-  geom_polygon(data=ends_betw3, aes(x=x, y=y),fill="green", alpha=0.4)+
+  stat_function(fun=BC6, geom="line", linetype="dashed", size=2, aes(color="BC"))+
+  stat_function(fun=BC7, geom="line", linetype="dashed", size=2, aes(color="BC"))+
+  
+  annotate(geom = "text", x = 2.5, y = 1.75, color = "white", label = expression("" %up% p[y]), size = 7)+
+  annotate(geom = "text", x = 2.5, y = 3.75, color = "white", label = expression("" %down% p[y]), size = 7)+
   scale_x_continuous(breaks = c(0,(m/px)),
                      labels = c(0,expression(m/p[x])),
                      limits = c(0, (m2/px)),
                      expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks = c(0,(m/py),(m/py2)),
-                     labels = c(0,expression(m/p[y]),expression(m/p[y]*minute)),
+  scale_y_continuous(breaks = c(0,(m/py3), (m/py),(m/py2)),
+                     labels = c(0,expression(m/p[y]*minute*minute), expression(m/p[y]),expression(m/p[y]*minute)),
                      limits = c(0, (m2/py)),
                      expand=expand_scale(mult=c(0,0.1)))+
   scale_colour_manual("Curves", values = line_colors, guide=F)+
@@ -1142,9 +1207,9 @@ ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
 
 - .hi-purple[Economic analysis is about (changes in) *relative* prices]
 
-- Budget constraint slope (opportunity cost of x) is $-\left(\frac{p_x}{p_y}\right)$
+- Budget constraint slope (opportunity cost of $x)$ is $-\frac{p_x}{p_y}$
 
-- Only .hi-turquoise["real"] changes in *relative* prices (from changes in market conditions) change consumer constraints (and alter behavior)
+- Only .hi-turquoise[“real”] changes in .ul[*relative*] prices (from changes in market conditions) change consumer constraints (and alter behavior)
 
 - i.e. not “the price of $x$,” its about “the price of x *relative to the price of y*”!
 
