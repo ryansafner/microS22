@@ -310,6 +310,286 @@
     </item>
     
     <item>
+      <title>Problem Set 1</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/01-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/01-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by class on Monday February 14.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/01-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;!--## Answers
+
+&lt;p style=&#34;text-align:center&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/01-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/01-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt; &lt;/p&gt;--&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;How can we use utility functions, which have actual numbers that can be measured and compared, to model preferences and still say with a straight face that preferences are subjective? Hint: what does it mean for a utility function to be &lt;em&gt;ordinal&lt;/em&gt; or &lt;em&gt;cardinal&lt;/em&gt;? Why can multiple utility functions describe the same preferences?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what the &lt;em&gt;marginal rate of substitution&lt;/em&gt; between two goods means. How is it different from the slope of the budget constraint?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what happens at the optimum consumption point. Why is it the optimum? What does the equality of the slope of the indifference curve and the slope of the budget constraint &lt;em&gt;mean&lt;/em&gt;, in English?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Juan enjoys both music and fireworks. His income is &lt;span&gt;$&lt;/span&gt;240 per month. Music streaming costs &lt;span&gt;$&lt;/span&gt;12 per month, and fireworks cost &lt;span&gt;$&lt;/span&gt;8 per bag.&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Graph the budget constraint Juan faces, with music on the vertical axis and fireworks on the horizontal axis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;If Juan spends all his income on music, how much music can he afford? Plot a point that illustrates this scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;If Juan spends all his income on fireworks, how many bags of reworks can he afford? Plot a point that illustrates this scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;If Juan spends half his income on fireworks and half his income on music, how much of each can he afford? Plot a point that illustrates this scenario.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Connect the dots to create Juan’s budget constraint. What is the slope of the budget constraint?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Suppose that a holiday bonus raises Juan’s income temporarily to $360. Draw Juan’s new budget constraint.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Now suppose that during the holiday, with his holiday bonus, the price of fireworks increases to $12 and the price of music increases to 18. If he spends all of his income on fireworks, how many can Juan buy? How about music? What happens to his budget constraint, and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Ashkar has the following utility function for consuming peanut butter &lt;span class=&#34;math inline&#34;&gt;\((p)\)&lt;/span&gt; and jelly &lt;span class=&#34;math inline&#34;&gt;\((j)\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[u(p,j) = 3pj\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;His marginal utilities are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_p &amp;amp;= 3j\\
+MU_j &amp;amp;= 3p\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Put &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; on the horizontal axis and &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt; on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{p,j}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose he is currently consuming bundle&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; &lt;span class=&#34;math inline&#34;&gt;\(a = (4,1)\)&lt;/span&gt;. How much utility is he getting?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;From his current consumption, how much &lt;em&gt;more&lt;/em&gt; utility would he get by consuming 1 more &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;? What about 1 more &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;From his current consumption, how many units of &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt; is he willing to give up to get 1 more unit of &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; and remain indifferent? How many units of &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is he willing to give up to get 1 more &lt;span class=&#34;math inline&#34;&gt;\(j\)&lt;/span&gt; and remain indifferent?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Suppose he can choose between bundles &lt;span class=&#34;math inline&#34;&gt;\(a = (4,1)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(b=(2,2)\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(c=(1,4)\)&lt;/span&gt;. What are his preferences between them?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Would he prefer bundle &lt;span class=&#34;math inline&#34;&gt;\(d = (2,1)\)&lt;/span&gt; over a bundle from part E? Why or why not?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Sketch a graph, plotting bundles &lt;span class=&#34;math inline&#34;&gt;\(a, b, c\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt;. Indicate any indifference curve(s) they are on, and how much utility each provides.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Kelly’s utility function for drinking Coke (&lt;span class=&#34;math inline&#34;&gt;\(c\)&lt;/span&gt;) and Pepsi (&lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;) is given by:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    u(c,p) &amp;amp;= 5c + 2p\\
+    MU_c &amp;amp;= 5\\
+    MU_p &amp;amp;= 2\\
+\end{align*}\]&lt;/span&gt;
+Put Coke on the horizontal axis and Pepsi on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Can Kelly get utility by consuming &lt;em&gt;only&lt;/em&gt; Coke or &lt;em&gt;only&lt;/em&gt; Pepsi?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{c,p}\)&lt;/span&gt;.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Are the bundles &lt;span class=&#34;math inline&#34;&gt;\((c=2, p=5)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\((c=4,p=0)\)&lt;/span&gt; on the same indifference curve?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;What is &lt;span class=&#34;math inline&#34;&gt;\(MRS_{c,p}\)&lt;/span&gt; when &lt;span class=&#34;math inline&#34;&gt;\(c=1\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(p=5\)&lt;/span&gt;?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Given your answers, what is the relationship between Coke and Pepsi for Kelly?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Sketch a few indifference curves.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;A consumer has the following utility function:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(x,y)=\sqrt{xy}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Fill in the following table by calculating the utility for each bundle of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;. Round to two decimal places.&lt;/p&gt;
+&lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;empty-cells: hide;border-bottom:hidden;&#34; colspan=&#34;2&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; &#34; colspan=&#34;3&#34;&gt;
+&lt;div style=&#34;border-bottom: 1px solid #ddd; padding-bottom: 5px; &#34;&gt;
+y
+&lt;/div&gt;
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+0
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+1
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+2
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+3
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+0
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+x
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;font-weight: bold;&#34;&gt;
+3
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Graph three indifference curves on the same graph below: the first showing the bundle(s) that yield a utility level of 1; the second showing the bundle(s) that yield a utility level of 2; the third showing the bundle(s) that yield a utility level of 3.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/assignments/01-problem-set_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;The marginal utilities are given by:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_x&amp;amp;=0.5x^{-0.5}y^{0.5}\\
+MU_y&amp;amp;=0.5x^{0.5}y^{-0.5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRS_{x,y}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Suppose this consumer has an income of $10, the price of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; is $2.50, and the price of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is also $2.50. Write an equation for the budget constraint (in graphable form, in terms of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;), and put it on the same graph above.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Find the optimal combination of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; where the consumer maximizes utility subject to income. Label this point &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part F&lt;/h2&gt;
+&lt;p&gt;How much utility does the consumer earn at the optimum?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Sandwich, I suppose!&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Hint: think about the relationship between these goods. It may not be a “typical” equation.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Instructions</title>
       <link>https://microS22.classes.ryansafner.com/assignments/problem-sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

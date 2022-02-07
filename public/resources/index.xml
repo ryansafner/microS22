@@ -181,33 +181,33 @@
 
 &lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#functions-and-inverse-functions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1&lt;/span&gt; Functions and Inverse Functions&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#functions-and-inverse-functions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Functions and Inverse Functions&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#inverse-functions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.1&lt;/span&gt; Inverse Functions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#functions-with-fractions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.2&lt;/span&gt; Functions with Fractions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#inverse-functions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; Inverse Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#functions-with-fractions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.2&lt;/span&gt; Functions with Fractions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#graphing-linear-functions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2&lt;/span&gt; Graphing Linear Functions&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#graphing-linear-functions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Graphing Linear Functions&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#slope-intercept-form&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.1&lt;/span&gt; Slope-Intercept Form&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#other-forms&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.2&lt;/span&gt; Other Forms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#drawing-a-graph-from-an-equation&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.3&lt;/span&gt; Drawing a Graph From an Equation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#finding-an-equation-from-a-graph&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.4&lt;/span&gt; Finding an Equation from a Graph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slope-intercept-form&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.1&lt;/span&gt; Slope-Intercept Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#other-forms&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.2&lt;/span&gt; Other Forms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#drawing-a-graph-from-an-equation&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.3&lt;/span&gt; Drawing a Graph From an Equation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#finding-an-equation-from-a-graph&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4&lt;/span&gt; Finding an Equation from a Graph&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#rates-of-change&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3&lt;/span&gt; Rates of Change&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#rates-of-change&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; Rates of Change&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#elasticity&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.1&lt;/span&gt; Elasticity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#derivatives-calculus&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.2&lt;/span&gt; Derivatives (Calculus)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elasticity&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3.1&lt;/span&gt; Elasticity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#derivatives-calculus&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3.2&lt;/span&gt; Derivatives (Calculus)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#nonlinear-functions-optimization&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4&lt;/span&gt; Nonlinear Functions &amp;amp; Optimization&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#nonlinear-functions-optimization&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; Nonlinear Functions &amp;amp; Optimization&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#optimization&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4.1&lt;/span&gt; Optimization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#optimization&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4.1&lt;/span&gt; Optimization&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#solving-systems-of-equations&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.5&lt;/span&gt; Solving Systems of Equations&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#solving-systems-of-equations&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5&lt;/span&gt; Solving Systems of Equations&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#substitution&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.5.1&lt;/span&gt; 1. Substitution&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#elimination&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.5.2&lt;/span&gt; 2. Elimination&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#substitution&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.1&lt;/span&gt; Substitution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elimination&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.2&lt;/span&gt; Elimination&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#exponents-and-logarithms&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.6&lt;/span&gt; Exponents and Logarithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#exponents-and-logarithms&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;6&lt;/span&gt; Exponents and Logarithms&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 
@@ -216,8 +216,8 @@
 &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
 &lt;/p&gt;
 &lt;p&gt;If time permits, I will make these into individual pages here on the Resources section.&lt;/p&gt;
-&lt;div id=&#34;functions-and-inverse-functions&#34; class=&#34;section level2&#34; number=&#34;0.1&#34;&gt;
-&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1&lt;/span&gt; Functions and Inverse Functions&lt;/h2&gt;
+&lt;div id=&#34;functions-and-inverse-functions&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Functions and Inverse Functions&lt;/h1&gt;
 &lt;p&gt;A &lt;em&gt;function&lt;/em&gt; is simply a rule that assigns a unique value of a dependent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(f(x)\)&lt;/span&gt;) to each value of an independent variable (e.g. &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;): &lt;span class=&#34;math inline&#34;&gt;\(x \rightarrow f(x)\)&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Something is &lt;em&gt;not&lt;/em&gt; a function if it assigns &lt;em&gt;multiple&lt;/em&gt; values of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; for the same value of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; (e.g. on a graph, a vertical line)&lt;/li&gt;
@@ -269,8 +269,8 @@
 &lt;li&gt;&lt;em&gt;Range&lt;/em&gt;: the set of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;-values determined by the function&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div id=&#34;inverse-functions&#34; class=&#34;section level3&#34; number=&#34;0.1.1&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1&lt;/span&gt; Inverse Functions&lt;/h3&gt;
+&lt;div id=&#34;inverse-functions&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Inverse Functions&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Many functions have a useful &lt;em&gt;inverse&lt;/em&gt;, where we switch the independent variable and dependent variable
 &lt;ul&gt;
@@ -289,8 +289,8 @@ we may want find the &lt;strong&gt;inverse demand function&lt;/strong&gt;, an eq
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;functions-with-fractions&#34; class=&#34;section level3&#34; number=&#34;0.1.2&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.2&lt;/span&gt; Functions with Fractions&lt;/h3&gt;
+&lt;div id=&#34;functions-with-fractions&#34; class=&#34;section level2&#34; number=&#34;1.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; Functions with Fractions&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Many people are rusty on a few useful algebra rules we will need, one being how to deal with fractions in equations&lt;/li&gt;
 &lt;li&gt;To get rid of a fraction, multiply both sides of the equation by the fraction’s &lt;em&gt;reciprocal&lt;/em&gt; (swap the numerator and denominator), which will yield just 1
@@ -326,10 +326,10 @@ we may want find the &lt;strong&gt;inverse demand function&lt;/strong&gt;, an eq
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;graphing-linear-functions&#34; class=&#34;section level2&#34; number=&#34;0.2&#34;&gt;
-&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2&lt;/span&gt; Graphing Linear Functions&lt;/h2&gt;
-&lt;div id=&#34;slope-intercept-form&#34; class=&#34;section level3&#34; number=&#34;0.2.1&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.1&lt;/span&gt; Slope-Intercept Form&lt;/h3&gt;
+&lt;div id=&#34;graphing-linear-functions&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Graphing Linear Functions&lt;/h1&gt;
+&lt;div id=&#34;slope-intercept-form&#34; class=&#34;section level2&#34; number=&#34;2.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.1&lt;/span&gt; Slope-Intercept Form&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A linear function of two variables can be written in &lt;em&gt;slope-intercept form&lt;/em&gt;:
@@ -350,8 +350,8 @@ we may want find the &lt;strong&gt;inverse demand function&lt;/strong&gt;, an eq
 &lt;li&gt;Any point on the line has an &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;-coordinate and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;-coordinate &lt;span class=&#34;math inline&#34;&gt;\((x_i,y_i)\)&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;other-forms&#34; class=&#34;section level3&#34; number=&#34;0.2.2&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.2&lt;/span&gt; Other Forms&lt;/h3&gt;
+&lt;div id=&#34;other-forms&#34; class=&#34;section level2&#34; number=&#34;2.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.2&lt;/span&gt; Other Forms&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;A linear function can equivalently be expressed in the following form:
 &lt;span class=&#34;math display&#34;&gt;\[a_1x_1+a_2x_2=c\]&lt;/span&gt;
@@ -375,8 +375,8 @@ x_2 = \frac{c}{a_2}-\frac{a_1}{a_2}x_1 &amp;amp;&amp;amp; \text{Dividing by }a_2
 &lt;li&gt;&lt;p&gt;This is extremely useful for dealing with constraints in constrained optimization problems: &lt;a href=&#34;https://microS22.classes.ryansafner.com/content/1.2-content&#34;&gt;&lt;strong&gt;budget constraints&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://microS22.classes.ryansafner.com/content/2.2-content&#34;&gt;&lt;strong&gt;isocost lines&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;drawing-a-graph-from-an-equation&#34; class=&#34;section level3&#34; number=&#34;0.2.3&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.3&lt;/span&gt; Drawing a Graph From an Equation&lt;/h3&gt;
+&lt;div id=&#34;drawing-a-graph-from-an-equation&#34; class=&#34;section level2&#34; number=&#34;2.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.3&lt;/span&gt; Drawing a Graph From an Equation&lt;/h2&gt;
 &lt;p&gt;If we already have a linear equation that we would like to graph, we can follow these steps:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Take the equation and plug in two values, e.g. if we have:&lt;/li&gt;
@@ -402,8 +402,8 @@ Thus, another point is &lt;span class=&#34;math inline&#34;&gt;\((2,5)\)&lt;/spa
 &lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: A quick shortcut to plot a line is to find the vertical intercept and plot that, and then find the next point using the slope. Here, start our line at 4 on the vertical axis, and then, as the slope is &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{2}\)&lt;/span&gt;, for every one unit increase in &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; increases by &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{2}\)&lt;/span&gt;. Our second point, (2,5), is a 2 unit increase in &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; resulting in a &lt;span class=&#34;math inline&#34;&gt;\(1\)&lt;/span&gt; unit increase in &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;finding-an-equation-from-a-graph&#34; class=&#34;section level3&#34; number=&#34;0.2.4&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.4&lt;/span&gt; Finding an Equation from a Graph&lt;/h3&gt;
+&lt;div id=&#34;finding-an-equation-from-a-graph&#34; class=&#34;section level2&#34; number=&#34;2.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4&lt;/span&gt; Finding an Equation from a Graph&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 In order to find the equation of an existing line, we follow these steps:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
@@ -435,8 +435,8 @@ p = -2q+8
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;rates-of-change&#34; class=&#34;section level2&#34; number=&#34;0.3&#34;&gt;
-&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3&lt;/span&gt; Rates of Change&lt;/h2&gt;
+&lt;div id=&#34;rates-of-change&#34; class=&#34;section level1&#34; number=&#34;3&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Rates of Change&lt;/h1&gt;
 &lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; changes from &lt;span class=&#34;math inline&#34;&gt;\(y_1 \rightarrow y_2\)&lt;/span&gt;, the &lt;strong&gt;difference&lt;/strong&gt;, &lt;span class=&#34;math inline&#34;&gt;\(\Delta y = y_2-y_1\)&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\Delta y\)&lt;/span&gt; is shorthand that means “change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;”, NOT &lt;span class=&#34;math inline&#34;&gt;\(\Delta * y\)&lt;/span&gt; (it’s not an entity itself)&lt;/li&gt;
@@ -460,8 +460,8 @@ p = -2q+8
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&#34;#Exponents-and-Logarithms&#34;&gt;Natural logarithms&lt;/a&gt; &lt;span class=&#34;math inline&#34;&gt;\((\ln)\)&lt;/span&gt; are very helpful in approximating percentage changes from &lt;span class=&#34;math inline&#34;&gt;\(y_1\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(y_2\)&lt;/span&gt; because:
 &lt;span class=&#34;math display&#34;&gt;\[100*(\ln(y_2)-\ln(y_1))=\% \Delta y = \text{percentage change in y}\]&lt;/span&gt;&lt;/p&gt;
-&lt;div id=&#34;elasticity&#34; class=&#34;section level3&#34; number=&#34;0.3.1&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.1&lt;/span&gt; Elasticity&lt;/h3&gt;
+&lt;div id=&#34;elasticity&#34; class=&#34;section level2&#34; number=&#34;3.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;3.1&lt;/span&gt; Elasticity&lt;/h2&gt;
 &lt;p&gt;Using logs and percentage changes helps us talk about &lt;strong&gt;elasticity&lt;/strong&gt;, an extremely useful concept with vast applications all over economics. Elasticity measures the percentage change in one variable (&lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;) as a response to a 1% change in another (&lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;) at a particular value of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;.
 &lt;span class=&#34;math display&#34;&gt;\[\epsilon_{yx} = \frac{\% \Delta y}{\% \Delta x}=\cfrac{(\frac{\Delta y}{y})}{(\frac{\Delta x}{x})}    =\frac{\Delta y}{\Delta x}*\frac{x}{y}\]&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -475,8 +475,8 @@ p = -2q+8
 &lt;li&gt;Note also that on a graph we usually express &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; as our independent variable and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; as our dependent variable&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;div id=&#34;derivatives-calculus&#34; class=&#34;section level3&#34; number=&#34;0.3.2&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.2&lt;/span&gt; Derivatives (Calculus)&lt;/h3&gt;
+&lt;div id=&#34;derivatives-calculus&#34; class=&#34;section level2&#34; number=&#34;3.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;3.2&lt;/span&gt; Derivatives (Calculus)&lt;/h2&gt;
 &lt;p&gt;Often, &lt;span class=&#34;math inline&#34;&gt;\(\Delta y\)&lt;/span&gt; refers to a &lt;em&gt;very small&lt;/em&gt; change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, a &lt;strong&gt;marginal change&lt;/strong&gt; in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;. A &lt;strong&gt;rate of change&lt;/strong&gt; is the ratio of two changes, such as the change between &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y=f(x)\)&lt;/span&gt;:
 &lt;span class=&#34;math display&#34;&gt;\[\frac{\Delta f(x)}{\Delta x} = \frac{f(x + \Delta x)-f(x)}{\Delta x}\]&lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -493,8 +493,8 @@ p = -2q+8
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;nonlinear-functions-optimization&#34; class=&#34;section level2&#34; number=&#34;0.4&#34;&gt;
-&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4&lt;/span&gt; Nonlinear Functions &amp;amp; Optimization&lt;/h2&gt;
+&lt;div id=&#34;nonlinear-functions-optimization&#34; class=&#34;section level1&#34; number=&#34;4&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; Nonlinear Functions &amp;amp; Optimization&lt;/h1&gt;
 &lt;p&gt;A function is non-linear if it is curved, i.e. not a straight line. Nonlinear functions’ slopes may be different for different values of the independent variable.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 The slope at any particular point of the function is is its first derivative, the rate of instantaneous change.&lt;/p&gt;
@@ -529,8 +529,8 @@ The slope at any particular point of the function is is its first derivative, th
 - A function is also convex at a point if its second derivative is positive&lt;/p&gt;
 &lt;p&gt;A function switches between convex and concave at an &lt;strong&gt;inflection point&lt;/strong&gt; (point C in the example above)
 - Here, the second derivative (in addition to the first) is equal to 0&lt;/p&gt;
-&lt;div id=&#34;optimization&#34; class=&#34;section level3&#34; number=&#34;0.4.1&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1&lt;/span&gt; Optimization&lt;/h3&gt;
+&lt;div id=&#34;optimization&#34; class=&#34;section level2&#34; number=&#34;4.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;4.1&lt;/span&gt; Optimization&lt;/h2&gt;
 &lt;p&gt;For most curves, we often want to find the value where the function reaches its &lt;strong&gt;maximum&lt;/strong&gt; or &lt;strong&gt;minimum&lt;/strong&gt; (in general, these are types of “extrema”) along some interval&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/resources/math_guide_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Formally, a function reaches a &lt;strong&gt;maximum&lt;/strong&gt; at &lt;span class=&#34;math inline&#34;&gt;\(x^*\)&lt;/span&gt; if &lt;span class=&#34;math inline&#34;&gt;\(f(x^*) \geq f(x)\)&lt;/span&gt; for all &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;; or a &lt;strong&gt;minimum&lt;/strong&gt; at &lt;span class=&#34;math inline&#34;&gt;\(x^*\)&lt;/span&gt; if &lt;span class=&#34;math inline&#34;&gt;\(f(x^*) \leq f(x)\)&lt;/span&gt; for all &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;
@@ -583,8 +583,8 @@ There are second order conditions as well, to demonstrate whether an extremum is
 - We know &lt;span class=&#34;math inline&#34;&gt;\((x_1, y_1\)&lt;/span&gt;) is the point of tangency&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;solving-systems-of-equations&#34; class=&#34;section level2&#34; number=&#34;0.5&#34;&gt;
-&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.5&lt;/span&gt; Solving Systems of Equations&lt;/h2&gt;
+&lt;div id=&#34;solving-systems-of-equations&#34; class=&#34;section level1&#34; number=&#34;5&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;5&lt;/span&gt; Solving Systems of Equations&lt;/h1&gt;
 &lt;p&gt;To solve a system of simultaneous linear equations, there must be as many equations as there are variables:
 &lt;span class=&#34;math display&#34;&gt;\[
 \begin{align*}
@@ -593,8 +593,8 @@ There are second order conditions as well, to demonstrate whether an extremum is
 \end{align*}
 \]&lt;/span&gt;
 There are two methods we can use to solve this system:&lt;/p&gt;
-&lt;div id=&#34;substitution&#34; class=&#34;section level3&#34; number=&#34;0.5.1&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.5.1&lt;/span&gt; 1. Substitution&lt;/h3&gt;
+&lt;div id=&#34;substitution&#34; class=&#34;section level2&#34; number=&#34;5.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.1&lt;/span&gt; Substitution&lt;/h2&gt;
 &lt;p&gt;First, we take one equation and solve for one of the variables. Here, we take the first, and solve for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
         12x+4y&amp;amp;=36\\
@@ -633,8 +633,8 @@ There are two methods we can use to solve this system:&lt;/p&gt;
         12-9&amp;amp;=3 \checkmark \\
         \end{align*}\]&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;elimination&#34; class=&#34;section level3&#34; number=&#34;0.5.2&#34;&gt;
-&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.5.2&lt;/span&gt; 2. Elimination&lt;/h3&gt;
+&lt;div id=&#34;elimination&#34; class=&#34;section level2&#34; number=&#34;5.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.2&lt;/span&gt; Elimination&lt;/h2&gt;
 &lt;p&gt;We will multiply the equations by constants to make the coefficients of one variable equal. Here, let us try to make the coefficients in front of each equation’s &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; equal.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
         [12x+4y&amp;amp;=36]*6\\
@@ -667,8 +667,8 @@ There are two methods we can use to solve this system:&lt;/p&gt;
 &lt;p&gt;Now that we have both variables, we can plug them in to each equation to double check them, same as before.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div id=&#34;exponents-and-logarithms&#34; class=&#34;section level2&#34; number=&#34;0.6&#34;&gt;
-&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.6&lt;/span&gt; Exponents and Logarithms&lt;/h2&gt;
+&lt;div id=&#34;exponents-and-logarithms&#34; class=&#34;section level1&#34; number=&#34;6&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;6&lt;/span&gt; Exponents and Logarithms&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Exponents&lt;/strong&gt; are defined as:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(b^n=\underbrace{b \times b \times ... \times b}_{n}\)&lt;/span&gt;, where base &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is multiplied by itself &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; times&lt;/li&gt;
@@ -742,21 +742,35 @@ There are two methods we can use to solve this system:&lt;/p&gt;
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
       <guid>https://microS22.classes.ryansafner.com/resources/quotes/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;“Whether we like it or not, it is a fact that economics cannot remain an esoteric branch of knowledge accessible only to small groups of scholars and specialists. Economics deals with society&amp;rsquo;s fundamental problems; it concerns everyone and belongs to all. It is the main and proper study of every citizen.”^[Mises, Ludwig von., 1948, &lt;em&gt;Human Action: A Treatise on Economics&lt;/em&gt;, p.879] &lt;br&gt; [— Ludwig von Mises]{style=&amp;ldquo;float:right&amp;rdquo;}&lt;/p&gt;
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;“Whether we like it or not, it is a fact that economics cannot remain an esoteric branch of knowledge accessible only to small groups of scholars and specialists. Economics deals with society’s fundamental problems; it concerns everyone and belongs to all. It is the main and proper study of every citizen.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— Ludwig von Mises&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The task of the economist is not to plan utopias, but to criticize reality”
+&lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— Joan Robinson&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“The task of the economist is not to plan utopias, but to criticize reality” &lt;br&gt; [— Joan Robinson]{style=&amp;ldquo;float:right&amp;rdquo;}&lt;/p&gt;
+&lt;p&gt;“The first lesson of economics is scarcity: There is never enough of anything to satisfy all those who want it. The first lesson of politics is to disregard the first lesson of economics.”&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; &lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— Thomas Sowell&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“The first lesson of economics is scarcity: There is never enough of anything to satisfy all those who want it. The first lesson of politics is to disregard the first lesson of economics.”^[Sowell, Thomas, 1993, &lt;em&gt;Is Reality Optional? and Other Essays Quotes&lt;/em&gt;] &lt;br&gt; [— Thomas Sowell]{style=&amp;ldquo;float:right&amp;rdquo;}&lt;/p&gt;
+&lt;p&gt;“The ideas of economists and political philosophers, both when they are right and when they are wrong, are more powerful than is commonly understood. Indeed the world is ruled by little else. Practical men, who believe themselves to be quite exempt from any intellectual influence, are usually the slaves of some defunct economist. Madmen in authority, who hear voices in the air, are distilling their frenzy from some academic scribbler of a few years back. I am sure that the power of vested interests is vastly exaggerated compared with the gradual encroachment of ideas.”&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— John Maynard Keynes&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“The ideas of economists and political philosophers, both when they are right and when they are wrong, are more powerful than is commonly understood. Indeed the world is ruled by little else. Practical men, who believe themselves to be quite exempt from any intellectual influence, are usually the slaves of some defunct economist. Madmen in authority, who hear voices in the air, are distilling their frenzy from some academic scribbler of a few years back. I am sure that the power of vested interests is vastly exaggerated compared with the gradual encroachment of ideas.”^[Keynes, John Maynard, 1936, &lt;em&gt;The General Theory of Employment, Interest, and Money&lt;/em&gt;, p.383] &lt;br&gt; [— John Maynard Keynes]{style=&amp;ldquo;float:right&amp;rdquo;}&lt;/p&gt;
+&lt;p&gt;“There are no solutions, there are only tradeoffs.”&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; &lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— Thomas Sowell&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“There are no solutions, there are only tradeoffs.”^[Sowell, Thomas, 1987, &lt;em&gt;A Conflict of Visions&lt;/em&gt;] &lt;br&gt; [— Thomas Sowell]{style=&amp;ldquo;float:right&amp;rdquo;}&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Sowell, Thomas, 1993, &lt;em&gt;Is Reality Optional? and Other Essays Quotes&lt;/em&gt;&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Keynes, John Maynard, 1936, &lt;em&gt;The General Theory of Employment, Interest, and Money&lt;/em&gt;, p.383&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Sowell, Thomas, 1987, &lt;em&gt;A Conflict of Visions&lt;/em&gt;&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     

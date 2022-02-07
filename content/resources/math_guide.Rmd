@@ -38,7 +38,7 @@ Below, find the link to the Math Review guide in PDF format.
 
 If time permits, I will make these into individual pages here on the Resources section.
 
-## Functions and Inverse Functions
+# Functions and Inverse Functions
 
 A *function* is simply a rule that assigns a unique value of a dependent variable (e.g. $f(x)$) to each value of an independent variable (e.g. $x$): $x \rightarrow f(x)$
 
@@ -88,7 +88,7 @@ $$q=f(k,l)$$
   - *Domain*: the set of $x$-values
   - *Range*: the set of $y$-values determined by the function
 
-### Inverse Functions
+## Inverse Functions
 
 - Many functions have a useful *inverse*, where we switch the independent variable and dependent variable
   - For example, if we have the demand function:
@@ -104,7 +104,7 @@ $$
 \end{align*}
 $$
 
-### Functions with Fractions
+## Functions with Fractions
 
 - Many people are rusty on a few useful algebra rules we will need, one being how to deal with fractions in equations
 - To get rid of a fraction, multiply both sides of the equation by the fraction's *reciprocal* (swap the numerator and denominator), which will yield just 1
@@ -138,9 +138,9 @@ $$
 \frac{4}{3} \times \frac{2}{5}=\frac{4 \times 2}{3 \times 5}=\frac{8}{15}
 $$
 
-## Graphing Linear Functions
+# Graphing Linear Functions
 
-### Slope-Intercept Form
+## Slope-Intercept Form
 
 ```{r}
 ggplot(data = tibble(x = 1:10), aes(x = x))+
@@ -189,7 +189,7 @@ $$y=ax+b$$
     - if $y$ is the dependent variable, this is the “$y$-intercept”, $y$ where $x=0$
 - Any point on the line has an $x$-coordinate and $y$-coordinate $(x_i,y_i)$
 
-### Other Forms
+## Other Forms
 
 - A linear function can equivalently be expressed in the following form:
 $$a_1x_1+a_2x_2=c$$
@@ -247,7 +247,7 @@ x_2 = \frac{c}{a_2}-\frac{a_1}{a_2}x_1 && \text{Dividing by }a_2 \\
 
 - This is extremely useful for dealing with constraints in constrained optimization problems: [**budget constraints**](/content/1.2-content) and [**isocost lines**](/content/2.2-content)
 
-### Drawing a Graph From an Equation
+## Drawing a Graph From an Equation
 
 If we already have a linear equation that we would like to graph, we can follow these steps:
 
@@ -301,7 +301,7 @@ ggplot(data = points, aes(x = x, y = y))+
 
 *Note*: A quick shortcut to plot a line is to find the vertical intercept and plot that, and then find the next point using the slope. Here, start our line at 4 on the vertical axis, and then, as the slope is $\frac{1}{2}$, for every one unit increase in $q$, $p$ increases by $\frac{1}{2}$. Our second point, (2,5), is a 2 unit increase in $q$ resulting in a $1$ unit increase in $p$.
 
-### Finding an Equation from a Graph
+## Finding an Equation from a Graph
 
 ```{r}
 points2 <- tribble(
@@ -352,7 +352,7 @@ $$
 p = -2q+8	
 $$
 
-## Rates of Change
+# Rates of Change
 
 If $y$ changes from  $y_1 \rightarrow y_2$, the **difference**, $\Delta y = y_2-y_1$
 
@@ -376,7 +376,7 @@ $$\frac{y_2-y_1}{y_1}*100=\frac{3.02-3}{3}*100=0.67\%$$
 [Natural logarithms](#Exponents-and-Logarithms) $(\ln)$ are very helpful in approximating percentage changes from $y_1$ to $y_2$ because:
 $$100*(\ln(y_2)-\ln(y_1))=\% \Delta y = \text{percentage change in y}$$
 
-### Elasticity
+## Elasticity
 
 Using logs and percentage changes helps us talk about **elasticity**, an extremely useful concept with vast applications all over economics. Elasticity measures the percentage change in one variable ($y$) as a response to a 1% change in another ($x$) at a particular value of $x$ and $y$.
 $$\epsilon_{yx} = \frac{\% \Delta y}{\% \Delta x}=\cfrac{(\frac{\Delta y}{y})}{(\frac{\Delta x}{x})}	=\frac{\Delta y}{\Delta x}*\frac{x}{y}$$
@@ -390,7 +390,7 @@ $$\epsilon_D = \frac{\%\Delta q}{\%\Delta p} =  \cfrac{\frac{\Delta q}{q}}{\frac
 - Note though we would technically multiply by $\frac{100}{100}$ to get percentage change, this term obviously is just 1. Elasticity is unitless.
 - Note also that on a graph we usually express $q$ as our independent variable and $p$ as our dependent variable
 
-### Derivatives (Calculus)
+## Derivatives (Calculus)
 
 Often, $\Delta y$ refers to a *very small* change in $y$, a **marginal change** in $y$. A **rate of change** is the ratio of two changes, such as the change between $x$ and $y=f(x)$:
 $$\frac{\Delta f(x)}{\Delta x} = \frac{f(x + \Delta x)-f(x)}{\Delta x}$$
@@ -407,7 +407,7 @@ The derivative of the first derivative is the **second derivative** of a functio
 - The second derivative measures the *curvature* of a function
 - It used for proving when a function has reached a maximum or minimum, or is concave or convex (often used in [#Nonlinear-Functions-&-Optimization](optimization))
 
-## Nonlinear Functions & Optimization
+# Nonlinear Functions & Optimization
 
 A function is non-linear if it is curved, i.e. not a straight line. Nonlinear functions' slopes may be different for different values of the independent variable.
 
@@ -498,7 +498,7 @@ $$\color{blue}{f[(w a)+(1-w)b]} < w f(a) + (1-w) f(b) \quad \text{ for }0 < w < 
 A function switches between convex and concave at an **inflection point** (point C in the example above)
   - Here, the second derivative (in addition to the first) is equal to 0
   
-### Optimization
+## Optimization
 
 For most curves, we often want to find the value where the function reaches its **maximum** or **minimum** (in general, these are types of “extrema”) along some interval
 
@@ -618,7 +618,7 @@ $$y-y_1=m(x-x_1)$$
       - We need to know the slope $m$, which we would know from the slope of the function at that point
       - We know $(x_1, y_1$) is the point of tangency
 
-## Solving Systems of Equations
+# Solving Systems of Equations
 
 To solve a system of simultaneous linear equations, there must be as many equations as there are variables:
 $$
@@ -629,7 +629,7 @@ $$
 $$
 There are two methods we can use to solve this system:
 
-### 1. Substitution
+## Substitution
 
 First, we take one equation and solve for one of the variables. Here, we take the first, and solve for $x$: 
 
@@ -678,7 +678,7 @@ $$\begin{align*}
  		12-9&=3 \checkmark \\
  		\end{align*}$$
 
-### 2. Elimination
+## Elimination
 
 We will multiply the equations by constants to make the coefficients of one variable equal. Here, let us try to make the coefficients in front of each equation's $x$ equal.
 
@@ -721,7 +721,7 @@ $$\begin{align*}
  
 Now that we have both variables, we can plug them in to each equation to double check them, same as before.
 
-## Exponents and Logarithms
+# Exponents and Logarithms
 
 **Exponents** are defined as:
 

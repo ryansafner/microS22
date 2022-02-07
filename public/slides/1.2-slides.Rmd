@@ -1,7 +1,7 @@
 ---
 title: "1.2 — Budget Constraint"
 subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microSs22.classes.ryansafner.com</a><br>'
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
@@ -1189,7 +1189,7 @@ ggplot(data.frame(x=c(0,m/px)), aes(x=x))+
                      limits = c(0, (m2/px)),
                      expand=expand_scale(mult=c(0,0.1)))+
   scale_y_continuous(breaks = c(0,(m/py3), (m/py),(m/py2)),
-                     labels = c(0,expression(m/p[y]*minute*minute), expression(m/p[y]),expression(m/p[y]*minute)),
+                     labels = c(0,expression(m/p[y]*minute), expression(m/p[y]),expression(m/p[y]*minute*minute)),
                      limits = c(0, (m2/py)),
                      expand=expand_scale(mult=c(0,0.1)))+
   scale_colour_manual("Curves", values = line_colors, guide=F)+

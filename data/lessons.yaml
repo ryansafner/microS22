@@ -22,52 +22,74 @@ lessons:
     slides: "1.3-slides"
 
   - title: "1.4 — Utility Maximization"
-
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1**'
+    content: "1.4-content"
+    practice: "1.4-practice"
+    date: "M February 7"
 
   - title: "1.5 — Demand"
+    content: "1.5-content"
+    practice: "1.5-practice"
+    date: "W February 9"
 
   - title: "1.6 — Income and Substitution Effects"
+    date: "M February 14"
+    
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'
+    assignment: "01-problem-set"
 
   - title: "1.7 — Price Elasticity of Demand"
+    date: "W February 16"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2**'
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
-
+    date: "W February 23"
+    
   - title: '<span class="fake-header-table">II. Rational Choice Theory: Producers</span>'
     header: True
 
   - title: "2.1 — Production, Specialization, and Firms"
+    date: "M February 28"
 
   - title: "2.2 — Production in the Short Run & Long Run"
+    date: "W March 2"
 
   - title: "2.3 — Cost Minimization"
+    date: "M March 7"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3**'
 
   - title: "2.4 — Costs of Production"
-
+    date: "W March 9"
+    
   - title: "2.5 — Short Run Profit Maximization"
+    date: "M March 21"
 
   - title: "2.6 — Long Run Industry Equilibrium"
+    date: "W March 23"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4**'
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
+    date: "W March 30"
 
   - title: '<span class="fake-header-table">III. Market Equilibrium</span>'
     header: True
 
   - title: "3.1 — The Supply and Demand Model"
+    date: "M April 4"
 
   - title: "3.2 — Market Competition and Surpluses"
-
+    date: "W April 6"
+    
   - title: "3.3 — The *Static* Benefits of Markets: Welfare Economics & Market Failure"
+    date: "M April 11"
 
   - title: "3.4 — The *Dynamic* Benefits of Markets: Entrepreneurship, Profits, & Prices"
+    date: "W April 13"
 
   - title: "3.5 — Introduction to Political Economy"
+    date: "M April 18"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5**'
     assignment: "05-problem-set"
@@ -76,19 +98,26 @@ lessons:
     header: True
 
   - title: "4.1 — Modeling Firms with Market Power"
+    date: "W April 20"
 
   - title: "4.2 — Consequences and Sources of Market Power"
+    date: "M April 25"
 
   - title: "4.3 — Pricing Strategies"
+    date: "W April 27"
   
   - title: "4.4 — Factor Markets"
+    date: "M May 2"
 
   - title: "4.5 — Monopolistic Competition and Oligopoly"
+    date: "W May 4"
 
   - title: "4.6 — Contestable Markets and Wrap Up"
-
+    date: "M May 9"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6**'
 
   - title: '<i class="fas fa-laptop-code"></i> **Op-Ed**'
 
   - title: '<i class="fas fa-star"></i> **Final Exam**'
+    date: "F May 13"
