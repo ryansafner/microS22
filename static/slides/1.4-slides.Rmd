@@ -301,11 +301,11 @@ class: inverse, center, middle
 
 - .hi-red[Budget constraint]: individual’s **constraints** of income and market prices
   - How .red[market] trades off between goods
-  - .red[Marginal cost] (of good $x$, in terms of $y)$
+  - .red[.ul[Marginal cost]] (of good $x$, in terms of $y)$
   
 - .hi-green[Utility function]: individual’s **objective** to maximize, based on their preferences
   - How .green[individual] trades off between goods
-  - .green[Marginal benefit] (of good $x$, in terms of $y)$
+  - .green[.ul[Marginal benefit]] (of good $x$, in terms of $y)$
 ]
 ]
 .pull-right[
