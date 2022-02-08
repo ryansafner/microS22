@@ -1,6 +1,6 @@
 # make-pdfs
-pagedown::chrome_print(input = "https://microS22.classes.ryansafner.com/slides/1.5-slides.html",
-                       output = "static/slides/1.5-slides.pdf",
+pagedown::chrome_print(input = "https://microS22.classes.ryansafner.com/slides/1.4-slides.html",
+                       output = "static/slides/1.4-slides.pdf",
                        timeout = 300)
 
 # create png of first slide

@@ -56,7 +56,7 @@ class: inverse
 
 ---
 
-# The Consumer's Problem: Review
+# The consumer’s Problem: Review
 
 .pull-left[
 
@@ -74,7 +74,7 @@ class: inverse
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/nw0v6bsho0ab4zq/choices.jpg?raw=1)
+![](../images/choices.jpg)
 ]
 ]
 
@@ -84,16 +84,16 @@ class: inverse
 
 .pull-left[
 .smallest[
-- A consumer's .hi[demand] (for good x) depends on current prices & income:
+- A consumer’s .hi[demand] (for good x) depends on .hi-turquoise[current prices & income]:
 
 $$q_x^D = q_x^D(m, p_x, p_y)$$
 
-- How does **demand for x** change?
+- .hi-turquoise[How does demand (for x) change?]
 ]
 ]
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/nw0v6bsho0ab4zq/choices.jpg?raw=1)
+![](../images/choices.jpg)
 ]
 ]
 
@@ -103,18 +103,18 @@ $$q_x^D = q_x^D(m, p_x, p_y)$$
 
 .pull-left[
 .smallest[
-- A consumer's .hi[demand] (for good x) depends on current prices & income:
+- A consumer’s .hi[demand] (for good x) depends on .hi-turquoise[current prices & income]:
 
 $$q_x^D = q_x^D(m, p_x, p_y)$$
 
-- How does **demand for x** change?
+- .hi-turquoise[How does demand (for x) change?]
 
 1. .hi-purple[Income effects] $\left(\frac{\Delta q_x^D}{\Delta m}\right)$: how $q_x^D$ changes with changes in income
 ]
 ]
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/nw0v6bsho0ab4zq/choices.jpg?raw=1)
+![](../images/choices.jpg)
 ]
 ]
 
@@ -124,11 +124,11 @@ $$q_x^D = q_x^D(m, p_x, p_y)$$
 
 .pull-left[
 .smallest[
-- A consumer's .hi[demand] (for good x) depends on current prices & income:
+- A consumer’s .hi[demand] (for good x) depends on .hi-turquoise[current prices & income]:
 
 $$q_x^D = q_x^D(m, p_x, p_y)$$
 
-- How does **demand for x** change?
+- .hi-turquoise[How does demand (for x) change?]
 
 1. .hi-purple[Income effects] $\left(\frac{\Delta q_x^D}{\Delta m}\right)$: how $q_x^D$ changes with changes in income
 2. .hi-purple[Cross-price effects] $\left(\frac{\Delta q_x^D}{\Delta p_y}\right)$: how $q_x^D$ changes with changes in prices of *other* goods (e.g. $y)$
@@ -137,7 +137,7 @@ $$q_x^D = q_x^D(m, p_x, p_y)$$
 
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/nw0v6bsho0ab4zq/choices.jpg?raw=1)
+![](../images/choices.jpg)
 ]
 ]
 
@@ -147,11 +147,11 @@ $$q_x^D = q_x^D(m, p_x, p_y)$$
 
 .pull-left[
 .smallest[
-- A consumer's .hi[demand] (for good x) depends on current prices & income:
+- A consumer’s .hi[demand] (for good x) depends on .hi-turquoise[current prices & income]:
 
 $$q_x^D = q_x^D(m, p_x, p_y)$$
 
-- How does **demand for x** change?
+- .hi-turquoise[How does demand (for x) change?]
 
 1. .hi-purple[Income effects] $\left(\frac{\Delta q_x^D}{\Delta m}\right)$: how $q_x^D$ changes with changes in income
 2. .hi-purple[Cross-price effects] $\left(\frac{\Delta q_x^D}{\Delta p_y}\right)$: how $q_x^D$ changes with changes in prices of *other* goods (e.g. $y)$
@@ -160,7 +160,7 @@ $$q_x^D = q_x^D(m, p_x, p_y)$$
 ]
 .pull-right[
 .center[
-![](https://www.dropbox.com/s/nw0v6bsho0ab4zq/choices.jpg?raw=1)
+![](../images/choices.jpg)
 ]
 ]
 
