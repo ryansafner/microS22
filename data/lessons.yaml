@@ -30,6 +30,7 @@ lessons:
   - title: "1.5 — Demand"
     content: "1.5-content"
     slides: "1.5-slides"
+    practice: "1.5-practice"
     date: "W February 9"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1 Due**'

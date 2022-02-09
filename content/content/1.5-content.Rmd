@@ -31,7 +31,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 {{% /alert %}}
 
 {{% alert warning %}}
-[Problem Set 1](/assignments/01-problem-set) is due by *Monday, February 14*. See the [instructions](/assignments/problem-sets) for completing homeworks.
+[Problem Set 1](/assignments/01-problem-set) is due by *Monday, February 14*. See the [instructions](/assignments/problem-sets) for completing homeworks. 
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
