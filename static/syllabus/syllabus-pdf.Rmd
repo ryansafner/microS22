@@ -11,17 +11,17 @@ output:
       in_header: 
 geometry: margin=1in
 course: "Microeconomic Analysis"
-coursecode: "ECON 306 Fall 2021"
+coursecode: "ECON 306 Spring 2022"
 section: ""
 author: Dr. Ryan Safner
-semester: "[microF21.classes.ryansafner.com](http://microF21.classes.ryansafner.com)"
+semester: "[microS22.classes.ryansafner.com](http://microS22.classes.ryansafner.com)"
 
 email: "safner@hood.edu"
 web: "ryansafner.com"
 officehours: "<i class='fas fa-video'></i> MW 1:30 PM—2:30 PM & by appt"
 office: "Rosenstock 110"
 classroom: "Rosenstock 212"
-classhours: "MW 2:40—4:05 PM"
+classhours: "MW 11:30 AM—12:55 PM"
 
 fontfamily: Fira Sans
 mainfont: Fira Sans
@@ -88,11 +88,13 @@ Given these objectives, this course fulfills all three of the learning outcomes 
 
 <span class="newthought">Fair warning:</span> **Economics is hard.** *This, in particular, may be of the hardest courses that you will take, primarily due to the mathematical content.* Using the economic way of thinking is a skill, it is literally retraining your brain to interpret and analyze the world in a novel way, and is not something that can be memorized. I will do my best to make this class intuitive and helpful, if not interesting. If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in *higher* regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the [Center for Academic Achievement and Retention (CAAR)](http://www.hood.edu/campus-services/academic-services/index.html) and the [Beneficial-Hodson Library](http://www.hood.edu/library/).
 
+Free tutoring in many subjects is available for Hood students through Thinking Storm professional tutoring and Hood peer tutoring.  Hood peer tutoring is located in the Tutoring Center adjacent to the Student Success Center in the Beneficial Hodson Library and Learning Commons. Appointments and online tutoring can be accessed through Blackboard and located under tools/academic tutoring. Tutoring is available evenings and weekends as well as during the day to help meet your needs.  For more information about tutoring and to see the specific subject tutoring offered, please visit the student success website here or contact the student success center at studentsuccess@hood.edu.
+
 See my [tips for success in this course](/resources). 
 
 # Required Course materials 
 
-You can find all course materials at my **dedicated website** for this course: [microF21.classes.ryansafner.com](https://microF21.classes.ryansafner.com). Links to the website are posted on our Blackboard course page. Please familiarize yourself with the website, see that it contains this [syllabus](syllabus/), [resources](resources/) to help you, and our [schedule](schedule/). On the schedule page, you can find each module with its own class page (**start there!**) along with all related readings, lecture slides, practice problems, and assignments.
+You can find all course materials at my **dedicated website** for this course: [microS22.classes.ryansafner.com](https://microS22.classes.ryansafner.com). Links to the website are posted on our Blackboard course page. Please familiarize yourself with the website, see that it contains this [syllabus](syllabus/), [resources](resources/) to help you, and our [schedule](schedule/). On the schedule page, you can find each module with its own class page (**start there!**) along with all related readings, lecture slides, practice problems, and assignments.
 
 My lecture slides will be shared with you, and serve as your primary resource, but our main "textbook" below is **recommended** as the next best resource and will be available from the campus bookstore. I will discuss more about textbooks and materials in the first module.
 
@@ -104,7 +106,7 @@ You are welcome to purchase the book by other means (e.g. Amazon, half.com, etc)
 
 # Assignments and Grades
 
-Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the [assignments page](assignments/) and more specific information and examples on each assignment's page on the [schedule page](schedule/). 
+Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the [assignments page](https://microS22.classes.ryansafner.com/assignments/) and more specific information and examples on each assignment's page on the [schedule page](https://microS22.classes.ryansafner.com/schedule/). 
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
@@ -285,4 +287,4 @@ Pragmatically, our accreditation means that we will engage in the ongoing use of
 
 # Tentative Schedule 
 
-**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](schedule/).
+**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](https://microS22.classes.ryansafner.com/schedule/).

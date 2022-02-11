@@ -380,7 +380,7 @@ se_dom+
 
 ---
 
-```{r, fig.width=16}
+```{r, fig.width=8, fig.asp=1.068}
 se_dom+
   annotate("segment", x = 9, xend = 6, y = 6, yend = 6, colour = "#047806", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
     annotate("segment", x = 12, xend = 6, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
@@ -458,7 +458,7 @@ opt_inf<-ggplot(data = tibble(x = c(0,10)), aes(x = x))+
   
   # geom_function(fun = bc_sub, geom = "line", size = 2, color = "orange", linetype = "dashed")+
   
-  geom_function(fun = ic_inf, geom = "line", size = 2, color = "darkblue", xlim=c(8.5,20))+
+  geom_function(fun = ic_inf, geom = "line", size = 2, color = "darkblue", xlim=c(8.5,13))+
   geom_label(x = 22, y = ic_inf(22), color = "darkblue", label = expression(u[2]))+
   geom_point(data = subset(points_inf, letter %in% c("A", "C")), aes(x = x, y = y), size = 5)+
   geom_text_repel(data = subset(points_inf, letter %in% c("A", "C")), aes(x = x, y = y, label = letter), size = 4, seed = 4, box.padding = 0.5)+
@@ -621,7 +621,7 @@ opt
 
 - Original optimal consumption $(A)$
 
-- Price of $x$ falls, new optimal consumption at $(C)$
+- Price of $x$ rises, new optimal consumption at $(C)$
 
 ]
 
@@ -641,7 +641,7 @@ opt_inf
 
 - Original optimal consumption $(A)$
 
-- Price of $x$ falls, new optimal consumption at $(C)$
+- Price of $x$ rises, new optimal consumption at $(C)$
 
 - .orange[**Substitution effect:** `\\(A \rightarrow B\\)`] on same I.C. $(\uparrow$ cheaper $x$ and $\downarrow$ $y)$
 
@@ -663,7 +663,7 @@ se_dom_inf
 
 - Original optimal consumption $(A)$
 
-- Price of $x$ falls, new optimal consumption at $(C)$
+- Price of $x$ rises, new optimal consumption at $(C)$
 
 - .orange[**Substitution effect:** `\\(A \rightarrow B\\)`] on same I.C. $(\uparrow$ cheaper $x$ and $\downarrow$ $y)$
 
@@ -688,7 +688,7 @@ se_dom_inf+
 
 - Original optimal consumption $(A)$
 
-- Price of $x$ falls, new optimal consumption at $(C)$
+- Price of $x$ rises, new optimal consumption at $(C)$
 
 - .orange[**Substitution effect:** `\\(A \rightarrow B\\)`] on same I.C. $(\uparrow$ cheaper $x$ and $\downarrow$ $y)$
 
@@ -703,10 +703,18 @@ se_dom_inf+
 ```{r}
 se_dom_inf+
   annotate("segment", x = 9, xend = 10, y = 6, yend = 6, colour = "#047806", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-    annotate("segment", x = 12, xend = 10, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  labs(title = "Change in Consumption From an Increase in Price",
-       subtitle = "Inferior Good")
+    annotate("segment", x = 12, xend = 10, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))
 
 ```
 
 ]
+
+---
+
+```{r, fig.width = 8, fig.asp=1.068}
+se_dom_inf+
+  annotate("segment", x = 9, xend = 10, y = 6, yend = 6, colour = "#047806", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+    annotate("segment", x = 12, xend = 10, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  labs(title = "Change in Consumption From an Increase in Price",
+       subtitle = "Inferior Good")
+```

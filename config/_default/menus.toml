@@ -19,9 +19,14 @@
   weight = 20
 
 [[main]]
-  name = "Content"
+  name = "Classes"
   url = "/content/"
   weight = 30
+
+[[main]]
+  name = "Practice"
+  url = "/practice/"
+  weight = 32
 
 [[main]]
   name = "Assignments"

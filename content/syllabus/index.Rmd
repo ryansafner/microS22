@@ -19,7 +19,7 @@ library(kableExtra)
 
 `r blogdown::shortcode("courseinfo")`
 
-<p style="text-align:center"><a target="_blank" href="/syllabus/syllabus-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></br>**Last Updated**: August 20, 2021</p>
+<p style="text-align:center"><a target="_blank" href="/syllabus/syllabus-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></br>**Last Updated**: February 11, 2022</p>
 
 > "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design." <br> [— F.A. Hayek (1974 Economics Nobel Laureate)]{style="float:right"}
 
@@ -265,4 +265,4 @@ Pragmatically, our accreditation means that we will engage in the ongoing use of
 
 # Tentative Schedule 
 
-**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](https://microf21.classes.ryansafner.com/schedule/).
+**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](https://microS22.classes.ryansafner.com/schedule/).
