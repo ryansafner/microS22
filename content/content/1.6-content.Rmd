@@ -31,7 +31,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 {{% /alert %}}
 
 {{% alert warning %}}
-[Problem Set 1](/assignments/01-problem-set) is due by class today. [Problem Set 2](/assignments/02-problem-set) is now posted, and is due by class next Monday February 21.
+[Problem Set 1](/assignments/01-problem-set) is due by Wednesday February 16. [Problem Set 2](/assignments/02-problem-set) is now posted, and is due by class next Monday February 21.
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -56,13 +56,13 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-## Problem Set 1 Due
+## Problem Set 1 Due Wednesday February 16
 
-[Problem set 1](/assignments/01-problem-set) **is due** by PDF upload to Blackboard Assignments.
+[Problem set 1](/assignment/01-problem-set) (on 1.1-1.4) is due by class time Wednesday February 16.
 
-## Problem Set 2 Due Mon Sep 20
+## Problem Set 2 Due Monday February 21
 
-[Problem set 2](/assignments/02-problem-set) (on classes 1.6-1.8) is due by class time on Monday, September 20 by PDF upload to Blackboard Assignments.
+[Problem set 2](/assignments/02-problem-set) (on classes 1.5-1.7) is due by class time on Monday, February 21.
 
 ## Interactive Examples
 

@@ -31,7 +31,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 {{% /alert %}}
 
 {{% alert warning %}}
-[Problem Set 1](/assignments/01-problem-set) is due by *Monday, February 14*. See the [instructions](/assignments/problem-sets) for completing homeworks.
+[Problem Set 1](/assignments/01-problem-set) is due by *Wednesday, February 16*. See the [instructions](/assignments/problem-sets) for completing homeworks.
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -70,9 +70,9 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-### Problem Set 1 Due Monday February 14
+### Problem Set 1 Due Wednesday February 16
 
-[Problem set 1](/assignment/01-problem-set) (on 1.1-1.4) is by Monday February 14.
+[Problem set 1](/assignment/01-problem-set) (on 1.1-1.4) is due by class time Wednesday February 16.
 
 # <i class="fas fa-sigma"></i> Math Appendix
 
