@@ -45,6 +45,7 @@ lessons:
     content: "1.7-content"
     
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2 Due**'
+    assignment: "02-problem-set"
     date: "M February 21"
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
