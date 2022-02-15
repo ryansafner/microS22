@@ -984,7 +984,10 @@ se_dom_inf+
 
 - .hi-purple[Giffen good]: theoretical good that violates law of demand
 
-- .hi-green[(Negative) real income effect] $>$ .hi-orange[substitution effect]
+.smallest[
+  1. Inferior good (negative .green[real income effect])
+  2. .hi-green[real income effect] $>$ .hi-orange[substitution effect]
+]
 
 - Price increase (decrease) causes person to buy *more* (less)
 ]
@@ -1007,10 +1010,10 @@ se_dom_inf+
 
 - .hi-green[Real Income effect]: can be positive (normal) or negative (inferior)
 
-- .hi-purple[Law of Demand]/Demand curves slope downwards (.hi[Price effect]) mostly because of the substitution effect
+- .hi-purple[Law of Demand]/Demand curves slope downwards (.hi-purple[Price effect]) mostly because of the substitution effect
     - Even (inferior) goods with negative real income effects overpowered by substitution effect
 
-- Theoretical .hi[Giffen good] exception: negative R.I.E. $>$ S.E.
+- Theoretical **Giffen good** exception: .green[negative R.I.E.] $>$ .orange[S.E.]
 
 ---
 
