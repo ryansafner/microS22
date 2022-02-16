@@ -1,11 +1,11 @@
 ---
 title: "1.7 — Price Elasticity"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -104,12 +104,15 @@ $$\epsilon_{q_D,p} = \frac{\% \Delta q_D}{\% \Delta p}$$
 
 $$\epsilon_{q_D,p} = \frac{\% \Delta q_D}{\% \Delta p}$$
 
-|                 | .hi["Elastic"] | "Unit Elastic" | .hi["Inelastic"] |
+.smallest[
+|                 | .hi[“Elastic”] | “Unit Elastic” | .hi[“Inelastic”] |
 |-----------------|-----------|----------------|------------|
 | **Intuitively**:    | **Large** response | Proportionate response | **Little** response |
 | **Mathematically**: | $\vert \epsilon_{q_D,p}\vert > 1$ | $\vert \epsilon_{q_D,p}\vert = 1$ | $\vert \epsilon_{q_D,p} \vert < 1$ |
 |                 | Numerator $>$ Denominator | Numerator $=$ Denominator | Numerator $<$ Denominator |
-| **A 1% p-change** | **More than 1%** change in $q_D$ | **1%** change in $q_D$ | **Less than 1%** change in $q_D$ | 
+| **1% change in $p$ causes** | **More than 1%** change in $q_D$ | **Exactly 1%** change in $q_D$ | **Less than 1%** change in $q_D$ | 
+
+]
 
 ---
 
@@ -123,7 +126,7 @@ An identical 50% price cut on an:
 
 .center[
 .smallest[
-"Inelastic" Demand Curve
+“Inelastic” Demand Curve
 ]
 ]
 
@@ -166,7 +169,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 .center[
 .smallest[
-"Elastic" Demand Curve
+“Elastic” Demand Curve
 ]
 ]
 ```{r, fig.align="center", fig.height=5.5}
@@ -261,7 +264,7 @@ $$\epsilon_{q,p} = \frac{\% \Delta q}{\% \Delta p} = \cfrac{\left(\frac{\Delta q
 
 .pull-left[
 
-$$\epsilon_{q,p} = \color{magenta}{\frac{\Delta q}{\Delta p}} \times \color{teal}{\frac{p}{q}}$$
+$$\epsilon_{q,p} = \color{#e64173}{\frac{\Delta q}{\Delta p}} \times \color{#44C1C4}{\frac{p}{q}}$$
 
 - .pink[First term]: *direction* of the effect
   - This is the .hi[price effect]!
@@ -287,9 +290,9 @@ $$\epsilon_{q,p} = \color{magenta}{\frac{\Delta q}{\Delta p}} \times \color{teal
 
 $$\epsilon_{q,p} = \frac{\Delta q}{\Delta p} \times \frac{p}{q}$$
 
-- You've learned .hi-purple["arc"]-price elasticity using the .hi-purple["midpoint formula"] between 2 points
+- You’ve learned .hi-purple[“arc”]-price elasticity using the .hi-purple[“midpoint formula’] between 2 points
 
-- This is a more general formula, we can find the .hi-purple[elasticity at any *one* point]!
+- Here is a more general formula: the .hi-purple[elasticity at any *single* point]!
 
 - We can actually simplify this even more...does the first term remind you of anything?
 ]
@@ -340,7 +343,7 @@ $$q=1000-50p$$
 
 3. What is the price elasticity of demand at a price of $12.00?
 
-4. At what price is demand unit elastic (i.e. $\epsilon{q,p=-1})$?
+4. At what price is demand unit elastic (i.e. $\epsilon_{q,p} = -1)$?
 
 ---
 
@@ -593,7 +596,7 @@ r2+geom_rect(xmin=0, xmax=7, ymin=0, ymax=3, fill="blue", alpha=0.35)+
 
 .center[
 .smallest[
-"Inelastic" Demand Curve
+“Inelastic” Demand Curve
 
 (Agricultural Products)
 ]
@@ -639,7 +642,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 .center[
 .smallest[
-"Elastic" Demand Curve
+“Elastic” Demand Curve
 
 (Computer Chips)
 ]

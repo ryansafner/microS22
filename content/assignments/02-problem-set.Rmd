@@ -114,7 +114,7 @@ When eggs are <span>&#36;</span>2/carton, she buys 3 cups of coffee. When the pr
 
 ## Question 7
 
-Sketch a graph showing a *decrease* in the price of a good (on the horizontal axis, e.g. $x$ if you want). Indicate the (real) income effect, substitution effect, and price effect on the graph. Labeling points and describing each effect as a movement between specific points is sufficient. 
+Sketch a graph showing an *increase* in the price of a good (on the horizontal axis, e.g. $x$ if you want). Indicate (i) the (real) income effect, (ii) substitution effect, and (iii) price effect on the graph. Labeling points and merely describing each of the three effects as a movement between specific points is sufficient. 
 
 ## Question 8
 
