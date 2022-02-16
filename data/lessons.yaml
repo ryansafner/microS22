@@ -53,6 +53,7 @@ lessons:
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
     date: "W February 23"
+    assignment: "01-exam"
     
   - title: '<span class="fake-header-table">II. Rational Choice Theory: Producers</span>'
     header: True
