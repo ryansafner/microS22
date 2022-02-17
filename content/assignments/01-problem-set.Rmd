@@ -26,9 +26,9 @@ Please submit on Blackboard Assignments by class time on Wednesday February 16.
 
 Please read the [instructions](/assignments/problem-sets) for completing homeworks.
 
-<!--## Answers
+## Answers
 
-<p style="text-align:center"><a target="_blank" href="/assignment/01-problem-set-answers.html"><span class="btn btn-primary btn-lg"><i class="far fa-life-ring"></i> Answers</a> <a target="_blank" href="/assignment/01-problem-set-answers-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Answers (PDF)</a> </p>-->
+<p style="text-align:center"><a target="_blank" href="/assignment/01-problem-set-answers.html"><span class="btn btn-primary btn-lg"><i class="far fa-life-ring"></i> Answers</a> <a target="_blank" href="/assignment/01-problem-set-answers-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Answers (PDF)</a> </p>
 
 # Concepts and Critical Thinking
 
