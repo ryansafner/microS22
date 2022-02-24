@@ -59,9 +59,11 @@ lessons:
     header: True
 
   - title: "2.1 — Production, Specialization, and Firms"
+    content: "2.1-content"
     date: "M February 28"
 
   - title: "2.2 — Production in the Short Run & Long Run"
+    content: "2.2-content"
     date: "W March 2"
 
   - title: "2.3 — Cost Minimization"
