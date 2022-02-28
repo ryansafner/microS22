@@ -1,11 +1,11 @@
 ---
 title: "2.1 — Production, Specialization, Firms"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -82,8 +82,8 @@ class: inverse
 
 - Nearly all goods must be **produced** before we can exchange & consume them
 
-- .hi[Consumption] is the **destruction** of value to gain utility
-    - Consumption is the ultimate goal of all economic activity
+- .hi[Consumption] is the **using up** of value to gain utility
+  - .hi-purple[Consumption is the ultimate goal of all economic activity]
 ]
 
 .pull-right[
@@ -100,6 +100,8 @@ class: inverse
 .pull-left[
 
 - .hi[Production] is the **creation** of value, by transforming *lower*-valued goods (resources, inputs, etc) into *higher*-valued goods (outputs, consumer products, etc)
+
+- Iron Ore $\rightarrow$ Steel $\rightarrow$ Buildings, Bridges, Ovens, Water Bottles
 ]
 
 .pull-right[
@@ -117,8 +119,8 @@ class: inverse
 
 - .hi-red[Supply] is actually .hi-blue[Demand] in disguise!
 
-- The .hi[(opportunity) cost] producers must pay to purchase (scarce) inputs to produce products comes from the fact that **other people** .hi-blue[demand] those same inputs to consume or produce **other things** for other purposes!
-  - You are not paying the price just to buy them, but also to **pull them out of other valuable lines of production** in the economy!
+- An .hi[(opportunity) cost] to buy (scarce) inputs for production because **other people** .hi-blue[demand] those same inputs to consume or produce **other valuable things**!
+  - Price necessary to **pull them out of other valuable productive uses** in the economy!
 ]
 
 .pull-right[
@@ -257,27 +259,54 @@ class: inverse, center, middle
 .pull-right[
 
 ```{r ppf_jagged}
+library(geomtextpath)
+
 labels<-tribble(
   ~x, ~y, ~plot, ~lab,
   25, 18, "B", "slope = -1/3",
   50, 10, "A", "slope = -1/2"
 )
 
+green_fill <- tribble(
+  ~x, ~y,
+  0, 0,
+  0, 20,
+  45, 15,
+  45, 0
+)
+
+blue_fill <- tribble(
+  ~x, ~y,
+  45, 15,
+  45, 0,
+  55, 0,
+)
+
 ppf_jagged<-ggplot(data=labels,
        x = x,
        y = y,
        color = plot)+
-  geom_segment(x = 0, y = 20,
+  geom_polygon(data = blue_fill, aes(x = x, y = y), fill = "blue", alpha = 0.5)+
+  geom_polygon(data = green_fill, aes(x = x, y = y), fill = "green", alpha = 0.5)+
+  geom_textsegment(x = 0, y = 20,
                xend = 45, yend = 15,
-               size = 2, aes(color = "B"))+
-  geom_segment(x = 45, y = 15,
+               size = 4, aes(color = "B"),
+               label = "slope = -1/3",
+               vjust = -0.9,
+               linewidth = 2)+
+  geom_textsegment(x = 45, y = 15,
                xend = 55, yend = 0,
-               size = 2, aes(color = "A"))+
-  geom_label(data = labels,
-             aes(x = x, y = y, label = lab, color = plot),
-             show.legend = F)+
+               size = 4, aes(color = "A"),
+               linewidth = 2,
+               label = "slope = -1/2",
+               vjust = -1)+
+  #geom_label(data = labels,
+  #           aes(x = x, y = y, label = lab, color = plot),
+  #           show.legend = F)+
   #scale_color_manual("Plot", values = c("A" = "green", "B" = "red"))+
   scale_color_viridis_d("Plot", begin = 0.25, end = 0.75, option = "d")+
+  annotate(geom = "text", x = 22.5, y = 5, label = "Plot B", color = "white", size = 5)+
+  annotate(geom = "text", x = 48, y = 5, label = "Plot A", color = "white", size = 5)+
   scale_x_continuous(breaks = seq(0,60,5),
                      limits = c(0,60),
                      expand=expand_scale(mult=c(0,0.1)))+
@@ -288,7 +317,7 @@ ppf_jagged<-ggplot(data=labels,
        y = "Coconuts")+
   theme_classic(base_family = "Fira Sans Condensed", base_size = 16)+
   #guides(color = guide_legend(override.aes = list(shape = 1)))
-  theme(legend.position = "bottom")
+  theme(legend.position = "none")
 ppf_jagged
 ```
 
@@ -326,7 +355,7 @@ ppf_jagged
 - .hi-purple[Increasing marginal cost]: to produce more of a good, (opportunity) cost rises as he cultivates more plots of land
 
 - Producing **Bananas** (x-axis), start with most productive plot first (.green[Plot B]), then start cultivation on (.blue[Plot A])
-  - .hi-turquoise[“Intensive margin”]: producing more on existing (most productive) plot (on .green[Plot B])
+  - .hi-turquoise[“Intensive margin”]: producing more on existing (most productive) plot (.green[Plot B])
   - .hi-orange[“Extensive margin”]: bringing new (worse) plots into cultivation for production (moving to .blue[Plot A])
 ]
 ]
@@ -335,7 +364,11 @@ ppf_jagged
 
 ```{r}
 ppf_jagged+
-  annotate("segment", x = 5, xend = 15, y = 5, yend = 5, colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))
+  annotate("segment", x = 2.5, xend = 45, y = 30, yend = 30, colour = "green", size=1.5, linetype = "dashed")+
+  annotate("text", x = 22.5, y = 33, label = "Intensive", color = "green", size = 6)+
+  annotate("segment", x = 45, xend = 55, y = 30, yend = 30, colour = "blue", size=1.5, linetype = "dashed", alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  annotate("text", x = 50, y = 33, label = "Extensive", color = "blue", size = 6)
+
 ```
 
 ]

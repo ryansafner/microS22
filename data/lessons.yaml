@@ -60,6 +60,7 @@ lessons:
 
   - title: "2.1 — Production, Specialization, and Firms"
     content: "2.1-content"
+    slides: "2.1-slides"
     date: "M February 28"
 
   - title: "2.2 — Production in the Short Run & Long Run"
@@ -73,7 +74,9 @@ lessons:
 
   - title: "2.4 — Costs of Production"
     date: "W March 9"
-    
+  
+  - title: "**Spring Break**"
+  
   - title: "2.5 — Short Run Profit Maximization"
     date: "M March 21"
 
