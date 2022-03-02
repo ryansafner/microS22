@@ -1201,8 +1201,6 @@ This actually calculates the elasticity of a single point, the one midway betwee
 &lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#problem-set-3-due-wed-oct-13&#34;&gt;Problem Set 3 Due Wed Oct 13&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#derivation-of-mrts-equation-as-ratio-of-marginal-products&#34;&gt;Derivation of MRTS Equation (as ratio of marginal products)&lt;/a&gt;&lt;/li&gt;
@@ -1257,13 +1255,12 @@ This actually calculates the elasticity of a single point, the one midway betwee
 &lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/slides/2.2-slides.html&#34;&gt;&lt;img src =&#34;/slides/2.2-slides.png&#34; alt = &#34;2.2-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/slides/2.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
-&lt;/div&gt;
-&lt;div id=&#34;problem-set-3-due-wed-oct-13&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Problem Set 3 Due Wed Oct 13&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem set 3&lt;/a&gt; (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments.&lt;/p&gt;
+&lt;!--
+## &lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments
+
+## Problem Set 3 Due Wed Oct 13
+
+[Problem set 3](/assignments/03-problem-set) (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments. --&gt;
 &lt;/div&gt;
 &lt;div id=&#34;appendix&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h1&gt;

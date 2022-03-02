@@ -65,20 +65,21 @@ lessons:
 
   - title: "2.2 — Production in the Short Run & Long Run"
     content: "2.2-content"
+    slides: '2.2-slides'
     date: "W March 2"
 
   - title: "2.3 — Cost Minimization"
     date: "M March 7"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3**'
-
   - title: "2.4 — Costs of Production"
     date: "W March 9"
   
   - title: "**Spring Break**"
-  
-  - title: "2.5 — Short Run Profit Maximization"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** Due'
     date: "M March 21"
+    
+  - title: "2.5 — Short Run Profit Maximization"
 
   - title: "2.6 — Long Run Industry Equilibrium"
     date: "W March 23"

@@ -56,11 +56,12 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 `r blogdown::shortcode("slide-links")`
 
+<!--
 ## <i class="fas fa-laptop-code"></i> Assignments
 
 ## Problem Set 3 Due Wed Oct 13
 
-[Problem set 3](/assignments/03-problem-set) (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments.
+[Problem set 3](/assignments/03-problem-set) (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments. -->
 
 # <i class="fas fa-sigma"></i> Appendix
 
