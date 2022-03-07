@@ -1,11 +1,11 @@
 ---
 title: "2.3 — Cost Minimization"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -93,7 +93,7 @@ class: inverse, center, middle
 
 1. **Choose:** .blue[ < inputs: `\\(l, k\\)`>]
 
-2. **In order to maximize:** .green[< total cost: `\\(wl+rk\\)` >]
+2. **In order to minimize:** .green[< total cost: `\\(wl+rk\\)` >]
 
 3. **Subject to:** .red[< producing the optimal output: `\\(q^*=f(l,k)\\)` >]
 
@@ -151,7 +151,7 @@ class: inverse, center, middle
 .pull-left[
 
 $$\min_{l,k} wl+rk$$
-$$s.t. q^*=f(l,k)$$
+$$s.t. \quad q^*=f(l,k)$$
 
 - This requires calculus to solve. We will look at **graphs** instead!
 ]
@@ -236,9 +236,9 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 - B produces same output as A, but higher cost
 
-- C is same cost as A, but produces less than desired output
+- C is same cost as A, but does not produce desired output
 
-- D produces is cheaper, but produces less than desired output
+- D is cheaper, does not produce desired output
 
 ]
 
@@ -375,7 +375,7 @@ $$\frac{MP_l}{w}  =  \frac{MP_k}{r} = \cdots = \frac{MP_n}{p_n}$$
 - .hi[Equimarginal Rule]: the cost of production is minimized where the **marginal product per dollar spent** is **equalized** across all $n$ possible inputs
 
 - Firm will always choose an option that gives higher marginal product (e.g. if $MP_l > MP_k)$
-    - But each option has a different cost, so we weight each option by its cost, hence $\frac{MP_n}{p_n}$
+    - But each option has a different cost, so we weight each option by its price, hence $\frac{MP_n}{p_n}$
     
 ---
 
@@ -509,7 +509,7 @@ class: inverse, center, middle
 # Returns to Scale: Example 
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.green[**Example**:] Does each of the following production functions exhibit constant returns to scale, increasing returns to scale, or decreasing returns to scale?
+.green[**Example**:] Do the following production functions exhibit *constant* returns to scale, *increasing* returns to scale, or *decreasing* returns to scale?
 ]
 1. $q=4l+2k$
 
@@ -545,8 +545,9 @@ $$q=Ak^\alpha l^\beta$$
 
 .pull-left[
 .smallest[
-- In the constant returns to scale case (most common), Cobb-Douglas is often written as:     
+- A common case of Cobb-Douglas is often written as:     
 $$q=Ak^\alpha l^{1-\alpha}$$
+(i.e., the exponents sum to 1, constant returns)
 
 - $\alpha$ is the .hi-purple[output elasticity of capital]
     - A 1% increase in $k$ leads to an $\alpha$% increase in $q$

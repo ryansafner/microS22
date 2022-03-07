@@ -69,40 +69,42 @@ lessons:
     date: "W March 2"
 
   - title: "2.3 — Cost Minimization"
+    content: "2.3-content"
+    slides: "2.3-slides"
     date: "M March 7"
 
-  - title: "2.4 — Costs of Production"
-    date: "W March 9"
-  
   - title: "**Spring Break**"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** Due'
     date: "M March 21"
     
+  - title: "2.4 — Costs of Production"
+
   - title: "2.5 — Short Run Profit Maximization"
+    date: "W March 23"
 
   - title: "2.6 — Long Run Industry Equilibrium"
-    date: "W March 23"
+    date: "M March 30"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4**'
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
-    date: "W March 30"
+    date: "M April 4"                      
 
   - title: '<span class="fake-header-table">III. Market Equilibrium</span>'
     header: True
 
   - title: "3.1 — The Supply and Demand Model"
-    date: "M April 4"
+    date: "W April 6"
 
   - title: "3.2 — Market Competition and Surpluses"
-    date: "W April 6"
+    date: "M April 11"
     
   - title: "3.3 — The *Static* Benefits of Markets: Welfare Economics & Market Failure"
-    date: "M April 11"
+    date: "W April 13"
 
   - title: "3.4 — The *Dynamic* Benefits of Markets: Entrepreneurship, Profits, & Prices"
-    date: "W April 13"
+    date: "M April 18"
 
   - title: "3.5 — Introduction to Political Economy"
     date: "M April 18"
