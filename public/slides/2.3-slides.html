@@ -3,7 +3,7 @@
   <head>
     <title>2.3 — Cost Minimization</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microF21   microF21.classes.ryansafner.com " />
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microS22   microS22.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -20,8 +20,8 @@
 class: center, middle, inverse, title-slide
 
 # 2.3 — Cost Minimization
-## ECON 306 • Microeconomic Analysis • Fall 2021
-### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>
+## ECON 306 • Microeconomic Analysis • Spring 2022
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>
 
 ---
 
@@ -76,7 +76,7 @@ class: inverse, center, middle
 
 1. **Choose:** .blue[ &lt; inputs: `\\(l, k\\)`&gt;]
 
-2. **In order to maximize:** .green[&lt; total cost: `\\(wl+rk\\)` &gt;]
+2. **In order to minimize:** .green[&lt; total cost: `\\(wl+rk\\)` &gt;]
 
 3. **Subject to:** .red[&lt; producing the optimal output: `\\(q^*=f(l,k)\\)` &gt;]
 
@@ -134,7 +134,7 @@ class: inverse, center, middle
 .pull-left[
 
 `$$\min_{l,k} wl+rk$$`
-`$$s.t. q^*=f(l,k)$$`
+`$$s.t. \quad q^*=f(l,k)$$`
 
 - This requires calculus to solve. We will look at **graphs** instead!
 ]
@@ -170,9 +170,9 @@ class: inverse, center, middle
 
 - B produces same output as A, but higher cost
 
-- C is same cost as A, but produces less than desired output
+- C is same cost as A, but does not produce desired output
 
-- D produces is cheaper, but produces less than desired output
+- D is cheaper, does not produce desired output
 
 ]
 
@@ -274,7 +274,7 @@ class: inverse, center, middle
 - .hi[Equimarginal Rule]: the cost of production is minimized where the **marginal product per dollar spent** is **equalized** across all `\(n\)` possible inputs
 
 - Firm will always choose an option that gives higher marginal product (e.g. if `\(MP_l &gt; MP_k)\)`
-    - But each option has a different cost, so we weight each option by its cost, hence `\(\frac{MP_n}{p_n}\)`
+    - But each option has a different cost, so we weight each option by its price, hence `\(\frac{MP_n}{p_n}\)`
     
 ---
 
@@ -408,7 +408,7 @@ class: inverse, center, middle
 # Returns to Scale: Example 
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.green[**Example**:] Does each of the following production functions exhibit constant returns to scale, increasing returns to scale, or decreasing returns to scale?
+.green[**Example**:] Do the following production functions exhibit *constant* returns to scale, *increasing* returns to scale, or *decreasing* returns to scale?
 ]
 1. `\(q=4l+2k\)`
 
@@ -444,8 +444,9 @@ class: inverse, center, middle
 
 .pull-left[
 .smallest[
-- In the constant returns to scale case (most common), Cobb-Douglas is often written as:     
+- A common case of Cobb-Douglas is often written as:     
 `$$q=Ak^\alpha l^{1-\alpha}$$`
+(i.e., the exponents sum to 1, constant returns)
 
 - `\(\alpha\)` is the .hi-purple[output elasticity of capital]
     - A 1% increase in `\(k\)` leads to an `\(\alpha\)`% increase in `\(q\)`
@@ -596,7 +597,7 @@ slideshow._releaseMath(document);
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
