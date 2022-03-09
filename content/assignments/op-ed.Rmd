@@ -25,15 +25,7 @@ Due by the end of the day Monday May 9 by CHALK-AND-WIRE UPLOAD (include a word 
 
 > "How can I know what I think until I see what I say?" [— E. M. Forster]{style="float:right"}
 
-### Description of Assignment
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-cjGQ73EmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The above video can also be found on Blackboard under Class Recordings (Panopto).
-
 ### How to Write a Good Paper
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-e_FjEAUhIE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [<i class="fas fa-chalkboard-teacher"></i> How to Write a Good Paper (Slides)](/slides/paper-slides.html)
 
