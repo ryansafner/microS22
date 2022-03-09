@@ -11,6 +11,7 @@ type: docs
 output:
   blogdown::html_page:
     toc: true
+slides: "paper-slides"
 ---
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
@@ -19,7 +20,7 @@ library(pander)
 ```
 
 {{% alert warning %}}
-Due by the end of the day Monday December 6 by CHALK-AND-WIRE UPLOAD (include a word count)
+Due by the end of the day Monday May 9 by CHALK-AND-WIRE UPLOAD (include a word count)
 {{% /alert %}}
 
 > "How can I know what I think until I see what I say?" [— E. M. Forster]{style="float:right"}
@@ -35,6 +36,8 @@ The above video can also be found on Blackboard under Class Recordings (Panopto)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-e_FjEAUhIE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - [<i class="fas fa-chalkboard-teacher"></i> How to Write a Good Paper (Slides)](/slides/paper-slides.html)
+
+`r blogdown::shortcode("slide-links")`
 
 > **See examples of good Op-eds from previous students on Blackboard (Under Course Documents)**
 
@@ -58,7 +61,7 @@ If you publish your op-ed in any media outlet (newspapers, news websites, major 
 
 *Meeting the market test is what matters most!*  
 
-**Your Op-Ed, with a word count, is due by 11:59 PM Monday December 6, via Chalk-and-Wire upload, and constitutes 20% of your final course grade.**
+**Your Op-Ed, with a word count, is due by 11:59 PM Monday May 9, via Chalk-and-Wire upload, and constitutes 20% of your final course grade.**
 
 ## Length, References, & Mechanics
 
