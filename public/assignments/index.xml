@@ -109,23 +109,19 @@
 &lt;/blockquote&gt;
 &lt;div id=&#34;how-to-write-a-good-paper&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;How to Write a Good Paper&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/slides/paper-slides.html&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; How to Write a Good Paper (Slides)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;!-- [&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; How to Write a Good Paper (Slides)](/slides/paper-slides.html)--&gt;
 &lt;p&gt;
 &lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/slides/paper-slides.html&#34;&gt;&lt;img src =&#34;/slides/paper-slides.png&#34; alt = &#34;paper-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/slides/paper-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
-&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;See examples of good Op-eds from previous students on Blackboard (Under Course Documents)&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Your task is to write an Opinion-Editorial (Op-ed) piece that applies the economic way of thinking to some public policy-relevant issue. An op-ed is a newspaper article that expresses the opinions of a writer who is unaffiliated with the newspaper or its editorial board. Often, the writer of an op-ed has no journalism experience, or (as you will soon discover), little understanding of economics. Thus, you are at no disadvantage as a student just beginning your experience with economics and writing! To get an idea, look at any newspaper’s “Opinion” section on their website or in print.&lt;/p&gt;
 &lt;p&gt;The purpose of this assignment is fourfold: (1) to demonstrate to you that economics is a wonderful way of thinking about any social issue, (2) for you to demonstrate to me that you have mastered the material of this course, (3) to develop your writing and argumentative skills, and (4) to help you develop, change, and/or strengthen your own views by grappling with them in writing.&lt;/p&gt;
 &lt;p&gt;In general, am looking for a short paper that puts forth an argument and defends it. You should be able to summarize your position in one sentence – the thesis of your paper that you will argue for. It should be a reasonably original argument (it is difficult with limited knowledge to offer something truly original), and it should be your own take on the topic. It should use some principle(s) or insight(s) from (micro) economics to bolster your conclusions.&lt;/p&gt;
-&lt;p&gt;Please note that, while you are not required to, I highly recommend discussing your ideas with me over email or in person. I will also read any drafts you would like to submit to me early, and provide you with helpful comments, subject to my own availability. Both to disincentivize procrastination, and because I have no time to read 100 papers right before the end of class, &lt;strong&gt;I will stop reading and commenting on drafts after November 31&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please note that, while you are not required to, I highly recommend discussing your ideas with me over email or in person. I will also read any drafts you would like to submit to me early, and provide you with helpful comments, subject to my own availability. Both to disincentivize procrastination, and because I have no time to read 100 papers right before the end of class, &lt;strong&gt;I will stop reading and commenting on drafts after April 30&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If you publish your op-ed in any media outlet (newspapers, news websites, major blogs) by the end of the semester, you will earn extra credit according to the following scale:&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -875,6 +871,201 @@ $50
 &lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Part G&lt;/h3&gt;
 &lt;p&gt;What is the total revenue at the price you find in part (f)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 3</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/03-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/03-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by the end of the day Monday March 21.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/03-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;!--## Answers
+
+&lt;p style=&#34;text-align:center&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/03-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/03-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt; &lt;/p&gt;--&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what the marginal rate of technical substitution means. How is it different from the slope of the isocost line?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what is true at the least-cost input combination (the optimum) for a firm. Why is it the optimum? What does the equality of the slope of the isoquant curve and the slope of the isocost line &lt;em&gt;mean&lt;/em&gt;, in English?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Explain the difference between the short run and the long run in production.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Describe, in your own words, what the law of diminishing marginal returns means. How can firms continue to increase output?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Suppose a firm can hire labor at &lt;span&gt;$&lt;/span&gt;5/hour and rent capital for &lt;span&gt;$&lt;/span&gt;20 per hour.&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for the total cost of the firm.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose the firm wants to spend exactly &lt;span&gt;$&lt;/span&gt;100. With labor on the horizontal axis and capital on the vertical axis, find the equation of the isocost line (in a graphable form), and graph it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;If the firm is completely automated (i.e. it uses &lt;em&gt;only&lt;/em&gt; capital), how many units of capital can they employ for &lt;span&gt;$&lt;/span&gt;100?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;If the firm uses only labor, how many units of labor can they employ for&lt;span&gt;$&lt;/span&gt;100?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;What is the slope of the isocost line? What does it represent?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Suppose a tax on capital makes renting capital raises the price of capital to &lt;span&gt;$&lt;/span&gt;25 per hour. What is the new (graphable) equation of the &lt;span&gt;$&lt;/span&gt;100 isocost line? Graph the new isocost line on the same graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;For each of the following production functions, identify whether the production process exhibits constant returns to scale, increasing returns to scale, or decreasing returns to scale. Be sure to show your work!&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2L+4K\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=6L^{0.25}K^{0.75}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2L^{0.8}K^{0.4}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2L^{0.25}K^{0.25}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Jerry’s Berries is a small farm that has the following production function for strawberries using combinations of labor &lt;span class=&#34;math inline&#34;&gt;\((l)\)&lt;/span&gt; and land &lt;span class=&#34;math inline&#34;&gt;\((t)\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[q = 2lt\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The marginal products (of labor, &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt;; and land, &lt;span class=&#34;math inline&#34;&gt;\(t)\)&lt;/span&gt; are:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MP_l &amp;amp;= 2t\\
+MP_t &amp;amp;= 2l\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Put labor, &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; on the horizontal axis and land, &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; on the vertical axis.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Write an equation for &lt;span class=&#34;math inline&#34;&gt;\(MRTS_{l,t}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose the farm is currently using 4 units of labor and 1 unit of land. How much output (tons of strawberries) is the farm producing?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;From its current production, how much &lt;em&gt;more&lt;/em&gt; output would the farm get by utilizing 1 more unit of labor? What about 1 more unit of land (instead of labor)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;From its current production, how many units of land would the farm be willing to forgo in order to use one more unit of labor and still produce the same output as before? How many units of labor would the farm be willing to forgo in order to use one more unit of land and still produce the same output as before?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Suppose the farm can choose between input combinations of &lt;span class=&#34;math inline&#34;&gt;\(a = (4,1)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(b=(2,2)\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(c=(2,1)\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(d=d(3,2)\)&lt;/span&gt;. What outputs does each combination yield?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Sketch a graph, plotting bundles &lt;span class=&#34;math inline&#34;&gt;\(a, b, c\)&lt;/span&gt;, and &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt;. Indicate any isoquant curve(s) they are on, and how much output each provides.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;Your firm builds aircraft engines using both labor (L) and power tools (K). The production function for aircraft engines is &lt;span class=&#34;math inline&#34;&gt;\(q=10 L^{0.5}K^{0.5}\)&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Can you completely mechanize the production of aircraft engines (i.e. produce using all capital, no labor)?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Suppose you currently have 100 power tools. In the short run, you cannot buy or sell power tools. Derive your short run production function.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Find the (i) total product of labor, (ii) average product of labor, and (iii) marginal product of labor for using 0, 1, 2, 3, 4, and 5 workers. [Hint: make a table!] Round to the nearest engine. Does labor experience diminishing returns?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Using your answer from Part C, sketch two graphs (roughly), one of total product, and one of marginal and average product, each with labor on the horizontal axis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;In the long run, does the production function exhibit constant returns to scale, increasing returns to scale, or decreasing returns to scale?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 9&lt;/h2&gt;
+&lt;p&gt;Dunder Mifflin paper company produces reams of paper each week according to the production function:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}q &amp;amp;=10 l^{0.5} k^{0.5}\\
+MP_l&amp;amp; = 5l^{-0.5}k^{0.5}\\
+MP_k&amp;amp; = 5l^{0.5}k^{-0.5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;They have determined that they need to ship 1,000 reams of paper this week to Scranton, PA. Using capital costs $20, whereas labor costs $10.&lt;/p&gt;
+&lt;div id=&#34;part-a-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;What is the cost-minimizing combination of labor and capital that will yield 1,000 reams of paper? Round each to the nearest whole number.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;What is the total cost of using this combination of inputs?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Now suppose that they need to double their output this week, and need to produce 2,000 reams of paper. How does their optimal combination of inputs change? [Hint: neither the equation for MRTS nor any prices are changing!]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-4&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;What is the total cost of this new level of output?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Suppose management at Dunder Mifflin develops a new program that magically makes everyone at the firm more productive, such that the firm’s new production function becomes:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}q &amp;amp;=20 l^{0.5} k^{0.5}\\
+MP_l&amp;amp; = 10l^{-0.5}k^{0.5}\\
+MP_k&amp;amp; = 10l^{0.5}k^{-0.5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Still needing to supply 2,000 reams of paper this week at the same input prices, what is their new optimal combination of labor and capital?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;How much does this combination cost? What does this show you about technological improvement (or “total factor productivity”)?&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

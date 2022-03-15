@@ -27,11 +27,11 @@ Due by the end of the day Monday May 9 by CHALK-AND-WIRE UPLOAD (include a word 
 
 ### How to Write a Good Paper
 
-- [<i class="fas fa-chalkboard-teacher"></i> How to Write a Good Paper (Slides)](/slides/paper-slides.html)
+<!-- [<i class="fas fa-chalkboard-teacher"></i> How to Write a Good Paper (Slides)](/slides/paper-slides.html)-->
 
 `r blogdown::shortcode("slide-links")`
 
-> **See examples of good Op-eds from previous students on Blackboard (Under Course Documents)**
+**See examples of good Op-eds from previous students on Blackboard (Under Course Documents)**
 
 ## Overview 
 
@@ -41,7 +41,7 @@ The purpose of this assignment is fourfold: (1) to demonstrate to you that econo
 
 In general, am looking for a short paper that puts forth an argument and defends it. You should be able to summarize your position in one sentence -- the thesis of your paper that you will argue for. It should be a reasonably original argument (it is difficult with limited knowledge to offer something truly original), and it should be your own take on the topic. It should use some principle(s) or insight(s) from (micro) economics to bolster your conclusions.
 
-Please note that, while you are not required to, I highly recommend discussing your ideas with me over email or in person. I will also read any drafts you would like to submit to me early, and provide you with helpful comments, subject to my own availability. Both to disincentivize procrastination, and because I have no time to read 100 papers right before the end of class, **I will stop reading and commenting on drafts after November 31**
+Please note that, while you are not required to, I highly recommend discussing your ideas with me over email or in person. I will also read any drafts you would like to submit to me early, and provide you with helpful comments, subject to my own availability. Both to disincentivize procrastination, and because I have no time to read 100 papers right before the end of class, **I will stop reading and commenting on drafts after April 30**
 
 If you publish your op-ed in any media outlet (newspapers, news websites, major blogs) by the end of the semester, you will earn extra credit according to the following scale:^[Note: *Websites like reddit, Buzzfeed, or personal blogs that do not require professional editorial approval do __not__ count!*]
 
