@@ -243,3 +243,27 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
        caption = expression(paste(q==2*k^{0.5}*l^{0.5}, ", ", q^"*"==100, ", w= $10 , ","r = $10", sep=" ")))+
   theme_classic(base_family = "Fira Sans Condensed", base_size=16)
 ```
+
+### Returns to Scale: Proof of Exponents Trick
+
+Consider a Cobb-Douglas production function
+$$f(k,l) =k^\alpha l^\beta$$
+
+Now scale this function by some scalar $t>0$, by multiplying both $l$ and $k$, and also output $q$, by $t$:
+$$\begin{align*}
+tq& \lesseqgtr (tk)^\alpha (tl)^\beta \\
+tq& \lesseqgtr t^{\alpha+\beta}k^\alpha l^\beta \\
+tq& \lesseqgtr t^{\alpha+\beta}f(l,k) \\
+\end{align*}$$
+
+This implies that:
+$$\begin{cases}
+tq>t^{\alpha+\beta}f(l,k) & \iff \alpha+\beta < 1 & \text{Decreasing returns to scale}\\
+tq=t^{\alpha+\beta}f(l,k) & \iff \alpha+\beta = 1 & \text{Constant returns to scale}\\
+tq<t^{\alpha+\beta}f(l,k) & \iff \alpha+\beta > 1 & \text{Increasing returns to scale}\\
+\end{cases}$$
+
+<!--### Elasticity of Scale
+
+Returns to scale has so far been used to describe a technology *globally*, that is, over the entire range of the production function $q=f(k,l)$. It is equally possible that the returns to scale can change *at different scales* or ranges of output, so we often want to estimate the returns to scale *locally*, for some narrow range of production. The **elasticity of scale** measures the percent increase in output $q$ from a 1% change in scale (i.e. a 1% increase in all inputs, $l$ and $k)$:
+$$\epsilon_{q,t}=\frac{\% \Delta q}{\% \Delta t} = \cfrac{\frac{\Delta q}{q}}{\frac{\Delta t}{t}}$$-->

@@ -1,11 +1,11 @@
 ---
 title: "2.5 — Short Run Profit Maximization"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -166,11 +166,11 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 --
 
-- .blue[Demand for a firm's product] is **perfectly elastic** at the market price
+- .blue[Demand for a firm’s product] is **perfectly elastic** at the market price
 
 --
 
-- Where did the supply curve come from? You'll see 
+- Where did the supply curve come from? You’ll know today
 
 ---
 
@@ -215,9 +215,9 @@ $$AR(q)=\frac{R}{q}$$
 --
 
 - .hi[Marginal Revenue]: change in revenues for each additional unit of output sold:
-$$MR(q) = \frac{\Delta R(q)}{\Delta q} \approx \frac{R_2-R_1}{q_2-q_1}$$
+$$\color{#e64173}{MR(q) = \frac{\Delta R(q)}{\Delta q} \approx \frac{R_2-R_1}{q_2-q_1}}$$
   - Calculus: first derivative of the revenues function
-  - .hi-purple[For a .ul[*competitive*] firm (only), `\\(MR(q) = p\\)`, the price!]
+  - .hi-purple[For a .ul[*competitive*] firm (only), MR(q) = p, i.e. the price!]
 
 ---
 
@@ -617,7 +617,7 @@ class: inverse, center, middle
 
 - Suppose the market price *increases*
 
-- Firm (always setting $MR=MC)$ will respond by *producing more*  
+- Firm (always setting .blue[MR]=.red[MC]) will respond by *producing more*  
 
 ]
 
@@ -644,7 +644,7 @@ marginal_plot+
 
 - Suppose the market price *decreases*
 
-- Firm (always setting $MR=MC)$ will respond by *producing more*  
+- Firm (always setting .blue[MR]=.red[MC]) will respond by *producing less*  
 
 ]
 
@@ -665,13 +665,14 @@ marginal_plot+
 
 ---
 
-# If Market Price Changes II
+# The Firm’s Supply Curve
 
 .pull-left[
 
-- .hi-purple[The firm's marginal cost curve is its (inverse) supply curve]<sup>.magenta[†]</sup>
-$$\color{red}{Inv. Supply(q)=MC(q)}$$
+- .hi-purple[The firm’s marginal cost curve is its supply curve]<sup>.magenta[‡]</sup>
+$$\color{red}{p=MC(q)}$$
   - How it will supply the optimal amount of output in response to the market price
+  - Firm always sets its price equal to its marginal cost
 
 ]
 
@@ -681,12 +682,14 @@ $$\color{red}{Inv. Supply(q)=MC(q)}$$
 mr_3=function(x){6}
 
 marginal_plot+
-    geom_label(aes(x=8,y=mc(8)), color = "red", label="Supply", size = 7)
+  geom_segment(x=0, xend=10, y=0, yend=20, size=6, color = "red")+
+  geom_label(aes(x=9.5,y=mc(9.5)), color = "red", label="MC(q)", size = 4)+
+  geom_label(aes(x=8,y=mc(8)), color = "red", label="Supply", size = 6)
 
 ```
 ]
 
-.footnote[<sup>.magenta[†]</sup> Mostly...there is an important **exception** we will see shortly!]
+.footnote[<sup>.magenta[‡]</sup> Mostly...there is an important **exception** we will see shortly!]
 
 ---
 
@@ -696,7 +699,7 @@ class: inverse, center, middle
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -718,7 +721,7 @@ marginal_plot+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -745,7 +748,7 @@ marginal_plot+
 ]
 
 ---
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -776,7 +779,7 @@ marginal_plot+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -802,7 +805,7 @@ marginal_plot+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -829,7 +832,7 @@ marginal_plot+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -860,7 +863,7 @@ marginal_plot+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -894,7 +897,7 @@ marginal_plot+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -938,7 +941,7 @@ marginal_plot_2+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -964,7 +967,7 @@ marginal_plot_2+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -995,7 +998,7 @@ marginal_plot_2+
 
 ---
 
-# Calculating Average Profit as $AR(q)-AC(q)$
+# Calculating (Average) Profit as AR(q)-AC(q)
 
 .pull-left[
 
@@ -1336,7 +1339,7 @@ supply_plot+
 
 .pull-right[
 .center[
-Firm's .red[short run (inverse) supply]:
+Firm’s .red[short run (inverse) supply]:
 ]
 $$\begin{cases}
 p=MC(q) & \text{if } p \geq AVC \\
@@ -1358,7 +1361,8 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                        limits=c(0,7),
                        expand=c(0,0))+
   scale_y_continuous(breaks=NULL,
-                     limits=c(0,20))+
+                     limits=c(0,20),
+                     expand=c(0,0))+
   #scale_colour_manual("Curves", values = line_colors, guide=F)+
   labs(x = "Output, q",
        y = "Per-Unit Costs ($)")+
@@ -1369,7 +1373,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 .pull-right[
 .center[
-Firm's .red[short run (inverse) supply]:
+Firm’s .red[short run (inverse) supply]:
 ]
 $$\begin{cases}
 p=MC(q) & \text{if } p \geq AVC \\
@@ -1405,7 +1409,7 @@ q=0 & \text{If } p < AVC\\ \end{cases}$$
 # Choosing the Profit-Maximizing Output $q^*$: Example
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.green[**Example**]: Bob's barbershop gives haircuts in a very competitive market, where barbers cannot differentiate their haircuts. The current market price of a haircut is $15. Bob's daily short run costs are given by:
+.green[**Example**]: Bob’s barbershop gives haircuts in a very competitive market, where barbers cannot differentiate their haircuts. The current market price of a haircut is $15. Bob’s daily short run costs are given by:
 
 $$\begin{align*}
 C(q) &= 0.5q^2\\
@@ -1413,10 +1417,10 @@ MC(q) &=q\\
 \end{align*}$$
 ]
 
-1. How many haircuts per day would maximize Bob's profits?
+1. How many haircuts per day would maximize Bob’s profits?
 
 2. How much profit will Bob earn per day?
 
-3. Find Bob's shut down price.
+3. Find Bob’s shut down price.
 
-4. Write Bob's short-run inverse supply function.
+4. Write Bob’s short-run inverse supply function.

@@ -37,7 +37,10 @@ slides: "2.2-slides"
 <li><a href="#ii.-decreasing-returns">II. Decreasing Returns</a></li>
 <li><a href="#iii.-negative-returns">III. Negative Returns</a></li>
 </ul></li>
-<li><a href="#the-relationship-between-marginal-and-average">The Relationship Between Marginal and Average</a></li>
+<li><a href="#the-relationship-between-marginal-and-average">The Relationship Between Marginal and Average</a>
+<ul>
+<li><a href="#elasticity-of-substitution">Elasticity of Substitution</a></li>
+</ul></li>
 </ul></li>
 </ul>
 </div>
@@ -258,6 +261,43 @@ Where
 <p><span class="math display">\[
 AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 \]</span></p>
+<div id="elasticity-of-substitution" class="section level3">
+<h3>Elasticity of Substitution</h3>
+<p>How easy is it to substitute between labor and capital (or any inputs)? Along a single isoquant, the rate of technical substitution (MRTS) will diminish as we move to the right (more labor, less capital, i.e. the capital/labor ratio, <span class="math inline">\(\frac{k}{l}\)</span> decreases). The <strong>elasticity of substitution</strong> (often written <span class="math inline">\(\sigma)\)</span>, measures the degree of responsiveness:
+<span class="math display">\[\sigma=\cfrac{\% \Delta \left(\frac{k}{l}\right)}{\% \Delta MRTS}=\cfrac{\% \Delta \left(\frac{k}{l}\right)}{\% \Delta \frac{MP_L}{MP_K}}\]</span></p>
+<p>We can measure the elasticity of substitution <span class="math inline">\(\sigma\)</span> for four common types of production functions:
+1. Linear production functions <span class="math inline">\((\sigma=\infty)\)</span>
+<span class="math display">\[q=f(l,k)=\alpha k+\beta l\]</span>
+2. Fixed proportions (i.e. perfect complements, known as “Leontief” production functions): <span class="math inline">\(\sigma=0\)</span>
+<span class="math display">\[q=\min\{\alpha k, \beta l\} \quad \alpha, \beta &gt;0 \]</span>
+3. Cobb-Douglas (<span class="math inline">\(\sigma = 1)\)</span>
+<span class="math display">\[\begin{align*}
+q=f(k,l)&amp;=Ak^\alpha l^\beta \\
+f(tk,tl) &amp;= A(tk)^\alpha (tl)^\beta \\
+&amp;= At^{\alpha + \beta}k^\alpha l ^\beta \\
+&amp;=t^{\alpha+\beta}Ak^\alpha l^\beta \\
+&amp;=t^{\alpha+\beta}f(k,l)\\
+\end{align*}\]</span></p>
+<p>Hence, if <span class="math inline">\(\alpha+\beta=1\)</span> (constant returns to scale),</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Constant elasticity of substitution (CES) production function:
+<span class="math display">\[q=f(k,l)=[k^\rho + l^\rho]^{\frac{\gamma}{\rho}}\]</span></li>
+</ol>
+<p>Where <span class="math inline">\(\sigma=\frac{1}{1-\rho}\)</span>
+- For <span class="math inline">\(\gamma &gt;1\)</span>: increasing returns
+- For <span class="math inline">\(\gamma &lt;1\)</span>: decreasing returns</p>
+<p>Incorporates all three previous cases:
+1. Linear: <span class="math inline">\(\rho=1\)</span></p>
+<p><span class="math display">\[[k + l]^{\gamma}\]</span></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Fixed proportions: <span class="math inline">\(\rho = -\infty\)</span></li>
+</ol>
+<p><span class="math display">\[[k^{-\infty} + l^{-\infty}]^{\frac{\gamma}{-\infty}}\]</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Cobb-Douglas: <span class="math inline">\(\rho=0\)</span></li>
+</ol>
+<p><span class="math display">\[[k^{0} + l^{0}]^{\frac{\gamma}{0}}\]</span></p>
+</div>
 </div>
 </div>
 <div class="footnotes">

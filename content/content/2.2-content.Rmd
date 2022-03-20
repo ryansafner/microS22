@@ -371,3 +371,44 @@ $$MC(q)  = \frac{ \partial VC(q)}{\partial q} = w \frac{\partial l}{\partial q}=
 $$
 AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 $$
+
+### Elasticity of Substitution
+
+How easy is it to substitute between labor and capital (or any inputs)? Along a single isoquant, the rate of technical substitution (MRTS) will diminish as we move to the right (more labor, less capital, i.e. the capital/labor ratio, $\frac{k}{l}$ decreases). The **elasticity of substitution** (often written $\sigma)$, measures the degree of responsiveness:
+$$\sigma=\cfrac{\% \Delta \left(\frac{k}{l}\right)}{\% \Delta MRTS}=\cfrac{\% \Delta \left(\frac{k}{l}\right)}{\% \Delta \frac{MP_L}{MP_K}}$$
+
+We can measure the elasticity of substitution $\sigma$ for four common types of production functions:
+1. Linear production functions $(\sigma=\infty)$
+$$q=f(l,k)=\alpha k+\beta l$$
+2. Fixed proportions (i.e. perfect complements, known as “Leontief” production functions): $\sigma=0$
+$$q=\min\{\alpha k, \beta l\} \quad \alpha, \beta >0 $$
+3. Cobb-Douglas ($\sigma = 1)$
+$$\begin{align*}
+q=f(k,l)&=Ak^\alpha l^\beta \\
+f(tk,tl) &= A(tk)^\alpha (tl)^\beta \\
+&= At^{\alpha + \beta}k^\alpha l ^\beta \\
+&=t^{\alpha+\beta}Ak^\alpha l^\beta \\
+&=t^{\alpha+\beta}f(k,l)\\
+\end{align*}$$
+
+Hence, if $\alpha+\beta=1$ (constant returns to scale), 
+
+4. Constant elasticity of substitution (CES) production function:
+$$q=f(k,l)=[k^\rho + l^\rho]^{\frac{\gamma}{\rho}}$$
+
+Where $\sigma=\frac{1}{1-\rho}$
+  - For $\gamma >1$: increasing returns
+  - For $\gamma <1$: decreasing returns
+
+Incorporates all three previous cases:
+  1. Linear: $\rho=1$
+  
+$$[k + l]^{\gamma}$$
+
+  2. Fixed proportions: $\rho = -\infty$
+  
+$$[k^{-\infty} + l^{-\infty}]^{\frac{\gamma}{-\infty}}$$
+
+  3. Cobb-Douglas: $\rho=0$
+
+$$[k^{0} + l^{0}]^{\frac{\gamma}{0}}$$

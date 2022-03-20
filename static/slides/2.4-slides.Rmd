@@ -1,11 +1,11 @@
 ---
 title: "2.4 — Costs of Production"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -86,7 +86,7 @@ class: inverse
 
 ---
 
-# A *Competitive* Market
+# Production for Sale in a *Competitive* Market
 
 .pull-left[
 
@@ -106,7 +106,7 @@ class: inverse
 ]
 ]
 
-.footnote[<sup>.magenta[†]</sup> Remember this feature. It turns out to be the **most important feature** that distinguishes different types of industries!]
+.footnote[<sup>.magenta[†]</sup> Remember this — it turns out to be the .hi-purple[most important feature] that distinguishes different types of industries!]
 
 ---
 
@@ -141,7 +141,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-- Remember, .hi[economic costs] are broader thanthe common conception of “cost”
+- Remember, .hi[economic costs] are broader than the common conception of “cost”
   - .hi-purple[Accounting cost]: monetary cost
   - .hi[Economic cost]: value of next best alternative use of resources given up (i.e. .hi[opportunity cost])
 
@@ -161,9 +161,9 @@ class: inverse, center, middle
 
 .pull-left[
 
-- This leads to the difference between
+- This leads to the difference between:
   - .hi-purple[Accounting profit]: revenues minus accounting costs
-  - .hi[Economic profit]: revenues minus accounting & *opportunity* costs
+  - .hi[Economic profit]: revenues minus accounting + .ul[opportunity] costs
 
 - A really difficult concept to think about!
 ]
@@ -183,11 +183,8 @@ class: inverse, center, middle
 .pull-left[
 
 - Another helpful perspective:
-
-- .hi-purple[Accounting cost]: what you **historically** paid for a resource
-
-- .hi[Economic cost]: what you can **currently** get in the market for a selling a resource
-    - Resource's value in *alternative* uses
+  - .hi-purple[Accounting cost]: what you **historically** paid for a resource
+  - .hi[Economic cost]: what you can **currently** get in the market for a selling a resource (it’s value in *alternative* uses)
 
 ]
 
@@ -228,7 +225,7 @@ class: inverse, center, middle
 
 - In functioning markets, .hi-purple[the market price measures the opportunity cost of using a resource for an alternative use]
 
-- Firms not only pay for direct use of a resource, but also indirectly compensate society for *"pulling the resource out"* of alternate uses in the economy!
+- Firms not only pay for direct use of a resource, but also indirectly compensate society for *“pulling the resource out”* of alternate uses in the economy!
 
 ]
 
@@ -245,12 +242,6 @@ class: inverse, center, middle
 # Production Costs are Opportunity Costs
 
 .pull-left[
-.center[
-![](../images/disappear.jpg)
-]
-]
-
-.pull-right[
 - Every choice incurs an opportunity cost
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
@@ -264,13 +255,19 @@ class: inverse, center, middle
 ]
 ]
 
+.pull-right[
+.center[
+![:scale 100%](../images/disappear.jpg)
+]
+]
+
 
 ---
 
 # Opportunity Cost is Hard for People
 
 .center[
-![](../images/oppcostpizza.jpg)
+![:scale 75%](../images/oppcostpizza.jpg)
 ]
 
 ---
@@ -426,9 +423,9 @@ $$C(q)=f+VC(q)$$
 .pull-right[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[.hi-green[Example]: Airlines
 
-**Fixed costs**: the aircraft
+**Fixed costs**: the aircraft, regulatory approval
 
-**Variable costs**: getting one more customer in a seat
+**Variable costs**: providing one more flight
 ]
 ]
 ---
@@ -463,7 +460,7 @@ $$C(q)=f+VC(q)$$
 .pull-right[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[.hi-green[Example]: Starbucks
 
-**Fixed costs**: the retail space
+**Fixed costs**: the retail space, espresso machines
 
 **Variable costs**: selling one more cup of coffee
 ]
@@ -608,32 +605,6 @@ $$MC(q) = \frac{\Delta C(q)}{\Delta q} \approx \frac{C_2-C_1}{q_2-q_1}$$
 
 ---
 
-# Average and Marginal Costs: Example
-
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.smallest[
-.green[**Example**]: A small farm grows strawberries on 5 acres of land that it rents for $200 a week. The farm can hire workers at a wage of $250/week for each worker. The table below shows how the output of strawberries (in truckloads) varies with the number of workers hired:]
-
-.pull-left[
-.smaller[
-| Output | Labor |
-|--------|------:|
-| 0 | 0 | 
-| 1 | 1 | 
-| 2 | 3 |
-| 3 | 7 |
-| 4 | 12 |
-| 5 | 18 |
-]
-]
-]
-
-.pull-right[
-
-1. If labor is the only variable cost, calculate the $MC(q)$ and $AC(q)$ for each of the first 5 truckloads.
-]
----
-
 # Average and Marginal Costs: Visualized
 
 .pull-left[
@@ -766,6 +737,46 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 ---
 
+
+# Relationship Between Marginal and Average
+
+.pull-left[
+.smallest[
+- Mathematical relationship between a marginal & an average value
+
+- If .red[marginal] $<$ .orange[average], then .orange[average] $\downarrow$
+
+- If .red[marginal] $>$ .orange[average], then .orange[average] $\uparrow$
+
+- When .red[marginal] $=$ .orange[average], .orange[average] is **maximized/minimized**
+
+]
+]
+
+.pull-right[
+```{r, fig.retina=3}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=marginal, geom="line", size=2, color = "red")+
+    geom_label(aes(x=3.5,y=marginal(3.5)), color = "red", label=expression(MC(q)), size = 6)+
+  stat_function(fun=averagev, geom="line", size=2, color = "brown")+
+    geom_label(aes(x=5,y=averagev(5)), color = "brown", label=expression(AVC(q)), size = 6)+
+  stat_function(fun=average, geom="line", size=2, color = "orange")+
+    geom_label(aes(x=5.5,y=average(5.5)), color = "orange", label=expression(AC(q)), size = 6)+
+  annotate("segment", x = 3.5, xend = 3.5, y = marginal(3.5), yend = average(3.5), colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="both", type="closed"))+
+    scale_x_continuous(breaks=NULL,
+                       limits=c(0,7),
+                       expand=c(0,0))+
+  scale_y_continuous(breaks=NULL,
+                     limits=c(0,20))+
+  #scale_colour_manual("Curves", values = line_colors, guide=F)+
+  labs(x = "Output, q",
+       y = "Per-Unit Costs ($)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+---
+
 # Relationship Between Marginal and Average
 
 .pull-left[
@@ -778,10 +789,9 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 - If .red[marginal] $>$ .orange[average], then .orange[average] $\uparrow$
 
 - When .red[marginal] $=$ .orange[average], .orange[average] is **maximized/minimized**
-- .hi-purple[When `\\(MC=AC\\)`, `\\(AC\\)` is at a *minimum*]
-- .hi-purple[When `\\(MC=AVC\\)`, `\\(AVC\\)` is at a *minimum*]
+  - .hi-purple[When MC(q)=AC(q), AC(q) is at a *minimum*] (break-even price)
+  - .hi-purple[When MC(q)=AVC(q), AVC(q) is at a *minimum*] (shut-down price)
     
-- Economic importance (later): Break-even price & shut-down price
 ]
 ]
 .pull-right[
@@ -814,13 +824,13 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 # Short Run Costs: Example
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.green[**Example**:] Suppose a firm's cost structure is described by: 
+.green[**Example**:] Suppose a firm’s cost structure can be described by: 
 $$\begin{align*}
 C(q)&=15q^2+8q+45\\
 MC(q)&=30q+8\\ \end{align*}$$
 ]
 
-1. Write expressions for the firm's **fixed costs**, **variable costs**, **average fixed costs**, **average variable costs**, and **average (total) costs**.
+1. Write expressions for the firm’s **fixed costs**, **variable costs**, **average fixed costs**, **average variable costs**, and **average (total) costs**.
 
 2. Find the minimum average (total) cost.
 
@@ -927,7 +937,7 @@ lrac<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
                      limits=c(0,500),
                      expand=expand_scale(mult=c(0,0.1)),
                      labels = scales::dollar)+
-  scale_colour_manual("AC(q) by # of k", values = line_colors)+
+  scale_colour_manual("SRAC(q) by # of k", values = line_colors)+
   labs(x = "Output, q",
        y = "Costs")+
   theme_classic(base_family = "Fira Sans Condensed", base_size=16)+
@@ -946,10 +956,10 @@ lrac
 
 - Separate short run average cost (SRAC) curves for each amount of $k$ potentially chosen
 
-- .hi-purple[Long run average cost (LRAC)] curve "envelopes" the lowest (optimal) parts of all the SRAC curves!
+- .hi-purple[Long run average cost (LRAC)] curve “envelopes” the lowest (optimal) regions of all the SRAC curves!
 
 .smallest[
-> "Subject to producing the optimal amount of output, choose l and k to minimize cost"
+> “Subject to producing the optimal amount of output, choose l and k to minimize cost”
 ]
 ]
 
@@ -1046,10 +1056,10 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                      expand=expand_scale(mult=c(0,0.1)),
                      labels = scales::dollar)+
   annotate("segment", x = 1, xend = 4, y = 14, yend = 2, color = "green", size=2, alpha=0.9, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-    geom_label(x=2, y=4, size=6, label="Economies \n of Scale", color="green")+
+    geom_text(x=2, y=4, size=6, label="Economies \n of Scale", color="green")+
 
   annotate("segment", x = 6, xend = 9, y = 2, yend = 14, color = "red", size=2, alpha=0.9, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-    geom_label(x=8, y=4, size=6, label="Diseconomies \n of Scale", color="red")+
+    geom_text(x=8, y=4, size=6, label="Diseconomies \n of Scale", color="red")+
   labs(x = "Output, q",
        y = "Costs per Unit")+
   theme_classic(base_family = "Fira Sans Condensed", base_size=16)+

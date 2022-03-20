@@ -1521,6 +1521,7 @@ f(tk,tl) &amp;amp;= A(tk)^\alpha (tl)^\beta \\
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#a-change-in-relative-factor-prices&#34;&gt;A Change in Relative Factor Prices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#improvements-in-technology&#34;&gt;Improvements in Technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#returns-to-scale-proof-of-exponents-trick&#34;&gt;Returns to Scale: Proof of Exponents Trick&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1604,6 +1605,27 @@ f(tk,tl) &amp;amp;= A(tk)^\alpha (tl)^\beta \\
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2k^{0.5}l^{0.5}\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Notice total factor productivity &lt;span class=&#34;math inline&#34;&gt;\((A)\)&lt;/span&gt; has doubled, such that, for the same amount of inputs &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, the firm can now produce &lt;em&gt;twice&lt;/em&gt; as much output &lt;span class=&#34;math inline&#34;&gt;\((2q)\)&lt;/span&gt;. So suppose again the firm still wishes to produce &lt;span class=&#34;math inline&#34;&gt;\(q^*=100\)&lt;/span&gt;, the same as before. Under the new technology, the firm can &lt;strong&gt;produce the same output with fewer inputs&lt;/strong&gt;. This is the definition of productivity increases or, for an entire economy, economic growth.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/content/2.3-content_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;returns-to-scale-proof-of-exponents-trick&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Returns to Scale: Proof of Exponents Trick&lt;/h3&gt;
+&lt;p&gt;Consider a Cobb-Douglas production function
+&lt;span class=&#34;math display&#34;&gt;\[f(k,l) =k^\alpha l^\beta\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now scale this function by some scalar &lt;span class=&#34;math inline&#34;&gt;\(t&amp;gt;0\)&lt;/span&gt;, by multiplying both &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, and also output &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;, by &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+tq&amp;amp; \lesseqgtr (tk)^\alpha (tl)^\beta \\
+tq&amp;amp; \lesseqgtr t^{\alpha+\beta}k^\alpha l^\beta \\
+tq&amp;amp; \lesseqgtr t^{\alpha+\beta}f(l,k) \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This implies that:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{cases}
+tq&amp;gt;t^{\alpha+\beta}f(l,k) &amp;amp; \iff \alpha+\beta &amp;lt; 1 &amp;amp; \text{Decreasing returns to scale}\\
+tq=t^{\alpha+\beta}f(l,k) &amp;amp; \iff \alpha+\beta = 1 &amp;amp; \text{Constant returns to scale}\\
+tq&amp;lt;t^{\alpha+\beta}f(l,k) &amp;amp; \iff \alpha+\beta &amp;gt; 1 &amp;amp; \text{Increasing returns to scale}\\
+\end{cases}\]&lt;/span&gt;&lt;/p&gt;
+&lt;!--### Elasticity of Scale
+
+Returns to scale has so far been used to describe a technology *globally*, that is, over the entire range of the production function $q=f(k,l)$. It is equally possible that the returns to scale can change *at different scales* or ranges of output, so we often want to estimate the returns to scale *locally*, for some narrow range of production. The **elasticity of scale** measures the percent increase in output $q$ from a 1% change in scale (i.e. a 1% increase in all inputs, $l$ and $k)$:
+$$\epsilon_{q,t}=\frac{\% \Delta q}{\% \Delta t} = \cfrac{\frac{\Delta q}{q}}{\frac{\Delta t}{t}}$$--&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>

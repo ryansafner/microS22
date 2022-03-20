@@ -28,6 +28,7 @@ slides: "2.3-slides"
 <ul>
 <li><a href="#a-change-in-relative-factor-prices">A Change in Relative Factor Prices</a></li>
 <li><a href="#improvements-in-technology">Improvements in Technology</a></li>
+<li><a href="#returns-to-scale-proof-of-exponents-trick">Returns to Scale: Proof of Exponents Trick</a></li>
 </ul></li>
 </ul>
 </div>
@@ -102,5 +103,26 @@ slides: "2.3-slides"
 <p><span class="math display">\[q=2k^{0.5}l^{0.5}\]</span></p>
 <p>Notice total factor productivity <span class="math inline">\((A)\)</span> has doubled, such that, for the same amount of inputs <span class="math inline">\(l\)</span> and <span class="math inline">\(k\)</span>, the firm can now produce <em>twice</em> as much output <span class="math inline">\((2q)\)</span>. So suppose again the firm still wishes to produce <span class="math inline">\(q^*=100\)</span>, the same as before. Under the new technology, the firm can <strong>produce the same output with fewer inputs</strong>. This is the definition of productivity increases or, for an entire economy, economic growth.</p>
 <p><img src="/content/2.3-content_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="returns-to-scale-proof-of-exponents-trick" class="section level3">
+<h3>Returns to Scale: Proof of Exponents Trick</h3>
+<p>Consider a Cobb-Douglas production function
+<span class="math display">\[f(k,l) =k^\alpha l^\beta\]</span></p>
+<p>Now scale this function by some scalar <span class="math inline">\(t&gt;0\)</span>, by multiplying both <span class="math inline">\(l\)</span> and <span class="math inline">\(k\)</span>, and also output <span class="math inline">\(q\)</span>, by <span class="math inline">\(t\)</span>:
+<span class="math display">\[\begin{align*}
+tq&amp; \lesseqgtr (tk)^\alpha (tl)^\beta \\
+tq&amp; \lesseqgtr t^{\alpha+\beta}k^\alpha l^\beta \\
+tq&amp; \lesseqgtr t^{\alpha+\beta}f(l,k) \\
+\end{align*}\]</span></p>
+<p>This implies that:
+<span class="math display">\[\begin{cases}
+tq&gt;t^{\alpha+\beta}f(l,k) &amp; \iff \alpha+\beta &lt; 1 &amp; \text{Decreasing returns to scale}\\
+tq=t^{\alpha+\beta}f(l,k) &amp; \iff \alpha+\beta = 1 &amp; \text{Constant returns to scale}\\
+tq&lt;t^{\alpha+\beta}f(l,k) &amp; \iff \alpha+\beta &gt; 1 &amp; \text{Increasing returns to scale}\\
+\end{cases}\]</span></p>
+<!--### Elasticity of Scale
+
+Returns to scale has so far been used to describe a technology *globally*, that is, over the entire range of the production function $q=f(k,l)$. It is equally possible that the returns to scale can change *at different scales* or ranges of output, so we often want to estimate the returns to scale *locally*, for some narrow range of production. The **elasticity of scale** measures the percent increase in output $q$ from a 1% change in scale (i.e. a 1% increase in all inputs, $l$ and $k)$:
+$$\epsilon_{q,t}=\frac{\% \Delta q}{\% \Delta t} = \cfrac{\frac{\Delta q}{q}}{\frac{\Delta t}{t}}$$-->
 </div>
 </div>
