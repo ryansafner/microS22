@@ -86,15 +86,17 @@ lessons:
 
   - title: "2.5 — Short Run Profit Maximization"
     content: "2.5-content"
+    practice: "2.5-practice"
     date: "W March 23"
 
   - title: "2.6 — Long Run Industry Equilibrium I"
     date: "M March 28"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4** Due'
+    assignment: "04-problem-set"
     date: "W March 31"
   
-  - title: "2.6 — Long Run Industry Equilibrium II: Entry/Exit Effects"
+  - title: "2.7 — Long Run Industry Equilibrium II: Entry/Exit Effects"
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
     date: "M April 4"                      
