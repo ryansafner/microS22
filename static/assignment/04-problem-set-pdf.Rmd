@@ -120,9 +120,9 @@ d. Write an equation for average variable costs, $AVC(q)$.
 e. Write an equation for average (total) costs, $AC(q)$.
 f. At what price does Daniel's Midland Archers break even?
 g. Below what price would Daniel's Midland Archers shut down in the short-run?
-h. Write an equation for the firm's short-run inverse supply curve, and sketch a rough graph.
-i. What differences would there be between how Daniel's Midland Archers decides to produce in the short run versus the long run?
-j. In the long run, with many identical sellers of archery bows, what would be the equilibrium price?
+h. Write an equation for the firm's short-run supply curve, and sketch a rough graph.
+i. What differences would there be between Daniel's Midland Archers supply curve in the short run versus the long run?
+j. In the long run, with many identical sellers of archery bows, what would we expect to be the equilibrium price in the market?
 
 \clearpage
 
