@@ -204,8 +204,8 @@ class: inverse, center, middle
 
 - .hi-red[Supply] is actually .hi-blue[Demand] in disguise!
 
-- The .hi[(opportunity) cost] producers must pay to purchase (scarce) inputs to produce products comes from the fact that **other people** .hi-blue[demand] those same inputs to consume or produce **other things** for other purposes!
-  - You are not paying the price just to buy them, but also to **pull them out of other valuable lines of production** in the economy!
+- An .hi[(opportunity) cost] to buy (scarce) inputs for production because **other people** .hi-blue[demand] those same inputs to consume or produce **other valuable things**!
+  - Price necessary to **pull them out of other valuable productive uses** in the economy!
 ]
 
 .pull-right[
@@ -876,7 +876,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   labs(x = "Output, q",
        y = "Per-Unit Costs ($)",
        caption = expression(paste(C(q)==15*q^2+8*q+45)))+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=16)
+  theme_bw(base_family = "Fira Sans Condensed", base_size=16)
 ```
 
 ---
@@ -939,16 +939,16 @@ lrac<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   stat_function(fun=lrc5, geom="line", size=2, aes(color = "k=5"))+
   
     scale_x_continuous(breaks=seq(0,500,50),
-                     limits=c(0,500),
-                     expand=expand_scale(mult=c(0,0.1)))+
+                     limits=c(0,550),
+                     expand=expand_scale(mult=c(0,0)))+
   scale_y_continuous(breaks=seq(0,500,50),
-                     limits=c(0,500),
-                     expand=expand_scale(mult=c(0,0.1)),
+                     limits=c(0,550),
+                     expand=expand_scale(mult=c(0,0)),
                      labels = scales::dollar)+
   scale_colour_manual("SRAC(q) by # of k", values = line_colors)+
   labs(x = "Output, q",
        y = "Costs")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=16)+
+  theme_bw(base_family = "Fira Sans Condensed", base_size=16)+
   theme(legend.position = "bottom")
 lrac
 ```
@@ -1056,10 +1056,10 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_label(x=8, y=ac_mes(8), color="orange", size=6, label="AC(q)")+
   geom_segment(x=5, xend=5, y=0, yend=4, linetype="dotted", size =1)+
   geom_label(x=5, y=2, size=6, label="M.E.S.")+
-    scale_x_continuous(breaks=seq(0,10,1),
+    scale_x_continuous(breaks=NULL,
                      limits=c(0,10),
                      expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=seq(0,20,2),
+  scale_y_continuous(breaks=NULL,
                      limits=c(0,20),
                      expand=expand_scale(mult=c(0,0.1)),
                      labels = scales::dollar)+
@@ -1121,6 +1121,6 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   labs(x = "Output, q",
        y = "Per-Unit Costs",
        caption = expression(paste(C(q)==32000-250*q^2+q^3)))+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=16)
+  theme_bw(base_family = "Fira Sans Condensed", base_size=16)
 ```
 

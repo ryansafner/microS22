@@ -58,6 +58,54 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="far fa-sigma"></i> Appendix
 
+### Marginal Cost and Variable Cost
+
+Marginal cost is defined as the change in total costs from a change in output:
+$$MC(q)=\frac{\Delta C(q)}{\Delta q}$$
+
+Recall that total cost is the sum of fixed and variable costs
+
+$$C(q)=f+VC(q)$$
+However, since fixed costs never change, any change in total cost is a change in variable cost
+$$\Delta C(q) = \Delta VC(q)$$
+
+Thus, marginal cost actually measures the change in *variable costs* from a change in output:
+$$MC(q)=\frac{\Delta C(q)}{\Delta q}=\frac{\Delta VC(q)}{\Delta q}$$
+Thus, **fixed cost has no effect on marginal cost**, and **marginal cost is always measuring the change in variable costs** with additional output.
+
+Furthermore, because of this relationship with marginal cost measuring the change in variable cost from additional output, for any specific quantity of output, e.g. $q_1$, the variable cost of producing $q_1$ can be seen on the graph below as the total area under the marginal cost curve to the left of $q_1$:
+
+```{r}
+mc <- function(x){1*x+2}
+vc_area <- tribble(
+  ~x, ~y,
+  0, 0,
+  0, 2,
+  4, 6,
+  4, 0
+)
+
+ggplot(data = tibble(x = c(0,10)))+
+  aes(x=x)+
+  geom_polygon(data = vc_area,
+               aes(x = x, y = y),
+               fill = "brown")+
+  stat_function(fun=mc, geom="line", size=2, color="red")+
+  geom_label(x = 6, y = mc(6), label = "MC(q)", color = "red")+
+  annotate(geom = "text", x = 2, y = 2, label = expression(VC(q[1])), color = "white", size = 5)+
+  scale_x_continuous(breaks=c(0,4),
+                     labels=c(0, expression(q[1])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=NULL,
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output (q)",
+       y = "$")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+```
+
+
 ### The Relationship Between Returns to Scale and Costs
 
 There is a direct relationship between a technology's returns to scale^[Increasing, decreasing, or constant] and its cost structure: the rate at which its total costs increase^[At a decreasing rate, at an increasing rate, or at a constant rate, respectively] and its marginal costs change^[Decreasing, increasing, or constant, respectively]. This is easiest to see for a single input, such as our assumptions of the short run (where firms can change $l$ but not $\bar{k})$:
