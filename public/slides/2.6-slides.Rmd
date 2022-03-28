@@ -353,7 +353,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 **3. Shut down in _short run_ if $p<AVC(q)$**
 
-.slate[**4. Exit in _long run_ if $p<AC(q)$**]
+.slate[**4. Exit in _long run_ if `\\(p<AC(q)\\)`**]
 
 ]
 ]

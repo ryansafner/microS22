@@ -31,9 +31,9 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 {{% /alert %}}
 
 {{% alert warning %}}
-[Problem Set 4](/assignments/04-problem-set) is due by the end of the day Wednesday March 31.
+[Problem Set 4](/assignments/04-problem-set) is due by the end of the day Friday April 1.
 
-Exam 2 will be on Monday April 4. 
+[Exam 2](/assignments/02-exam) will be on Monday April 4. 
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -60,9 +60,9 @@ Today we will be working on [practice problems](/practice/2.5-practice). Answers
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-## Problem Set 4 Due Wed Mar 31
+## Problem Set 4 Due Fri Apr 1
 
-[Problem set 4](/assignments/04-problem-set) (on classes 2.4-2.6) is due by the end of the day Wednesday, March 31 by upload to Blackboard Assignments.
+[Problem set 4](/assignments/04-problem-set) (on classes 2.4-2.6) is due by the end of the day Friday, April 1 by upload to Blackboard Assignments.
 
 ## <i class="far fa-sigma"></i> Appendix
 

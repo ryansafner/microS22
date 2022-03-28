@@ -91,9 +91,12 @@ lessons:
     date: "W March 23"
 
   - title: "2.6 — Long Run Industry Equilibrium"
+    content: "2.6-content"
+    slides: "2.6-slides"
     date: "M March 28"
 
   - title: "2.7 — External Economies and Industry Supply"
+    content: "2.7-content"
     date: "W March 30"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4** Due'
@@ -101,6 +104,7 @@ lessons:
     assignment: "04-problem-set"
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
+    assignment: "02-exam"
     date: "M April 4"                      
 
   - title: '<span class="fake-header-table">III. Market Equilibrium</span>'
