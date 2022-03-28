@@ -97,6 +97,7 @@ lessons:
 
   - title: "2.7 — External Economies and Industry Supply"
     content: "2.7-content"
+    slides: "1.7-slides"
     date: "W March 30"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4** Due'
