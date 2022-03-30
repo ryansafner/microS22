@@ -1706,14 +1706,17 @@ $$\epsilon_{q_S,p} = \frac{\% \Delta q_S}{\% \Delta p}$$
 
 $$\epsilon_{q_S,p} = \frac{\% \Delta q_S}{\% \Delta p}$$
 
-|                 | .hi["Elastic"] | "Unit Elastic" | .hi["Inelastic"] |
+.smallest[
+|                 | .hi[“Elastic”] | “Unit Elastic” | .hi[“Inelastic”] |
 |-----------------|-----------|----------------|------------|
 | **Intuitively**:    | **Large** response | Proportionate response | **Little** response |
-| **Mathematically**: | $\epsilon_{q_s,p} > 1$ | $\epsilon_{q_s,p} = 1$ | $\epsilon_{q_s,p} < 1$ |
+| **Mathematically**: | $\vert \epsilon_{q_s,p}\vert > 1$ | $\vert \epsilon_{q_s,p}\vert = 1$ | $\vert \epsilon_{q_s,p} \vert < 1$ |
 |                 | Numerator $>$ Denominator | Numerator $=$ Denominator | Numerator $<$ Denominator |
-| **A 1% p-change** | **More than 1%** change in $q_S$ | **1% change** in $q_S$ | **Less than 1%** change in $q_S$ | 
+| **1% change in $p$ causes** | **More than 1%** change in $q_s$ | **Exactly 1%** change in $q_s$ | **Less than 1%** change in $q_s$ | 
 
-.footnote[Compare to [price elasticity of demand](https://microf21.classes.ryansafner.com/slides/1.7-slides#5)]
+]
+
+.footnote[Compare to [price elasticity of demand](https://micros22.classes.ryansafner.com/slides/1.7-slides#5)]
 ---
 
 # Visualizing Price Elasticity of Supply
@@ -1728,7 +1731,7 @@ An identical 100% price increase on an:
 
 .center[
 .smallest[
-"Inelastic" Supply Curve
+“Inelastic” Supply Curve
 ]
 ]
 
@@ -1770,7 +1773,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 .center[
 .smallest[
-"Elastic" Supply Curve
+“Elastic” Supply Curve
 ]
 ]
 
@@ -1856,6 +1859,16 @@ $$q_S=10p-200$$
 .pull-left[
 
 ```{r}
+elasticity_points<-tribble(
+  ~x, ~y, ~lab,
+  0, 2, "E = ∞",
+  2, 3, "E = 3",
+  4, 4, "E = 2",
+  6, 5, "E = 1.67",
+  8, 6, "E = 1.5",
+  10, 7, "E = 1.4"
+)
+
 ggplot(data.frame(x=c(0,10)), aes(x=x))+
   stat_function(fun=supply_graph, geom="line", size=2, color = "red")+
   geom_label(aes(x=9,y=supply_graph(9)), color = "red", label="Supply", size = 6)+
@@ -1866,48 +1879,13 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                      limits=c(0,10),
                      expand=expand_scale(mult=c(0,0.1)),
                      labels = function(x){paste("$", x, sep="")})+
-  geom_label_repel(data = tibble(x = 0,
-                                 y = 2),
-                   aes(x=x, y=y),
+  geom_text_repel(data = elasticity_points,
+                   aes(x=x, y=y, label=lab),
                    color="purple",
                    hjust = 0,
-                   vjust = 1.5,
-                   label=expression(epsilon == infinity))+
-  geom_label_repel(data = tibble(x = 2,
-                                 y = 3),
-                   aes(x=x, y=y),
-                   color="purple",
-                   hjust = 0,
-                   vjust = 1.5,
-                   label=expression(epsilon == 3))+
-  geom_label_repel(data = tibble(x = 4,
-                                 y = 4),
-                   aes(x=x, y=y),
-                   color="purple",
-                   hjust = 0,
-                   vjust = 1.5,
-                   label=expression(epsilon == 2))+
-  geom_label_repel(data = tibble(x = 6,
-                                 y = 5),
-                   aes(x=x, y=y),
-                   color="purple",
-                   hjust = 0,
-                   vjust = 1.5,
-                   label=expression(epsilon == 1.67))+
-  geom_label_repel(data = tibble(x = 8,
-                                 y = 6),
-                   aes(x=x, y=y),
-                   color="purple",
-                   hjust = 0,
-                   vjust = 1.5,
-                   label=expression(epsilon == 1.5))+
-  geom_label_repel(data = tibble(x = 10,
-                                 y = 7),
-                   aes(x=x, y=y),
-                   color="purple",
-                   hjust = 0,
-                   vjust = 1.5,
-                   label=expression(epsilon == 1.4))+
+                   vjust = -0.7,
+                  box.padding = 0.125,
+                  seed = 1)+
   #coord_cartesian(clip="off")+
   labs(x = "Quantity",
        y = "Price")+
