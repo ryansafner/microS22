@@ -1,19 +1,16 @@
 ---
-title: "Problem Set 4"
-author: "Solutions"
-date: "ECON 306 — Spring 2022"
+title: "Problem Set 4 (Solutions)"
+author: "ECON 306 — Spring 2022"
+date: ""
 output:
-  pdf_document:
-    dev: cairo_pdf
-    latex_engine: xelatex
-header-includes:
-- \usepackage{amsmath}
-- \usepackage{multirow, multicol, booktabs}
-
-mainfont: "Fira Sans Condensed"
-monofont: "Fira Code"
-mathfont: "Fira Sans"
-fontsize: 11pt
+  html_document:
+    df_print: paged
+    #theme: simplex
+    toc: true 
+    toc_depth: 3
+    toc_float: true
+    code_folding: show
+    highlight: tango
 
 ---
 
@@ -29,11 +26,12 @@ library(mosaic)
 
 # Concepts and Critical Thinking
 
-1. **1. What is the difference between accounting profit and economic profit? Is it possible for a firm to be profitable in an accounting sense but not an economic sense? Is it possible for a firm to be profitable in an economic sense but not an accounting sense? **
+## Question 1
 
----
+#### What is the difference between accounting profit and economic profit? Is it possible for a firm to be profitable in an accounting sense but not an economic sense? Is it possible for a firm to be profitable in an economic sense but not an accounting sense?
 
- Economic costs take into consideration accounting (monetary) costs as well as opportunity costs (what else a firm could be doing instead with its resources). Accounting costs are largely backward looking: what is the monetary value of a past decision made. Recall opportunity cost is forward looking--what is the next best use of my resources as I make a decision *now, going forward*.  
+
+Economic costs take into consideration accounting (monetary) costs as well as opportunity costs (what else a firm could be doing instead with its resources). Accounting costs are largely backward looking: what is the monetary value of a past decision made. Recall opportunity cost is forward looking--what is the next best use of my resources as I make a decision *now, going forward*.  
  
 Economic profits are total revenues minus total *economic* costs, whereas accounting profits only measure revenues minus accounting costs.
  
@@ -41,29 +39,26 @@ Economic cost is almost always larger than accounting costs, so economic profits
  
 As opportunity costs are never negative, a firm earning an economic profit must be earning an even larger accounting profit. 
 
-\clearpage
+## Question 2
 
-2. **In a competitive industry, with *identical* firms (e.g. all firms have the same costs, there are no economic rents), why are profits normal (zero) in the long run?**
-
----
+#### In a competitive industry, with *identical* firms (e.g. all firms have the same costs, there are no economic rents), why are profits normal (zero) in the long run?**
 
 Profits are zero in the long run because entry and exit are free in competitive markets. Any firms earning positive (supernormal) profits in an industry will attract entrants, who want profits of their own. This will increase the supply and will continue until all profits are squeezed to zero (and then no more firms enter). Conversely, firms earning negative profits (loses) will exit the industry over the long run, decreasing the supply, and firms will continue to do this until losses fall back to zero. Thus, the stable equilibrium condition is that an industry tends to earn profits of zero, as any deviation would cause entry and exit until profits/losses get competed back to zero.
 
----
 
-3. **In a competitive industry, even among firms with *significant cost differences* (e.g. there are economic rents), why do profits tend to return to normal (0) in the long run?**
+## Question 3
 
----
+#### In a competitive industry, even among firms with *significant cost differences* (e.g. there are economic rents), why do profits tend to return to normal (0) in the long run?**
 
 Firms that have rent-generating inputs see lower costs, and therefore higher profits. The problem is, these rent-generating inputs can be "poached" and enticed to work for other firms. This competition between firms pushes up prices for those rent-generating inputs. This raises the costs for those firms employing those inputs, in the form of higher salaries, higher lease prices, etc., whatever it takes to keep the input working for the firm and not a different firm. In equilibrium, rents rise until they push costs to equal revenues, and hence, profits to equal 0. 	
 
----
+## Question 4
 
-4. **For each industry below, indicate (i) whether (and why) it is likely a constant cost industry, increasing cost industry, or decreasing cost industry and (ii) what would happen to the long run equilibrium price and output in the industry as a result of an increase in industry demand.**
+For each industry below, indicate (i) whether (and why) it is likely a constant cost industry, increasing cost industry, or decreasing cost industry and (ii) what would happen to the long run equilibrium price and output in the industry as a result of an increase in industry demand
 
-a. **Software distribution**
+### Part A
 
----
+#### Software distribution
 
 i. The software industry has very high fixed costs but low variable costs, so average cost will decrease with more output. This is likely a *decreasing cost industry.*
 
@@ -81,9 +76,19 @@ ii. An increase in demand for pencils would increase the demand faced by each fi
 
 ![](../slides/2.7-slides_files/figure-html/cc-lr-1.png)
 
----
+### Part B
 
-c. **Gold mining**
+#### Pencil manufacturing
+
+i. This is most likely a *constant cost industry.* The pencil-making factories can probably churn out more pencils in the factory without incurring greater costs, so long as they are within the capacity limits of the factories. 
+
+ii. An increase in demand for pencils would increase the demand faced by each firm, generating higher profits in the short run, as firms see $p_2>AC(q)$. In the graph below, this is the movement from $A$ to $B$. These higher profits will attract firms to enter the industry over the long run. The entry of new firms does not change costs for firms in the industry, so new firms will enter, increasing industry supply until it pushes the market price back to its original level (but a much larger industry output), pushing profits to zero. In the graph below, this is the movement from $B$ to $C$. The long run supply curve is *perfectly elastic* at the original price, i.e. a horizontal line.
+
+![](../slides/2.7-slides_files/figure-html/cc-lr-1.png)
+
+### Part C
+
+#### Gold mining
 
 i. Gold mining is likely an *increasing cost* industry. After all the gold is mined from an area, it will require new exploration to find additional gold that is deeper in the mine and harder to reach, requiring more expensive equipment -- pushing costs up as we try to produce more and more gold. 
 
@@ -91,56 +96,47 @@ ii. An increase in demand would increase the demand faced by each firm, generati
 
 ![](../slides/2.7-slides_files/figure-html/ic-lr-1.png)
 
+## Question 5
 
-\clearpage
+For each of the following pairs of goods, which do you expect to be *more elastically* supplied, and why?
 
-5. **For each of the following pairs of goods, which do you expect to be *more elastically* supplied, and why?**
+### Part A
 
-a. **Toothpicks vs. Scotch whisky**
-
----
+#### Toothpicks vs. Scotch whisky
 
 Supply of toothpicks is more elastic. It costs next to nothing to produce and supply one additional toothpick, and the process is probably highly automated in a factory. Making scotch whisky, on the other hand, requires more ingredients, and requires aging of many years before the next batch is ready, and is thus more inelastic.
 
----
+### Part B
 
-b. **Construction workers in Frederick, MD vs. construction workers in the State of Maryland**
-
----
+#### Construction workers in Frederick, MD vs. construction workers in the State of Maryland
 
 Supply in Frederick is more elastic because it draws on a smaller labor pool compared to the whole of all of Maryland. If the wage rises or falls there, workers can move to Frederick or leave Frederick, respectively much easier than they could move to or leave from New York State.
 
----
+### Part C
 
-c. **Supply of breakfast cereal vs. supply of food**
-
----
+#### Supply of breakfast cereal vs. supply of food
 
 Supply of breakfast cereal is more elastic. If its price rises, firms can switch machines from making macaroni to making cereal more easily than transforming non–food-producing machines to food-producing machines.
 
----
+### Part D
 
-d. **Original Van Gogh paintings vs. reproductions of Van Gogh paintings**
-
----
+#### Original Van Gogh paintings vs. reproductions of Van Gogh paintings
 
 Reproductions are more elastic, as it is easy to produce new copies of paintings without increasing costs by much. There are only so many original Van Gogh paintings in the world however, and Van Gogh isn't around to paint any new ones — in fact the supply of these paintings are perfectly inelastic, as there is a fixed supply of them for all time.
 
----
+### Part E
 
-e. **Gasoline tomorrow vs. gasoline over the next 10 years**
-
----
+#### Gasoline tomorrow vs. gasoline over the next 10 years
 
 Gasoline over the next 10 years is more elastic than gasoline tomorrow. Gasoline producers cannot change their production very quickly, and tomorrow they can only sell the gasoline they currently have in inventory. They cannot build a new plant or find new suppliers in a short period of time to increase their output. But over 10 years, if they wished to supply more gasoline, they would have more time to build larger facilities and increase their output.
-
-\clearpage 
 
 # Problems
 
 Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.
 
-6. Mike's Bikes produces racing bicycles. Consider the following graph, which illustrates the short run average total cost curves corresponding to three possible plant sizes Mike could produce with: a small plant, a medium plant, and a large plant.
+## Question 6
+
+#### Mike's Bikes produces racing bicycles. Consider the following graph, which illustrates the short run average total cost curves corresponding to three possible plant sizes Mike could produce with: a small plant, a medium plant, and a large plant.
 
 ```{r, fig.height=4}
 lrc1<-function(x){(0.25*x-25)^(2)+300}
@@ -173,25 +169,21 @@ lrac<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
 lrac
 ```
 
-a. **If Mike wanted to produce 125 bikes, what size plant should be used, and why? What about 150 bikes?**
+### Part A
 
----
+#### If Mike wanted to produce 125 bikes, what size plant should be used, and why? What about 150 bikes?
 
 Mike should use a small plant for 125 bikes. Even though both a small and a medium plant could produce 125, the small plant can do it cheaper (it's AC is lower than the medium plant's AC). Mike should use the medium plant to produce 150 bikes, because it offers a lower AC than the small plant for that range of output.
 
----
+### Part B
 
-b. **If Mike wanted to produce 250 bikes, what size plant should be used, and why? What about 275 bikes?**
-
----
+#### If Mike wanted to produce 250 bikes, what size plant should be used, and why? What about 275 bikes?
 
 Mike should use a medium plant for 250 bikes. Even though both a medium and a large plant could produce 250, the medium plant can do it cheaper (it's AC is lower than the large plant's AC). Mike should use the large plant to produce 275 bikes, because it offers a lower AC than the medium plant for that range of output.
 
----
+### Part C
 
-c. **Draw the *long run average cost curve* on the graph provided (or sketch one yourself).**
-
----
+#### Draw the *long run average cost curve* on the graph provided (or sketch one yourself).
 
 ```{r, fig.height=4}
 lrac+
@@ -213,17 +205,15 @@ lrac+
 
 The long run average cost curve consists of the section of each short run average cost curve that is lower than that any other short run average cost curve that overlaps that range of output. It "envelopes" the lowest section of each short run average costs curve. It is shaded more heavily on the graph.
 
----
+### Part D
 
-d. Suppose Mike's long run total cost function can be roughly expressed as:
+#### Suppose Mike's long run total cost function can be roughly expressed as:
 $$LRC(q)=\frac{1}{64}q^3-6.25q^2+725q$$
 	with a long run marginal cost function of 
 
 $$LRMC(q)=\frac{3}{64}q^2-12.5q+725$$
  
-> Find the quantity of bikes where long run average cost is minimized. Plot this point on your graph. At what range of production does Mike experience economies of scale? At what range of production does Mike experience diseconomies of scale?
-
----
+#### Find the quantity of bikes where long run average cost is minimized. Plot this point on your graph. At what range of production does Mike experience economies of scale? At what range of production does Mike experience diseconomies of scale?
 
 First, we need to find LRAC(q). 
  
@@ -280,17 +270,17 @@ $$\begin{aligned}
 		LRAC(200) &=\$100\\
 \end{aligned}$$
 
-\clearpage
+## Question 7
 
-7. Daniel's Midland Archers has the following cost structure for producing archery bows:
+#### Daniel's Midland Archers has the following cost structure for producing archery bows:
 
 $$\begin{aligned}
 C(q)&=2q^2+3q+50 \\	
 MC(q)&=4q+3\\ \end{aligned}$$
 
-a. **Write an equation for fixed costs, $f$.**
+### Part A
 
----
+#### Write an equation for fixed costs, $f$.
 
 Fixed costs are where costs don't change with output, so any term(s) where there is no variable $q$ in them: 50. We could also see that if $q=0$:
 
@@ -300,11 +290,10 @@ $$\begin{aligned}
  	C(0)&=50\\	
  	\end{aligned}$$
 
----
 
-b. **Write an equation for variable costs, $VC(q)$.**
+### Part B
 
----
+#### Write an equation for variable costs, $VC(q)$.
 
 Variable costs change with output, so any term(s) with a variable $q$ in them: 
 
@@ -312,22 +301,18 @@ $$\begin{aligned}
 	VC(q)&=2q^2+3q\\	
 	\end{aligned}$$
 
----
+### Part C
 
-c. **Write an equation for average fixed costs, $AFC(q)$.**
-
----
+#### Write an equation for average fixed costs, $AFC(q)$.
 
 $$\begin{aligned}
 	AFC(q)&=\frac{FC}{q}\\
 	&=\frac{50}{q}\\
 	\end{aligned}$$
 
----
+### Part D
 
-d. **Write an equation for average variable costs, $AVC(q)$.**
-
----
+#### Write an equation for average variable costs, $AVC(q)$.
 
 $$\begin{aligned}
 	AVC(q)&=\frac{VC(q)}{q}\\
@@ -335,11 +320,9 @@ $$\begin{aligned}
 	&=2q+3\\	
 	\end{aligned}$$
 
----
+### Part E
 
-e. **Write an equation for average (total) costs, $AC(q)$.**
-
----
+#### Write an equation for average (total) costs, $AC(q)$.
 
 $$\begin{aligned}
 	AC(q)&=\frac{C(q)}{q}\\
@@ -384,11 +367,9 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   ggthemes::theme_pander(base_size=14, base_family = "Fira Sans Condensed")
 ```
 
----
+### Part F
 
-f. **At what price does Daniel's Midland Archers break even?**
-
----
+#### At what price does Daniel's Midland Archers break even?
 
 We know that a competitive firm earns no profits where $p=AC(q)$. Since in competitive markets $p=MR(q)$ and firms are always setting $MR(q)=MC(q)$, we are looking for the quantity $q^*$ where: 
 
@@ -430,11 +411,9 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   ggthemes::theme_pander(base_size=14, base_family = "Fira Sans Condensed")
 ```
 
----
+### Part G
 
-g. **Below what price would Daniel's Midland Archers shut down in the short-run?**
-
----
+#### Below what price would Daniel's Midland Archers shut down in the short-run?
 
 We know that a competitive firm shuts down where $p<AVC(q)$, so let's find the price where $p=AVC(q)$. Since in competitive markets $p=MR(q)$ and firms are always setting $MR(q)=MC(q)$, we are looking for the quantity $q$ where: 
 
@@ -476,11 +455,9 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   ggthemes::theme_pander(base_size=14, base_family = "Fira Sans Condensed")
 ```
 
----
+### Part H
 
-h. **Write an equation for the firm's short-run inverse supply curve, and sketch a rough graph.**
-
----
+#### Write an equation for the firm's short-run inverse supply curve, and sketch a rough graph.
 
 The firm chooses $q^*$ such that: 
 
@@ -534,11 +511,9 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   ggthemes::theme_pander(base_size=14, base_family = "Fira Sans Condensed")
 ```
 
----
+### Part I
 
-i. **What differences would there be between how Daniel's Midland Archers decides to produce in the short run versus the long run?**
-
----
+#### What differences would there be between how Daniel's Midland Archers decides to produce in the short run versus the long run?
 
 The firm will only produce in the long run if it earns no losses, that is, if $p \geq AC(q)$:
 
@@ -588,25 +563,22 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   ggthemes::theme_pander(base_size=14, base_family = "Fira Sans Condensed")
 ```
 
----
+### Part J
 
-j. **In the long run, with many identical sellers of archery bows, what would be the equilibrium price?**
-
----
+#### In the long run, with many identical sellers of archery bows, what would be the equilibrium price?
 
 The long run equilibrium price must yield no profits (or else there would be entry or exit). Profit is 0 where $p=AC$. Since firms always set $p=MC$, it must be the case that $AC=MC$, which happens at the minimum of the average cost curve, and we saw the break-even price was \$23. 
 
 The market price must be \$23: any price higher would induce entry, any price lower would induce exit.
 
-\clearpage
+## Question 8
 
-8. **The supply of movie tickets in a small town is given by:**
-
+The supply of movie tickets in a small town is given by:
 $$q_s=2p-8$$
 
-a. **Write the inverse supply function.**
+### Part A
 
----
+#### Write the inverse supply function.
 
 Simply solve the supply equation above for price, $p$, to get the inverse supply equation: 
 
@@ -616,11 +588,9 @@ q_s+8&=2p\\
 0.5q_s+4&=p\\
 \end{aligned}$$
 
----
+### Part B
 
-b. **Calculate the price elasticity of supply at a price of $6 per ticket.**
-
----
+#### Calculate the price elasticity of supply at a price of $6 per ticket.
 
 First, we need to find the quantity supplied when price is \$6:
 
@@ -644,12 +614,9 @@ $$\begin{aligned}
 
 Since $\epsilon_S >1$, this is relatively elastic. For every 1\% price increases (decreases), quantity supplied increases (decreases) by 3\%.
 
----
+### Part C
 
-c. **Calculate the price elasticity of supply at a price of $8 per ticket.**
-
----
-
+#### Calculate the price elasticity of supply at a price of $8 per ticket.
 
 First, we need to find the quantity supplied when price is \$8:
 
