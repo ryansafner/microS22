@@ -53,31 +53,14 @@ class: center, middle, inverse
 
 # The Algebra of Calculating Equilibrium
 
+.pull-left[
 - Simple algebra to find equilibrium prices and quantities if we know supply and demand functions
 
 - Remember, supply and demand are each mathematical functions relating price to quantity:
-  - Demand: $q_D = f(p)$
-  - Supply: $q_S = f(p)$
+  - Demand: $q_D = 10-p$
+  - Supply: $q_S = 2p-8$
 
 - We know at equilibrium: $q_D=q_S$
-
----
-
-# Calculating Equilibrium: Example I
-
-.pull-left[
-
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-.green[**Example**]: Take our example supply and demand functions:
-
-$$\begin{align*}
-q_d&=10-p\\
-q_s&=2p-8\\
-\end{align*}$$
-]
-
-- In equilibrium: quantity demanded equals quantity supplied
-
 ]
 
 .pull-right[
@@ -99,7 +82,7 @@ graph<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
                      labels = function(x){paste("$", x, sep="")})+
   labs(x = "Quantity (q)",
        y = "Price (p)")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+  theme_classic(base_family = "Fira Sans Condensed", base_size=18)
 
 graph+
   geom_segment(x=4, xend=4, y=0, yend=6, size=1, linetype="dotted")+
@@ -109,8 +92,9 @@ graph+
 
 ---
 
-# Calculating Equilibrium: Example II
+# Calculating Equilibrium: Another Example
 
+.pull-left[
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 .green[**Example**]: Let the supply and demand functions for a market be:
 
@@ -120,9 +104,39 @@ $$\begin{align*}
 	\end{align*}$$
 ]
 
-1. Find equilibrium quantity and price $(q^*, p^*)$.
+1. Find equilibrium quantity and price `\\((q^\star, p^\star)\\)`.
 
 2. Sketch a rough graph.
+]
+
+--
+
+.pull-right[
+```{r, fig.retina=3, fig.height=5}
+demandex=function(x){60-2*x}
+supplyex=function(x){0.5*x+20}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=demandex, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=25,y=demandex(25)), color = "blue", label="Demand = Max WTP", size = 5)+
+  stat_function(fun=supplyex, geom="line", size=2, color = "red")+
+    geom_label(aes(x=25,y=supplyex(25)), color = "red", label="Supply = Min WTA", size = 5)+
+  
+  geom_segment(x=16, xend=16, y=0, yend=28, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=16, y=28, yend=28, size=1, linetype="dotted")+
+    scale_x_continuous(breaks=seq(0,40,4),
+                     limits=c(0,40),
+                     expand=expand_scale(mult=c(0,0)))+
+  scale_y_continuous(breaks=seq(0,60,4),
+                     limits=c(0,60),
+                     expand=expand_scale(mult=c(0,0)),
+                     labels = function(x){paste("$", x, sep="")})+
+  labs(x = "Quantity (q)",
+       y = "Price (p)")+
+  theme_light(base_family = "Fira Sans Condensed", base_size=18)
+```
+
+]
 
 ---
 
@@ -156,9 +170,11 @@ class: inverse, center, middle
 # Price Competition in Markets II
 
 .pull-left[
-- It might look like it, but competition in markets is **NOT** between buyers vs. sellers!
+- It might .ul[look like it], but competition in markets is **NOT** between buyers vs. sellers!
 
-- In markets: .hi-purple[buyers compete with other buyers] and .hi-purple[sellers compete with other sellers]
+- In markets: 
+  - .hi-purple[buyers compete with other buyers] & 
+  - .hi-purple[sellers compete with other sellers]
 
 ]
 
@@ -171,7 +187,7 @@ class: inverse, center, middle
 
 ---
 
-# Price Competition in Markets III
+# Price Competition Between Buyers
 
 .pull-left[
 - Buyers want to pay the *lowest* price to buy a good
@@ -191,7 +207,7 @@ class: inverse, center, middle
 
 ---
 
-# Price Competition in Markets IV
+# Price Competition Between Sellers
 
 .pull-left[
 - Sellers want to get the *highest* price for a good they sell
@@ -218,7 +234,32 @@ class: inverse, center, middle
 ![](../images/horsemarket.jpg)
 
 ]
+]
+
+.pull-right[
+
+- Imagine a small public horse market
+
+- 3 people, .red[A], .red[B], and .red[C] each own 1 horse
+
+- 3 people, .blue[D], .blue[E], and .blue[F] each are potentially interested in buying a horse
+]
+
 .source[This example is based on Eugen von Bohm-Bawerk’s famous example in *Capital and Interest* (1884)]
+
+---
+
+# An Example
+
+.pull-left[
+| Person | Reservation Price |
+|--------|-------------------|
+| .red[A] | Minimum WTA: $400 |
+| .red[B] | Minimum WTA: $500 |
+| .red[C] | Minimum WTA: $600 |
+| .blue[D] | Maximum WTP: $600 |
+| .blue[E] | Maximum WTP: $500 |
+| .blue[F] | Maximum WTP: $400 |
 ]
 
 .pull-right[
@@ -232,29 +273,34 @@ class: inverse, center, middle
 
 ---
 
+
+
 # An Example
 
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
-]
+| .red[A] | .red[Minimum WTA: $400] |
+| B | Minimum WTA: $500 |
+| C | Minimum WTA: $600 |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| .blue[E] | .blue[Maximum WTP: $500] |
+| .blue[F] | .blue[Maximum WTP: $400] |
 
---
+.center[
+**Price: $400**
+]
+]
 
 .pull-right[
 
-- Suppose .blue[Buyer F] announces she will pay $400 for a horse
+- Suppose .blue[Buyer F] announces she will pay **$400** for a horse
 
 - Only .red[Seller A] is willing to sell at $400
 
 - Buyers .blue[D], .blue[E], and .blue[F] are willing to buy at $400
   - .blue[D] and .blue[E] are willing to pay *more* than .blue[F] to obtain the 1 horse
+  - A **shortage**: .blue[3 buyers] for .red[1 seller]!
   - They raise their bids *above* $400 to attract sellers
 ]
 
@@ -265,12 +311,16 @@ class: inverse, center, middle
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
+| .red[A] | .red[Minimum WTA: $400] |
+| .red[B] | .red[Minimum WTA: $500] |
+| .red[C] | .red[Minimum WTA: $600] |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| E | Maximum WTP: $500 |
+| F | Maximum WTP: $400 |
+
+.center[
+**Price: $600**
+]
 ]
 
 .pull-right[
@@ -281,6 +331,7 @@ class: inverse, center, middle
 
 - Sellers .red[A], .red[B], and .red[C] are willing to sell at $600
   - .red[A] and .red[B] are willing to accept *less* than .red[C] to sell their horses
+  - A **surplus**: .red[3 sellers] for .blue[1 buyer]!
   - They lower their asks *below* $600 to attract buyers
 ]
 
@@ -291,19 +342,21 @@ class: inverse, center, middle
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
+| .red[A] | .red[Minimum WTA: $400] |
+| .red[B] | .red[Minimum WTA: $500] |
+| C | Minimum WTA: $600 |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| .blue[E] | .blue[Maximum WTP: $500] |
+| F | Maximum WTP: $400 |
 
-**Market Price: $500**
+.center[
+**Price: $500**
+]
 ]
 
 .pull-right[
 
-- If the market price reaches $500 (through bids and asks changing)
+- If the market price reaches $500 (through bids and asks changing):
 
 - Sellers .red[A] and .red[B] sell their horses for $500 each
 - Buyers .blue[D] and .blue[E] buy them at $500 each
@@ -316,24 +369,25 @@ class: inverse, center, middle
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
+| .red[A] | .red[Minimum WTA: $400] |
+| .red[B] | .red[Minimum WTA: $500] |
+| C | Minimum WTA: $600 |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| .blue[E] | .blue[Maximum WTP: $500] |
+| F | Maximum WTP: $400 |
 
-**Market Price: $500**
-
+.center[
+**Price: $500**
+]
 ]
 
 .pull-right[
 
-- At $500, .red[B] and .blue[E] are the .hi-purple["marginal"] buyer and seller, the "last" ones that *just* got off the fence to exchange in the market
+- At $500, .red[B] and .blue[E] are the .hi-purple[“marginal”] buyer and seller, the “last” ones that *just* got off the fence to exchange in the market
   - .red[B] has WTA *just* low enough to sell
   - .blue[E] has WTP *just* high enough to buy
 
-- The marginal pair actually are the ones that "set" the market price!
+- The marginal pair actually are the ones that “set” the market price!
 ]
 
 ---
@@ -343,15 +397,16 @@ class: inverse, center, middle
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
+| .red[A] | .red[Minimum WTA: $400] |
+| .red[B] | .red[Minimum WTA: $500] |
+| C | Minimum WTA: $600 |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| .blue[E] | .blue[Maximum WTP: $500] |
+| F | Maximum WTP: $400 |
 
-**Market Price: $500**
-
+.center[
+**Price: $500**
+]
 ]
 
 .pull-right[
@@ -371,15 +426,16 @@ class: inverse, center, middle
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
+| .red[A] | .red[Minimum WTA: $400] |
+| .red[B] | .red[Minimum WTA: $500] |
+| C | Minimum WTA: $600 |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| .blue[E] | .blue[Maximum WTP: $500] |
+| F | Maximum WTP: $400 |
 
-**Market Price: $500**
-
+.center[
+**Price: $500**
+]
 ]
 
 .pull-right[
@@ -397,15 +453,16 @@ class: inverse, center, middle
 .pull-left[
 | Person | Reservation Price |
 |--------|-------------------|
-| .red[Seller A] | Minimum WTA: $400 |
-| .red[Seller B] | Minimum WTA: $500 |
-| .red[Seller C] | Minimum WTA: $600 |
-| .blue[Buyer D] | Maximum WTP: $600 |
-| .blue[Buyer E] | Maximum WTP: $500 |
-| .blue[Buyer F] | Maximum WTP: $400 |
+| .red[A] | .red[Minimum WTA: $400] |
+| .red[B] | .red[Minimum WTA: $500] |
+| C | Minimum WTA: $600 |
+| .blue[D] | .blue[Maximum WTP: $600] |
+| .blue[E] | .blue[Maximum WTP: $500] |
+| F | Maximum WTP: $400 |
 
-**Market Price: $500**
-
+.center[
+**Price: $500**
+]
 ]
 
 .pull-right[
