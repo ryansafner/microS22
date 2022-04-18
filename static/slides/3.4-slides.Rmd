@@ -1,11 +1,11 @@
 ---
 title: "3.4 — The *Dynamic* Benefits of Markets"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -64,15 +64,17 @@ class: inverse
 ]
 
 .pull-right[
+
+> *“All models are wrong, but some are useful.”*
+
 .smallest[
 - This course is about economic modeling and formal theory
 
-- Applications in ECON electives
+- Lots of applications beyond this course
 
 - Models help us *understand* reality, but they *are not* reality!
   - Don't mistake the map for the territory itself
 
-> *"All models are wrong. Some are useful"* - George Box
 
 ]
 ]
@@ -93,11 +95,11 @@ class: inverse
   - Markets reach equilibrium
   - Economic profits are zero in the long run in competitive markets
 
-- Both are **fictional**
+- Both are **fictional**!
 
 - But the models **still** show us useful insights about how a market economy works
 
-- Some readings in today's readings page to help you understand
+- Some readings in today’s readings page to help you understand
 
 ]
 ]
@@ -107,11 +109,13 @@ class: inverse
 # The Model is Not the Reality III
 
 .center[
-![:scale 25%](https://www.dropbox.com/s/in42z1ia3f8c18t/smbcmicro.png?raw=1)
+![:scale 30%](https://www.dropbox.com/s/in42z1ia3f8c18t/smbcmicro.png?raw=1)
 
+.source[
 Source: [SMBC](https://www.smbc-comics.com/comic/2013-09-19)
 
 “Shame on the three of you who enjoyed this joke”
+]
 ]
 
 ---
@@ -395,10 +399,18 @@ The only answer I can think of is: **we just cared more**.
 ]
 
 .pull-right[
-.smaller[
-- Errors and imperfect information $\implies$ multiple prices 
-    - $\implies$ arbitrage opportunities $\implies$ entrepreneurship
-    - $\implies$ correcting mistakes $\implies$ people update their behavior & expectations  
+.smallest[
+- Errors and imperfect information
+
+> $\implies$ multiple prices
+
+> $\implies$ arbitrage opportunities
+
+> $\implies$ entrepreneurship
+
+> $\implies$ correcting mistakes
+
+> $\implies$ people update their behavior & expectations  
 
 - Markets are .hi-purple[discovery processes] that *discover* the right prices, the optimal uses of resources, and cheapest production methods, none of which can be known in advance!
 ]
@@ -418,15 +430,15 @@ The only answer I can think of is: **we just cared more**.
 
 .pull-right[
 .smallest[
-- Economy as a cat-and-mouse game between:
-  - **Mouse**: preferences, technologies, alternative uses of resources
-  - **Cat**: market prices, least-cost technologies
+- Economy as a .hi[cat]-and-.hi-purple[mouse] game between:
+  - .hi-purple[Mouse]: preferences, technologies, alternative uses of resources
+  - .hi[Cat]: market prices, least-cost technologies
 
-- Cat always chasing mouse
-  - Mouse *always* moving
-  - Any time cat hasn’t caught mouse: profit opportunities
+- .hi[Cat] always chasing .hi-purple[mouse]
+  - .hi-purple[Mouse] *always* moving
+  - Any time .hi[cat] hasn’t caught .hi-purple[mouse]: profit opportunities
 
-- **IF** mouse *froze*, market would rest at equilibrium 
+- **IF** .hi-purple[mouse] *froze*, market would rest at equilibrium 
 ]
 
 ]
@@ -536,294 +548,6 @@ A relatively low price
 
 ---
 
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-
-.smallest[
-- Suppose (oil) producers believe there is going to be a shortage (of oil) in a year
-]
-]
-.pull-right[
-```{r, fig.height=4}
-now<-ggplot(data = tibble(x=1:10),aes(x=x))+
-  stat_function(fun=Demand, geom="line", size=2, color = "blue")+
-  geom_vline(xintercept=5, geom="line", size=2, color = "red")+
-  geom_label(aes(x=9,y=Demand(9)), color = "blue", label="Demand", size = 2)+
-  geom_label(aes(x=5,y=9), color = "red", label="Supply", size = 2)+
-  geom_segment(aes(x=0, xend=5, y=5, yend=5),size=1, linetype="dotted")+
-    scale_x_continuous(breaks=NULL,
-                     limits=c(0,10),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=NULL,
-                     limits=c(0,10),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  coord_cartesian(clip="off")+
-  labs(x = "Quantity",
-       y = "Price",
-       title = "Market Today")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
-
-
-future<-ggplot(data = tibble(x=1:10),aes(x=x))+
-  stat_function(fun=Demand, geom="line", size=2, color = "blue")+
-  geom_vline(xintercept=5, geom="line", size=2, color = "red")+
-  geom_vline(xintercept=2, geom="line", size=2, color = "darkred")+
-  geom_label(aes(x=9,y=Demand(9)), color = "blue", label="Demand", size = 2)+
-  geom_label(aes(x=5,y=9), color = "red", label="Supply", size = 2)+
-  geom_label(aes(x=2,y=9), color = "darkred", label="Future Production", size = 2)+
-  geom_segment(aes(x=0, xend=5, y=5, yend=5),size=1, linetype="dotted")+
-
-  geom_segment(aes(x=0, xend=2, y=8, yend=8),size=1, linetype="dotted")+
-    scale_x_continuous(breaks=NULL,
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=NULL,
-                     limits=c(0,10),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  coord_cartesian(clip="off")+
-  labs(x = "Quantity",
-       y = "Price",
-       title = "Market Next Year")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
-
-library(patchwork)
-now+future
-```
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-.smallest[
-- Suppose (oil) producers believe there is going to be a shortage (of oil) in a year
-
-- Suppose they do nothing
-
-- In the future, a sudden spike in price
-  - Demand is inelastic to sudden changes, consumers can’t adjust on the fly
-  - A lot of lost economic surplus (shaded)
-]
-]
-.pull-right[
-```{r}
-pricechange<-ggplot(data = tibble(x=1:10),aes(x=x))+
-  geom_segment(x=0, y = 2, xend = 2, yend= 2, size=2, color = "green")+
-  geom_segment(x=2, y = 2, xend = 2, yend= 6, size=2, color = "green")+
-  geom_segment(x=2, y = 6, xend = 2.5, yend= 6, size=2, color = "green")+
-    scale_x_continuous(breaks=c(1,2),
-                       labels=c("Now", "Next Year"),
-                     limits=c(0,2.5),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=NULL,
-                     limits=c(0,8),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  coord_cartesian(clip="off")+
-  labs(x = "Time",
-       y = "Price",
-       title = "Price Over Time")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
-
-cs<-tribble(
-  ~x, ~y,
-  2, 0,
-  2, 8,
-  5, 5,
-  5, 0
-)
-future2<-future+
-  geom_polygon(data = cs, aes(x = x, y = y), fill = "black", alpha = 0.75)
-
-(now+future2)/pricechange
-```
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-
-.smallest[
-- Suppose (oil) producers believe there is going to be a shortage (of oil) in a year
-
-- Suppose instead they .hi-purple[speculate], and try to profit from the future price change
-  - TODAY: put some inventory .hi-purple[into storage] (take off market)
-  - FUTURE: when price is higher, sell more .hi-purple[from inventories]
-]
-]
-.pull-right[
-```{r}
-now2<-now+
-  geom_vline(xintercept=3.5, size =2, color = "darkred")+
-  geom_label(aes(x=5,y=9), color = "red", label="Supply", size = 2)+
-  geom_label(aes(x=3.5,y=9), color = "darkred", label="Supply 2", size = 2)+
-  geom_label(aes(x=9,y=Demand(9)), color = "blue", label="Demand", size = 2)+
-  annotate("segment", x = 5, xend = 3.5, y = 3, yend = 3, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.25,"cm"), ends="last", type="closed"))+
-  #geom_label(x=4.5,y=7, label = "Storage", color = "purple", size = 2)+
-  geom_segment(x=0, y = 6.5, xend = 3.5, yend= 6.5, size=1, linetype="dotted")
-
-
-future3<-ggplot(data = tibble(x=1:10),aes(x=x))+
-  stat_function(fun=Demand, geom="line", size=2, color = "blue")+
-  geom_label(aes(x=9,y=Demand(9)), color = "blue", label="Demand", size = 2)+
-  geom_vline(xintercept=2, size =2, color = "red")+
-  geom_label(aes(x=2,y=10), color = "red", label="Production", size = 2)+
-  geom_vline(xintercept=3.5, size =2, color = "darkred")+
-  geom_label(aes(x=3.5,y=9), color = "darkred", label="Supply 2", size = 2)+
-  geom_segment(aes(x=0, xend=2, y=8, yend=8),size=1, linetype="dotted")+
-  geom_segment(aes(x=0, xend=3.5, y=6.5, yend=6.5),size=1, linetype="dotted")+
-  #geom_label(x=1,y=7, label = "Out of Storage", color = "purple", size = 2)+
-  annotate("segment", x = 2, xend = 3.5, y = 3, yend = 3, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.25,"cm"), ends="last", type="closed"))+
-    scale_x_continuous(breaks=NULL,
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=NULL,
-                     limits=c(0,10),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  coord_cartesian(clip="off")+
-  labs(x = "Quantity",
-       y = "Price",
-       title = "Market Next Year")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
-
-pricechange2<-ggplot(data = tibble(x=1:10),aes(x=x))+
-  geom_segment(x=0, y = 2, xend = 2, yend= 2, size=2, color = "gray", alpha =0.15)+
-  geom_segment(x=2, y = 2, xend = 2, yend= 6, size=2, color = "gray", alpha =0.15)+
-  geom_segment(x=2, y = 6, xend = 2.5, yend= 6, size=2, color = "gray", alpha =0.15)+
-  geom_segment(x=0, y = 2, xend = 1, yend= 2, size=2, color = "green")+
-  geom_segment(x=1, y = 2, xend = 1.25, yend=4, size=2, color = "green")+
-  geom_segment(x=1.25, y = 4, xend = 2.5, yend= 4, size=2, color = "green")+
-    scale_x_continuous(breaks=c(1,2),
-                       labels=c("Now", "Next Year"),
-                     limits=c(0,2.5),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=NULL,
-                     limits=c(0,8),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  coord_cartesian(clip="off")+
-  labs(x = "Time",
-       y = "Price",
-       title = "Price Over Time")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
-
-(now2+future3)/pricechange2
-```
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-.smallest[
-- Suppose (oil) producers believe there is going to be a shortage (of oil) in a year
-
-- Suppose instead they .hi-purple[speculate], and try to profit from the future price change
-  - TODAY: put some inventory .hi-purple[into storage] (take off market)
-  - FUTURE: when price is higher, sell more .hi-purple[from inventories]
-
-- .hi[Price-smoothing] over time
-  - Small loss in the present (gray shaded), larger gain in the future (green shaded)
-  - Allows consumers to adjust their plans more over time (more elastic demand)
-]
-]
-
-.pull-right[
-```{r}
-loss1<-tribble(
-  ~x, ~y,
-  3.5, 0,
-  3.5, 4,
-  3.5, 7,
-  5, 5,
-  5, 0
-)
-
-
-gain1<-tribble(
-  ~x, ~y,
-  2, 0,
-  2, 8,
-  3.5, 6.5,
-  3.5, 0
-)
-
-now3<-now2+
-  geom_polygon(data = loss1, aes(x = x, y = y), fill = "black", alpha = 0.75)
-
-future4<-future3+
-  geom_polygon(data = gain1, aes(x = x, y = y), fill = "green", alpha = 0.5)
-
-(now3+future4)/pricechange2
-```
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-
-- .hi[Futures markets]: where people buy/sell claims on *future* goods at specified prices
-  - e.g. “10 barrels of oil at $30/barrel, delivered on November 2021”
-  - allows producers to minimize their exposure to major price swings
-
-]
-
-.pull-right[
-.center[
-![](../images/oilfutures.png)
-]
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.center[
-![:scale 75%](../images/oilnegative.png)
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-
-- .hi[Prediction markets]: where people buy/sell claims on *verifiable* future outcomes at specified prices
-  - Hope to profit on information you believe to be true
-  - Provides incentives for people to reveal private information for public benefit
-
-- If you want to know what somebody truly believes, leverage the power of prices and .hi-purple[make a bet]
-  - Forces them to “put their money where their mouth is” and make a costly tradoff: false beliefs vs. losing money
-
-]
-
-.pull-right[
-.center[
-![](../images/bet.jpg)
-]
-]
-
----
-
-# Knowledge, “Speculation,” and Prices
-
-.pull-left[
-.center[
-![](../images/prediction1.png)
-]
-]
-
-.pull-right[
-.center[
-![](../images/prediction2.png)
-]
-]
-
----
-
 class: inverse, center, middle
 
 # Uncertainty and Profits
@@ -878,14 +602,13 @@ class: inverse, center, middle
 
 .pull-left[
 .smallest[
-- Firms don’t actually *maximize* profits, just a convenient assumption
+- Firms don’t actually *maximize* profits 😨, just a convenient assumption! 
   - In a world of uncertainty (unlike mere risk), there’s no way to *maximize* anything!
 
-- Real world is not merely a constrained maximization problem!
+- Real world is *not* a mere constrained maximization problem!
 
-- Better to think in **evolutionary** terms
-  - Firms that *best* adapt to market circumstances will earn profit and merely *survive*
-  - Whether by skill and talent or just dumb luck!
+- Better to think in **evolutionary** terms:
+  - Firms that *best* adapt to market circumstances will *survive* and earn profit...whether by skill & talent or just dumb luck!
 ]
 ]
 .pull-right[
@@ -894,6 +617,8 @@ class: inverse, center, middle
 ]
 ]
 
+.source[Fore more, see Alchian 1950, Gigerenzer, 2012, and Smith, 2003 in [today’s readings](/content/3.4-content/#readings).
+]
 ---
 
 # Uncertainty, Tacit Information, and Profit IV

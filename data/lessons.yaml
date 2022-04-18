@@ -128,12 +128,13 @@ lessons:
     date: "W April 13"
 
   - title: "3.4 — The *Dynamic* Benefits of Markets: Entrepreneurship, Profits, & Prices"
+    content: "3.4-content"
+    slides: "3.4-slides"
     date: "M April 18"
 
   - title: "3.5 — Introduction to Political Economy"
+    content: "3.5-content"
     date: "W April 20"
-
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5**'
 
   - title: '<span class="fake-header-table">IV. Imperfect Competition</span>'
     header: True
@@ -141,9 +142,11 @@ lessons:
   - title: "4.1 — Modeling Firms with Market Power"
     date: "M April 25"
 
-  - title: "4.2 — Consequences and Sources of Market Power"
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due'
     date: "W April 27"
 
+  - title: "4.2 — Consequences and Sources of Market Power"
+  
   - title: "4.3 — Pricing Strategies"
     date: "M May 2"
   
