@@ -1,11 +1,11 @@
 ---
 title: "3.5 — Political Economy"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -57,21 +57,27 @@ class: inverse
 
 # Welfare Economics, Reminder
 
+.pull-left[
 .smallest[
 - **Markets are great when:**
   1. They are .hi-purple[Competitive]: many buyers and many sellers
-  2. They each .hi-purple[equilibrium] (.hi-purple[prices are free to adjust]): absence of transactions costs or policies *preventing prices from adjusting* to meet supply and demand
-  3. .hi-purple[There are no externalities] are present: costs and benefits are fully internalized by the parties to transactions 
+  2. They reach .hi-purple[equilibrium] (.hi-purple[prices are free to adjust]): absence of transactions costs or policies *preventing prices from adjusting* to meet supply and demand
+  3. .hi-purple[There are no externalities]<sup>.magenta[†]</sup>: costs & benefits are fully internalized by the parties to transactions
 
-- If any of these conditions are not met, we have .hi[market failure]
-  - May be a role for governments, other institutions, or entrepreneurs to fix
+- .hi[Market failure]: if these conditions are not met
+  - May be role for governments, other institutions, or entrepreneurs to fix
+
 ]
 
---
+]
 
-.smallest[
+.pull-right[
+.center[
+![](../images/markets2.jpg)
+]
 
-- Let’s first talk about #2
+.footnote[<sup>.magenta[†]</sup> Or public goods, or asymmetric information. But I treat these as special cases of more common externalities.]
+
 ]
 
 ---
@@ -87,12 +93,12 @@ class: inverse, center, middle
 .pull-left[
 
 .smallest[
-- The static benefits of markets all come from markets *being in equilibrium* ([class 3.3](/content/3.3-content)):
+- The .hi-purple[static benefits] of markets all come from markets .hi-purple[being in *equilibrium*] ([class 3.3](/content/3.3-content)):
   - allocative efficiency (.blue[CS]+.red[PS])
   - Pareto efficiency
   - productive efficiency
 
-- But don’t forget the *dynamic benefits* of markets as a discovery process! ([class 3.4](/content/3.4-content))
+- But don’t forget the .hi-purple[dynamic benefits] of markets as a .hi-purple[discovery *process*]! ([class 3.4](/content/3.4-content))
   - *discovery* of better allocations of resources
   - creation & elimination of profit opportunities
   - entrepreneurship & innovation
@@ -124,12 +130,11 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_label(aes(x=9,y=Supply(9)), color = "red", label="Supply", size = 6)+
   geom_segment(aes(x=0, xend=5, y=5, yend=5),size=1, linetype="dotted")+
   geom_segment(aes(x=5, xend=5, y=5, yend=0),size=1, linetype="dotted")+
-  scale_x_continuous(breaks=seq(0,10,1),
+  scale_x_continuous(breaks=NULL,
                      limits=c(0,10),
                      expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=seq(0,10,1),
+  scale_y_continuous(breaks=NULL,
                      limits=c(0,10),
-                     labels=scales::dollar,
                      expand=expand_scale(mult=c(0,0.1)))+
   coord_cartesian(clip="off")+
   labs(x = "Quantity",
@@ -143,14 +148,14 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 # Dis-equilibrated Markets
 
 .pull-left[
-
+.smaller[
 - To *reach* equilibrium, market prices need to be able to adjust
-  - Shortage: price needs to rise
-  - Surplus: price needs to fall
+  - **Shortage** $(\color{red}{Q_s}<\color{blue}{Q_d})$: price needs to rise
+  - **Surplus** $(\color{red}{Q_s}>\color{blue}{Q_d})$: price needs to fall
 
 - There are .b[*unrealized* gains from trade] that exist in disequilibrium (shaded)
-  - Buyers & sellers both can be made better off if they can adjust the price
-
+  - .blue[Buyers] & .red[sellers] both can be made better off if they can adjust the price
+]
 ]
 
 .pull-right[
@@ -171,12 +176,11 @@ dwlp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_segment(aes(x=0, xend=7, y=7, yend=7),size=1, linetype="dotted")+
   geom_segment(aes(x=3, xend=3, y=7, yend=0),size=1, linetype="dotted")+
   geom_segment(aes(x=7, xend=7, y=7, yend=0),size=1, linetype="dotted")+
-  scale_x_continuous(breaks=seq(0,10,1),
+  scale_x_continuous(breaks=NULL,
                      limits=c(0,10),
                      expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=seq(0,10,1),
+  scale_y_continuous(breaks=NULL,
                      limits=c(0,10),
-                     labels=scales::dollar,
                      expand=expand_scale(mult=c(0,0.1)))+
   coord_cartesian(clip="off")+
   labs(x = "Quantity",
@@ -191,7 +195,7 @@ dwlp
 # Dis-equilibrated Markets
 
 .pull-left[
-.smallest[
+.quitesmall[
 - If market prices are *prevented* from adjusting, shortage/surplus becomes *permanent*
 
 - Lost .blue[CS] and/or .red[PS]: .b[Deadweight loss (DWL)]
@@ -224,12 +228,11 @@ dwlp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_segment(aes(x=0, xend=7, y=7, yend=7),size=1, linetype="dotted")+
   geom_segment(aes(x=3, xend=3, y=7, yend=0),size=1, linetype="dotted")+
   geom_segment(aes(x=7, xend=7, y=7, yend=0),size=1, linetype="dotted")+
-  scale_x_continuous(breaks=seq(0,10,1),
+  scale_x_continuous(breaks=NULL,
                      limits=c(0,10),
                      expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=seq(0,10,1),
+  scale_y_continuous(breaks=NULL,
                      limits=c(0,10),
-                     labels=scales::dollar,
                      expand=expand_scale(mult=c(0,0.1)))+
   coord_cartesian(clip="off")+
   labs(x = "Quantity",
@@ -676,7 +679,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                        expand=expand_scale(mult=c(0,0.1)))+
   scale_y_continuous(breaks=c(0,5, demand_up(5)),
                      limits=c(0,20),
-                     labels=c(0,expression(P[1]), expression(P[D])),
+                     labels=c(0,expression(bar(P[1])), expression(P[D])),
                      expand=expand_scale(mult=c(0,0.1)))+
   labs(x = "Quantity",
        y = "Price ($)")+
@@ -728,7 +731,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                        expand=expand_scale(mult=c(0,0.1)))+
   scale_y_continuous(breaks=c(0,5, demand_up(5)),
                      limits=c(0,20),
-                     labels=c(0,expression(P[1]), expression(P[D])),
+                     labels=c(0,expression(bar(P[1])), expression(P[D])),
                      expand=expand_scale(mult=c(0,0.1)))+
   labs(x = "Quantity",
        y = "Price ($)")+
@@ -779,7 +782,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                        expand=expand_scale(mult=c(0,0.1)))+
   scale_y_continuous(breaks=c(0,5, demand_up(5)),
                      limits=c(0,20),
-                     labels=c(0,expression(P[1]), expression(P[D])),
+                     labels=c(0,expression(bar(P[1])), expression(P[D])),
                      expand=expand_scale(mult=c(0,0.1)))+
   labs(x = "Quantity",
        y = "Price ($)")+
@@ -803,7 +806,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   - Black markets
   - Political connections, favors, corruption
 
-- **Economic rents**: excess resturns (above cost) go to those who own & distribute the scarce goods
+- **Economic rents**: excess returns (above opp. cost) to those who own the scarce goods
 ]
 ]
 
@@ -841,7 +844,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
                        expand=expand_scale(mult=c(0,0.1)))+
   scale_y_continuous(breaks=c(0,5, demand_up(5)),
                      limits=c(0,20),
-                     labels=c(0,expression(P[1]), expression(P[D])),
+                     labels=c(0,expression(bar(P[1])), expression(P[D])),
                      expand=expand_scale(mult=c(0,0.1)))+
   labs(x = "Quantity",
        y = "Price ($)")+
@@ -1591,7 +1594,7 @@ Loot from theft and violence
 .center[
 ![:scale 50%](../images/public_hex.png)
 
-[ECON 410 — Public Economics](https://publics20.classes.ryansafner.com)
+[ECON 410 — Public Economics](https://publics22.classes.ryansafner.com)
 
 ]
 ]
