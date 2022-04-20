@@ -134,6 +134,7 @@ lessons:
 
   - title: "3.5 — Introduction to Political Economy"
     content: "3.5-content"
+    slides: "3.5-slides"
     date: "W April 20"
 
   - title: '<span class="fake-header-table">IV. Imperfect Competition</span>'
@@ -143,6 +144,7 @@ lessons:
     date: "M April 25"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due'
+    assignment: "05-problem-set"
     date: "W April 27"
 
   - title: "4.2 — Consequences and Sources of Market Power"

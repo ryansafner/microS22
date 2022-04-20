@@ -1319,6 +1319,153 @@ MC(q)&amp;amp;=4q+3\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
     </item>
     
     <item>
+      <title>Problem Set 5</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/05-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/05-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please submit on Blackboard Assignments by the end of the day Wednesday April 27.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/05-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;!--## Answers
+
+&lt;p style=&#34;text-align:center&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/05-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/05-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt; &lt;/p&gt;
+--&gt;
+&lt;p&gt;Please read the &lt;a href=&#34;https://microS22.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.&lt;/p&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;In your own words, what do (1) allocative efficiency, (2) productive efficiency, and (3) Pareto efficiency mean? Under what three conditions are markets efficient?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;In your own words, what are the functions of market prices in society?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;In your own words, what are transaction costs, and how do they affect exchange?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;In your own words, explain the law of one price. &lt;em&gt;Why&lt;/em&gt; would we expect it to be true (i.e. what market processes push us towards the predicted outcome)? What might &lt;em&gt;prevent&lt;/em&gt; the same goods from being exchanged at the same price? [Hint: Think about your answer to the previous question!]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what entrepreneurship is, and how it affects market prices.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what consumer surplus and producer surplus mean. If Ann is willing to pay up to &lt;span&gt;$&lt;/span&gt;6,000 for a used car, but buys it at a market price of &lt;span&gt;$&lt;/span&gt;2,000, what is her consumer surplus? What is the producer’s surplus for Bob, who sells Ann the car for &lt;span&gt;$&lt;/span&gt;2,000, but would be willing to go as low as &lt;span&gt;$&lt;/span&gt;1,000?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;In your own words, explain why consumers who have &lt;em&gt;less&lt;/em&gt; elastic demand earn &lt;em&gt;greater&lt;/em&gt; consumer surplus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what an externality is. Give an example, and draw a graph — either for a negative externality or a positive externality. Explain some possible ways that the problem can be solved.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 9&lt;/h2&gt;
+&lt;p&gt;In your own words, explain what a public good is, and give an example. Explain why markets face problems providing public goods.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-10&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 10&lt;/h2&gt;
+&lt;p&gt;In your own words, explain the “nirvana fallacy” and provide an example.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-11&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 11&lt;/h2&gt;
+&lt;p&gt;The Ministry of Tourism in the Republic of Palau estimates that the monthly supply and demand for its scuba diving tours are:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    q_S&amp;amp;=30p-2000\\
+    q_D&amp;amp;=6000-20p\\ 
+    \end{align*}\]&lt;/span&gt;
+&amp;gt; where quantity represents the number of individual dives each month and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the price of a two-tank dive.&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Calculate the equilibrium quantity and price (&lt;span class=&#34;math inline&#34;&gt;\(q^*,p^*)\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the consumer surplus received by divers visiting Palau, and the producer surplus received by the dive ships.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of demand at equilibrium. Is it relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of supply at equilibrium. Is it relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Who earns more surplus, consumers or producers, and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;Suppose that the demand for scuba diving services increases, and that the new demand curve is given by &lt;span class=&#34;math inline&#34;&gt;\(q_D&amp;#39;=7,000-20P\)&lt;/span&gt;. Calculate the impact of this change in demand on the consumer surplus and producer surplus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Draw a well-labelled graph of all that you found in this question (label prices, quantities, surpluses, curves, etc).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-12&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 12&lt;/h2&gt;
+&lt;p&gt;The market for hotel rooms in a small town is characterized by the following equations:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+q_D&amp;amp;=200-0.4p\\
+q_S&amp;amp;=0.8p-40\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Calculate the equilibrium price and quantity.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the price elasticity of demand and price elasticity of supply in equilibrium. Is each relatively elastic or inelastic?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Calculate the consumer and producer surplus in equilibrium. Who gets more surplus, and why?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Suppose the local government sets a price ceiling on the price of hotel rooms - saying they can charge no more than $150/night. At $150, how many hotel rooms do consumers want to rent, and how many rooms do the hotels want to rent out? What is this situation?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Explain what would happen as a result of part D if the price were allowed to change.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;The price cannot change because of the price control. Hotels will only rent out the quantity you found in part D. Calculate consumer surplus and producer surplus at this price and quantity. Compare it to your answer in part C, what has changed?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Due to the situation created, how do you think those hotel rooms will be allocated and why? [Hint: Think about the example we did with COVID.]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Instructions</title>
       <link>https://microS22.classes.ryansafner.com/assignments/problem-sets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

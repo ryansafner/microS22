@@ -30,6 +30,10 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 *Monday April 18, 2022*
 {{% /alert %}}
 
+{{% alert warning %}}
+[Problem Set 5](/assignments/05-problem-set) is due by the end of the day Wednesday April 27.
+{{% /alert %}}
+
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
 Today we discuss how markets work in real life, and what prices actually *do*, and why we need them to coordinate economic activity.

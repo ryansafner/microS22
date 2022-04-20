@@ -3,7 +3,7 @@
   <head>
     <title>3.5 — Political Economy</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microS21   microS21.classes.ryansafner.com " />
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microS22   microS22.classes.ryansafner.com " />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/hygge.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -20,8 +20,8 @@
 class: center, middle, inverse, title-slide
 
 # 3.5 — Political Economy
-## ECON 306 • Microeconomic Analysis • Fall 2021
-### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>
+## ECON 306 • Microeconomic Analysis • Spring 2022
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>
 
 ---
 
@@ -40,21 +40,27 @@ class: inverse
 
 # Welfare Economics, Reminder
 
+.pull-left[
 .smallest[
 - **Markets are great when:**
   1. They are .hi-purple[Competitive]: many buyers and many sellers
-  2. They each .hi-purple[equilibrium] (.hi-purple[prices are free to adjust]): absence of transactions costs or policies *preventing prices from adjusting* to meet supply and demand
-  3. .hi-purple[There are no externalities] are present: costs and benefits are fully internalized by the parties to transactions 
+  2. They reach .hi-purple[equilibrium] (.hi-purple[prices are free to adjust]): absence of transactions costs or policies *preventing prices from adjusting* to meet supply and demand
+  3. .hi-purple[There are no externalities]&lt;sup&gt;.magenta[†]&lt;/sup&gt;: costs &amp; benefits are fully internalized by the parties to transactions
 
-- If any of these conditions are not met, we have .hi[market failure]
-  - May be a role for governments, other institutions, or entrepreneurs to fix
+- .hi[Market failure]: if these conditions are not met
+  - May be role for governments, other institutions, or entrepreneurs to fix
+
 ]
 
---
+]
 
-.smallest[
+.pull-right[
+.center[
+![](../images/markets2.jpg)
+]
 
-- Let’s first talk about #2
+.footnote[&lt;sup&gt;.magenta[†]&lt;/sup&gt; Or public goods, or asymmetric information. But I treat these as special cases of more common externalities.]
+
 ]
 
 ---
@@ -70,12 +76,12 @@ class: inverse, center, middle
 .pull-left[
 
 .smallest[
-- The static benefits of markets all come from markets *being in equilibrium* ([class 3.3](/content/3.3-content)):
+- The .hi-purple[static benefits] of markets all come from markets .hi-purple[being in *equilibrium*] ([class 3.3](/content/3.3-content)):
   - allocative efficiency (.blue[CS]+.red[PS])
   - Pareto efficiency
   - productive efficiency
 
-- But don’t forget the *dynamic benefits* of markets as a discovery process! ([class 3.4](/content/3.4-content))
+- But don’t forget the .hi-purple[dynamic benefits] of markets as a .hi-purple[discovery *process*]! ([class 3.4](/content/3.4-content))
   - *discovery* of better allocations of resources
   - creation &amp; elimination of profit opportunities
   - entrepreneurship &amp; innovation
@@ -90,14 +96,14 @@ class: inverse, center, middle
 # Dis-equilibrated Markets
 
 .pull-left[
-
+.smaller[
 - To *reach* equilibrium, market prices need to be able to adjust
-  - Shortage: price needs to rise
-  - Surplus: price needs to fall
+  - **Shortage** `\((\color{red}{Q_s}&lt;\color{blue}{Q_d})\)`: price needs to rise
+  - **Surplus** `\((\color{red}{Q_s}&gt;\color{blue}{Q_d})\)`: price needs to fall
 
 - There are .b[*unrealized* gains from trade] that exist in disequilibrium (shaded)
-  - Buyers &amp; sellers both can be made better off if they can adjust the price
-
+  - .blue[Buyers] &amp; .red[sellers] both can be made better off if they can adjust the price
+]
 ]
 
 .pull-right[
@@ -109,7 +115,7 @@ class: inverse, center, middle
 # Dis-equilibrated Markets
 
 .pull-left[
-.smallest[
+.quitesmall[
 - If market prices are *prevented* from adjusting, shortage/surplus becomes *permanent*
 
 - Lost .blue[CS] and/or .red[PS]: .b[Deadweight loss (DWL)]
@@ -394,7 +400,7 @@ class: inverse, center, middle
   - Black markets
   - Political connections, favors, corruption
 
-- **Economic rents**: excess resturns (above cost) go to those who own &amp; distribute the scarce goods
+- **Economic rents**: excess returns (above opp. cost) to those who own the scarce goods
 ]
 ]
 
@@ -1055,7 +1061,7 @@ Loot from theft and violence
 .center[
 ![:scale 50%](../images/public_hex.png)
 
-[ECON 410 — Public Economics](https://publics20.classes.ryansafner.com)
+[ECON 410 — Public Economics](https://publics22.classes.ryansafner.com)
 
 ]
 ]
@@ -1195,7 +1201,7 @@ slideshow._releaseMath(document);
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);

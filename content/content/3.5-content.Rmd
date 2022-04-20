@@ -30,6 +30,10 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 *Wednesday, April 20, 2022*
 {{% /alert %}}
 
+{{% alert warning %}}
+[Problem Set 5](/assignments/05-problem-set) is due by the end of the day Wednesday April 27.
+{{% /alert %}}
+
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
 We have seen that markets can fail under a variety of circumstances, and have suggested that government intervention can improve upon the sub-optimal outcome for society. However, just because markets may fail does not mean that government cannot also fail!
@@ -63,6 +67,6 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-## Problem Set 5 Due Wednesday April 28
+## Problem Set 5 Due Wednesday April 27
 
-[Problem set 5](/assignments/05-problem-set) (on classes 3.1-3.5) is due by Wednesday, April 28 by PDF upload to Blackboard Assignments. This will be your **final** graded homework!
+[Problem set 5](/assignments/05-problem-set) (on classes 3.1-3.5) is due by Wednesday, April 27 by PDF upload to Blackboard Assignments. This will be your **final** graded homework!
