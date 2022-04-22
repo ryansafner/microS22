@@ -67,6 +67,6 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-## Problem Set 5 Due Wednesday April 27
+### Problem Set 5 Due Wednesday April 27
 
 [Problem set 5](/assignments/05-problem-set) (on classes 3.1-3.5) is due by Wednesday, April 27 by PDF upload to Blackboard Assignments. This will be your **final** graded homework!

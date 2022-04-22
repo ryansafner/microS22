@@ -141,6 +141,8 @@ lessons:
     header: True
 
   - title: "4.1 — Modeling Firms with Market Power"
+    content: "4.1-content"
+    practice: "4.1-practice"
     date: "M April 25"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due'
@@ -148,6 +150,7 @@ lessons:
     date: "W April 27"
 
   - title: "4.2 — Consequences and Sources of Market Power"
+    content: "4.2-content"
   
   - title: "4.3 — Pricing Strategies"
     date: "M May 2"
