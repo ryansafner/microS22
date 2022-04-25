@@ -143,6 +143,7 @@ lessons:
   - title: "4.1 — Modeling Firms with Market Power"
     content: "4.1-content"
     practice: "4.1-practice"
+    slides: "4.1-slides"
     date: "M April 25"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due'
