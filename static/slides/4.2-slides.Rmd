@@ -1,12 +1,11 @@
 ---
 title: "4.2 — Consequences & Sources of Power"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
-    lib_dir: libs
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143    lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
     nature:
@@ -57,9 +56,11 @@ class: inverse
 
 ### [What If You’re Just *Better*?](#34)
 
-### [The *Ugly* of Market Power: Rent-Seeking](#53)
+### [Barriers to Entry](#44)
 
-### [Antitrust](#77)
+### [The *Ugly* of Market Power: Rent-Seeking](#59)
+
+### [Antitrust](#75)
 
 ---
 
@@ -760,11 +761,9 @@ Joseph Schumpeter
 .pull-left[
 .smallest[
 - (Some) possible types of entry barriers:
-  - Control over key resource
-  - Technological superiority
-      - Name/brand recognition, high fixed/sunk costs, economies of scale, network externalities
-  - Government regulation
-      - Intellectual property rights, occupational licensing, public franchises, burdensome compliance, rent-seeking
+  - **Control over key resource**
+  - **Technological superiority**: Name/brand recognition, high fixed/sunk costs, economies of scale, network externalities
+  - **Government regulation**: Intellectual property rights, occupational licensing, public franchises, burdensome compliance, rent-seeking
 
 - “Natural” vs. “artificial” barriers to entry
   - .hi-purple[“open”] vs. .hi-purple[“closed”] monopoly
@@ -776,34 +775,6 @@ Joseph Schumpeter
 .center[
 ![:scale 90%](../images/donotenter.png)
 ]
-]
-
----
-
-# Control Over a Key Resource
-
-.pull-left[
-.center[
-![:scale 50%](../images/debeers.png)
-
-![:scale 50%](../images/debeersdiamonds.jpg)
-]
-]
-
-.pull-right[
-.center[
-![:scale 50%](../images/alcoa.png)
-
-![:scale 50%](../images/alcoa2.jpg)
-]
-]
-
-.smallest[
-- Aluminum Company of America (Alcoa) once controlled 90% of the market for bauxite (used to create aluminum), and produced 63% of world aluminum supply
-
-- De Beers once owned 85% of the world's diamond supply
-
-- Quite rare for a single firm to control key resources for long
 ]
 
 ---
@@ -1108,16 +1079,16 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 # Regulating Natural Monopolies
 
 .pull-left[
-
-- Governments avoid "wasteful duplication" of competition, grant .hi-purple[exclusive franchises], a single monopolist allowed in geographic region
+.smallest[
+- Governments avoid “wasteful duplication” of competition by granting .hi-purple[exclusive franchises]: a single monopolist allowed in geographic region
 
 - Provider made a .hi-purple[common carrier]: monopolist must provide universal service to all
 
-- .hi-purple[Rate of return regulation]: gov't and monopolist agree on a price to guarantee a “modest return on capital” (i.e. some $\pi>0)$
+- .hi-purple[Rate of return regulation]: gov’t and monopolist agree on a price to guarantee a “modest return on capital” (i.e. some $\pi>0)$
   - Attempting to $\uparrow q$ and $\downarrow p$
   - Prohibition on price discrimination, enforced subsidies 
 ]
-
+]
 .pull-right[
 .center[
 ![:scale 100%](../images/publicutilities.png)
@@ -1129,7 +1100,7 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 ---
 
-# Are Big Tech Firms Monopolies?
+# Regulating Natural Monopoly
 
 .left-column[
 .center[
@@ -1139,12 +1110,19 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 .right-column[
 
-We tackle some of these questions more in my Industrial Organization course:
-- [Lecture 4.4: Antitrust III: Big Tech & Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class/)
-- [Lecture 4.5: Natural Monopoly Regulation](https://ios20.classes.ryansafner.com/class/4.5-class/)
+- Are big tech firms monopolies? Should they be broken up? How should they be regulated?
 
+- We tackle some of these questions more in my Industrial Organization course:
+  - [Lecture 4.4: Antitrust III: Big Tech & Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class/)
+  - [Lecture 4.5: Natural Monopoly Regulation](https://ios20.classes.ryansafner.com/class/4.5-class/)
 
 ]
+
+---
+
+class: inverse, center, middle
+
+# Barriers to Entry
 
 ---
 
@@ -1249,12 +1227,6 @@ Source: [Washington Post (Sept 8, 2017)](https://www.washingtonpost.com/news/mor
 
 - [Freakonomics: Apple vs. Samsung: Who Owns the Rectangle?](http://freakonomics.com/2012/08/03/apple-vs-samsung-who-owns-the-rectangle/)
 ]
-
----
-
-class: inverse, center, middle
-
-# The *Ugly* of Market Power: Rent-Seeking
 
 ---
 
@@ -1369,6 +1341,12 @@ Source: [NPR Planet Money](https://www.npr.org/sections/money/2012/06/22/1555963
 ]
 
 ]
+
+---
+
+class: inverse, center, middle
+
+# The *Ugly* of Market Power: Rent-Seeking
 
 ---
 
@@ -1758,23 +1736,6 @@ class: inverse, center, middle
 
 ---
 
-# Antitrust and Competition Law IV
-
-.pull-left[
-.center[
-![:scale 80%](../images/aetnamerger2.png)
-
-Source: [WSJ (Jan 23, 2017)](http://www.wsj.com/articles/federal-judge-blocks-aetna-humana-merger-on-antitrust-grounds-1485190239)
-]
-]
-
-.pull-right[
-
-- Mergers, acquisitions, and major corporate activities are scrutinized by DOJ and FTC on antitrust grounds
-]
-
----
-
 # Antitrust
 
 .pull-left[
@@ -1786,3 +1747,7 @@ Source: [WSJ (Jan 23, 2017)](http://www.wsj.com/articles/federal-judge-blocks-ae
 .pull-right[
 
 - More about antitrust in my Industrial Organization course: (Classes [4.1-4.3](https://ios20.classes.ryansafner.com/))]
+  - [<i class="fas fa-external-link-square-alt"></i> 4.1 Measuring Market Power](https://ios20.classes.ryansafner.com/class/4.1-class.html)
+  - [<i class="fas fa-external-link-square-alt"></i> 4.2 Antitrust I: The Law](https://ios20.classes.ryansafner.com/class/4.2-class.html)
+  - [<i class="fas fa-external-link-square-alt"></i> 4.3 Antitrust II: The Paradox](https://ios20.classes.ryansafner.com/class/4.3-class.html)
+  - [<i class="fas fa-external-link-square-alt"></i> 4.4 Antitrust III: Big Tech & Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class.html)
