@@ -55,9 +55,9 @@ First, the quantity, we follow **Rule #1** as always: the profit maximizing $q^*
 
 $$\begin{align*}
 	MR(q)&= MC(q)\\
-	300-5q^=10q\\
+	300-5q&=10q\\
 	300&=15q\\
-	20&=q^2\\
+	20&=q^\star\\
 \end{align*}$$
 
 Now that we know the profit-maximizing quantity, we need to find the maximum price consumers are willing to pay for 20 units. Plug this into the inverse demand function:
@@ -66,7 +66,7 @@ $$\begin{align*}
 p&=300-2.5q\\
 p&=300-2.5(20)\\
 p&=300-50\\
-p^*&=250\\
+p^\star&=250\\
 \end{align*}$$
 
 ---
@@ -85,7 +85,7 @@ Now we specifically need to find the average cost at 20 units:
 
 $$\begin{align*}
 AC(q)&=5q+\frac{720}{q}\\
-AC(20)&=5(20)+\frac{720}{20}\\
+AC(20)&=5(20)+\frac{720}{(20)}\\
 AC(20)&=100+36\\
 AC(20)&=136\\
 \end{align*}$$
@@ -112,7 +112,7 @@ AC(q)&=MC(q)\\
 5q+\frac{720}{q}&=10q\\
 \frac{720}{q}&=5q\\
 720&=5q^2\\
-144&q^2\\
+144&=q^2\\
 12&=q\\
 \end{align*}$$
 

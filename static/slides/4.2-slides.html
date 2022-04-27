@@ -51,6 +51,7 @@ class: inverse
 .pull-left[
 .smaller[
 - No market is perfectly competitive, but **that does not .ul[necessarily] imply market failure**
+  - Static vs. dynamic benefits of markets
 
 - Market power is *interesting*
   - Most firms clearly have *some* market power
@@ -88,8 +89,8 @@ class: inverse, center, middle
 .smallest[
 - In a .hi[competitive market] in .hi[long run equilibrium]:
   - .hi-purple[Economic profit] is driven to $0; resources (factors of production) optimally allocated
-  - .hi-purple[Allocatively efficient]: `\(p=MC(q)\)`, maximized .blue[CS] `\(+\)` .red[PS]
-  - .hi-purple[Productively efficient]: `\(p=AC(q)_{min}\)` (otherwise firms would enter/exit)
+  - .hi-purple[Allocatively efficient]: `\(\color{blue}{p}=\color{red}{MC(q)}\)`, maximized .blue[CS] `\(+\)` .red[PS]
+  - .hi-purple[Productively efficient]: `\(\color{blue}{p}=\color{orange}{AC(q)_{min}}\)` (otherwise firms would enter/exit)
 ]
 ---
 
@@ -106,13 +107,14 @@ class: inverse, center, middle
 - Consider an industry with some simplified cost assumptions:
 
 `$$C(q)=cq$$`
-  - No fixed costs
-  - implies `\(\color{red}{MC(q)}=\color{orange}{AC(q)}\)`
-  - Why? [See here](/content/2.5-content/#common-cost-assumptions)
+  - No fixed costs; `\(\color{red}{MC(q)}=\color{orange}{AC(q)} = c\)`&lt;sup&gt;.magenta[†]&lt;/sup&gt;
 
-- If this industry were **competitive**, firms would set `\(p_c=MC(q)\)` and (collectively), industry would produce `\(q_c\)`
+- If this industry were **competitive**, firms would set `\(\color{blue}{p_c}=\color{red}{MC(q)}\)` and (collectively), industry would produce `\(q_c\)`
   - Max’d .blue[consumer surplus], `\(\color{green}{\pi=0}\)`
+
+.footnote[&lt;sup&gt;.magenta[†]&lt;/sup&gt; Why? [See here](/content/2.5-content/#common-cost-assumptions) for a reminder.]
 ]
+
 
 ---
 
@@ -173,30 +175,6 @@ class: inverse, center, middle
   - Consumers willing to buy more than `\(q_m\)`, if the monopolist would lower prices!
   - Monopolist *would* benefit by accepting lower prices to sell more than `\(q_m\)`, **but this would yield _less_ than _maximum_ profits**
       - main problem is that monopolist must lower price on all units sold
-
-]
-
----
-
-# The Bad of Monopoly: X-Inefficiency
-
-.pull-left[
-
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-6-1.png" width="504" style="display: block; margin: auto;" /&gt;
-
-]
-
-.pull-right[
-
-&gt; “The best of all monopoly profits is a quiet life” - Sir John Hicks
-
-
-- Monopoly may generate .hi[“X-inefficiency”]
-
-- Lack of competition causes monopoly to be **complacent** or **lazy**
-  - May inefficiently .orange[raise costs] of production
-
-- Creates **further distortions** (lost surpluses)
 
 ]
 
@@ -307,7 +285,7 @@ Demand *Less* Elastic at `\(p^*\)`
 ]
 ]
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-7-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-6-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 .pull-right[
@@ -318,7 +296,7 @@ Demand *More* Elastic at `\(p^*\)`
 ]
 ]
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-8-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-7-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -329,10 +307,11 @@ Demand *More* Elastic at `\(p^*\)`
 .smallest[
 - A main determinant of price elasticity is the .hi-purple[availability of substitutes]!
   - More substitutes `\(\rightarrow\)` higher elasticity `\(\rightarrow\)` less market power
+  - Universal substitute: not buying!
 
-- So again, it’s Consumer Demand all the way down!
+- So again, it’s .blue[Consumer Demand] all the way down!
 
-- Aside: courts in antitrust cases often also focus on the .hi-purple[cross-price elasticities] between goods!
+- Aside: courts in .hi[antitrust] cases often also focus on the .hi-purple[cross-price elasticities] between goods!
   - helps determine substitutability of a good, where/whether customers will go in response to price hike 
 ]
 ]
@@ -343,6 +322,28 @@ Demand *More* Elastic at `\(p^*\)`
 ]
 
 ---
+
+# And Cross-Price Elasticity!
+
+.left-column[
+.center[
+![](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+&gt; “For every product substitutes exist. But a relevant market cannot meaningfully encompass that infinite a range. The circle must be drawn narrowly to exclude any other product to which, within reasonable variations in price, only a limited number of buyers will turn; in technical terms, products whose 'cross-elasticities of demand' are small,” *Times-Picayune Publishing v. United States*, 345 U.S. 594 at 621 n. 31 (1953)
+
+&gt; “Every manufacturer is the sole producer of the particular commodity it makes but its control in the above sense of the relevant market depends on the availability of alternative commodities for buyers: i.e., whether there is a cross-elasticity of demand between cellophane and the other wrappings,” *U.S. v. E. I. du Pont de Nemours &amp;. Co.*, 351 U.S. 377 (1956)
+
+&gt; “Cross-price elasticity is a more useful tool than own-price elasticity in defining a relevant antitrust market. Cross-price elasticity estimates tell one where the lost sales will go when the price is raised, while own-price elasticity estimates simply tell one that a price increase would cause a decline in volume,” *New York v. Kraft General Foods*, 926 F. Supp. 321 (1995)
+]
+]
+---
+
 
 class: inverse, center, middle
 
@@ -364,9 +365,9 @@ Joseph Schumpeter
 
 .right-column[
 .smallest[
-&gt; "Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process.]," (pp.82). 
+&gt; “Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process],” (pp.82). 
 
-&gt; "[I]n capitalist reality as distinguished from its textbook picture, it is not that kind of competition which counts but the competition from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives.]" (p.132).
+&gt; “[I]n capitalist reality as distinguished from its textbook picture, it is...that kind of competition...from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives],” (p.132).
 
 ]
 
@@ -388,7 +389,7 @@ Joseph Schumpeter
 
 .right-column[
 
-&gt; "Industrial mutation—if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in" (p.83).
+&gt; “Industrial mutation—if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in,” (p.83).
 
 ]
 
@@ -568,7 +569,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-9-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-8-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -588,7 +589,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-10-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-9-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -609,7 +610,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-11-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-10-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -626,7 +627,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-12-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-11-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 
@@ -646,7 +647,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-13-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-12-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -732,49 +733,6 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 # Are Big Tech Firms Monopolies?
 
-.pull-left[
-.center[
-![](../images/techinnovation.jpg)
-]
-]
-
-.pull-right[
-.center[
-![](../images/capex.jpg)
-]
-
-]
-
-.tiny[
-- Complacent monopolists would rather restrict output and raise profits to shareholders
-
-- But big tech firms invest enormous amounts in capital &amp; innovation! Worried about competition!
-
-]
-
----
-
-# Are Big Tech Firms Monopolies?
-
-.pull-left[
-.center[
-![:scale 100%](../images/peopleliketechcompanies.jpg)
-]
-]
-
-.pull-right[
-
-- Politicians may say one thing, but people like big tech companies, they provide an enormous amount of consumer surplus!
-
-.center[
-![](../images/pew_2020_people_like_tech.jpg)
-]
-]
-
----
-
-# Are Big Tech Firms Monopolies?
-
 .left-column[
 .center[
 ![:scale 100%](../images/io_hex.png)
@@ -783,7 +741,7 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 .right-column[
 
-We tackle these questions more in my Industrial Organization course:
+We tackle some of these questions more in my Industrial Organization course:
 - [Lecture 4.4: Antitrust III: Big Tech &amp; Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class/)
 - [Lecture 4.5: Natural Monopoly Regulation](https://ios20.classes.ryansafner.com/class/4.5-class/)
 
@@ -1020,7 +978,7 @@ Source: [NPR Planet Money](https://www.npr.org/sections/money/2012/06/22/1555963
 
 .pull-left[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-14-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-13-1.png" width="504" style="display: block; margin: auto;" /&gt;
 
 ]
 

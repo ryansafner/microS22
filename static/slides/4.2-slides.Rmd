@@ -68,6 +68,7 @@ class: inverse
 .pull-left[
 .smaller[
 - No market is perfectly competitive, but **that does not .ul[necessarily] imply market failure**
+  - Static vs. dynamic benefits of markets
 
 - Market power is *interesting*
   - Most firms clearly have *some* market power
@@ -102,13 +103,13 @@ demand_firm<-function(x){10}
 mc_cc<-function(x){3*x^2-8*x+9}
 ac_cc<-function(x){x^2-4*x+10+10/x}
 
-ggplot(data.frame(x=c(0,10)), aes(x=x))+
+pc<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   stat_function(fun=demand_firm, geom="line", size=2, color = "blue")+
   geom_label(aes(x=4.5,y=demand_firm(4.5)), color = "blue", label="Demand", size = 5)+
     stat_function(fun=mc_cc, geom="line", size=2, color = "red")+
   geom_label(aes(x=3.5,y=mc_cc(3.5)), color = "red", label="MC(q)", size = 5)+
     stat_function(fun=ac_cc, geom="line", size=2, color = "orange")+
-  geom_label(aes(x=4.5,y=ac_cc(4.5)), color = "orange", label="AC(q)", size = 5)+
+  geom_label(aes(x=4.5,y=ac_cc(4.5)), color = "orange", label = "AC(q)", size = 5)+
   geom_segment(x=2.8, xend=2.8, y=0, yend=10, size=1, linetype="dotted")+
     scale_x_continuous(breaks=NULL,
                      limits=c(0,5),
@@ -121,6 +122,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
        x = "Quantity",
        y = "Price")+
   theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+pc
 ```
 ]
 
@@ -142,6 +144,8 @@ ps_1<-tribble(
 ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_polygon(data=cs_1, aes(x=x,y=y), fill="blue", alpha=0.5)+
   geom_polygon(data=ps_1, aes(x=x,y=y), fill="red", alpha=0.5)+
+  geom_text(x = 1.5, y = 6.5, color = "white", label = "CS", size = 6)+
+  geom_text(x = 1.5, y = 3.5, color = "white", label = "PS", size = 6)+
   stat_function(fun=demand, geom="line", size=2, color = "blue")+
     geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
   stat_function(fun=supply, geom="line", size=2, color = "red")+
@@ -170,8 +174,8 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 .smallest[
 - In a .hi[competitive market] in .hi[long run equilibrium]:
   - .hi-purple[Economic profit] is driven to $0; resources (factors of production) optimally allocated
-  - .hi-purple[Allocatively efficient]: $p=MC(q)$, maximized .blue[CS] $+$ .red[PS]
-  - .hi-purple[Productively efficient]: $p=AC(q)_{min}$ (otherwise firms would enter/exit)
+  - .hi-purple[Allocatively efficient]: $\color{blue}{p}=\color{red}{MC(q)}$, maximized .blue[CS] $+$ .red[PS]
+  - .hi-purple[Productively efficient]: $\color{blue}{p}=\color{orange}{AC(q)_{min}}$ (otherwise firms would enter/exit)
 ]
 ---
 
@@ -200,7 +204,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
   stat_function(fun=mc, geom="line", size=2, color = "red")+
     geom_label(aes(x=6,y=mc(6)), color = "red", label=expression(MC(q)==AC(q)), size = 5)+
   geom_segment(x=8, xend=8, y=0, yend=2, size=1, linetype="dotted")+
-  geom_label(aes(x=3, y= 5), label="CS", color="blue", size =5)+
+  geom_text(aes(x=3, y= 5), label="CS", color="white", size =5)+
     scale_x_continuous(breaks=c(0,8),
                        labels=c(0,expression(q[c])),
                      limits=c(0,10),
@@ -222,13 +226,14 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 - Consider an industry with some simplified cost assumptions:
 
 $$C(q)=cq$$
-  - No fixed costs
-  - implies $\color{red}{MC(q)}=\color{orange}{AC(q)}$
-  - Why? [See here](/content/2.5-content/#common-cost-assumptions)
+  - No fixed costs; $\color{red}{MC(q)}=\color{orange}{AC(q)} = c$<sup>.magenta[†]</sup>
 
-- If this industry were **competitive**, firms would set $p_c=MC(q)$ and (collectively), industry would produce $q_c$
+- If this industry were **competitive**, firms would set $\color{blue}{p_c}=\color{red}{MC(q)}$ and (collectively), industry would produce $q_c$
   - Max’d .blue[consumer surplus], $\color{green}{\pi=0}$
+
+.footnote[<sup>.magenta[†]</sup> Why? [See here](/content/2.5-content/#common-cost-assumptions) for a reminder.]
 ]
+
 
 ---
 
@@ -261,9 +266,9 @@ m<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_polygon(data=dwl, aes(x=x,y=y), fill="black",alpha=0.5)+ #dwl
   
   # surplus labels
-  geom_label(aes(x=1.5, y= 4), label="Profit", color="green", size =5)+
-  geom_label(aes(x=1.5, y= 7.5), label="CS", color="blue", size =5)+
-  geom_label(aes(x=5.5, y= 3.5), label="DWL", color="black", size =5)+
+  geom_text(aes(x=1.5, y= 4), label="Profit", color="white", size =5)+
+  geom_text(aes(x=1.5, y= 7.5), label="CS", color="white", size =5)+
+  geom_text(aes(x=5.5, y= 3.5), label="DWL", color="white", size =5)+
   
   # lines 
   stat_function(fun=demand, geom="line", size=2, color = "blue")+
@@ -352,82 +357,6 @@ m + annotate("segment", x = 8, xend = 4, y = 0.5, yend = 0.5, colour = "black", 
   - Consumers willing to buy more than $q_m$, if the monopolist would lower prices!
   - Monopolist *would* benefit by accepting lower prices to sell more than $q_m$, **but this would yield _less_ than _maximum_ profits**
       - main problem is that monopolist must lower price on all units sold
-
-]
-
----
-
-# The Bad of Monopoly: X-Inefficiency
-
-.pull-left[
-
-```{r, fig.retina=3}
-mc<-function(x){2}
-mc_x<-function(x){4}
-dwl_x<-tibble(x=c(6,6,8),
-           y=c(4,2,2))
-dwl_x2<-tibble(x=c(3,3,4),
-           y=c(6,7,6))
-
-
-ggplot(data.frame(x=c(0,10)), aes(x=x))+
-  
-  # surpluses
-  geom_rect(xmin=3,xmax=4,ymin=2,ymax=6,fill="black", alpha=0.3)+ #profit
-  geom_polygon(data=dwl_x2, aes(x=x,y=y), fill="black",alpha=0.5)+ #dwl
-  
-  # surplus labels
-  #geom_label(aes(x=5.5, y= 3.5), label="DWL", color="black", size =5)+
-  
-  # lines 
-  stat_function(fun=demand, geom="line", size=2, color = "blue")+
-    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
-  stat_function(fun=mr, geom="line", size=2, color = "purple")+
-    geom_label(aes(x=4.5,y=mr(4.5)), color = "purple", label=expression(MR(q)), size = 5)+
-  stat_function(fun=mc, geom="line", size=2, color = "red")+
-    geom_label(aes(x=6,y=mc(6)), color = "red", label=expression(MC(q)==AC(q)), size = 5)+
-  stat_function(fun=mc_x, geom="line", size=2, color = "orange")+
-    geom_label(aes(x=6,y=mc_x(6)), color = "orange", label=expression(MC(q)^{x}==AC(q)^{x}), size = 5)+
-  # optimal dots
-  geom_segment(x=0, xend=4, y=6, yend=6, size=1, linetype="dotted")+
-  geom_segment(x=8, xend=8, y=0, yend=2, size=1, linetype="dotted")+
-  geom_segment(x=4, xend=4, y=0, yend=6, size=1, linetype="dotted")+
-  
-  # x-eff
-  geom_segment(x=3, xend=3, y=0, yend=7, size=1, linetype="dotted")+
-  geom_segment(x=0, xend=3, y=7, yend=7, size=1, linetype="dotted")+
-    scale_x_continuous(breaks=c(3,4,8),
-                       labels=c(expression(q[m]^{x}),expression(q[m]),expression(q[c])),
-                     limits=c(0,10),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  scale_y_continuous(breaks=c(2,6,7),
-                       labels=c(expression(p[c]),expression(p[m]),expression(p[m]^{x})),
-                     limits=c(0,10),
-                     expand=expand_scale(mult=c(0,0.1)))+
-  
-  annotate("segment", x = 1, xend = 1, y = 2, yend = 4, colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  annotate("segment", x = 1, xend = 1, y = 6, yend = 7, colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  annotate("segment", x = 4, xend = 3, y = 1, yend = 1, colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
-  guides(fill=F)+
-  labs(x = "Quantity",
-       y = "Price")+
-  theme_classic(base_family = "Fira Sans Condensed", base_size=16)
-
-```
-
-]
-
-.pull-right[
-
-> “The best of all monopoly profits is a quiet life” - Sir John Hicks
-
-
-- Monopoly may generate .hi[“X-inefficiency”]
-
-- Lack of competition causes monopoly to be **complacent** or **lazy**
-  - May inefficiently .orange[raise costs] of production
-
-- Creates **further distortions** (lost surpluses)
 
 ]
 
@@ -635,10 +564,11 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 .smallest[
 - A main determinant of price elasticity is the .hi-purple[availability of substitutes]!
   - More substitutes $\rightarrow$ higher elasticity $\rightarrow$ less market power
+  - Universal substitute: not buying!
 
-- So again, it’s Consumer Demand all the way down!
+- So again, it’s .blue[Consumer Demand] all the way down!
 
-- Aside: courts in antitrust cases often also focus on the .hi-purple[cross-price elasticities] between goods!
+- Aside: courts in .hi[antitrust] cases often also focus on the .hi-purple[cross-price elasticities] between goods!
   - helps determine substitutability of a good, where/whether customers will go in response to price hike 
 ]
 ]
@@ -649,6 +579,28 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 ]
 
 ---
+
+# And Cross-Price Elasticity!
+
+.left-column[
+.center[
+![](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+> “For every product substitutes exist. But a relevant market cannot meaningfully encompass that infinite a range. The circle must be drawn narrowly to exclude any other product to which, within reasonable variations in price, only a limited number of buyers will turn; in technical terms, products whose 'cross-elasticities of demand' are small,” *Times-Picayune Publishing v. United States*, 345 U.S. 594 at 621 n. 31 (1953)
+
+> “Every manufacturer is the sole producer of the particular commodity it makes but its control in the above sense of the relevant market depends on the availability of alternative commodities for buyers: i.e., whether there is a cross-elasticity of demand between cellophane and the other wrappings,” *U.S. v. E. I. du Pont de Nemours &. Co.*, 351 U.S. 377 (1956)
+
+> “Cross-price elasticity is a more useful tool than own-price elasticity in defining a relevant antitrust market. Cross-price elasticity estimates tell one where the lost sales will go when the price is raised, while own-price elasticity estimates simply tell one that a price increase would cause a decline in volume,” *New York v. Kraft General Foods*, 926 F. Supp. 321 (1995)
+]
+]
+---
+
 
 class: inverse, center, middle
 
@@ -670,9 +622,9 @@ Joseph Schumpeter
 
 .right-column[
 .smallest[
-> "Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process.]," (pp.82). 
+> “Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process],” (pp.82). 
 
-> "[I]n capitalist reality as distinguished from its textbook picture, it is not that kind of competition which counts but the competition from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives.]" (p.132).
+> “[I]n capitalist reality as distinguished from its textbook picture, it is...that kind of competition...from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives],” (p.132).
 
 ]
 
@@ -694,7 +646,7 @@ Joseph Schumpeter
 
 .right-column[
 
-> "Industrial mutation—if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in" (p.83).
+> “Industrial mutation—if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in,” (p.83).
 
 ]
 
@@ -918,7 +870,16 @@ mes_plot+
   stat_function(fun=tiny_mes, geom="line", size=2, color="orange")+
   geom_segment(x=0, xend=4, y=12, yend=12, size=1, linetype="dashed")+
   geom_segment(x=4, xend=4, y=12, yend=0, size=1, linetype="dashed")+
-  geom_label(x=2.5, y=12, label="MES (Competitive)", color="orange", size=5)
+  geom_label(x=2.5, y=12, label="MES (Competitive)", color="orange", size=5)+
+  geom_segment(x=0.5, xend=0.5, y=12, yend=0, linetype = "dotted", size = 1)+
+  scale_x_continuous(breaks = c(4),
+                     labels = c(expression(q[c])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks = c(12),
+                     labels = c(expression(p[c])),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))
 ```
 ]
 
@@ -960,7 +921,41 @@ mes_plot+
   stat_function(fun=tiny_mes_8, geom="line", size=2, color="orange")+
   geom_segment(x=0, xend=4, y=12, yend=12, size=1, linetype="dashed")+
   geom_segment(x=4, xend=4, y=12, yend=0, size=1, linetype="dashed")+
-  geom_label(x=2.5, y=12, label="MES (Competitive)", color="orange", size=5)
+  
+  geom_rect(xmin=0, xmax=0.5, ymin=0, ymax=12, alpha = 0.5, fill = "#F0F921FF")+
+  geom_rect(xmin=0.5, xmax=1, ymin=0, ymax=12, alpha = 0.5, fill = "#FCA636FF")+
+  geom_rect(xmin=1, xmax=1.5, ymin=0, ymax=12, alpha = 0.5, fill = "#E16462FF")+
+  geom_rect(xmin=1.5, xmax=2, ymin=0, ymax=12, alpha = 0.5, fill = "#B12A90FF")+
+  geom_rect(xmin=2.0, xmax=2.5, ymin=0, ymax=12, alpha = 0.5, fill = "#6A00A8FF")+
+  geom_rect(xmin=2.5, xmax=3, ymin=0, ymax=12, alpha = 0.5, fill = "#0D0887FF")+
+  geom_rect(xmin=3, xmax=3.5, ymin=0, ymax=12, alpha = 0.5, fill = "#7AD151FF")+
+  geom_rect(xmin=3.5, xmax=4, ymin=0, ymax=12, alpha = 0.5, fill = "#2A788EFF")+
+  
+  geom_segment(x=0.5, xend=0.5, y=12, yend=0, linetype = "dotted", size = 1)+
+  geom_segment(x=1.0, xend=1.0, y=12, yend=0, linetype = "dotted", size = 1)+
+  geom_segment(x=1.5, xend=1.5, y=12, yend=0, linetype = "dotted", size = 1)+
+  geom_segment(x=2.0, xend=2.0, y=12, yend=0, linetype = "dotted", size = 1)+
+  geom_segment(x=2.5, xend=2.5, y=12, yend=0, linetype = "dotted", size = 1)+
+  geom_segment(x=3.0, xend=3.0, y=12, yend=0, linetype = "dotted", size = 1)+
+  geom_segment(x=3.5, xend=3.5, y=12, yend=0, linetype = "dotted", size = 1)+
+  
+  geom_text(x = 0.25, y = 5, label = "Firm 1", angle = 90, color = "white")+
+  geom_text(x = 0.75, y = 5, label = "Firm 2", angle = 90, color = "white")+
+  geom_text(x = 1.25, y = 5, label = "Firm 3", angle = 90, color = "white")+
+  geom_text(x = 1.75, y = 5, label = "Firm 4", angle = 90, color = "white")+
+  geom_text(x = 2.25, y = 5, label = "Firm 5", angle = 90, color = "white")+
+  geom_text(x = 2.75, y = 5, label = "Firm 6", angle = 90, color = "white")+
+  geom_text(x = 3.25, y = 5, label = "Firm 7", angle = 90, color = "white")+
+  geom_text(x = 3.75, y = 5, label = "Firm 8", angle = 90, color = "white")+
+  geom_label(x=2.5, y=12, label="MES (Competitive)", color="orange", size=5)+
+  scale_x_continuous(breaks = c(4),
+                     labels = c(expression(q[c])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks = c(12),
+                     labels = c(expression(p[c])),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))
 ```
 ]
 
@@ -996,7 +991,15 @@ mes_plot+
   stat_function(fun=big_mes, geom="line", size=2, color="red")+
   geom_segment(x=0, xend=8, y=4, yend=4, size=1, linetype="dashed")+
   geom_segment(x=8, xend=8, y=4, yend=0, size=1, linetype="dashed")+
-  geom_label(x=2.5, y=4, label="MES (Monopoly)", color="red", size=5)
+  geom_label(x=2.5, y=4, label="MES (Monopoly)", color="red", size=5)+
+  scale_x_continuous(breaks = c(4, 8),
+                     labels = c(expression(q[c]),expression(q[m])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks = c(4,12),
+                     labels = c(expression(p[m]),expression(p[c])),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))
 ```
 ]
 
@@ -1018,8 +1021,6 @@ mes_plot+
 .pull-right[
 
 ```{r, fig.retina=3}
-big_mes<-function(x){(0.25*x-2)^(2)+4}
-
 mes_plot+
   stat_function(fun=tiny_mes, geom="line", size=2, color="orange")+
   stat_function(fun=tiny_mes_2, geom="line", size=2, color="orange")+
@@ -1035,7 +1036,15 @@ mes_plot+
   stat_function(fun=big_mes, geom="line", size=2, color="red")+
   geom_segment(x=0, xend=8, y=4, yend=4, size=1, linetype="dashed")+
   geom_segment(x=8, xend=8, y=4, yend=0, size=1, linetype="dashed")+
-  geom_label(x=2.5, y=4, label="MES (Monopoly)", color="red", size=5)
+  geom_label(x=2.5, y=4, label="MES (Monopoly)", color="red", size=5)+
+  scale_x_continuous(breaks = c(4, 8),
+                     labels = c(expression(q[c]),expression(q[m])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks = c(4,12),
+                     labels = c(expression(p[m]),expression(p[c])),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))
 ```
 ]
 
@@ -1122,49 +1131,6 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 # Are Big Tech Firms Monopolies?
 
-.pull-left[
-.center[
-![](../images/techinnovation.jpg)
-]
-]
-
-.pull-right[
-.center[
-![](../images/capex.jpg)
-]
-
-]
-
-.tiny[
-- Complacent monopolists would rather restrict output and raise profits to shareholders
-
-- But big tech firms invest enormous amounts in capital & innovation! Worried about competition!
-
-]
-
----
-
-# Are Big Tech Firms Monopolies?
-
-.pull-left[
-.center[
-![:scale 100%](../images/peopleliketechcompanies.jpg)
-]
-]
-
-.pull-right[
-
-- Politicians may say one thing, but people like big tech companies, they provide an enormous amount of consumer surplus!
-
-.center[
-![](../images/pew_2020_people_like_tech.jpg)
-]
-]
-
----
-
-# Are Big Tech Firms Monopolies?
-
 .left-column[
 .center[
 ![:scale 100%](../images/io_hex.png)
@@ -1173,7 +1139,7 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 .right-column[
 
-We tackle these questions more in my Industrial Organization course:
+We tackle some of these questions more in my Industrial Organization course:
 - [Lecture 4.4: Antitrust III: Big Tech & Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class/)
 - [Lecture 4.5: Natural Monopoly Regulation](https://ios20.classes.ryansafner.com/class/4.5-class/)
 
