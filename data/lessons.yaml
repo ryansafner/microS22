@@ -155,9 +155,11 @@ lessons:
     content: "4.2-content"
   
   - title: "4.3 — Pricing Strategies"
+    content: "4.3-content"
     date: "M May 2"
   
   - title: "4.4 — Monopolistic Competition and Oligopoly"
+    content: "4.4-content"
     date: "W May 4"
 
   - title: '<i class="fas fa-laptop-code"></i> **Op-Ed** Due'

@@ -1,11 +1,11 @@
 ---
 title: "4.3 — Pricing Strategies"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143    lib_dir: libs
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -779,6 +779,188 @@ Assume the only cost of producing a beer is a constant marginal (and average) co
 
 ---
 
+# 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
+
+```{r}
+mc=function(x){2}
+demand_u=function(x){4.5-0.25*x}
+demand_g=function(x){12-1*x}
+mr_u=function(x){4.5-0.5*x}
+mr_g=function(x){12-2*x}
+
+a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
+  stat_function(fun = demand_u, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 14, y = demand_u(14), color = "blue", label = "Demand", size =3)+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 16, y = mc(16), color = "red", label = "MC(q)=AC(q)", size =3)+
+  stat_function(fun = mr_u, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 7, y = mr_u(7), color = "purple", label = "MR(q)", size =3)+
+
+  labs(x = "Quantity",
+       y = "Price",
+       title = "Undergraduate")+
+  scale_x_continuous(breaks = seq(0,18,1),
+                     limits = c(0,19),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,12,1),
+                     limits = c(0,13),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+
+s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
+  stat_function(fun = demand_g, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 11, y = demand_g(11), color = "blue", label = "Demand", size = 3)+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 16, y = mc(16), color = "red", label = "MC(q)=AC(q)", size = 3)+
+  stat_function(fun = mr_g, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 5.5, y = mr_g(5.5), color = "purple", label = "MR(q)", size = 3)+
+
+  labs(x = "Quantity",
+       y = "Price",
+       title = "Graduate")+
+   scale_x_continuous(breaks = seq(0,18,1),
+                     limits = c(0,19),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,12,1),
+                     limits = c(0,13),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+ theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+
+library(patchwork)
+a | s
+```
+
+---
+
+# 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
+
+```{r}
+mc=function(x){2}
+demand_u=function(x){4.5-0.25*x}
+demand_g=function(x){12-1*x}
+mr_u=function(x){4.5-0.5*x}
+mr_g=function(x){12-2*x}
+
+a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
+  geom_rect(xmin = 0, xmax = 2, ymin = 4, ymax = 2, fill = "green", alpha = 0.25)+
+  stat_function(fun = demand_u, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 14, y = demand_u(14), color = "blue", label = "Demand", size =3)+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 16, y = mc(16), color = "red", label = "MC(q)=AC(q)", size =3)+
+  stat_function(fun = mr_u, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 7, y = mr_u(7), color = "purple", label = "MR(q)", size =3)+
+
+  geom_segment(x = 0, y = 4, xend = 2, yend = 4, linetype = "dotted", size = 1)+
+  geom_segment(x = 2, y = 4, xend = 2, yend = 0, linetype = "dotted", size = 1)+
+  labs(x = "Quantity",
+       y = "Price",
+       title = "Undergraduate")+
+  scale_x_continuous(breaks = seq(0,18,1),
+                     limits = c(0,19),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,12,1),
+                     limits = c(0,13),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+
+s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
+ geom_rect(xmin = 0, xmax = 8, ymin = 4, ymax = 2, fill = "green", alpha = 0.25)+
+  stat_function(fun = demand_g, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 11, y = demand_g(11), color = "blue", label = "Demand", size = 3)+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 16, y = mc(16), color = "red", label = "MC(q)=AC(q)", size = 3)+
+  stat_function(fun = mr_g, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 5.5, y = mr_g(5.5), color = "purple", label = "MR(q)", size = 3)+
+
+  geom_segment(x = 0, y = 4, xend = 8, yend = 4, linetype = "dotted", size = 1)+
+  geom_segment(x = 8, y = 4, xend = 8, yend = 0, linetype = "dotted", size = 1)+
+  labs(x = "Quantity",
+       y = "Price",
+       title = "Graduate")+
+   scale_x_continuous(breaks = seq(0,18,1),
+                     limits = c(0,19),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,12,1),
+                     limits = c(0,13),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+ theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+
+library(patchwork)
+a | s
+```
+
+- Charging a single price: $4, total profit of $20
+
+---
+
+# 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
+
+```{r}
+mc=function(x){2}
+demand_u=function(x){4.5-0.25*x}
+demand_g=function(x){12-1*x}
+mr_u=function(x){4.5-0.5*x}
+mr_g=function(x){12-2*x}
+
+a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
+  geom_rect(xmin = 0, xmax = 5, ymin = 2, ymax = 3.25, fill = "green", alpha = 0.25)+
+  stat_function(fun = demand_u, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 14, y = demand_u(14), color = "blue", label = "Demand", size =3)+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 16, y = mc(16), color = "red", label = "MC(q)=AC(q)", size =3)+
+  stat_function(fun = mr_u, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 7, y = mr_u(7), color = "purple", label = "MR(q)", size =3)+
+
+  geom_segment(x = 0, y = 3.25, xend = 5, yend = 3.25, linetype = "dotted", size = 1)+
+  geom_segment(x = 5, y = 3.25, xend = 5, yend = 0, linetype = "dotted", size = 1)+
+  labs(x = "Quantity",
+       y = "Price",
+       title = "Undergraduate")+
+  scale_x_continuous(breaks = seq(0,18,1),
+                     limits = c(0,19),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,12,1),
+                     limits = c(0,13),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+
+s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
+ geom_rect(xmin = 0, xmax = 5, ymin = 7, ymax = 2, fill = "green", alpha = 0.25)+
+  stat_function(fun = demand_g, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 11, y = demand_g(11), color = "blue", label = "Demand", size = 3)+
+  stat_function(fun = mc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 16, y = mc(16), color = "red", label = "MC(q)=AC(q)", size = 3)+
+  stat_function(fun = mr_g, geom = "line", size = 2, color = "purple")+
+    geom_label(x = 5.5, y = mr_g(5.5), color = "purple", label = "MR(q)", size = 3)+
+
+  geom_segment(x = 0, y = 7, xend = 5, yend = 7, linetype = "dotted", size = 1)+
+  geom_segment(x = 5, y = 7, xend = 5, yend = 0, linetype = "dotted", size = 1)+
+  labs(x = "Quantity",
+       y = "Price",
+       title = "Graduate")+
+   scale_x_continuous(breaks = seq(0,18,1),
+                     limits = c(0,19),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,12,1),
+                     limits = c(0,13),
+                     expand = c(0,0),
+                     labels = scales::dollar)+
+ theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+
+library(patchwork)
+a | s
+```
+
+- Charging a single price: $4, total profit of $20
+- Charging $3.25 to Undergrads; $7.00 to grads; total profit of $31.25
+
+---
+
 # Ways to Segment Markets
 
 .pull-left[
@@ -798,6 +980,13 @@ Assume the only cost of producing a beer is a constant marginal (and average) co
 ![](../images/variablepricing.png)
 ]
 ]
+---
+
+# Sales
+
+- Black Friday
+
+
 ---
 
 class: inverse, center, middle
@@ -825,6 +1014,22 @@ class: inverse, center, middle
   - Larger quantities offered at lower prices
 
 ]
+
+---
+
+# 2<sup>nd</sup>-Degree Price Discrimination II
+
+.pull-left[
+
+]
+
+.pull-right[
+
+- Versioning
+
+- “Non-linear” pricing
+]
+
 
 ---
 
@@ -1329,4 +1534,18 @@ class: inverse, center, middle
 .center[
 ![](../images/bundlebox.png)
 ]
+]
+
+---
+
+class: inverse, center, middle
+
+# Advanced Pricing
+
+---
+
+# Two-Part Tariff
+
+.pull-left[
+
 ]

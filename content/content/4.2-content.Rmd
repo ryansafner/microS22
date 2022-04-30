@@ -70,6 +70,7 @@ Relevant classes from my [Spring 2020 Industrial Organization course](https://io
 - [<i class="fas fa-external-link-square-alt"></i> 4.3 Antitrust II: The Paradox](https://ios20.classes.ryansafner.com/class/4.3-class.html)
 - [<i class="fas fa-external-link-square-alt"></i> 4.4 Antitrust III: Big Tech & Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class.html)
 
+
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
 Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.

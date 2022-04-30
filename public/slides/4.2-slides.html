@@ -3,14 +3,14 @@
   <head>
     <title>4.2 — Consequences &amp; Sources of Power</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microS21   microS21.classes.ryansafner.com " />
-    <script src="libs/header-attrs/header-attrs.js"></script>
-    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
-    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
-    <script src="libs/tile-view/tile-view.js"></script>
-    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
-    <script src="libs/freezeframe/freezeframe.min.js"></script>
-    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microS22   microS22.classes.ryansafner.com " />
+    <script src="4.2-slides_files/header-attrs/header-attrs.js"></script>
+    <link href="4.2-slides_files/remark-css/hygge.css" rel="stylesheet" />
+    <link href="4.2-slides_files/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="4.2-slides_files/tile-view/tile-view.js"></script>
+    <link href="4.2-slides_files/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="4.2-slides_files/freezeframe/freezeframe.min.js"></script>
+    <script src="4.2-slides_files/xaringanExtra-freezeframe/freezeframe-init.js"></script>
     <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":true,"warnings":true}</script>
     <script src="https://use.fontawesome.com/5235085b15.js"></script>
     <link rel="stylesheet" href="custom.css" type="text/css" />
@@ -20,8 +20,8 @@
 class: center, middle, inverse, title-slide
 
 # 4.2 — Consequences &amp; Sources of Power
-## ECON 306 • Microeconomic Analysis • Fall 2021
-### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>
+## ECON 306 • Microeconomic Analysis • Spring 2022
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>
 
 ---
 
@@ -40,9 +40,11 @@ class: inverse
 
 ### [What If You’re Just *Better*?](#34)
 
-### [The *Ugly* of Market Power: Rent-Seeking](#53)
+### [Barriers to Entry](#44)
 
-### [Antitrust](#77)
+### [The *Ugly* of Market Power: Rent-Seeking](#59)
+
+### [Antitrust](#75)
 
 ---
 
@@ -51,6 +53,7 @@ class: inverse
 .pull-left[
 .smaller[
 - No market is perfectly competitive, but **that does not .ul[necessarily] imply market failure**
+  - Static vs. dynamic benefits of markets
 
 - Market power is *interesting*
   - Most firms clearly have *some* market power
@@ -88,8 +91,8 @@ class: inverse, center, middle
 .smallest[
 - In a .hi[competitive market] in .hi[long run equilibrium]:
   - .hi-purple[Economic profit] is driven to $0; resources (factors of production) optimally allocated
-  - .hi-purple[Allocatively efficient]: `\(p=MC(q)\)`, maximized .blue[CS] `\(+\)` .red[PS]
-  - .hi-purple[Productively efficient]: `\(p=AC(q)_{min}\)` (otherwise firms would enter/exit)
+  - .hi-purple[Allocatively efficient]: `\(\color{blue}{p}=\color{red}{MC(q)}\)`, maximized .blue[CS] `\(+\)` .red[PS]
+  - .hi-purple[Productively efficient]: `\(\color{blue}{p}=\color{orange}{AC(q)_{min}}\)` (otherwise firms would enter/exit)
 ]
 ---
 
@@ -106,13 +109,14 @@ class: inverse, center, middle
 - Consider an industry with some simplified cost assumptions:
 
 `$$C(q)=cq$$`
-  - No fixed costs
-  - implies `\(\color{red}{MC(q)}=\color{orange}{AC(q)}\)`
-  - Why? [See here](/content/2.5-content/#common-cost-assumptions)
+  - No fixed costs; `\(\color{red}{MC(q)}=\color{orange}{AC(q)} = c\)`&lt;sup&gt;.magenta[†]&lt;/sup&gt;
 
-- If this industry were **competitive**, firms would set `\(p_c=MC(q)\)` and (collectively), industry would produce `\(q_c\)`
+- If this industry were **competitive**, firms would set `\(\color{blue}{p_c}=\color{red}{MC(q)}\)` and (collectively), industry would produce `\(q_c\)`
   - Max’d .blue[consumer surplus], `\(\color{green}{\pi=0}\)`
+
+.footnote[&lt;sup&gt;.magenta[†]&lt;/sup&gt; Why? [See here](/content/2.5-content/#common-cost-assumptions) for a reminder.]
 ]
+
 
 ---
 
@@ -173,30 +177,6 @@ class: inverse, center, middle
   - Consumers willing to buy more than `\(q_m\)`, if the monopolist would lower prices!
   - Monopolist *would* benefit by accepting lower prices to sell more than `\(q_m\)`, **but this would yield _less_ than _maximum_ profits**
       - main problem is that monopolist must lower price on all units sold
-
-]
-
----
-
-# The Bad of Monopoly: X-Inefficiency
-
-.pull-left[
-
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-6-1.png" width="504" style="display: block; margin: auto;" /&gt;
-
-]
-
-.pull-right[
-
-&gt; “The best of all monopoly profits is a quiet life” - Sir John Hicks
-
-
-- Monopoly may generate .hi[“X-inefficiency”]
-
-- Lack of competition causes monopoly to be **complacent** or **lazy**
-  - May inefficiently .orange[raise costs] of production
-
-- Creates **further distortions** (lost surpluses)
 
 ]
 
@@ -307,7 +287,7 @@ Demand *Less* Elastic at `\(p^*\)`
 ]
 ]
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-7-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-6-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 .pull-right[
@@ -318,7 +298,7 @@ Demand *More* Elastic at `\(p^*\)`
 ]
 ]
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-8-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-7-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -329,10 +309,11 @@ Demand *More* Elastic at `\(p^*\)`
 .smallest[
 - A main determinant of price elasticity is the .hi-purple[availability of substitutes]!
   - More substitutes `\(\rightarrow\)` higher elasticity `\(\rightarrow\)` less market power
+  - Universal substitute: not buying!
 
-- So again, it’s Consumer Demand all the way down!
+- So again, it’s .blue[Consumer Demand] all the way down!
 
-- Aside: courts in antitrust cases often also focus on the .hi-purple[cross-price elasticities] between goods!
+- Aside: courts in .hi[antitrust] cases often also focus on the .hi-purple[cross-price elasticities] between goods!
   - helps determine substitutability of a good, where/whether customers will go in response to price hike 
 ]
 ]
@@ -343,6 +324,28 @@ Demand *More* Elastic at `\(p^*\)`
 ]
 
 ---
+
+# And Cross-Price Elasticity!
+
+.left-column[
+.center[
+![](../images/court1.jpg)
+]
+]
+
+.right-column[
+
+.quitesmall[
+
+&gt; “For every product substitutes exist. But a relevant market cannot meaningfully encompass that infinite a range. The circle must be drawn narrowly to exclude any other product to which, within reasonable variations in price, only a limited number of buyers will turn; in technical terms, products whose 'cross-elasticities of demand' are small,” *Times-Picayune Publishing v. United States*, 345 U.S. 594 at 621 n. 31 (1953)
+
+&gt; “Every manufacturer is the sole producer of the particular commodity it makes but its control in the above sense of the relevant market depends on the availability of alternative commodities for buyers: i.e., whether there is a cross-elasticity of demand between cellophane and the other wrappings,” *U.S. v. E. I. du Pont de Nemours &amp;. Co.*, 351 U.S. 377 (1956)
+
+&gt; “Cross-price elasticity is a more useful tool than own-price elasticity in defining a relevant antitrust market. Cross-price elasticity estimates tell one where the lost sales will go when the price is raised, while own-price elasticity estimates simply tell one that a price increase would cause a decline in volume,” *New York v. Kraft General Foods*, 926 F. Supp. 321 (1995)
+]
+]
+---
+
 
 class: inverse, center, middle
 
@@ -364,9 +367,9 @@ Joseph Schumpeter
 
 .right-column[
 .smallest[
-&gt; "Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process.]," (pp.82). 
+&gt; “Capitalism...is by nature a form of economic change and not only never is but never can be stationary...The essential point to grasp is that in dealing with capitalism we are dealing with an .hi[evolutionary process],” (pp.82). 
 
-&gt; "[I]n capitalist reality as distinguished from its textbook picture, it is not that kind of competition which counts but the competition from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives.]" (p.132).
+&gt; “[I]n capitalist reality as distinguished from its textbook picture, it is...that kind of competition...from the new commodity, the new technology, the new source of supply, the new type of organization....hi[competition] which commands a decisive cost or quality advantage .hi[which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives],” (p.132).
 
 ]
 
@@ -388,7 +391,7 @@ Joseph Schumpeter
 
 .right-column[
 
-&gt; "Industrial mutation—if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in" (p.83).
+&gt; “Industrial mutation—if I may use that biological term—that .hi[incessantly revolutionizes the economic structure from within], incessantly destroying the old one, incessantly creating a new one.  This .hi[process of Creative Destruction is the essential fact about capitalism].  It is what capitalism consists in and what every capitalist concern has got to live in,” (p.83).
 
 ]
 
@@ -502,11 +505,9 @@ Joseph Schumpeter
 .pull-left[
 .smallest[
 - (Some) possible types of entry barriers:
-  - Control over key resource
-  - Technological superiority
-      - Name/brand recognition, high fixed/sunk costs, economies of scale, network externalities
-  - Government regulation
-      - Intellectual property rights, occupational licensing, public franchises, burdensome compliance, rent-seeking
+  - **Control over key resource**
+  - **Technological superiority**: Name/brand recognition, high fixed/sunk costs, economies of scale, network externalities
+  - **Government regulation**: Intellectual property rights, occupational licensing, public franchises, burdensome compliance, rent-seeking
 
 - “Natural” vs. “artificial” barriers to entry
   - .hi-purple[“open”] vs. .hi-purple[“closed”] monopoly
@@ -518,34 +519,6 @@ Joseph Schumpeter
 .center[
 ![:scale 90%](../images/donotenter.png)
 ]
-]
-
----
-
-# Control Over a Key Resource
-
-.pull-left[
-.center[
-![:scale 50%](../images/debeers.png)
-
-![:scale 50%](../images/debeersdiamonds.jpg)
-]
-]
-
-.pull-right[
-.center[
-![:scale 50%](../images/alcoa.png)
-
-![:scale 50%](../images/alcoa2.jpg)
-]
-]
-
-.smallest[
-- Aluminum Company of America (Alcoa) once controlled 90% of the market for bauxite (used to create aluminum), and produced 63% of world aluminum supply
-
-- De Beers once owned 85% of the world's diamond supply
-
-- Quite rare for a single firm to control key resources for long
 ]
 
 ---
@@ -568,7 +541,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-9-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-8-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -588,7 +561,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-10-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-9-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -609,7 +582,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-11-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-10-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -626,7 +599,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-12-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-11-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 
@@ -646,7 +619,7 @@ class: inverse, center, middle
 
 .pull-right[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-13-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-12-1.png" width="504" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
@@ -709,16 +682,16 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 # Regulating Natural Monopolies
 
 .pull-left[
-
-- Governments avoid "wasteful duplication" of competition, grant .hi-purple[exclusive franchises], a single monopolist allowed in geographic region
+.smallest[
+- Governments avoid “wasteful duplication” of competition by granting .hi-purple[exclusive franchises]: a single monopolist allowed in geographic region
 
 - Provider made a .hi-purple[common carrier]: monopolist must provide universal service to all
 
-- .hi-purple[Rate of return regulation]: gov't and monopolist agree on a price to guarantee a “modest return on capital” (i.e. some `\(\pi&gt;0)\)`
+- .hi-purple[Rate of return regulation]: gov’t and monopolist agree on a price to guarantee a “modest return on capital” (i.e. some `\(\pi&gt;0)\)`
   - Attempting to `\(\uparrow q\)` and `\(\downarrow p\)`
   - Prohibition on price discrimination, enforced subsidies 
 ]
-
+]
 .pull-right[
 .center[
 ![:scale 100%](../images/publicutilities.png)
@@ -730,50 +703,7 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 ---
 
-# Are Big Tech Firms Monopolies?
-
-.pull-left[
-.center[
-![](../images/techinnovation.jpg)
-]
-]
-
-.pull-right[
-.center[
-![](../images/capex.jpg)
-]
-
-]
-
-.tiny[
-- Complacent monopolists would rather restrict output and raise profits to shareholders
-
-- But big tech firms invest enormous amounts in capital &amp; innovation! Worried about competition!
-
-]
-
----
-
-# Are Big Tech Firms Monopolies?
-
-.pull-left[
-.center[
-![:scale 100%](../images/peopleliketechcompanies.jpg)
-]
-]
-
-.pull-right[
-
-- Politicians may say one thing, but people like big tech companies, they provide an enormous amount of consumer surplus!
-
-.center[
-![](../images/pew_2020_people_like_tech.jpg)
-]
-]
-
----
-
-# Are Big Tech Firms Monopolies?
+# Regulating Natural Monopoly
 
 .left-column[
 .center[
@@ -783,12 +713,19 @@ $$\mathbf{AC(1,000)}=\frac{\$100,000}{1000}=\$100 \text{/subscriber}$$
 
 .right-column[
 
-We tackle these questions more in my Industrial Organization course:
-- [Lecture 4.4: Antitrust III: Big Tech &amp; Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class/)
-- [Lecture 4.5: Natural Monopoly Regulation](https://ios20.classes.ryansafner.com/class/4.5-class/)
+- Are big tech firms monopolies? Should they be broken up? How should they be regulated?
 
+- We tackle some of these questions more in my Industrial Organization course:
+  - [Lecture 4.4: Antitrust III: Big Tech &amp; Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class/)
+  - [Lecture 4.5: Natural Monopoly Regulation](https://ios20.classes.ryansafner.com/class/4.5-class/)
 
 ]
+
+---
+
+class: inverse, center, middle
+
+# Barriers to Entry
 
 ---
 
@@ -893,12 +830,6 @@ Source: [Washington Post (Sept 8, 2017)](https://www.washingtonpost.com/news/mor
 
 - [Freakonomics: Apple vs. Samsung: Who Owns the Rectangle?](http://freakonomics.com/2012/08/03/apple-vs-samsung-who-owns-the-rectangle/)
 ]
-
----
-
-class: inverse, center, middle
-
-# The *Ugly* of Market Power: Rent-Seeking
 
 ---
 
@@ -1016,11 +947,17 @@ Source: [NPR Planet Money](https://www.npr.org/sections/money/2012/06/22/1555963
 
 ---
 
+class: inverse, center, middle
+
+# The *Ugly* of Market Power: Rent-Seeking
+
+---
+
 # The *Ugly* of Market Power: Rent-Seeking I
 
 .pull-left[
 
-&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-14-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="4.2-slides_files/figure-html/unnamed-chunk-13-1.png" width="504" style="display: block; margin: auto;" /&gt;
 
 ]
 
@@ -1347,23 +1284,6 @@ class: inverse, center, middle
 
 ---
 
-# Antitrust and Competition Law IV
-
-.pull-left[
-.center[
-![:scale 80%](../images/aetnamerger2.png)
-
-Source: [WSJ (Jan 23, 2017)](http://www.wsj.com/articles/federal-judge-blocks-aetna-humana-merger-on-antitrust-grounds-1485190239)
-]
-]
-
-.pull-right[
-
-- Mergers, acquisitions, and major corporate activities are scrutinized by DOJ and FTC on antitrust grounds
-]
-
----
-
 # Antitrust
 
 .pull-left[
@@ -1375,6 +1295,10 @@ Source: [WSJ (Jan 23, 2017)](http://www.wsj.com/articles/federal-judge-blocks-ae
 .pull-right[
 
 - More about antitrust in my Industrial Organization course: (Classes [4.1-4.3](https://ios20.classes.ryansafner.com/))]
+  - [&lt;i class="fas fa-external-link-square-alt"&gt;&lt;/i&gt; 4.1 Measuring Market Power](https://ios20.classes.ryansafner.com/class/4.1-class.html)
+  - [&lt;i class="fas fa-external-link-square-alt"&gt;&lt;/i&gt; 4.2 Antitrust I: The Law](https://ios20.classes.ryansafner.com/class/4.2-class.html)
+  - [&lt;i class="fas fa-external-link-square-alt"&gt;&lt;/i&gt; 4.3 Antitrust II: The Paradox](https://ios20.classes.ryansafner.com/class/4.3-class.html)
+  - [&lt;i class="fas fa-external-link-square-alt"&gt;&lt;/i&gt; 4.4 Antitrust III: Big Tech &amp; Hipster Antitrust](https://ios20.classes.ryansafner.com/class/4.4-class.html)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -1494,7 +1418,7 @@ slideshow._releaseMath(document);
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
