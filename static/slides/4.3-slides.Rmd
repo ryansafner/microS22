@@ -53,11 +53,9 @@ class: inverse
 
 ### [3<sup>rd</sup>-Degree Price Discrimination](#20)
 
-### [2<sup>nd</sup>-Degree Price Discrimination](#34)
+### [Is Price Discrimination Good or Bad?](#40)
 
-### [Is Price Discrimination Good or Bad?](#36)
-
-### [Tying and Bundling](#46)
+### [2<sup>nd</sup>-Degree Price Discrimination](#51)
 
 ---
 
@@ -86,7 +84,7 @@ comp<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   stat_function(fun=mc, geom="line", size=2, color = "red")+
     geom_label(aes(x=6,y=mc(6)), color = "red", label=expression(MC(q)==AC(q)), size = 5)+
   geom_segment(x=8, xend=8, y=0, yend=2, size=1, linetype="dotted")+
-  geom_label(aes(x=3, y= 5), label="CS", color="blue", size =5)+
+  geom_text(aes(x=2, y= 5), label="CS", size =7, color = "white")+
     scale_x_continuous(breaks=c(0,8),
                        labels=c(0,expression(q[c])),
                      limits=c(0,10),
@@ -108,13 +106,13 @@ comp
 
 - Any firm with market power seeks to maximize profits
 
-- Wants to (1<sup>st</sup>) **create** a surplus 
+- Wants to (1<sup>st</sup>) **create** a .blue[surplus]
 
 ]
 
 ---
 
-# Profit-Seeking Firms
+# Profit-Seeking Firms and Appropriability
 
 .pull-left[
 
@@ -136,9 +134,9 @@ monopoly<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   geom_polygon(data=dwl, aes(x=x,y=y), fill="black",alpha=0.5)+ #dwl
   
   # surplus labels
-  geom_label(aes(x=1.5, y= 4), label="Profit", color="green", size =5)+
-  geom_label(aes(x=1.5, y= 7.5), label="CS", color="blue", size =5)+
-  geom_label(aes(x=5.5, y= 3.5), label="DWL", color="black", size =5)+
+  geom_text(aes(x=2, y= 4), label="Profit", size =5, color = "white")+
+  geom_text(aes(x=2, y= 7), label="CS", size =5, color = "white")+
+  geom_text(aes(x=5, y= 4), label="DWL", size =5, color = "white")+
   
   # lines 
   stat_function(fun=demand, geom="line", size=2, color = "blue")+
@@ -176,7 +174,7 @@ monopoly
 
 - Any firm with market power seeks to maximize profits
 
-- Wants to (1<sup>st</sup>) **create** a surplus .hi-purple[and then *extract* some of it as profit]
+- Wants to (1<sup>st</sup>) **create** a .blue[surplus] .hi-green[and then *appropriate* some of it as profit]
   - i.e. convert .hi-blue[CS] $\rightarrow$ .hi-green[`\\(\pi\\)`]
 
 - Consumers are *still* better off than without the firm because it creates value (.blue[consumer surplus])
@@ -737,6 +735,46 @@ With **different prices**: raise price on inelastic travelers, lower price on el
 
 ---
 
+# Sales
+
+.pull-left[
+
+- .hi-purple[Price-inelastic] buyers will buy something (a necessity?) now regardless of whether or not it is “on sale”
+
+- .hi-purple[Price-elastic] buyers will be attracted to buying something when price is lower
+
+- Stores lower prices on rare occasions to attract price-sensitive shoppers (will lose profits on price-insensitive shoppers who buy during the sale!)
+  - Black Friday: many price-insensitive shoppers stay away to avoid crowds! Better for the stores!
+]
+
+.pull-right[
+.center[
+![](../images/blackfridaysaletag.jpg)
+]
+]
+
+
+---
+
+# Coupons
+
+.pull-left[
+
+- .hi-purple[Coupons] also are designed to bring in more price-elastic shoppers
+  - Often lower income, very sensitive to price, worth the hassle of collecting & using coupons
+
+- Store sells at higher price (to capture profit from price-insensitive shoppers who can’t be bothered with coupons) and brings in profits from price-sensitive shoppers who use coupons to pay lower price
+
+]
+
+.pull-right[
+.center[
+![](../images/coupons.png)
+]
+]
+
+---
+
 # Pricing and Markup
 
 .pull-left[
@@ -781,7 +819,7 @@ Assume the only cost of producing a beer is a constant marginal (and average) co
 
 # 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
 
-```{r}
+```{r, fig.width = 15}
 mc=function(x){2}
 demand_u=function(x){4.5-0.25*x}
 demand_g=function(x){12-1*x}
@@ -806,7 +844,7 @@ a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
                      limits = c(0,13),
                      expand = c(0,0),
                      labels = scales::dollar)+
-  theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 14)
 
 s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
   stat_function(fun = demand_g, geom = "line", size = 2, color = "blue")+
@@ -826,7 +864,7 @@ s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
                      limits = c(0,13),
                      expand = c(0,0),
                      labels = scales::dollar)+
- theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+ theme_classic(base_family = "Fira Sans Condensed", base_size = 14)
 
 library(patchwork)
 a | s
@@ -836,15 +874,45 @@ a | s
 
 # 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
 
-```{r}
+```{r, fig.width = 15}
 mc=function(x){2}
 demand_u=function(x){4.5-0.25*x}
 demand_g=function(x){12-1*x}
 mr_u=function(x){4.5-0.5*x}
 mr_g=function(x){12-2*x}
 
+cs_u1<-tribble(
+  ~x, ~y,
+  0, 4.5,
+  0, 4,
+  2, 4
+)
+
+dwl_u1<-tribble(
+  ~x, ~y,
+  2, 2,
+  2, 4,
+  10, 2
+)
+
+cs_g1<-tribble(
+  ~x, ~y,
+  0, 12,
+  0, 4,
+  8, 4
+)
+
+dwl_g1<-tribble(
+  ~x, ~y,
+  8, 2,
+  8, 4,
+  10, 2
+)
+
 a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
   geom_rect(xmin = 0, xmax = 2, ymin = 4, ymax = 2, fill = "green", alpha = 0.25)+
+  #geom_polygon(data = cs_u1, aes(x=x,y=y), fill = "blue", alpha = 0.25)+
+  #geom_polygon(data = dwl_u1, aes(x=x,y=y), fill = "black", alpha = 0.5)+
   stat_function(fun = demand_u, geom = "line", size = 2, color = "blue")+
   geom_label(x = 14, y = demand_u(14), color = "blue", label = "Demand", size =3)+
   stat_function(fun = mc, geom = "line", size = 2, color = "red")+
@@ -864,10 +932,12 @@ a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
                      limits = c(0,13),
                      expand = c(0,0),
                      labels = scales::dollar)+
-  theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 14)
 
 s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
  geom_rect(xmin = 0, xmax = 8, ymin = 4, ymax = 2, fill = "green", alpha = 0.25)+
+  #geom_polygon(data = cs_g1, aes(x=x,y=y), fill = "blue", alpha = 0.25)+
+  #geom_polygon(data = dwl_g1, aes(x=x,y=y), fill = "black", alpha = 0.5)+
   stat_function(fun = demand_g, geom = "line", size = 2, color = "blue")+
   geom_label(x = 11, y = demand_g(11), color = "blue", label = "Demand", size = 3)+
   stat_function(fun = mc, geom = "line", size = 2, color = "red")+
@@ -887,27 +957,56 @@ s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
                      limits = c(0,13),
                      expand = c(0,0),
                      labels = scales::dollar)+
- theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+ theme_classic(base_family = "Fira Sans Condensed", base_size = 14)
 
 library(patchwork)
 a | s
 ```
 
-- Charging a single price: $4, total profit of $20
+- Charging a single price: $4, .green[total profit of $20] <!--(.blue[$32.50 of CS], **[$10 of DWL])-->
 
 ---
 
 # 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
 
-```{r}
+```{r, fig.width = 15}
 mc=function(x){2}
 demand_u=function(x){4.5-0.25*x}
 demand_g=function(x){12-1*x}
 mr_u=function(x){4.5-0.5*x}
 mr_g=function(x){12-2*x}
 
+cs_u2<-tribble(
+  ~x, ~y,
+  0, 4.5,
+  0, 3.25,
+  5, 3.25
+)
+
+dwl_u2<-tribble(
+  ~x, ~y,
+  5, 2,
+  5, 3.25,
+  10, 2
+)
+
+cs_g2<-tribble(
+  ~x, ~y,
+  0, 12,
+  0, 7,
+  5, 7
+)
+
+dwl_g2<-tribble(
+  ~x, ~y,
+  5, 2,
+  5, 7,
+  10, 2
+)
 a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
   geom_rect(xmin = 0, xmax = 5, ymin = 2, ymax = 3.25, fill = "green", alpha = 0.25)+
+  #geom_polygon(data = cs_u2, aes(x=x,y=y), fill = "blue", alpha = 0.25)+
+  #geom_polygon(data = dwl_u2, aes(x=x,y=y), fill = "black", alpha = 0.5)+
   stat_function(fun = demand_u, geom = "line", size = 2, color = "blue")+
   geom_label(x = 14, y = demand_u(14), color = "blue", label = "Demand", size =3)+
   stat_function(fun = mc, geom = "line", size = 2, color = "red")+
@@ -927,10 +1026,12 @@ a<-ggplot(data = tibble(x = 1:10), aes(x = x))+
                      limits = c(0,13),
                      expand = c(0,0),
                      labels = scales::dollar)+
-  theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 14)
 
 s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
  geom_rect(xmin = 0, xmax = 5, ymin = 7, ymax = 2, fill = "green", alpha = 0.25)+
+  #geom_polygon(data = cs_g2, aes(x=x,y=y), fill = "blue", alpha = 0.25)+
+  #geom_polygon(data = dwl_g2, aes(x=x,y=y), fill = "black", alpha = 0.5)+
   stat_function(fun = demand_g, geom = "line", size = 2, color = "blue")+
   geom_label(x = 11, y = demand_g(11), color = "blue", label = "Demand", size = 3)+
   stat_function(fun = mc, geom = "line", size = 2, color = "red")+
@@ -950,14 +1051,30 @@ s<-ggplot(data = tibble(x = 1:10), aes(x = x))+
                      limits = c(0,13),
                      expand = c(0,0),
                      labels = scales::dollar)+
- theme_classic(base_family = "Fira Sans Condensed", base_size = 10)
+ theme_classic(base_family = "Fira Sans Condensed", base_size = 14)
 
 library(patchwork)
 a | s
 ```
 
-- Charging a single price: $4, total profit of $20
-- Charging $3.25 to Undergrads; $7.00 to grads; total profit of $31.25
+- Charging $3.25 to Undergrads; $7.00 to grads; .green[total profit of $31.25] 
+<!--(.blue[$15.625 of CS], **[$15.625 of DWL])-->
+
+---
+
+# 3<sup>rd</sup>-Degree Price Discrimination: Numerical Example
+
+```{r, fig.width = 15}
+a3<-a+
+  geom_label(x = 5, y = 3.75, label = "L = 0.385, e =-2.60")
+
+s3<-s+
+  geom_label(x = 5, y = 7.5, label = "L = 0.714, e =-1.40")
+
+a3 | s3
+```
+
+- Charging $3.25 to Undergrads; $7.00 to grads; .green[total profit of $31.25]
 
 ---
 
@@ -980,57 +1097,6 @@ a | s
 ![](../images/variablepricing.png)
 ]
 ]
----
-
-# Sales
-
-- Black Friday
-
-
----
-
-class: inverse, center, middle
-
-# 2<sup>nd</sup>-Degree Price Discrimination
-
----
-
-# 2<sup>nd</sup>-Degree Price Discrimination I
-
-.pull-left[
-.center[
-![](../images/head-scratcher.jpg)
-]
-
-]
-
-.pull-right[
-
-- If firm *cannot* identify customers' demands or types before purchase
-
-- .hi[Indirect] or .hi[2<sup>nd</sup>-degree price discrimination]: firm offers difference price-quantity bundles and allows customers **self-select** their offer
-
-- Ex: **quantity-discounts** or **block pricing**
-  - Larger quantities offered at lower prices
-
-]
-
----
-
-# 2<sup>nd</sup>-Degree Price Discrimination II
-
-.pull-left[
-
-]
-
-.pull-right[
-
-- Versioning
-
-- “Non-linear” pricing
-]
-
-
 ---
 
 class: inverse, center, middle
@@ -1239,7 +1305,222 @@ perfectpd
 
 class: inverse, center, middle
 
-# Tying and Bundling
+# 2<sup>nd</sup>-Degree Price Discrimination
+
+---
+
+# 2<sup>nd</sup>-Degree Price Discrimination I
+
+.pull-left[
+.center[
+![](../images/head-scratcher.jpg)
+]
+
+]
+
+.pull-right[
+
+- If firm *cannot* identify customers' demands or types before purchase
+
+- .hi[Indirect] or .hi[2<sup>nd</sup>-degree price discrimination]: firm offers difference price-quantity bundles and allows customers **self-select** (based on preferences)
+
+]
+
+---
+# 2<sup>nd</sup>-Degree Price Discrimination: Block Pricing
+
+.pull-left[
+
+- .hi-purple[Block Pricing/Nonlinear pricing]: offer different prices for different quantities that consumers can choose
+
+- .hi-purple[quantity discounting]: higher quantities offered at lower prices
+
+]
+
+.pull-right[
+.center[
+![](../images/quantity-discounts.png)
+]
+]
+
+---
+
+# 2<sup>nd</sup>-Degree Price Discrimination: Block Pricing
+
+.pull-left[
+
+- .hi-green[Example:] instead of one profit-maximizing monopoly price of $p_m$ for $q_m$ units, offer:
+]
+
+
+.pull-right[
+```{r}
+
+cs_x<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 6,
+  4, 6
+)
+dwl_x<-tribble(
+  ~x, ~y,
+  4, 6,
+  4, 2,
+  8, 2
+)
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  geom_polygon(data=cs_x, aes(x=x,y=y), fill="blue",alpha=0.5)+
+  geom_polygon(data=dwl_x, aes(x=x,y=y), fill="black",alpha=0.5)+
+  geom_rect(xmin=0,xmax=4, ymin=2,ymax=6,fill="green", alpha=0.5)+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=mr, geom="line", size=2, color = "purple")+
+    geom_label(aes(x=9,y=mr(9)), color = "blue", label="MR(q)", size = 5)+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    geom_label(aes(x=6,y=mc(6)), color = "red", label=expression(MC(q)==AC(q)), size = 5)+
+  geom_segment(x=8, xend=8, y=0, yend=2, size=1, linetype="dotted")+
+  geom_segment(x=0, xend=4, y=6, yend=6, size=1, linetype="dotted")+
+  geom_segment(x=4, xend=4, y=6, yend=0, size=1, linetype="dotted")+
+  geom_text(aes(x=2, y= 4), label="Profit", size =5, color = "white")+
+  geom_text(aes(x=2, y= 7), label="CS", size =5, color = "white")+
+  geom_text(aes(x=5, y= 4), label="DWL", size =5, color = "white")+
+  scale_x_continuous(breaks=c(0,4,8),
+                       labels=c(0,expression(q[m]),expression(q[c])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,2,6),
+                       labels=c(0,expression(p[c]),expression(p[m])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(x = "Quantity",
+       y = "Price")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+```
+]
+
+---
+
+# 2<sup>nd</sup>-Degree Price Discrimination: Block Pricing
+
+.pull-left[
+
+- .hi-green[Example:] instead of one profit-maximizing monopoly price of $p_m$ for $q_m$ units, offer:
+  - $p_1$/unit for $q_1$ units
+  - $p_2$/unit for $q_2$ units
+  - $p_3$/unit for $q_3$ units
+  - $p_4$/unit for $q_4$ units
+
+- Converts **DWL** into .blue[CS] and captures more of it as .green[Profit]
+
+]
+
+.pull-right[
+```{r}
+
+cs_y1<-tribble(
+  ~x, ~y,
+  0, 10,
+  0, 8,
+  2, 8
+)
+
+cs_y2<-tribble(
+  ~x, ~y,
+  2, 8,
+  2, 6,
+  4, 6
+)
+
+cs_y3<-tribble(
+  ~x, ~y,
+  4, 6,
+  4, 4,
+  6, 4
+)
+
+cs_y4<-tribble(
+  ~x, ~y,
+  6, 4,
+  6, 2,
+  8, 2
+)
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  geom_polygon(data=cs_y1, aes(x=x,y=y), fill="blue",alpha=0.5)+
+  geom_polygon(data=cs_y2, aes(x=x,y=y), fill="blue",alpha=0.5)+
+  geom_polygon(data=cs_y3, aes(x=x,y=y), fill="blue",alpha=0.5)+
+  geom_polygon(data=cs_y4, aes(x=x,y=y), fill="blue",alpha=0.5)+
+  geom_rect(xmin=0,xmax=2, ymin=2,ymax=8,fill="green", alpha=0.5)+
+  geom_rect(xmin=2,xmax=4, ymin=2,ymax=6,fill="green", alpha=0.5)+
+  geom_rect(xmin=4,xmax=6, ymin=2,ymax=4,fill="green", alpha=0.5)+
+  stat_function(fun=demand, geom="line", size=2, color = "blue")+
+    geom_label(aes(x=9,y=demand(9)), color = "blue", label="Demand", size = 5)+
+  stat_function(fun=mr, geom="line", size=2, color = "purple")+
+    geom_label(aes(x=9,y=mr(9)), color = "blue", label="MR(q)", size = 5)+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    geom_label(aes(x=6,y=mc(6)), color = "red", label=expression(MC(q)==AC(q)), size = 5)+
+  geom_segment(x=8, xend=8, y=0, yend=2, size=1, linetype="dotted")+
+  
+  geom_segment(x=0, xend=2, y=8, yend=8, size=1, linetype="dotted")+
+  geom_segment(x=2, xend=2, y=8, yend=0, size=1, linetype="dotted")+
+
+  geom_segment(x=0, xend=4, y=6, yend=6, size=1, linetype="dotted")+
+  geom_segment(x=4, xend=4, y=6, yend=0, size=1, linetype="dotted")+
+  
+  geom_segment(x=0, xend=6, y=4, yend=4, size=1, linetype="dotted")+
+  geom_segment(x=6, xend=6, y=4, yend=0, size=1, linetype="dotted")+
+  
+  #geom_text(aes(x=2, y= 4), label="Profit", size =5, color = "white")+
+  #geom_text(aes(x=2, y= 7), label="CS", size =5, color = "white")+
+  scale_x_continuous(breaks=c(0,2,4,6,8),
+                       labels=c(0,expression(q[1]),expression(q[2]), expression(q[3]),expression(q[4])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=c(0,2,4,6,8),
+                       labels=c(0,expression(p[4]),expression(p[3]), expression(p[2]),expression(p[1])),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  guides(fill=F)+
+  labs(x = "Quantity",
+       y = "Price")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=14)
+```
+]
+
+---
+
+# 2<sup>nd</sup>-Degree Price Discrimination: Versioning
+
+.pull-left[
+
+- .hi-purple[Versioning]: offer different prices for different *qualities* of a good (instead of *quantity*)
+  - Higher (lower) prices offered for higher (lower) quality
+
+]
+
+.pull-right[
+.center[
+![](../images/versioningPD.jpg)
+]
+]
+
+---
+
+# 2<sup>nd</sup>-Degree Price Discrimination: Versioning
+
+.pull-left[
+.center[
+![:scale 100%](../images/gothardcover.jpg)
+]
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/gotpaperback.jpg)
+]
+]
 
 ---
 
@@ -1248,7 +1529,7 @@ class: inverse, center, middle
 .pull-left[
 
 - Firms often .hi[tie] multiple goods together, where you must buy both goods in order to consume the product
-  - One good often the "base" and the other are "refills" that you may need to buy more of
+  - One good often the “base” and the other are “refills” that you may need to buy more of
 
 - This is actually a method of .hi-purple[*intertemporal* price-discrimination]!
 
@@ -1534,18 +1815,4 @@ class: inverse, center, middle
 .center[
 ![](../images/bundlebox.png)
 ]
-]
-
----
-
-class: inverse, center, middle
-
-# Advanced Pricing
-
----
-
-# Two-Part Tariff
-
-.pull-left[
-
 ]

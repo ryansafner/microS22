@@ -156,6 +156,8 @@ lessons:
   
   - title: "4.3 — Pricing Strategies"
     content: "4.3-content"
+    slides: "4.3-slides"
+    practice: "4.3-practice"
     date: "M May 2"
   
   - title: "4.4 — Monopolistic Competition and Oligopoly"
