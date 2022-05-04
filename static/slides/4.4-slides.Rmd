@@ -405,7 +405,7 @@ mc_plot2+
   - **decreases** (more output by other firms)
   - become more **elastic** (more substitutes from new competitors)
 
-- .hi-purple[Long run equilibrium]: firms earn $\color{green}{\pi=0}$ where $\color{blue}{p}=\color{orange}{AC(q)}$<sup>.magenta[†]</sup>
+- .hi-purple[Long run equilibrium]: firms earn $\color{green}{\pi=0}$ where $\color{blue}{p}=\color{orange}{AC(q)}$
 
 ]
 
@@ -652,6 +652,8 @@ class: inverse, center, middle
 .center[
 ![](../images/cokevspepsi.png)
 ]
+.footnote[<sup>.magenta[†]</sup> See Unit II of my [Game Theory course](https://gamef21.classes.ryansafner.com/schedule/) to learn more.]
+
 ]
 
 .pull-right[
@@ -668,7 +670,6 @@ class: inverse, center, middle
 
 ]
 
-.footnote[<sup>.magenta[†]</sup> See Unit II of my [Game Theory course](https://gamef21.classes.ryansafner.com/schedule/) to learn more.]
 ]
 
 
