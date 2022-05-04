@@ -164,6 +164,81 @@
     </item>
     
     <item>
+      <title>Final Exam</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/03-exam/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/03-exam/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Friday, May 13 (11:30AM—2:00PM) in class, closed-notes/book
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;exam-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Exam Information&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;You may not have anything with you&lt;/strong&gt; for the exam (no notes, etc) &lt;strong&gt;except a calculator.&lt;/strong&gt; I write questions such that you can get a perfect score &lt;em&gt;without&lt;/em&gt; a calculator, and answers should typically be simple whole numbers. However, I understand that if nothing else, calculators are moral support and you can use them. I will provide simple calculators if you need to borrow one, as well as extra paper.&lt;/p&gt;
+&lt;p&gt;I write the exam so that most students can complete it in less than the required time, but you will have the whole class period, plus a few minutes between classes. Questions draw from concepts in the slides and whatever we discuss in class, &lt;strong&gt;no other outside knowledge is needed.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You may need to draw graphs — I will grade you based on labeling important points, not on drawing ability or perfect accuracy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You must show your work for all problems.&lt;/strong&gt; On all exam questions, &lt;strong&gt;I give points for partial credit.&lt;/strong&gt; The more of your thought process you show (if you are unsure), the more points I am able to give. &lt;strong&gt;Both correct answers with no work shown, or blank answers will not receive full points.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Please plan to come in and leave a seat between you and your neighbor.&lt;/p&gt;
+&lt;p&gt;If you have any approved testing accommodations, or know in advance you must be absent, please confirm with me ASAP and we will make arrangements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-study-guide&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts Study Guide&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/exam_3_study_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice-exam&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;“Practice” Exam&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microS22.classes.ryansafner.com/examprep/Exam3.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download Old Exam 2&lt;/a&gt;
+&lt;!--- [&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answer Key](/examprep/Exam2_Answer_Key.pdf) --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above, you have a previous semester’s actual exam. Use it to get a sense of what questions are asked, the format, and how many. &lt;strong&gt;The exact number and type of questions on our exam may be different.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Questions draw from topics in Units III and IV and just because topics or questions were not in the practice exam does NOT mean they may not show up on your exam.**&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; Aside from minor extensions, no mathematical problem on any exam should be something you have not seen in some form before.&lt;/p&gt;
+&lt;p&gt;Look at the practice exam &lt;em&gt;before&lt;/em&gt; our Review day. I will post the answer key during the weekend. I am happy to discuss other individual answers and strategies during Office Hours.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;my-advice&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;My Advice&lt;/h1&gt;
+&lt;p&gt;Make sure you do all of the homework problems and learn from the answer keys to the homeworks, as well as the in-class practice problems. All of the math problems are largely in the same style as the in-class &amp;amp; homework questions. While some of the questions should be novel applications, conceptual questions on homeworks will get you in the right headspace to think about answering a question on an exam.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The number one cause of problems for students is overthinking the question. &lt;strong&gt;I am almost never trying to trick you!&lt;/strong&gt; I am usually looking for a straightforward answer that can be explained in a simple sentence.&lt;/p&gt;
+&lt;p&gt;I also suggest &lt;em&gt;not&lt;/em&gt; trying to memorize relationships (i.e. whether cross-price elasticity of demand is positive or negative for complements; price and revenue move together when demand is inelastic, etc.)! You have an equal chance of remembering it correctly or incorrectly. I would rather recommend you use your intuition and think through a real life example that makes sense, which will then match the math.&lt;/p&gt;
+&lt;div id=&#34;things-you-should-know&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Things you &lt;em&gt;should&lt;/em&gt; know&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How to find inverse demand and inverse supply equations from demand and supply equations&lt;/li&gt;
+&lt;li&gt;How to calculate the equilibrium price and quantity from supply and demand&lt;/li&gt;
+&lt;li&gt;What a surplus and a shortage is, what causes them, and how they resolve in markets&lt;/li&gt;
+&lt;li&gt;What consumer surplus &amp;amp; producer surplus means, how to find it on a graph, measure it &lt;span class=&#34;math inline&#34;&gt;\((area=\frac{1}{2}bh)\)&lt;/span&gt;, and how price elasticity affects it&lt;/li&gt;
+&lt;li&gt;Different types of efficiency: allocative, productive, Pareto, Kaldor-Hicks&lt;/li&gt;
+&lt;li&gt;Conditions for when markets are efficient&lt;/li&gt;
+&lt;li&gt;Various market failures: public goods, externalities&lt;/li&gt;
+&lt;li&gt;Dynamic benefits of markets: entrepreneurship, markets as a discovery process, how prices provide information and incentives to use resources, how profits and losses guide production&lt;/li&gt;
+&lt;li&gt;Sources of market power, barriers to entry&lt;/li&gt;
+&lt;li&gt;Consequences of market power: deadweight loss, rent-seeking&lt;/li&gt;
+&lt;li&gt;Price discrimination&lt;/li&gt;
+&lt;li&gt;Oligopoly&lt;/li&gt;
+&lt;li&gt;Monopolistic competition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I hope that this is obvious. I write this to ensure there is no misunderstanding.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;The point of exams is to &lt;em&gt;apply&lt;/em&gt; what you’ve learned, not to literally regurgitate it! Or, at least, it should be.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Opinion-Editorial Assignment</title>
       <link>https://microS22.classes.ryansafner.com/assignments/op-ed/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
@@ -1461,6 +1536,242 @@ q_S&amp;amp;=0.8p-40\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
 &lt;div id=&#34;part-g-1&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Part G&lt;/h3&gt;
 &lt;p&gt;Due to the situation created, how do you think those hotel rooms will be allocated and why? [Hint: Think about the example we did with COVID.]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Problem Set 6</title>
+      <link>https://microS22.classes.ryansafner.com/assignments/06-problem-set/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microS22.classes.ryansafner.com/assignments/06-problem-set/</guid>
+      <description>
+&lt;script src=&#34;https://microS22.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    UNGRADED: For final exam practice only!
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/06-problem-set-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div id=&#34;answers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Answers&lt;/h2&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/06-problem-set-answers.html&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;far fa-life-ring&#34;&gt;&lt;/i&gt; Answers&lt;/a&gt; &lt;a target=&#34;_blank&#34; href=&#34;https://microS22.classes.ryansafner.com/assignment/06-problem-set-answers-pdf.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Answers (PDF)&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;concepts-and-critical-thinking&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Concepts and Critical Thinking&lt;/h1&gt;
+&lt;p&gt;Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;Compare and contrast the features of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;perfect competition&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;monopoly&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;oligopoly&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;4&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;monopolistic competition&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rank each of the above 4 market structures (from smallest/lowest to largest/highest) in terms of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ol style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;the number of firms&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;2&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;long-run market price&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;3&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;equilibrium industry output&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;4&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;consumer surplus&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;22&#34; style=&#34;list-style-type: lower-alpha&#34;&gt;
+&lt;li&gt;long-run economic profits&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;ol start=&#34;6&#34; style=&#34;list-style-type: lower-roman&#34;&gt;
+&lt;li&gt;deadweight loss&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;p&gt;Indicate based on the given information whether an industry is likely &lt;strong&gt;perfectly competitive&lt;/strong&gt;, &lt;strong&gt;monopolistically competitive&lt;/strong&gt;, an &lt;strong&gt;oligopoly&lt;/strong&gt;, or a &lt;strong&gt;monopoly&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fairfax, Virginia has three movie theaters&lt;/li&gt;
+&lt;li&gt;Restaurants in the greater Piedmont area, with many different cuisines to choose from&lt;/li&gt;
+&lt;li&gt;All of Connecticut gets its electricity from Connecticut Light &amp;amp; Power company&lt;/li&gt;
+&lt;li&gt;Laptops, where you can choose from many different brands (Acer, Asus, Gateway, Toshiba, Sony, HP, Dell, IBM, Lenovo, etc) and each is slightly different&lt;/li&gt;
+&lt;li&gt;Wheat in the U.S., provided by many small farmers, with each farmer’s wheat being identical to every other farmer’s wheat&lt;/li&gt;
+&lt;li&gt;The music industry, where Universal, Sony, EMI, and Warner account for 87% of the market&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-3&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 3&lt;/h2&gt;
+&lt;p&gt;Indicate which good is more likely to have a &lt;strong&gt;higher markup&lt;/strong&gt; for firms with market power in these industries, and why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alcohol or jewelry&lt;/li&gt;
+&lt;li&gt;Prescription drugs or televisions&lt;/li&gt;
+&lt;li&gt;Gym memberships or school supplies&lt;/li&gt;
+&lt;li&gt;Doughnuts or bread&lt;/li&gt;
+&lt;li&gt;Popcorn in a movie theater or popcorn from a street vendor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-4&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 4&lt;/h2&gt;
+&lt;p&gt;Describe the conditions required to make a market &lt;em&gt;contestable.&lt;/em&gt; Describe and compare the Nash equilibrium of a contestable market with a pure monopoly, and with perfect competition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-5&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 5&lt;/h2&gt;
+&lt;p&gt;Explain what a cartel is, and comment on their stability.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problems&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Problems&lt;/h1&gt;
+&lt;p&gt;Show all work for calculations. You may lose points, even if correct, for missing work. Be sure to label graphs fully, if appropriate.&lt;/p&gt;
+&lt;div id=&#34;question-6&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 6&lt;/h2&gt;
+&lt;p&gt;Consider the following &lt;em&gt;Entry game&lt;/em&gt; in normal form. Suppose there are two firms, each of whom can choose to Enter a market, or Stay Out. If both firms enter, they split the market, each earning $50. If both stay out, each firm earns $0. If one enters and the other stays out, the entrant can act as a monopolist and earns $100, with the other firm earning $0.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/images/entrygame1.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;What is the Nash Equilibrium of this game?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-7&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 7&lt;/h2&gt;
+&lt;p&gt;Suppose you are a restaurant in a &lt;strong&gt;monopolistically competitive&lt;/strong&gt; industry. Your firm has a constant marginal and average cost at $4 per unit.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microS22.classes.ryansafner.com/assignments/06-problem-set_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;If this were a perfectly competitive market, what would be the market price and equilibrium quantity?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Calculate the (i) consumer surplus, (ii) profit, and (iii) deadweight loss at this price and quantity. Show these on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;Now suppose this firm has market power from a barrier to entry, and can operate like a monopolist. What price and quantity does it set?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Calculate the (i) consumer surplus, (ii) profit, and (iii) deadweight loss at this price and quantity. Show these on the graph.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Now suppose that the firm had earned this market power via rent-seeking. From its lobbying efforts, it had convinced the local government to require all new restaurants to get a special license, making it harder for new entrants to compete in the market. What was the most that this firm was willing to spend on lobbying in order to get the license requirement?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;If there are 10 identical (in terms of costs and size, if not food or brand) restaurants in the industry, and all engage in maximal rent-seeking to obtain the license, what is the true total cost of market power in this market to society?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-8&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 8&lt;/h2&gt;
+&lt;p&gt;You are a producer of smartphones and have some market power. You have a cost structure:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(q)&amp;amp;=10q^2+200q+1000\\
+MC(q)&amp;amp;=20q+200\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You estimate the demand for your smartphones to be:
+&lt;span class=&#34;math display&#34;&gt;\[q=100-0.2p\]&lt;/span&gt;
+where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; is millions of smartphones.&lt;/p&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Find the function for your marginal revenues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;How many smartphones should you produce, and at what price, to maximize your profit?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;What is the cost per smartphone at the quantity you are producing?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;What is your total profit?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;What would be the lowest possible price you would need to charge to break even?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part F&lt;/h3&gt;
+&lt;p&gt;How much of your price is markup over marginal cost?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-g&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part G&lt;/h3&gt;
+&lt;p&gt;Calculate the elasticity of demand at your profit-maximizing price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-9&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 9&lt;/h2&gt;
+&lt;p&gt;Suppose that the market demand for bentonite is given by
+&lt;span class=&#34;math display&#34;&gt;\[q = 40 - 0.5p\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;where &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; tons of bentonite per day and &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt; is the price per ton. Bentonite is produced by a monopolist at a constant marginal and average total cost of $10 per ton.&lt;/p&gt;
+&lt;div id=&#34;part-a-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;p&gt;Find the marginal revenue curve for the monopolist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;Find the profit-maximizing level of output and price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;How much profit does the monopolist earn?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;How much of the price is markup over marginal cost?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;Calculate the elasticity of demand at the profit-maximizing price.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-10&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 10&lt;/h2&gt;
+&lt;p&gt;Consider a boat rental firm on a popular beach that has a constant average and marginal cost of $30 per boat hire. It has estimated that demand from Locals &lt;span class=&#34;math inline&#34;&gt;\((L)\)&lt;/span&gt; and demand from Tourists &lt;span class=&#34;math inline&#34;&gt;\((T)\)&lt;/span&gt; are:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+q_L&amp;amp;=40-0.4p\\
+q_T&amp;amp;=25-0.1p\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part A&lt;/h3&gt;
+&lt;div id=&#34;suppose-it-must-charge-a-single-price-to-all-customers.-find-the-profit-maximizing-quantity-price-and-the-total-profits.&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Suppose it must charge a single price to all customers. Find the profit-maximizing quantity, price, and the total profits.&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part B&lt;/h3&gt;
+&lt;p&gt;How much of the price is markup?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part C&lt;/h3&gt;
+&lt;p&gt;What is the price elasticity of demand at this price?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part D&lt;/h3&gt;
+&lt;p&gt;Now suppose the firm is able to segment the market and charge different prices to Tourists and Locals. Find the profit-maximizing quantity, price, and the total profits.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e-3&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part E&lt;/h3&gt;
+&lt;p&gt;For each segment of the market: how much of the price is markup, and what is the price elasticity of demand at the optimal price? How did the price for each segment change from the single price (Part A), and why?&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

@@ -1,11 +1,11 @@
 ---
 title: "4.4 — Imperfect Competition"
-subtitle: "ECON 306 • Microeconomic Analysis • Fall 2021"
-author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2022"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS22"><i class="fa fa-github fa-fw"></i>ryansafner/microS22</a><br> <a href="https://microS22.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS22.classes.ryansafner.com</a><br>'
 #date:
 output:
   xaringan::moon_reader:
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    #mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143    lib_dir: libs
     lib_dir: libs
     #seal: false
     css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
@@ -297,6 +297,40 @@ mc_plot+
                      labels=c(0,expression(AC(q^"*")),expression(p^"*")),
                      limits=c(0,20),
                      expand=c(0,0))
+
+```
+]
+
+.pull-right[
+
+- **Long Run**: market becomes competitive (**no barriers to entry!**)
+
+- $\color{green}{\pi > 0}$ attracts **entry** into industry
+
+]
+
+---
+
+# Monopolistic Competition Model: Long Run
+
+.pull-left[
+```{r, fig.retina=3}
+mc_plot+
+  geom_rect(xmin=0, xmax=2.48, ymin=AC(2.48), ymax=Demand(2.48), fill="green", alpha=0.4)+
+  geom_segment(x=2.48, xend=2.48, y=0, yend=Demand(2.48), size = 1, linetype="dotted")+
+  geom_segment(x=0, xend=2.48, y=Demand(2.48), yend=Demand(2.48), size = 1, linetype="dotted")+
+  geom_segment(x=0, xend=2.48, y=AC(2.48), yend=AC(2.48), size = 1, linetype="dotted")+
+  scale_x_continuous(breaks=c(0,2.48),
+                     labels=c(0,expression(q^"*")),
+                     limits=c(0,5),
+                     expand=c(0,0))+
+  scale_y_continuous(breaks=c(0,AC(2.48),Demand(2.48)),
+                     labels=c(0,expression(AC(q^"*")),expression(p^"*")),
+                     limits=c(0,20),
+                     expand=c(0,0))+
+  annotate("segment", x = 2, xend = 2, y = Demand(2), yend = (Demand(2)-2), colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  annotate("segment", x = 4, xend = 4, y = Demand(4), yend = (Demand(4)-2), colour = "black", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))
+
 ```
 ]
 
@@ -307,8 +341,8 @@ mc_plot+
 - $\color{green}{\pi > 0}$ attracts **entry** into industry
 
 - .blue[Residual demand] for each firm’s product:
-  - *decreases* (more output by other firms)
-  - become more *elastic* (more substitutes)
+  - **decreases** (more output by other firms)
+  - become more **elastic** (more substitutes from new competitors)
   - until...
 
 ]
@@ -368,8 +402,8 @@ mc_plot2+
 - $\color{green}{\pi > 0}$ attracts **entry** into industry
 
 - .blue[Residual demand] for each firm’s product:
-  - *decreases* (more output by other firms)
-  - become more *elastic* (more substitutes)
+  - **decreases** (more output by other firms)
+  - become more **elastic** (more substitutes from new competitors)
 
 - .hi-purple[Long run equilibrium]: firms earn $\color{green}{\pi=0}$ where $\color{blue}{p}=\color{orange}{AC(q)}$<sup>.magenta[†]</sup>
 
@@ -516,10 +550,10 @@ mc_plot2+
 .smaller[
 - .hi[Monopolistic competition] $(q_m, p_m)$
 
-- $q_m < q_c$, where $\color{purple}{MR(q)}=\color{red}{MC(q)}$
+- $q_c > q_m$, where $\color{purple}{MR(q)}=\color{red}{MC(q)}$
 
 - $\color{blue}{p_m} = \color{orange}{AC(q)}$
-  - but not $\color{orange}{AC_{min}}$, .hi-orange[productive inefficiency]
+  - but not $\color{orange}{AC_{min}}$, so some .hi-orange[productive *inefficiency*]
 
 - $\color{blue}{p_m} > \color{red}{MC(q)}$, .hi-purple[allocative inefficiency]
   - Less .blue[Consumer Surplus]
@@ -625,7 +659,7 @@ class: inverse, center, middle
 .smallest[
 - Unlike perfect competition or monopoly, no single “theory of oligopoly”
 
-- Depends heavily on assumptions made about interactions and choice variables (FYI):
+- Depends heavily on assumptions made about interactions and choice variables (FYI):<sup>.magenta[†]</sup>
   - “Bertrand competition:” firms compete on **price**
   - “Cournot competition:” firms **simultaneously** compete on **quantity**
   - “Stackelberg competition:” firms **sequentially** compete on **quantity**
@@ -633,6 +667,8 @@ class: inverse, center, middle
 - One certainty: oligopoly is a .hi-purple[strategic interaction] between few firms
 
 ]
+
+.footnote[<sup>.magenta[†]</sup> See Unit II of my [Game Theory course](https://gamef21.classes.ryansafner.com/schedule/) to learn more.]
 ]
 
 
@@ -1183,7 +1219,7 @@ Source: [NPR Planet Money](https://www.npr.org/sections/money/2015/06/24/4171879
 
 # Industrial Organization in a Nutshell
 
-.smallest[
+.quitesmall[
 | Industry | Firms | Entry | Price (LR Eq.) | Output | Profits (LR) | Cons. Surplus | DWL |
 |----------|-------|-------|--------|--------|--------------|---------------|-----|
 | **Perfect competition** | Very many | Free | Lowest $(MC)$ | Highest | 0 | Highest | None |

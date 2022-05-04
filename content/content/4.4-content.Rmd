@@ -42,6 +42,11 @@ We finally cover **oligopoly**, where there are a small number of firms with mar
 
 - <i class="fas fas fa-book"></i> Ch. 11 in Goolsbee, Levitt, and Syverson, 2019
 
+### Recommended Readings
+
+- [<i class="fas fa-podcast"></i> *NPR Planet Money* 579: “Is the NCAA an Illegal Cartel?”](https://www.npr.org/sections/money/2014/10/31/360176715/episode-579-is-the-ncaa-an-illegal-cartel)
+- [<i class="fas fa-podcast"></i> *NPR Planet Money* 478: “The Raisin Outlaw”](https://www.npr.org/sections/money/2015/06/24/417187957/episode-478-the-raisin-outlaw)
+
 ## <i class="fas fa-chalkboard-teacher"></i> Slides
 
 Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.

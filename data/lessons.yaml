@@ -162,15 +162,17 @@ lessons:
   
   - title: "4.4 — Monopolistic Competition and Oligopoly"
     content: "4.4-content"
+    slides: "4.4-slides"
     date: "W May 4"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Op-Ed** Due'
+  - title: '<i class="fas fa-laptop-code"></i> **Op-Ed** Due on Chalk-and-Wire'
     date: "M May 9"
     assignment: "op-ed"
 
   - title: "4.5 — Contestable Markets and Wrap Up"
     
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6**'
-
-  - title: '<i class="fas fa-star"></i> **Final Exam**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6** (ungraded, practice only)'
+    assignment: "06-problem-set"
+    
+  - title: '<i class="fas fa-star"></i> **Final Exam** (11:30am)'
     date: "F May 13"
