@@ -1,4 +1,4 @@
-# make-pdfs
+# make-pdfs!
 pagedown::chrome_print(input = "https://microS22.classes.ryansafner.com/slides/4.5-slides.html",
                        output = "static/slides/4.5-slides.pdf",
                        timeout = 300)
